@@ -1,5 +1,5 @@
 Model diagnostics report (mean-level LM)
-Generated: 2026-02-16 18:46:38
+Generated: 2026-02-16 21:43:09
 
 summary(model_lm):
 

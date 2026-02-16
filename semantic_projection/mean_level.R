@@ -94,15 +94,20 @@ means_df <- aggregate(
   data = data,
   FUN = function(x) c(
     mean = mean(x, na.rm = TRUE),
-    SE = sd(x, na.rm = TRUE) / sqrt(sum(!is.na(x)))
+    SE = sd(x, na.rm = TRUE) / sqrt(sum(!is.na(x))),
+    n = sum(!is.na(x))
   )
 )
 
 means_df <- do.call(data.frame, means_df)
-names(means_df) <- c("condition", "mean", "SE")
-means_df$lower <- means_df$mean - 1.96 * means_df$SE
-means_df$upper <- means_df$mean + 1.96 * means_df$SE
+names(means_df) <- c("condition", "mean", "SE", "n")
+means_df$t_crit <- qt(0.975, df = means_df$n - 1)
+means_df$lower <- means_df$mean - means_df$t_crit * means_df$SE
+means_df$upper <- means_df$mean + means_df$t_crit * means_df$SE
 means_df$condition <- factor(as.character(means_df$condition), levels = c("3", "1", "2"))
+
+ci_summary <- means_df[, c("condition", "n", "mean", "SE", "t_crit", "lower", "upper")]
+print(ci_summary)
 
 # -----------------------------
 # 5) Build annotation data
@@ -129,9 +134,9 @@ if (nrow(sig_df) > 0) {
 # 6) Plot
 # -----------------------------
 cond_colors <- c(
-  "1" = "#a1c9f4",
+  "1" = "#8de5a1",
   "2" = "#ffb482",
-  "3" = "#8de5a1"
+  "3" = "#a1c9f4"
 )
 
 p <- ggplot(means_df, aes(x = condition, y = mean, color = condition)) +
@@ -150,7 +155,7 @@ p <- ggplot(means_df, aes(x = condition, y = mean, color = condition)) +
     x = "Condition",
     y = "Mean fear-calm projection",
     title = "Condition means (CR2-adjusted)",
-    subtitle = "Only significant pairwise differences shown",
+    subtitle = "Only significant pairwise differences shown; error bars are t-based 95% CI",
     color = "Group"
   ) +
   theme_minimal()
@@ -190,6 +195,7 @@ ggsave(file.path(semantic_dir, "semantic_projection_final_mean.pdf"), plot = p, 
 coef_lm_df <- as.data.frame(coef_tab)
 write.csv(coef_lm_df, file.path(semantic_dir, "coefficients_lm_cr2_mean.csv"), row.names = FALSE)
 write.csv(sig_df, file.path(semantic_dir, "significant_pairwise_findings_mean.csv"), row.names = FALSE)
+write.csv(ci_summary, file.path(semantic_dir, "ci_summary_mean.csv"), row.names = FALSE)
 
 report_lines <- c(
   "Mean-level fear-calm projection analysis report",

@@ -1,5 +1,5 @@
 Mean-level fear-calm projection analysis report
-Generated: 2026-02-16 18:46:38
+Generated: 2026-02-16 21:43:09
 
 Saved tables:
 - coefficients_lm_cr2_mean.csv

@@ -9,7 +9,7 @@ library(clubSandwich)
 library(emmeans)
 library(performance)
 library(ggplot2)
-data <- read.csv(file.path(script_dir, "semantic_projection/semantic_projection_roberta.csv"), stringsAsFactors = FALSE)
+data <- read.csv(file.path(script_dir, "semantic_projection_roberta.csv"), stringsAsFactors = FALSE)
 data$condition <- factor(data$condition)
 data$condition <- relevel(data$condition, ref = "3")
 
