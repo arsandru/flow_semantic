@@ -1,0 +1,226 @@
+script_args <- commandArgs(trailingOnly = FALSE)
+script_flag <- "--file="
+script_path <- sub(script_flag, "", script_args[grep(script_flag, script_args)])
+
+if (length(script_path) > 0) {
+  script_dir <- dirname(normalizePath(script_path))
+  project_dir <- dirname(script_dir)
+} else {
+  wd <- normalizePath(getwd())
+  project_dir <- if (basename(wd) == "semantic_projection") dirname(wd) else wd
+}
+
+semantic_dir <- file.path(project_dir, "semantic_projection")
+data_dir <- file.path(project_dir, "data")
+
+library(clubSandwich)
+library(ggplot2)
+
+# -----------------------------
+# 1) Load data
+# -----------------------------
+data <- read.csv(file.path(semantic_dir, "semantic_projection_roberta_mean.csv"), stringsAsFactors = FALSE)
+
+data$condition <- factor(data$condition)
+data$condition <- relevel(data$condition, ref = "3")
+
+# -----------------------------
+# 2) Fit linear model
+# -----------------------------
+model_lm <- lm(
+  mean_projection_fear_vs_calm ~ condition,
+  data = data
+)
+
+beta_names <- names(coef(model_lm))
+
+# Cluster for CR2 corrections (use Participant if present; otherwise ID)
+if ("Participant" %in% names(data)) {
+  cluster_var <- data$Participant
+} else if ("ID" %in% names(data)) {
+  cluster_var <- data$ID
+} else {
+  stop("CR2 requires a clustering variable. Add a 'Participant' or 'ID' column.")
+}
+
+V <- vcovCR(
+  model_lm,
+  cluster = cluster_var,
+  type = "CR2"
+)
+
+coef_tab <- coef_test(
+  model_lm,
+  vcov = V
+)
+print(coef_tab)
+
+# -----------------------------
+# 3) Pairwise contrasts
+# -----------------------------
+L_pairwise <- list(
+  "1 vs ref" = c(0, 1, 0),
+  "2 vs ref" = c(0, 0, 1),
+  "1 vs 2"   = c(0, 1, -1)
+)
+
+pw_tests <- lapply(L_pairwise, function(L) {
+  Wald_test(
+    model_lm,
+    constraints = matrix(L, nrow = 1, dimnames = list(NULL, beta_names)),
+    vcov = V,
+    test = "chi-sq"
+  )
+})
+
+sig_df <- data.frame(
+  comparison = names(pw_tests),
+  p_value = sapply(pw_tests, function(x) x$p_val),
+  stringsAsFactors = FALSE
+)
+
+sig_df$label <- ifelse(sig_df$p_value < 0.001, "***",
+                ifelse(sig_df$p_value < 0.01,  "**",
+                ifelse(sig_df$p_value < 0.05,  "*", NA_character_)))
+
+# Keep only significant comparisons
+sig_df <- subset(sig_df, !is.na(label))
+
+# -----------------------------
+# 4) Build means_df
+# -----------------------------
+means_df <- aggregate(
+  mean_projection_fear_vs_calm ~ condition,
+  data = data,
+  FUN = function(x) c(
+    mean = mean(x, na.rm = TRUE),
+    SE = sd(x, na.rm = TRUE) / sqrt(sum(!is.na(x)))
+  )
+)
+
+means_df <- do.call(data.frame, means_df)
+names(means_df) <- c("condition", "mean", "SE")
+means_df$lower <- means_df$mean - 1.96 * means_df$SE
+means_df$upper <- means_df$mean + 1.96 * means_df$SE
+means_df$condition <- factor(as.character(means_df$condition), levels = c("3", "1", "2"))
+
+# -----------------------------
+# 5) Build annotation data
+# -----------------------------
+if (nrow(sig_df) > 0) {
+  map_x1 <- c("1 vs ref" = "3", "2 vs ref" = "3", "1 vs 2" = "1")
+  map_x2 <- c("1 vs ref" = "1", "2 vs ref" = "2", "1 vs 2" = "2")
+
+  annot_df <- data.frame(
+    comparison = sig_df$comparison,
+    label = sig_df$label,
+    x1 = unname(map_x1[sig_df$comparison]),
+    x2 = unname(map_x2[sig_df$comparison]),
+    stringsAsFactors = FALSE
+  )
+
+  y_max <- max(means_df$upper, na.rm = TRUE)
+  annot_df$y <- y_max + seq_len(nrow(annot_df)) * 2
+} else {
+  annot_df <- data.frame()
+}
+
+# -----------------------------
+# 6) Plot
+# -----------------------------
+cond_colors <- c(
+  "1" = "#a1c9f4",
+  "2" = "#ffb482",
+  "3" = "#8de5a1"
+)
+
+p <- ggplot(means_df, aes(x = condition, y = mean, color = condition)) +
+  geom_point(size = 3) +
+  geom_errorbar(aes(ymin = lower, ymax = upper), width = 0.15) +
+  scale_color_manual(
+    values = cond_colors,
+    breaks = c("1", "2", "3"),
+    labels = c("Flow (VR+Meditation)", "VR Only", "Control (Care as Usual)")
+  ) +
+  scale_x_discrete(
+    breaks = c("3", "1", "2"),
+    labels = c("Control", "1", "2")
+  ) +
+  labs(
+    x = "Condition",
+    y = "Mean fear-calm projection",
+    title = "Condition means (CR2-adjusted)",
+    subtitle = "Only significant pairwise differences shown",
+    color = "Group"
+  ) +
+  theme_minimal()
+
+if (nrow(annot_df) > 0) {
+  p <- p +
+    geom_segment(
+      data = annot_df,
+      aes(x = x1, xend = x2, y = y, yend = y),
+      inherit.aes = FALSE,
+      color = "black"
+    ) +
+    geom_text(
+      data = annot_df,
+      aes(
+        x = (as.numeric(factor(x1, levels = levels(means_df$condition))) +
+             as.numeric(factor(x2, levels = levels(means_df$condition)))) / 2,
+        y = y + 0.5,
+        label = label
+      ),
+      inherit.aes = FALSE,
+      size = 5,
+      color = "black"
+    )
+}
+
+print(p)
+
+
+# Save plot
+ggsave(file.path(semantic_dir, "semantic_projection_final_mean.pdf"), plot = p, width = 10, height = 8)
+
+
+# -----------------------------
+# 7) Reporting outputs
+# -----------------------------
+coef_lm_df <- as.data.frame(coef_tab)
+write.csv(coef_lm_df, file.path(semantic_dir, "coefficients_lm_cr2_mean.csv"), row.names = FALSE)
+write.csv(sig_df, file.path(semantic_dir, "significant_pairwise_findings_mean.csv"), row.names = FALSE)
+
+report_lines <- c(
+  "Mean-level fear-calm projection analysis report",
+  sprintf("Generated: %s", format(Sys.time(), "%Y-%m-%d %H:%M:%S")),
+  "",
+  "Saved tables:",
+  "- coefficients_lm_cr2_mean.csv",
+  "- significant_pairwise_findings_mean.csv",
+  ""
+)
+
+if (nrow(sig_df) == 0) {
+  report_lines <- c(report_lines, "Significant pairwise findings (alpha = .05): none")
+} else {
+  report_lines <- c(report_lines, "Significant pairwise findings (alpha = .05):")
+  for (i in seq_len(nrow(sig_df))) {
+    report_lines <- c(
+      report_lines,
+      sprintf("- %s: p = %.6f (%s)", sig_df$comparison[i], sig_df$p_value[i], sig_df$label[i])
+    )
+  }
+}
+
+writeLines(report_lines, file.path(semantic_dir, "analysis_report_mean.txt"))
+cat(paste(report_lines, collapse = "\n"), "\n")
+
+# Diagnostics report (LM)
+writeLines(c(
+  "Model diagnostics report (mean-level LM)",
+  sprintf("Generated: %s", format(Sys.time(), "%Y-%m-%d %H:%M:%S")),
+  "",
+  "summary(model_lm):",
+  capture.output(summary(model_lm))
+), file.path(semantic_dir, "diagnostics_report_mean.txt"))

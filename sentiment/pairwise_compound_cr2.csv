@@ -1,0 +1,4 @@
+"contrast","estimate","SE","df","t.ratio","p.value","x1","x2","label"
+"Exp_Condition3 - Exp_Condition1",-0.172892045454546,0.113923890313024,29,-1.51761009020581,0.297656212244928,"Exp_Condition3","Exp_Condition1",NA
+"Exp_Condition3 - Exp_Condition2",-0.0951682692307692,0.122790491592481,29,-0.775045917615637,0.72106236273906,"Exp_Condition3","Exp_Condition2",NA
+"Exp_Condition1 - Exp_Condition2",0.0777237762237763,0.090645016866849,29,0.857452278242134,0.670885143623981,"Exp_Condition1","Exp_Condition2",NA

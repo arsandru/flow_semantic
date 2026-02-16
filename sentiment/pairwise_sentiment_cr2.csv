@@ -1,0 +1,10 @@
+"contrast","Label","estimate","SE","df","t.ratio","p.value","x1","x2","label"
+"Exp_Condition3 - Exp_Condition1","neg",0.0600454545454547,0.0509002346192778,87,1.17966950436636,0.468432403472262,"Exp_Condition3","Exp_Condition1",NA
+"Exp_Condition3 - Exp_Condition2","neg",0.0300384615384616,0.0560989985038601,87,0.535454506133379,0.854115433504922,"Exp_Condition3","Exp_Condition2",NA
+"Exp_Condition1 - Exp_Condition2","neg",-0.0300069930069931,0.0424609410804049,87,-0.706696371853165,0.760191350538827,"Exp_Condition1","Exp_Condition2",NA
+"Exp_Condition3 - Exp_Condition1","neu",0.146193181818182,0.121251170757745,87,1.20570532147908,0.453027147730197,"Exp_Condition3","Exp_Condition1",NA
+"Exp_Condition3 - Exp_Condition2","neu",0.085451923076923,0.129528307483714,87,0.659716202094796,0.787359024418701,"Exp_Condition3","Exp_Condition2",NA
+"Exp_Condition1 - Exp_Condition2","neu",-0.0607412587412588,0.0479285676785738,87,-1.26732889554746,0.417397287269114,"Exp_Condition1","Exp_Condition2",NA
+"Exp_Condition3 - Exp_Condition1","pos",-0.206113636363637,0.122060049854021,87,-1.68862487447892,0.215316519898826,"Exp_Condition3","Exp_Condition1",NA
+"Exp_Condition3 - Exp_Condition2","pos",-0.115288461538462,0.132939818331346,87,-0.86722295084766,0.662309555770637,"Exp_Condition3","Exp_Condition2",NA
+"Exp_Condition1 - Exp_Condition2","pos",0.0908251748251751,0.0669794024611413,87,1.35601649892097,0.368475156687641,"Exp_Condition1","Exp_Condition2",NA

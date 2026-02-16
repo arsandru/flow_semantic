@@ -1,0 +1,10 @@
+Mean-level fear-calm projection analysis report
+Generated: 2026-02-16 18:46:38
+
+Saved tables:
+- coefficients_lm_cr2_mean.csv
+- significant_pairwise_findings_mean.csv
+
+Significant pairwise findings (alpha = .05):
+- 1 vs ref: p = 0.033740 (*)
+- 1 vs 2: p = 0.036815 (*)

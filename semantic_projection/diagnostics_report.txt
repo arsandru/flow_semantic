@@ -1,0 +1,66 @@
+Model diagnostics report
+Generated: 2026-02-16 18:40:06
+
+summary(model_words):
+Linear mixed model fit by REML. t-tests use Satterthwaite's method [
+lmerModLmerTest]
+Formula: projection_fear_vs_calm ~ condition + (1 | Participant)
+   Data: data
+
+REML criterion at convergence: 988.4
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-0.9430 -0.4800 -0.2889  0.0012  2.9769 
+
+Random effects:
+ Groups      Name        Variance Std.Dev.
+ Participant (Intercept)  13.64    3.694  
+ Residual                299.02   17.292  
+Number of obs: 117, groups:  Participant, 28
+
+Fixed effects:
+            Estimate Std. Error      df t value Pr(>|t|)    
+(Intercept)  -15.746      3.538  19.454  -4.451  0.00026 ***
+condition1   -12.893      4.831  23.085  -2.669  0.01369 *  
+condition2    -6.647      4.402  19.859  -1.510  0.14681    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+           (Intr) cndtn1
+condition1 -0.732       
+condition2 -0.804  0.588
+
+check_singularity(model_words):
+[1] FALSE
+
+check_convergence(model_words):
+[1] TRUE
+attr(,"gradient")
+[1] 9.546384e-09
+
+check_heteroscedasticity(model_words):
+Warning: Heteroscedasticity (non-constant error variance) detected (p < .001).
+
+check_normality(model_words):
+Warning: Non-normality of residuals detected (p < .001).
+
+check_outliers(model_words):
+OK: No outliers detected.
+- Based on the following method and threshold: cook (0.7).
+- For variable: (Whole model)
+
+
+r2_nakagawa(model_words):
+# R2 for Mixed Models
+
+  Conditional R2: 0.108
+     Marginal R2: 0.067
+
+model_performance(model_words):
+# Indices of model performance
+
+AIC   |  AICc |    BIC | R2 (cond.) | R2 (marg.) |   ICC |   RMSE |  Sigma
+--------------------------------------------------------------------------
+998.4 | 999.0 | 1012.3 |      0.108 |      0.067 | 0.044 | 16.783 | 17.292

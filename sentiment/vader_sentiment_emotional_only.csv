@@ -1,0 +1,34 @@
+ID,text,Exp_Condition,scores,compound
+15,"['little_worried', 'calm', 'relaxing', 'confident', 'positive']",1,"{'neg': 0.0, 'neu': 0.075, 'pos': 0.925, 'compound': 0.9062}",0.9062
+37,"['nervous', 'good', 'calm', 'relaxing', 'not_bothered', 'easier', 'helpful', helpful']",1,"{'neg': 0.106, 'neu': 0.05, 'pos': 0.844, 'compound': 0.9287}",0.9287
+38,"['calm', 'serene', 'calm', 'relax', 'zen']",1,"{'neg': 0.0, 'neu': 0.087, 'pos': 0.913, 'compound': 0.8591}",0.8591
+19,"['calm', 'good', 'relaxed', 'engaged', 'happy', 'calm']",2,"{'neg': 0.0, 'neu': 0.0, 'pos': 1.0, 'compound': 0.9442}",0.9442
+8,"['cool', 'useful', 'interesting', 'good']",2,"{'neg': 0.0, 'neu': 0.0, 'pos': 1.0, 'compound': 0.8689}",0.8689
+39,"['relaxed', 'tune_out', 'not_annoyed', 'not_bothered', 'tune_out]",2,"{'neg': 0.0, 'neu': 0.556, 'pos': 0.444, 'compound': 0.4939}",0.4939
+7,"['relaxed', 'good', 'tune_out', 'interesting']",2,"{'neg': 0.0, 'neu': 0.102, 'pos': 0.898, 'compound': 0.8316}",0.8316
+3,"['acceptable', 'amusing', 'very relaxing', 'distracted', 'perfect']",3,"{'neg': 0.167, 'neu': 0.062, 'pos': 0.771, 'compound': 0.8651}",0.8651
+32,"['relaxed', 'relax', 'good', 'relax']",1,"{'neg': 0.0, 'neu': 0.0, 'pos': 1.0, 'compound': 0.8979}",0.8979
+17,"['good', 'comfortable', 'good']",2,"{'neg': 0.0, 'neu': 0.0, 'pos': 1.0, 'compound': 0.8442}",0.8442
+9,"['pleasant', 'relaxing', 'calm', 'relaxed', 'liked', 'good', 'pleasant']",2,"{'neg': 0.0, 'neu': 0.0, 'pos': 1.0, 'compound': 0.9638}",0.9638
+22,"['calm', 'tiresome', 'comforting', 'good', 'monotonous', 'comforting', 'calm']",2,"{'neg': 0.0, 'neu': 0.134, 'pos': 0.866, 'compound': 0.8979}",0.8979
+5,"['very_nervous', 'extremely_nervous', 'calm', 'less_anxious', 'comfortable', 'trust', 'calm', 'calmer', 'nervous']",3,"{'neg': 0.112, 'neu': 0.16, 'pos': 0.729, 'compound': 0.891}",0.891
+5,"['very_nervous', 'extremely_nervous', 'calm', 'less_anxious', 'comfortable', 'trust', 'calm', 'calmer', 'nervous']",,"{'neg': 0.112, 'neu': 0.16, 'pos': 0.729, 'compound': 0.891}",0.891
+1,"['very_nervous', 'confident', 'nervous', 'calm', 'bothered', 'calm', 'less_anxious']",3,"{'neg': 0.31, 'neu': 0.141, 'pos': 0.549, 'compound': 0.5267}",0.5267
+12,[],3,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0
+20,"['relaxing', 'engaged', 'relaxing', 'positive']",1,"{'neg': 0.0, 'neu': 0.0, 'pos': 1.0, 'compound': 0.9136}",0.9136
+26,"['relaxing', 'calm', 'relaxing', 'effective', 'peaceful', 'distracted']",1,"{'neg': 0.138, 'neu': 0.0, 'pos': 0.862, 'compound': 0.9118}",0.9118
+45,"['liked', 'like']",1,"{'neg': 0.0, 'neu': 0.0, 'pos': 1.0, 'compound': 0.6486}",0.6486
+30,"['relaxing', 'calm', 'useful', 'relaxing']",1,"{'neg': 0.0, 'neu': 0.0, 'pos': 1.0, 'compound': 0.891}",0.891
+36,"['calm', 'engaged']",2,"{'neg': 0.0, 'neu': 0.0, 'pos': 1.0, 'compound': 0.6124}",0.6124
+18,['positive'],2,"{'neg': 0.0, 'neu': 0.0, 'pos': 1.0, 'compound': 0.5574}",0.5574
+31,"['excellent', 'engaged']",3,"{'neg': 0.0, 'neu': 0.0, 'pos': 1.0, 'compound': 0.7506}",0.7506
+27,"['good', 'peaceful']",3,"{'neg': 0.0, 'neu': 0.0, 'pos': 1.0, 'compound': 0.7269}",0.7269
+6,"['nervous', 'confident', 'peaceful']",3,"{'neg': 0.247, 'neu': 0.0, 'pos': 0.753, 'compound': 0.6486}",0.6486
+4,"['relaxing', 'liked']",1,"{'neg': 0.0, 'neu': 0.0, 'pos': 1.0, 'compound': 0.7184}",0.7184
+11,"['nervous', 'some_anxiety', 'calm', 'tune_out']",2,"{'neg': 0.328, 'neu': 0.312, 'pos': 0.359, 'compound': 0.0516}",0.0516
+16,"['relaxed', 'fine']",3,"{'neg': 0.0, 'neu': 0.0, 'pos': 1.0, 'compound': 0.6124}",0.6124
+21,"['valuable', 'calm', 'calm', 'pleasant', 'distracted', 'helpful', 'relaxed']",2,"{'neg': 0.124, 'neu': 0.0, 'pos': 0.876, 'compound': 0.9274}",0.9274
+10,"['calming', 'relaxing', 'anxiety', 'trust', 'distracted', 'engaged']",2,"{'neg': 0.256, 'neu': 0.0, 'pos': 0.744, 'compound': 0.8316}",0.8316
+41,"['nervous', 'calm', 'calm, 'confident', 'distracted', 'little_bothered', 'calm', 'liked']",1,"{'neg': 0.245, 'neu': 0.054, 'pos': 0.701, 'compound': 0.8126}",0.8126
+13,['calm'],1,"{'neg': 0.0, 'neu': 0.0, 'pos': 1.0, 'compound': 0.3182}",0.3182
+35,"['good', 'repetitive', 'liked']",2,"{'neg': 0.26, 'neu': 0.0, 'pos': 0.74, 'compound': 0.5719}",0.5719

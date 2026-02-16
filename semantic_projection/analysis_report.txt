@@ -1,0 +1,16 @@
+Word-level fear-calm projection analysis report
+Generated: 2026-02-16 18:40:06
+
+Saved tables:
+- coefficients_mixed_cr2.csv
+- coefficients_lm_cr2.csv
+- pairwise_comparison_mixed_vs_lm_cr2.csv
+- significant_pairwise_findings.csv
+
+Significant pairwise findings (alpha = .05):
+- 1 vs ref: p = 0.007270 (**)
+- 1 vs 2: p = 0.029985 (*)
+
+Significant LM coefficients (CR2):
+- (Intercept): estimate = NA, p = 0.032632
+- condition1: estimate = NA, p = 0.017301
