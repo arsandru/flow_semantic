@@ -149,7 +149,7 @@ p <- ggplot(means_df, aes(x = condition, y = mean, color = condition)) +
   ) +
   scale_x_discrete(
     breaks = c("3", "1", "2"),
-    labels = c("Control", "1", "2")
+    labels = c("Control", "Flow", "VR Only")
   ) +
   labs(
     x = "Condition",
@@ -158,7 +158,8 @@ p <- ggplot(means_df, aes(x = condition, y = mean, color = condition)) +
     subtitle = "Only significant pairwise differences shown; error bars are t-based 95% CI",
     color = "Group"
   ) +
-  theme_minimal()
+  theme_minimal() +
+  theme(legend.position = "none")
 
 if (nrow(annot_df) > 0) {
   p <- p +
