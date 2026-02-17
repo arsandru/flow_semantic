@@ -1,5 +1,5 @@
 Model diagnostics report
-Generated: 2026-02-16 18:40:06
+Generated: 2026-02-17 14:19:10
 
 summary(model_words):
 Linear mixed model fit by REML. t-tests use Satterthwaite's method [
@@ -38,7 +38,7 @@ check_singularity(model_words):
 check_convergence(model_words):
 [1] TRUE
 attr(,"gradient")
-[1] 9.546384e-09
+[1] 9.535899e-09
 
 check_heteroscedasticity(model_words):
 Warning: Heteroscedasticity (non-constant error variance) detected (p < .001).

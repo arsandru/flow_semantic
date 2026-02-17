@@ -1,5 +1,5 @@
 Word-level fear-calm projection analysis report
-Generated: 2026-02-16 18:40:06
+Generated: 2026-02-17 14:19:10
 
 Saved tables:
 - coefficients_mixed_cr2.csv
