@@ -1,4 +1,3 @@
-import ast
 import pandas as pd
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
@@ -22,15 +21,7 @@ condition_col = "Exp_Condition" if "Exp_Condition" in df_t.columns else "Exp_Con
 # Merge to reliably attach condition to each row in df
 df = df.merge(df_t[["ID", condition_col]], on="ID", how="left")
 
-def remove_not_words(cell):
-    try:
-        words = ast.literal_eval(cell)
-        cleaned = [w for w in words if not w.startswith("not_")]
-        return cleaned
-    except Exception:
-        return cell
-
-df["text"] = df["text"].apply(remove_not_words).astype(str)
+df["text"] = df["text"].astype(str).str.replace("_", " ", regex=False)
 
 df['scores'] = df['text'].apply(lambda text: analyzer.polarity_scores(text))
 

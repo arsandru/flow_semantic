@@ -1,5 +1,5 @@
 Sentiment model diagnostics report
-Generated: 2026-02-16 21:21:59
+Generated: 2026-02-20 17:03:16
 
 summary(model):
 
@@ -8,32 +8,32 @@ lm(formula = Score ~ Exp_Condition * Label, data = data_long)
 
 Residuals:
      Min       1Q   Median       3Q      Max 
--0.72525 -0.08492 -0.02418  0.06864  0.82963 
+-0.63008 -0.09750 -0.01737  0.12656  0.47762 
 
 Coefficients:
-                        Estimate Std. Error t value Pr(>|t|)    
-(Intercept)              0.10450    0.06543   1.597   0.1139    
-Exp_Condition1          -0.06005    0.08600  -0.698   0.4869    
-Exp_Condition2          -0.03004    0.08317  -0.361   0.7188    
-Labelneu                 0.06587    0.09254   0.712   0.4784    
-Labelpos                 0.62075    0.09254   6.708 1.91e-09 ***
-Exp_Condition1:Labelneu -0.08615    0.12162  -0.708   0.4806    
-Exp_Condition2:Labelneu -0.05541    0.11761  -0.471   0.6387    
-Exp_Condition1:Labelpos  0.26616    0.12162   2.188   0.0313 *  
-Exp_Condition2:Labelpos  0.14533    0.11761   1.236   0.2199    
+                         Estimate Std. Error t value Pr(>|t|)    
+(Intercept)              0.221500   0.070701   3.133  0.00236 ** 
+Exp_Condition1           0.025591   0.092920   0.275  0.78366    
+Exp_Condition2          -0.021115   0.089860  -0.235  0.81478    
+Labelneu                -0.096125   0.099987  -0.961  0.33903    
+Labelpos                 0.431750   0.099987   4.318 4.16e-05 ***
+Exp_Condition1:Labelneu -0.055966   0.131408  -0.426  0.67124    
+Exp_Condition2:Labelneu  0.065279   0.127081   0.514  0.60878    
+Exp_Condition1:Labelpos -0.020841   0.131408  -0.159  0.87435    
+Exp_Condition2:Labelpos -0.002058   0.127081  -0.016  0.98712    
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
-Residual standard error: 0.1851 on 87 degrees of freedom
-Multiple R-squared:  0.8109,	Adjusted R-squared:  0.7935 
-F-statistic: 46.64 on 8 and 87 DF,  p-value: < 2.2e-16
+Residual standard error: 0.2 on 87 degrees of freedom
+Multiple R-squared:  0.5825,	Adjusted R-squared:  0.5441 
+F-statistic: 15.17 on 8 and 87 DF,  p-value: 1.025e-13
 
 
 check_heteroscedasticity(model):
-Warning: Heteroscedasticity (non-constant error variance) detected (p = 0.032).
+Warning: Heteroscedasticity (non-constant error variance) detected (p < .001).
 
 check_normality(model):
-Warning: Non-normality of residuals detected (p < .001).
+OK: residuals appear as normally distributed (p = 0.284).
 
 check_outliers(model):
 OK: No outliers detected.
@@ -44,29 +44,29 @@ OK: No outliers detected.
 model_performance(model):
 # Indices of model performance
 
-AIC   |  AICc |   BIC |    R2 | R2 (adj.) |  RMSE | Sigma
----------------------------------------------------------
--40.9 | -38.3 | -15.3 | 0.811 |     0.794 | 0.176 | 0.185
+AIC   |  AICc |  BIC |    R2 | R2 (adj.) |  RMSE | Sigma
+--------------------------------------------------------
+-26.1 | -23.5 | -0.4 | 0.583 |     0.544 | 0.190 | 0.200
 
 coef_test(model, CR2):
 Alternative hypothesis: two-sided 
                    Coef. Estimate     SE Null value t-stat d.f. (Satt)
-             (Intercept)   0.1045 0.0444          0  2.356         7.0
-          Exp_Condition1  -0.0600 0.0509          0 -1.180        15.2
-          Exp_Condition2  -0.0300 0.0561          0 -0.535        15.0
-                Labelneu   0.0659 0.1381          0  0.477         7.0
-                Labelpos   0.6207 0.1320          0  4.702         7.0
- Exp_Condition1:Labelneu  -0.0861 0.1403          0 -0.614        15.2
- Exp_Condition2:Labelneu  -0.0554 0.1489          0 -0.372        15.0
- Exp_Condition1:Labelpos   0.2662 0.1424          0  1.869        15.2
- Exp_Condition2:Labelpos   0.1453 0.1577          0  0.922        15.0
+             (Intercept)  0.22150 0.0575          0  3.855         7.0
+          Exp_Condition1  0.02559 0.0879          0  0.291        15.2
+          Exp_Condition2 -0.02112 0.0788          0 -0.268        15.0
+                Labelneu -0.09612 0.0729          0 -1.318         7.0
+                Labelpos  0.43175 0.1121          0  3.853         7.0
+ Exp_Condition1:Labelneu -0.05597 0.0900          0 -0.622        15.2
+ Exp_Condition2:Labelneu  0.06528 0.0901          0  0.725        15.0
+ Exp_Condition1:Labelpos -0.02084 0.1880          0 -0.111        15.2
+ Exp_Condition2:Labelpos -0.00206 0.1710          0 -0.012        15.0
  p-val (Satt) Sig.
-       0.0506    .
-       0.2562     
-       0.6002     
-       0.6479     
-       0.0022   **
-       0.5483     
-       0.7151     
-       0.0809    .
-       0.3713     
+      0.00626   **
+      0.77489     
+      0.79237     
+      0.22897     
+      0.00627   **
+      0.54341     
+      0.47970     
+      0.91317     
+      0.99056     
