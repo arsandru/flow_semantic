@@ -34,7 +34,7 @@ flow_scripts/
 Use the project virtual environment:
 
 ```bash
-cd /Users/razvan/Documents/flow_scripts
+cd "$(git rev-parse --show-toplevel)"
 source .venv/bin/activate
 ```
 
@@ -82,7 +82,7 @@ install.packages(c(
 Run from project root:
 
 ```bash
-cd /Users/razvan/Documents/flow_scripts
+cd "$(git rev-parse --show-toplevel)"
 ```
 
 1) Build semantic projection datasets and embedding plot
@@ -156,4 +156,4 @@ Rscript sentiment/sentiment.R
 - CR2 robust corrections are applied in R where heteroscedasticity/non-normality was detected.
 - If plots differ across machines, verify exact Python package versions and interpreter path.
 - In VS Code, use interpreter:
-  `/Users/razvan/Documents/flow_scripts/.venv/bin/python`
+  `.venv/bin/python`

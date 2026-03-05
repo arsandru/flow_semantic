@@ -1,7 +1,15 @@
 script_args <- commandArgs(trailingOnly = FALSE)
 script_flag <- "--file="
 script_path <- sub(script_flag, "", script_args[grep(script_flag, script_args)])
-script_dir <- if (length(script_path) > 0) dirname(normalizePath(script_path)) else getwd()
+if (length(script_path) > 0) {
+  script_dir <- dirname(normalizePath(script_path))
+  project_dir <- dirname(script_dir)
+} else {
+  wd <- normalizePath(getwd())
+  project_dir <- if (basename(wd) == "semantic_projection") dirname(wd) else wd
+}
+
+semantic_dir <- file.path(project_dir, "semantic_projection")
 
 library(lme4)
 library(lmerTest)
@@ -9,7 +17,7 @@ library(clubSandwich)
 library(emmeans)
 library(performance)
 library(ggplot2)
-data <- read.csv(file.path(script_dir, "semantic_projection/semantic_projection_roberta.csv"), stringsAsFactors = FALSE)
+data <- read.csv(file.path(semantic_dir, "semantic_projection_roberta.csv"), stringsAsFactors = FALSE)
 data$condition <- factor(data$condition)
 data$condition <- relevel(data$condition, ref = "3")
 
@@ -262,7 +270,7 @@ if (nrow(annot_df) > 0) {
 p
 
 
-ggsave(file.path(script_dir, "semantic_projection/semantic_projection_final.pdf"), plot = p, width = 10, height = 8)
+ggsave(file.path(semantic_dir, "semantic_projection_final.pdf"), plot = p, width = 10, height = 8)
 
 # -----------------------------
 # 7) Reporting outputs
@@ -270,10 +278,10 @@ ggsave(file.path(script_dir, "semantic_projection/semantic_projection_final.pdf"
 coef_mixed_df <- as.data.frame(coef_tab)
 coef_lm_df <- as.data.frame(coef_tab_lm)
 
-write.csv(coef_mixed_df, file.path(script_dir, "semantic_projection/coefficients_mixed_cr2.csv"), row.names = FALSE)
-write.csv(coef_lm_df, file.path(script_dir, "semantic_projection/coefficients_lm_cr2.csv"), row.names = FALSE)
-write.csv(comparison_check, file.path(script_dir, "semantic_projection/pairwise_comparison_mixed_vs_lm_cr2.csv"), row.names = FALSE)
-write.csv(sig_df, file.path(script_dir, "semantic_projection/significant_pairwise_findings.csv"), row.names = FALSE)
+write.csv(coef_mixed_df, file.path(semantic_dir, "coefficients_mixed_cr2.csv"), row.names = FALSE)
+write.csv(coef_lm_df, file.path(semantic_dir, "coefficients_lm_cr2.csv"), row.names = FALSE)
+write.csv(comparison_check, file.path(semantic_dir, "pairwise_comparison_mixed_vs_lm_cr2.csv"), row.names = FALSE)
+write.csv(sig_df, file.path(semantic_dir, "significant_pairwise_findings.csv"), row.names = FALSE)
 
 # Identify significant fixed effects in lm + CR2 table
 p_col_lm <- grep("^p", names(coef_lm_df), value = TRUE)[1]
@@ -321,7 +329,7 @@ if (nrow(sig_coef_lm) == 0) {
   }
 }
 
-writeLines(report_lines, file.path(script_dir, "semantic_projection/analysis_report.txt"))
+writeLines(report_lines, file.path(semantic_dir, "analysis_report.txt"))
 cat(paste(report_lines, collapse = "\n"), "\n")
 
 
@@ -354,4 +362,4 @@ writeLines(c(
   "",
   "model_performance(model_words):",
   capture.output(diag_perf)
-), file.path(script_dir, "semantic_projection/diagnostics_report.txt"))
+), file.path(semantic_dir, "diagnostics_report.txt"))

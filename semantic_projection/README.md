@@ -20,8 +20,8 @@ Use Python 3.12 and these exact package versions:
 ## 2) Create environment
 
 ```bash
-cd /Users/razvan/Documents/flow_scripts
-/opt/homebrew/bin/python3.12 -m venv .venv
+cd "$(git rev-parse --show-toplevel)"
+python3.12 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
 python -m pip install \
@@ -50,9 +50,9 @@ Place these files in the working directory:
 Then run:
 
 ```bash
-cd /Users/razvan/Documents/flow_scripts
+cd "$(git rev-parse --show-toplevel)"
 source .venv/bin/activate
-python semantic_projection.py
+python semantic_projection/semantic_projection.py
 ```
 
 ## 5) Expected outputs
@@ -66,7 +66,7 @@ Generated in the working directory:
 
 In VS Code, select this interpreter for reproducibility:
 
-`/Users/razvan/Documents/flow_scripts/.venv/bin/python`
+`.venv/bin/python`
 
 ## 7) Important reproducibility notes
 
@@ -74,4 +74,3 @@ In VS Code, select this interpreter for reproducibility:
 - Ensure only one active `encode_word` logic per execution path.
 - Use the same input CSVs with identical contents.
 - Differences in Python/package versions can change embeddings and PCA outputs.
-
