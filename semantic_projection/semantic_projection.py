@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd
 import ast
 from pathlib import Path
+from adjustText import adjust_text
 from sentence_transformers import SentenceTransformer
 
 # -----------------------------
@@ -22,7 +23,7 @@ model = SentenceTransformer(modules=[word_embedding_model, pooling_model])
 
 BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR.parent / "data"
-OUTPUT_DIR = BASE_DIR / "semantic_projection"
+OUTPUT_DIR = BASE_DIR
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 
@@ -32,6 +33,7 @@ def encode_word(w: str) -> np.ndarray:
         return model.encode(str(w))
 
     key = w.strip().lower()
+    w = w.replace("_", " ")
     if key == "tune_out":
         w = "tune out and relax"
     elif key == "distracted":
@@ -83,12 +85,14 @@ def get_semantic_subspace(pos_words, neg_words, encode_fn):
 
     return a_vec, b_vec, diff_vec
 
-# ---------- Example: fear/anxiety vs calm/optimistic axis ----------
+# ---------- Distress vs relaxed axis ----------
 fear_anx_words = [
-    'fears', 'anger', 'afraid', "fear", "anxiety", 'pessimistic', 'panic', 'stress', 'preoccupied', 'fixated'
+    "anxiety", "anxious", "nervous", "worried", "bothered",
+    "uncomfortable", "distressed", "tense", "uneasy", "overwhelmed"
 ]
 calm_opt_words = [
-    "calm", 'quiet', 'serene', "optimistic", "upbeat", 'hopeful', 'confident', 'distracted', 'tune_out'
+    "calm", "relaxed", "relaxing", "serene", "peaceful",
+    "comfortable", "comforting", "at ease", "soothed", "settled"
 ]
 
 a_vec, b_vec, fear_calm_axis = get_semantic_subspace(
@@ -100,6 +104,24 @@ a_vec, b_vec, fear_calm_axis = get_semantic_subspace(
 axis_vec = fear_calm_axis
 axis_norm = np.linalg.norm(axis_vec)
 
+probe_words = [
+    "worried",
+    "little worried",
+    "a little worried",
+    "slightly worried",
+    "a bit worried",
+    "somewhat worried",
+    "mildly worried",
+    "anxious",
+    "less anxious",
+    "slightly anxious",
+    "somewhat anxious",
+    "a bit anxious",
+    "some anxiety",
+    "calm",
+    "relaxed"
+]
+
 # ---------- Projection function (same as paper) ----------
 def semantic_projection(word, axis_vec, axis_norm, encode_fn):
     """
@@ -110,6 +132,12 @@ def semantic_projection(word, axis_vec, axis_norm, encode_fn):
     if axis_norm == 0:
         return np.nan
     return float(axis_vec @ v / axis_norm)
+
+
+print("\nProbe word projections on the distress-relaxed axis:")
+for probe_word in probe_words:
+    probe_score = semantic_projection(probe_word, axis_vec, axis_norm, encode_word)
+    print(f"{probe_word:15s} {probe_score: .4f}")
 
 # -----------------------------
 # 3. Trial-level projection: per-word + participant mean
@@ -238,7 +266,9 @@ from sklearn.decomposition import PCA
 
 # Helper to encode a single word with RoBERTa
 def encode_word(w: str) -> np.ndarray:
-    return model.encode(w)
+    if not isinstance(w, str):
+        return model.encode(str(w))
+    return model.encode(w.replace("_", " "))
 
 # ---- 0. Choose the DataFrame ----
 data_for_plot = merged.copy()
@@ -297,40 +327,170 @@ residuals = all_vecs - np.outer(proj_along_unit, axis_unit)  # shape: (N_words, 
 pca = PCA(n_components=1)
 y_coord = pca.fit_transform(residuals).ravel()   # shape: (N_words,)
 
+# Aggregate duplicate word tokens within condition and encode frequency visually.
+plot_df = pd.DataFrame({
+    "word": all_words,
+    "condition": all_conditions,
+    "x": x_coord,
+    "y": y_coord
+})
+
+plot_df = (
+    plot_df.groupby(["word", "condition"], as_index=False)
+    .agg(
+        x=("x", "mean"),
+        y=("y", "mean"),
+        frequency=("word", "size")
+    )
+)
+
+freq_min = plot_df["frequency"].min()
+freq_max = plot_df["frequency"].max()
+if freq_max == freq_min:
+    plot_df["point_size"] = 80
+    plot_df["label_size"] = 8
+    plot_df["alpha"] = 0.75
+else:
+    freq_scaled = (plot_df["frequency"] - freq_min) / (freq_max - freq_min)
+    plot_df["point_size"] = 80 + 220 * freq_scaled
+    plot_df["label_size"] = 7 + 4 * freq_scaled
+    plot_df["alpha"] = 0.55 + 0.35 * freq_scaled
+
+unique_conditions = sorted(plot_df["condition"].unique())
+condition_angles = np.linspace(0, 2 * np.pi, num=len(unique_conditions), endpoint=False)
+condition_offsets = {
+    cond: (0.12 * np.cos(angle), 0.12 * np.sin(angle))
+    for cond, angle in zip(unique_conditions, condition_angles)
+}
+cond_colors = {
+    "1": "#8de5a1",
+    "2": "#ffb482",
+    "3": "#a1c9f4"
+}
+plot_df["x_plot"] = plot_df.apply(lambda row: row["x"] + condition_offsets[row["condition"]][0], axis=1)
+plot_df["y_plot"] = plot_df.apply(lambda row: row["y"] + condition_offsets[row["condition"]][1], axis=1)
+plot_df.to_csv(OUTPUT_DIR / "semantic_projection_roberta_plot_points.csv", index=False)
+
 # ---- 4. Plot: x = projection on fear–calm, y = orthogonal PC1, colored by condition ----
 plt.figure(figsize=(10, 8))
 
-all_conditions_arr = np.array(all_conditions)
-unique_conditions = sorted(set(all_conditions_arr))
-colors = plt.cm.Set1(np.linspace(0, 1, len(unique_conditions)))
-
-for cond, col in zip(unique_conditions, colors):
-    mask = all_conditions_arr == cond
+for cond in unique_conditions:
+    cond_df = plot_df[plot_df["condition"] == cond]
     plt.scatter(
-        x_coord[mask],
-        y_coord[mask],
-        color=col,
-        alpha=0.7,
+        cond_df["x_plot"],
+        cond_df["y_plot"],
+        s=cond_df["point_size"],
+        color=cond_colors.get(str(cond), "#999999"),
+        alpha=cond_df["alpha"],
         label=str(cond),
-        edgecolor="none"
+        edgecolor="white",
+        linewidth=0.4
     )
 
-# Optional: annotate words (can get busy if many)
-for i, w in enumerate(all_words):
-    plt.text(
-        x_coord[i] + 0.01,
-        y_coord[i] + 0.01,
-        w,
-        fontsize=7,
-        alpha=0.6
+# Label each unique word once across conditions, centered on its condition-specific points.
+label_df = (
+    plot_df.groupby("word", as_index=False)
+    .agg(
+        x_plot=("x_plot", "mean"),
+        y_plot=("y_plot", "mean"),
+        total_frequency=("frequency", "sum"),
+        label_size=("label_size", "max"),
+        alpha=("alpha", "max")
     )
+)
+label_df.to_csv(OUTPUT_DIR / "semantic_projection_roberta_plot_labels.csv", index=False)
+
+texts = []
+for _, row in label_df.iterrows():
+    texts.append(
+        plt.text(
+            row["x_plot"] + 0.01,
+            row["y_plot"] + 0.01,
+            row["word"],
+            fontsize=row["label_size"],
+            alpha=row["alpha"]
+        )
+    )
+
+adjust_text(
+    texts,
+    x=label_df["x_plot"].to_numpy(),
+    y=label_df["y_plot"].to_numpy(),
+    arrowprops=dict(arrowstyle="-", color="gray", lw=0.5, alpha=0.5),
+    expand_points=(1.1, 1.2),
+    expand_text=(1.05, 1.2)
+)
 
 plt.axvline(0, color="gray", linewidth=0.8, linestyle="--")
-plt.title("Semantic Projection of Emotional Words on Fear–Calm Axis (RoBERTa)")
-plt.xlabel("Projection on fear_vs_calm axis  ( (u·v) / ||u|| )")
-plt.ylabel("Orthogonal semantic variation (PC1 of residuals)")
-plt.legend(title="Condition")
+plt.title("Semantic Projection of Emotional Words on Fear–Calm Axis (RoBERTa)", fontsize=18)
+plt.xlabel("Projection on fear_vs_calm axis  ( (u·v) / ||u|| )", fontsize=17)
+plt.ylabel("Orthogonal semantic variation (PC1 of residuals)", fontsize=17)
+plt.xticks(fontsize=14)
+plt.yticks(fontsize=14)
+plt.legend(title="Condition", title_fontsize=15, fontsize=14)
 plt.grid(True, alpha=0.3)
 plt.tight_layout()
-plt.savefig(OUTPUT_DIR / "semantic_projection_roberta.pdf")
+plt.savefig(OUTPUT_DIR / "semantic_projection_roberta.pdf", format="pdf")
+plt.savefig(OUTPUT_DIR / "semantic_projection_roberta.svg", format="svg")
+plt.show()
+
+# ---- 5. Faceted plot: one panel per condition ----
+facet_order = [cond for cond in ["3", "1", "2"] if cond in unique_conditions]
+fig, axes = plt.subplots(1, len(facet_order), figsize=(10, 5), sharex=True, sharey=True)
+if len(facet_order) == 1:
+    axes = [axes]
+
+condition_titles = {
+    "1": "Flow",
+    "2": "VR Only",
+    "3": "Control"
+}
+
+for ax, cond in zip(axes, facet_order):
+    cond_df = plot_df[plot_df["condition"] == cond]
+    ax.scatter(
+        cond_df["x"],
+        cond_df["y"],
+        s=cond_df["point_size"],
+        color=cond_colors.get(str(cond), "#999999"),
+        alpha=cond_df["alpha"],
+        edgecolor="white",
+        linewidth=0.4
+    )
+
+    cond_label_df = cond_df.copy()
+    texts = []
+    for _, row in cond_label_df.iterrows():
+        texts.append(
+            ax.text(
+                row["x"] + 0.01,
+                row["y"] + 0.01,
+                row["word"],
+                fontsize=row["label_size"],
+                alpha=row["alpha"]
+            )
+        )
+
+    adjust_text(
+        texts,
+        ax=ax,
+        x=cond_label_df["x"].to_numpy(),
+        y=cond_label_df["y"].to_numpy(),
+        arrowprops=dict(arrowstyle="-", color="gray", lw=0.4, alpha=0.45),
+        expand_points=(1.08, 1.15),
+        expand_text=(1.03, 1.15)
+    )
+
+    ax.axvline(0, color="gray", linewidth=0.8, linestyle="--")
+    ax.grid(True, alpha=0.3)
+    ax.set_title(condition_titles.get(str(cond), str(cond)), fontsize=18)
+    ax.tick_params(axis="both", labelsize=14)
+
+axes[0].set_ylabel("PC1 variance", fontsize=17)
+fig.supxlabel("Projection on fear_vs_calm axis  ( (u·v) / ||u|| )", fontsize=17, y=0.04)
+
+fig.suptitle("Semantic Projection of Emotional Words by Condition (RoBERTa)", fontsize=20, y=0.98)
+fig.tight_layout(rect=[0, 0.06, 1, 0.95])
+fig.savefig(OUTPUT_DIR / "semantic_projection_roberta_faceted.pdf", format="pdf")
+fig.savefig(OUTPUT_DIR / "semantic_projection_roberta_faceted.svg", format="svg")
 plt.show()

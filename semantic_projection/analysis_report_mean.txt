@@ -1,10 +1,21 @@
 Mean-level fear-calm projection analysis report
-Generated: 2026-02-16 21:50:09
+Generated: 2026-03-19 14:48:55
 
 Saved tables:
 - coefficients_lm_cr2_mean.csv
 - significant_pairwise_findings_mean.csv
 
-Significant pairwise findings (alpha = .05):
-- 1 vs ref: p = 0.033740 (*)
-- 1 vs 2: p = 0.036815 (*)
+Model coefficients (CR2):
+        Coef       beta       SE null_value      tstat  df_Satt      p_Satt
+ (Intercept) -19.748900 4.282537          0 -4.6114957  6.00000 0.003647732
+  condition1  -9.307365 4.282919          0 -2.1731359 13.04459 0.048777423
+  condition2  -3.133015 5.154472          0 -0.6078247 12.68690 0.554028839
+
+Pairwise contrasts from CR2 Wald tests:
+Adjusted p values use Bonferroni correction across the 3 planned contrasts.
+ comparison raw_p_value bonferroni_p_value
+   1 vs ref  0.02977009         0.08931027
+   2 vs ref  0.54330375         1.00000000
+     1 vs 2  0.03139606         0.09418817
+
+Bonferroni-adjusted alpha for 3 contrasts: 0.01667

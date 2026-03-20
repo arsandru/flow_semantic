@@ -6,7 +6,7 @@ This repository contains scripts for semantic projection analysis using:
 
 ## 1) Exact environment (match for reproducibility)
 
-Use Python 3.12 and these exact package versions:
+Use Python `3.12.12` and these exact package versions:
 
 - Python: `3.12.12`
 - sentence-transformers: `5.2.2`
@@ -16,6 +16,7 @@ Use Python 3.12 and these exact package versions:
 - numpy: `2.0.2`
 - pandas: `2.2.2`
 - matplotlib: `3.10.0`
+- adjustText: `1.3.0`
 
 ## 2) Create environment
 
@@ -31,14 +32,15 @@ python -m pip install \
   scikit-learn==1.6.1 \
   numpy==2.0.2 \
   pandas==2.2.2 \
-  matplotlib==3.10.0
+  matplotlib==3.10.0 \
+  adjustText==1.3.0
 ```
 
 ## 3) Verify versions
 
 ```bash
 python -V
-python -m pip show sentence-transformers transformers torch scikit-learn numpy pandas matplotlib
+python -m pip show sentence-transformers transformers torch scikit-learn numpy pandas matplotlib adjustText
 ```
 
 ## 4) Run analysis

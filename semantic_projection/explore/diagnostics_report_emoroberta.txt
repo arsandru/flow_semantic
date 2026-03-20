@@ -1,5 +1,5 @@
-Model diagnostics report
-Generated: 2026-03-20 10:43:12
+Model diagnostics report (EmoRoBERTa word-level mixed model)
+Generated: 2026-03-20 15:15:40
 
 summary(model_words):
 Linear mixed model fit by REML. t-tests use Satterthwaite's method [
@@ -7,38 +7,41 @@ lmerModLmerTest]
 Formula: projection_fear_vs_calm ~ condition + (1 | Participant)
    Data: data
 
-REML criterion at convergence: 989.2
+REML criterion at convergence: 895.6
 
 Scaled residuals: 
-     Min       1Q   Median       3Q      Max 
--0.91378 -0.50017 -0.30284 -0.00702  2.90032 
+    Min      1Q  Median      3Q     Max 
+-1.4431 -0.8631 -0.1868  0.2611  2.6278 
 
 Random effects:
  Groups      Name        Variance Std.Dev.
- Participant (Intercept)  12.03    3.469  
- Residual                302.40   17.390  
+ Participant (Intercept)   0.0     0.00   
+ Residual                137.3    11.72   
 Number of obs: 117, groups:  Participant, 28
 
 Fixed effects:
-            Estimate Std. Error      df t value Pr(>|t|)    
-(Intercept)  -15.961      3.512  19.277  -4.544 0.000215 ***
-condition1   -13.065      4.802  23.074  -2.721 0.012168 *  
-condition2    -6.632      4.372  19.753  -1.517 0.145093    
+            Estimate Std. Error      df t value Pr(>|t|)   
+(Intercept)   -6.586      2.140 114.000  -3.078  0.00261 **
+condition1    -6.188      2.956 114.000  -2.093  0.03857 * 
+condition2    -5.786      2.669 114.000  -2.168  0.03222 * 
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 Correlation of Fixed Effects:
            (Intr) cndtn1
-condition1 -0.731       
-condition2 -0.803  0.588
+condition1 -0.724       
+condition2 -0.802  0.580
+optimizer (nloptwrap) convergence code: 0 (OK)
+boundary (singular) fit: see help('isSingular')
+
 
 check_singularity(model_words):
-[1] FALSE
+[1] TRUE
 
 check_convergence(model_words):
 [1] TRUE
 attr(,"gradient")
-[1] 1.147737e-08
+[1] 0
 
 check_heteroscedasticity(model_words):
 Warning: Heteroscedasticity (non-constant error variance) detected (p < .001).
@@ -55,12 +58,12 @@ OK: No outliers detected.
 r2_nakagawa(model_words):
 # R2 for Mixed Models
 
-  Conditional R2: 0.104
-     Marginal R2: 0.069
+  Conditional R2: NA
+     Marginal R2: 0.047
 
 model_performance(model_words):
 # Indices of model performance
 
-AIC   |  AICc |    BIC | R2 (cond.) | R2 (marg.) |   ICC |   RMSE |  Sigma
---------------------------------------------------------------------------
-999.2 | 999.8 | 1013.0 |      0.104 |      0.069 | 0.038 | 16.909 | 17.390
+AIC   |  AICc |   BIC | R2 (cond.) | R2 (marg.) |   RMSE |  Sigma
+-----------------------------------------------------------------
+905.6 | 906.1 | 919.4 |            |      0.047 | 11.568 | 11.720

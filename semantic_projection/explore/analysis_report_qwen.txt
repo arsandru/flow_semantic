@@ -1,0 +1,33 @@
+Word-level Qwen distress-relaxed projection analysis report
+Generated: 2026-03-20 15:13:15
+
+Saved tables:
+- coefficients_mixed_cr2_qwen.csv
+- coefficients_lm_cr2_qwen.csv
+- pairwise_comparison_mixed_vs_lm_cr2_qwen.csv
+- significant_pairwise_findings_qwen.csv
+
+Mixed-model coefficients (CR2):
+        Coef       beta         SE null_value     tstat   df_Satt      p_Satt
+ (Intercept) -0.1019685 0.04979293          0 -2.047852  4.176996 0.106989976
+  condition1 -0.2112582 0.06166657          0 -3.425814 10.009707 0.006474834
+  condition2 -0.1033507 0.06003403          0 -1.721535  8.848845 0.119833165
+
+Sensitivity LM coefficients (CR2):
+        Coef       beta         SE null_value     tstat   df_Satt      p_Satt
+ (Intercept) -0.1019685 0.04979293          0 -2.047852  4.176996 0.106989976
+  condition1 -0.2112582 0.06166657          0 -3.425814 10.009707 0.006474834
+  condition2 -0.1033507 0.06003403          0 -1.721535  8.848845 0.119833165
+
+Pairwise contrasts from CR2 Wald tests:
+Adjusted p values use Bonferroni correction across the 3 planned contrasts.
+ comparison  raw_p_value bonferroni_p_value
+   1 vs ref 0.0006129596        0.001838879
+   2 vs ref 0.0851537575        0.255461273
+     1 vs 2 0.0291929252        0.087578776
+
+Model comparison of raw pairwise p values (mixed model vs sensitivity LM):
+ comparison  p_mixed_CR2     p_lm_CR2
+     1 vs 2 0.0291929252 0.0291929252
+   1 vs ref 0.0006129596 0.0006129596
+   2 vs ref 0.0851537575 0.0851537575

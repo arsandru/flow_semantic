@@ -73,17 +73,19 @@ pw_tests <- lapply(L_pairwise, function(L) {
   )
 })
 
-sig_df <- data.frame(
+pairwise_raw_df <- data.frame(
   comparison = names(pw_tests),
-  p_value = sapply(pw_tests, function(x) x$p_val),
+  raw_p_value = sapply(pw_tests, function(x) x$p_val),
   stringsAsFactors = FALSE
 )
+pairwise_raw_df$bonferroni_p_value <- p.adjust(pairwise_raw_df$raw_p_value, method = "bonferroni")
 
-sig_df$label <- ifelse(sig_df$p_value < 0.001, "***",
-                ifelse(sig_df$p_value < 0.01,  "**",
-                ifelse(sig_df$p_value < 0.05,  "*", NA_character_)))
+sig_df <- pairwise_raw_df
+sig_df$label <- ifelse(sig_df$bonferroni_p_value < 0.001, "***",
+                ifelse(sig_df$bonferroni_p_value < 0.01,  "**",
+                ifelse(sig_df$bonferroni_p_value < 0.05,  "*", NA_character_)))
 
-# Keep only significant comparisons
+# Keep only significant comparisons for plot annotation
 sig_df <- subset(sig_df, !is.na(label))
 
 # -----------------------------
@@ -155,7 +157,7 @@ p <- ggplot(means_df, aes(x = condition, y = mean, color = condition)) +
     x = "Condition",
     y = "Mean fear-calm projection",
     title = "Condition means (CR2-adjusted)",
-    subtitle = "Only significant pairwise differences shown; error bars are t-based 95% CI",
+    subtitle = "Only Bonferroni-significant pairwise differences shown; error bars are t-based 95% CI",
     color = "Group"
   ) +
   theme_minimal() +
@@ -195,7 +197,7 @@ ggsave(file.path(semantic_dir, "semantic_projection_final_mean.pdf"), plot = p, 
 # -----------------------------
 coef_lm_df <- as.data.frame(coef_tab)
 write.csv(coef_lm_df, file.path(semantic_dir, "coefficients_lm_cr2_mean.csv"), row.names = FALSE)
-write.csv(sig_df, file.path(semantic_dir, "significant_pairwise_findings_mean.csv"), row.names = FALSE)
+write.csv(pairwise_raw_df, file.path(semantic_dir, "significant_pairwise_findings_mean.csv"), row.names = FALSE)
 write.csv(ci_summary, file.path(semantic_dir, "ci_summary_mean.csv"), row.names = FALSE)
 
 report_lines <- c(
@@ -205,20 +207,16 @@ report_lines <- c(
   "Saved tables:",
   "- coefficients_lm_cr2_mean.csv",
   "- significant_pairwise_findings_mean.csv",
-  ""
+  "",
+  "Model coefficients (CR2):",
+  capture.output(print(coef_lm_df, row.names = FALSE)),
+  "",
+  "Pairwise contrasts from CR2 Wald tests:",
+  "Adjusted p values use Bonferroni correction across the 3 planned contrasts.",
+  capture.output(print(pairwise_raw_df, row.names = FALSE)),
+  "",
+  sprintf("Bonferroni-adjusted alpha for 3 contrasts: %.5f", 0.05 / 3)
 )
-
-if (nrow(sig_df) == 0) {
-  report_lines <- c(report_lines, "Significant pairwise findings (alpha = .05): none")
-} else {
-  report_lines <- c(report_lines, "Significant pairwise findings (alpha = .05):")
-  for (i in seq_len(nrow(sig_df))) {
-    report_lines <- c(
-      report_lines,
-      sprintf("- %s: p = %.6f (%s)", sig_df$comparison[i], sig_df$p_value[i], sig_df$label[i])
-    )
-  }
-}
 
 writeLines(report_lines, file.path(semantic_dir, "analysis_report_mean.txt"))
 cat(paste(report_lines, collapse = "\n"), "\n")

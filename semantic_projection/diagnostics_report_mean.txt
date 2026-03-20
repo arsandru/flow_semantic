@@ -1,5 +1,5 @@
 Model diagnostics report (mean-level LM)
-Generated: 2026-02-16 21:50:09
+Generated: 2026-03-19 14:48:55
 
 summary(model_lm):
 
@@ -8,17 +8,17 @@ lm(formula = mean_projection_fear_vs_calm ~ condition, data = data)
 
 Residuals:
     Min      1Q  Median      3Q     Max 
--9.3296 -6.1431 -0.2681  1.1984 22.9019 
+-9.5175 -6.3027 -0.0983  1.1704 22.3557 
 
 Coefficients:
             Estimate Std. Error t value Pr(>|t|)    
-(Intercept)  -19.473      3.287  -5.924 3.49e-06 ***
-condition1    -9.225      4.382  -2.105   0.0455 *  
-condition2    -3.202      4.136  -0.774   0.4461    
+(Intercept)  -19.749      3.257  -6.063 2.46e-06 ***
+condition1    -9.307      4.343  -2.143    0.042 *  
+condition2    -3.133      4.099  -0.764    0.452    
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
-Residual standard error: 8.696 on 25 degrees of freedom
-Multiple R-squared:  0.1608,	Adjusted R-squared:  0.09362 
-F-statistic: 2.394 on 2 and 25 DF,  p-value: 0.1118
+Residual standard error: 8.618 on 25 degrees of freedom
+Multiple R-squared:  0.1667,	Adjusted R-squared:    0.1 
+F-statistic:   2.5 on 2 and 25 DF,  p-value: 0.1023
 

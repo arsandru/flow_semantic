@@ -3,7 +3,7 @@
 ## Methods
 
 ### Design and analytic objective
-We quantified emotional language along a predefined semantic axis spanning **fear/anxiety** to **calm/optimism** and tested whether projection scores differed by experimental condition. Analyses were conducted at two levels: (1) **word-level** projections (all available emotion words), and (2) **participant-level mean** projections (mean across words per participant).
+We quantified emotional language along a predefined semantic axis spanning **distress** to **relaxation** and tested whether projection scores differed by experimental condition. Analyses were conducted at two levels: (1) **word-level** projections (all available emotion words), and (2) **participant-level mean** projections (mean across words per participant).
 
 ### Data sources and preprocessing
 Two input files were used:
@@ -12,28 +12,28 @@ Two input files were used:
 
 Records were linked by participant `ID` after coercing `ID` to character in both files. Condition labels were merged from `Flow_current.csv` using a stripped condition column (`Exp_Condition`, with fallback handling for trailing whitespace in source headers).
 
-For semantic projection, the emotion-word field was parsed as a list and cleaned by removing tokens prefixed with `not_` (e.g., `not_afraid`). Rows without usable word lists were excluded from projection steps.
+For semantic projection, the emotion-word field was parsed as a list and cleaned by removing tokens prefixed with `not_` (e.g., `not_afraid`). Before encoding, underscore-delimited tokens were converted to space-delimited text so that multiword expressions were represented in natural language form. Rows without usable word lists were excluded from projection steps.
 
 ### Embedding model and semantic axis construction
 Embeddings were generated with a Sentence-Transformers pipeline wrapping:
 - Transformer backbone: `siebert/sentiment-roberta-large-english`
 - Pooling: mean token pooling
 
-The fear-calm axis was built using anchor sets:
-- Fear/anxiety pole: `fears`, `anger`, `afraid`, `fear`, `anxiety`, `pessimistic`, `panic`, `stress`, `preoccupied`, `fixated`
-- Calm/optimism pole: `calm`, `quiet`, `serene`, `optimistic`, `upbeat`, `hopeful`, `confident`, `distracted`, `tune_out`
+The distress-relaxed axis was built using anchor sets:
+- Distress pole: `anxiety`, `anxious`, `nervous`, `worried`, `bothered`, `uncomfortable`, `distressed`, `tense`, `uneasy`, `overwhelmed`
+- Relaxed pole: `calm`, `relaxed`, `relaxing`, `serene`, `peaceful`, `comfortable`, `comforting`, `at ease`, `soothed`, `settled`
 
 Context overrides were applied before encoding for two lexical items to improve contextualized representation:
 - `tune_out` -> `tune out and relax`
 - `distracted` -> `distracted from worries`
 
-Let `a` be the mean embedding of fear/anxiety anchors and `b` the mean embedding of calm/optimism anchors. The semantic axis vector `u` was computed as the mean of all pairwise differences `(fear_i - calm_j)`. For each word embedding `v`, projection was computed as:
+Let `a` be the mean embedding of distress anchors and `b` the mean embedding of relaxed anchors. The semantic axis vector `u` was computed as the mean of all pairwise differences `(distress_i - relaxed_j)`. For each word embedding `v`, projection was computed as:
 
 \[
 \text{projection} = \frac{u \cdot v}{\|u\|}
 \]
 
-Higher values indicate stronger alignment with the fear/anxiety pole; lower values indicate stronger alignment with the calm/optimism pole.
+Higher values indicate stronger alignment with the distress pole; lower values indicate stronger alignment with the relaxed pole.
 
 ### Outcome construction
 - **Word-level outcome:** one projection score per word (`projection_fear_vs_calm`)
@@ -101,44 +101,47 @@ Output artifacts were generated in `semantic_projection/`, including:
   - Condition 3: n = 7
 
 ### Condition means (participant-level projections)
-Mean projection scores (lower = more calm/optimism-aligned):
-- Control (3): mean = -19.473, 95% CI [-30.102, -8.844]
-- Flow (1): mean = -28.697, 95% CI [-28.913, -28.482]
-- VR Only (2): mean = -22.674, 95% CI [-29.021, -16.328]
+Mean projection scores (lower = more relaxed-aligned):
+- Control (3): mean = -19.749, 95% CI [-30.228, -9.270]
+- Flow (1): mean = -29.056, 95% CI [-29.188, -28.924]
+- VR Only (2): mean = -22.882, 95% CI [-29.196, -16.568]
 
 ### Word-level mixed-effects analysis (CR2 inference)
 CR2-robust fixed effects (`projection_fear_vs_calm ~ condition + (1|Participant)`, ref = Control):
-- Intercept (Control): \(\beta=-15.746\), SE = 4.803, p = 0.0247
-- Flow vs Control: \(\beta=-12.893\), SE = 4.803, p = 0.0218
-- VR Only vs Control: \(\beta=-6.647\), SE = 5.598, p = 0.2635
+- Intercept (Control): \(\beta=-15.961\), SE = 4.732, p = 0.0228
+- Flow vs Control: \(\beta=-13.065\), SE = 4.733, p = 0.0191
+- VR Only vs Control: \(\beta=-6.632\), SE = 5.536, p = 0.2597
 
 Pairwise CR2 Wald tests:
-- Flow vs Control: p = 0.00727 (**)
-- VR Only vs Control: p = 0.23509 (ns)
-- Flow vs VR Only: p = 0.02999 (*)
+- Flow vs Control: p = 0.00577, Bonferroni-adjusted p = 0.01731
+- VR Only vs Control: p = 0.23091, Bonferroni-adjusted p = 0.69273
+- Flow vs VR Only: p = 0.02515, Bonferroni-adjusted p = 0.07545
 
 Sensitivity check (LM + CR2) yielded highly similar pairwise inference:
-- Flow vs Control: p = 0.00440
-- VR Only vs Control: p = 0.18349
-- Flow vs VR Only: p = 0.03053
+- Flow vs Control: p = 0.00362
+- VR Only vs Control: p = 0.18495
+- Flow vs VR Only: p = 0.02576
 
 ### Participant-mean linear model (CR2 inference)
 CR2-robust coefficients (`mean_projection_fear_vs_calm ~ condition`, ref = Control):
-- Intercept (Control): \(\beta=-19.473\), SE = 4.344, p = 0.00418
-- Flow vs Control: \(\beta=-9.225\), SE = 4.345, p = 0.05344
-- VR Only vs Control: \(\beta=-3.202\), SE = 5.214, p = 0.55003
+- Intercept (Control): \(\beta=-19.749\), SE = 4.283, p = 0.00365
+- Flow vs Control: \(\beta=-9.307\), SE = 4.283, p = 0.04878
+- VR Only vs Control: \(\beta=-3.133\), SE = 5.154, p = 0.55403
 
 Pairwise CR2 Wald tests (participant means):
-- Flow vs Control: p = 0.03374 (*)
-- VR Only vs Control: not significant
-- Flow vs VR Only: p = 0.03681 (*)
+- Flow vs Control: p = 0.02977, Bonferroni-adjusted p = 0.08931
+- VR Only vs Control: p = 0.54330, Bonferroni-adjusted p = 1.00000
+- Flow vs VR Only: p = 0.03140, Bonferroni-adjusted p = 0.09419
 
 ### Diagnostics summary
 For the word-level mixed model:
 - No singular fit and convergence acceptable.
 - Heteroscedasticity and residual non-normality were flagged by diagnostics.
 - Outlier check did not indicate influential outliers under the specified threshold.
-- Variance explained was modest (marginal \(R^2\) = 0.067; conditional \(R^2\) = 0.108).
+- Variance explained was modest (marginal \(R^2\) = 0.069; conditional \(R^2\) = 0.104).
 
 ### Main empirical pattern
-Across both analysis levels, **Condition 1 (Flow: VR + Meditation)** showed significantly more negative fear-calm projections than both Control and VR Only in pairwise CR2 tests, indicating stronger alignment with the calm/optimism end of the semantic axis. **Condition 2 (VR Only)** did not significantly differ from Control.
+At the word level, **Condition 1 (Flow: VR + Meditation)** showed more negative distress-relaxed projections than Control in both the raw and Bonferroni-corrected pairwise CR2 tests. The raw Flow versus VR Only contrast was also significant, but it did not remain significant after Bonferroni correction. At the participant-mean level, the same directional pattern was observed, with the Flow coefficient reaching nominal significance and the pairwise contrasts remaining marginal after Bonferroni correction. **Condition 2 (VR Only)** did not significantly differ from Control at either level.
+
+### Embedding-model robustness
+As exploratory robustness checks, the word-level semantic projection pipeline was repeated using two alternative embedding spaces: `Qwen/Qwen3-Embedding-0.6B`, representing a different embedding-model family, and `j-hartmann/emotion-english-roberta-large`, representing an alternative affective fine-tuning of the RoBERTa architecture. Across all three models, the primary Flow versus Control contrast remained significant after Bonferroni correction (RoBERTa: adjusted \(p = 0.0173\); Qwen: adjusted \(p = 0.00184\); emotion-tuned RoBERTa: adjusted \(p = 0.0178\)). The secondary contrasts were less stable across models and did not survive Bonferroni correction. Thus, the principal finding that the Flow condition was more strongly aligned with the relaxed pole than Control was robust both to embedding architecture and to the specific affective fine-tuning used, whereas finer-grained contrasts between the intervention conditions were model-sensitive.

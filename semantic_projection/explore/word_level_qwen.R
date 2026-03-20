@@ -3,20 +3,28 @@ script_flag <- "--file="
 script_path <- sub(script_flag, "", script_args[grep(script_flag, script_args)])
 if (length(script_path) > 0) {
   script_dir <- dirname(normalizePath(script_path))
-  project_dir <- dirname(script_dir)
+  project_dir <- dirname(dirname(script_dir))
 } else {
   wd <- normalizePath(getwd())
-  project_dir <- if (basename(wd) == "semantic_projection") dirname(wd) else wd
+  if (basename(wd) == "explore") {
+    project_dir <- dirname(dirname(wd))
+  } else if (basename(wd) == "semantic_projection") {
+    project_dir <- dirname(wd)
+  } else {
+    project_dir <- wd
+  }
+  script_dir <- file.path(project_dir, "semantic_projection", "explore")
 }
 
-semantic_dir <- file.path(project_dir, "semantic_projection")
+explore_dir <- file.path(project_dir, "semantic_projection", "explore")
 
 library(lme4)
 library(lmerTest)
 library(clubSandwich)
 library(performance)
 library(ggplot2)
-data <- read.csv(file.path(semantic_dir, "semantic_projection_roberta.csv"), stringsAsFactors = FALSE)
+
+data <- read.csv(file.path(explore_dir, "semantic_projection_qwen.csv"), stringsAsFactors = FALSE)
 data$condition <- factor(data$condition)
 data$condition <- relevel(data$condition, ref = "3")
 
@@ -25,7 +33,6 @@ model_words <- lmer(
   data = data
 )
 
-# Model fit diagnostics
 diag_summary <- summary(model_words)
 diag_singularity <- check_singularity(model_words)
 diag_convergence <- check_convergence(model_words)
@@ -44,7 +51,6 @@ print(diag_outliers)
 print(diag_r2)
 print(diag_perf)
 
-# Basic residual diagnostic plots
 diag_df <- data.frame(
   fitted = fitted(model_words),
   resid = resid(model_words)
@@ -115,7 +121,6 @@ sig_df$label <- ifelse(sig_df$bonferroni_p_value < 0.001, "***",
                 ifelse(sig_df$bonferroni_p_value < 0.05,  "*", NA_character_)))
 sig_df <- subset(sig_df, !is.na(label))
 
-# Sensitivity analysis: lm + CR2 clustered by Participant
 model_lm <- lm(
   projection_fear_vs_calm ~ condition,
   data = data
@@ -161,18 +166,6 @@ means_df <- aggregate(
   data = data,
   FUN = function(x) c(
     mean = mean(x, na.rm = TRUE),
-    SE = sd(x, na.rm = TRUE) / sqrt(sum(!is.na(x)))
-  )
-)
-
-means_df <- do.call(data.frame, means_df)
-names(means_df) <- c("condition", "mean", "SE")
-# n per condition
-means_df <- aggregate(
-  projection_fear_vs_calm ~ condition,
-  data = data,
-  FUN = function(x) c(
-    mean = mean(x, na.rm = TRUE),
     SE   = sd(x, na.rm = TRUE) / sqrt(sum(!is.na(x))),
     n    = sum(!is.na(x))
   )
@@ -180,13 +173,9 @@ means_df <- aggregate(
 
 means_df <- do.call(data.frame, means_df)
 names(means_df) <- c("condition", "mean", "SE", "n")
-
-# exact 95% CI (t-based)
 means_df$t_crit <- qt(0.975, df = means_df$n - 1)
-means_df$lower  <- means_df$mean - means_df$t_crit * means_df$SE
-means_df$upper  <- means_df$mean + means_df$t_crit * means_df$SE
-
-
+means_df$lower <- means_df$mean - means_df$t_crit * means_df$SE
+means_df$upper <- means_df$mean + means_df$t_crit * means_df$SE
 means_df$condition <- factor(as.character(means_df$condition), levels = c("3", "1", "2"))
 
 if (nrow(sig_df) > 0) {
@@ -227,18 +216,19 @@ p <- ggplot(means_df, aes(x = condition, y = mean, color = condition)) +
   ) +
   labs(
     x = "Condition",
-    y = "Mean fear-calm projection",
-    title = "Condition means (CR2-adjusted)",
+    y = "Mean distress-relaxed projection",
+    title = "Qwen condition means (CR2-adjusted)",
     subtitle = "Only Bonferroni-significant pairwise differences shown; error bars are t-based 95% CI",
     color = "Group"
   ) +
-  theme_minimal()+
-    theme(
-        legend.position = "none",
-        axis.title = element_text(size = 18),
-        axis.text = element_text(size = 15),
-        plot.title = element_text(size = 18),
-        plot.subtitle = element_text(size = 13))
+  theme_minimal() +
+  theme(
+    legend.position = "none",
+    axis.title = element_text(size = 18),
+    axis.text = element_text(size = 15),
+    plot.title = element_text(size = 18),
+    plot.subtitle = element_text(size = 13)
+  )
 
 if (nrow(annot_df) > 0) {
   p <- p +
@@ -262,33 +252,26 @@ if (nrow(annot_df) > 0) {
     )
 }
 
-p
+ggsave(file.path(explore_dir, "semantic_projection_qwen_final.pdf"), plot = p, width = 10, height = 5)
+ggsave(file.path(explore_dir, "semantic_projection_qwen_final.svg"), plot = p, width = 10, height = 5)
 
-
-ggsave(file.path(semantic_dir, "semantic_projection_final.pdf"), plot = p, width = 10, height = 5)
-ggsave(file.path(semantic_dir, "semantic_projection_final.svg"), plot = p, width = 10, height = 5)
-
-# -----------------------------
-# 7) Reporting outputs
-# -----------------------------
 coef_mixed_df <- as.data.frame(coef_tab)
 coef_lm_df <- as.data.frame(coef_tab_lm)
 
-write.csv(coef_mixed_df, file.path(semantic_dir, "coefficients_mixed_cr2.csv"), row.names = FALSE)
-write.csv(coef_lm_df, file.path(semantic_dir, "coefficients_lm_cr2.csv"), row.names = FALSE)
-write.csv(comparison_check, file.path(semantic_dir, "pairwise_comparison_mixed_vs_lm_cr2.csv"), row.names = FALSE)
-write.csv(pairwise_raw_df, file.path(semantic_dir, "significant_pairwise_findings.csv"), row.names = FALSE)
+write.csv(coef_mixed_df, file.path(explore_dir, "coefficients_mixed_cr2_qwen.csv"), row.names = FALSE)
+write.csv(coef_lm_df, file.path(explore_dir, "coefficients_lm_cr2_qwen.csv"), row.names = FALSE)
+write.csv(comparison_check, file.path(explore_dir, "pairwise_comparison_mixed_vs_lm_cr2_qwen.csv"), row.names = FALSE)
+write.csv(pairwise_raw_df, file.path(explore_dir, "significant_pairwise_findings_qwen.csv"), row.names = FALSE)
 
-# Text report
 report_lines <- c(
-  "Word-level fear-calm projection analysis report",
+  "Word-level Qwen distress-relaxed projection analysis report",
   sprintf("Generated: %s", format(Sys.time(), "%Y-%m-%d %H:%M:%S")),
   "",
   "Saved tables:",
-  "- coefficients_mixed_cr2.csv",
-  "- coefficients_lm_cr2.csv",
-  "- pairwise_comparison_mixed_vs_lm_cr2.csv",
-  "- significant_pairwise_findings.csv",
+  "- coefficients_mixed_cr2_qwen.csv",
+  "- coefficients_lm_cr2_qwen.csv",
+  "- pairwise_comparison_mixed_vs_lm_cr2_qwen.csv",
+  "- significant_pairwise_findings_qwen.csv",
   "",
   "Mixed-model coefficients (CR2):",
   capture.output(print(coef_mixed_df, row.names = FALSE)),
@@ -304,14 +287,11 @@ report_lines <- c(
   capture.output(print(comparison_check, row.names = FALSE))
 )
 
-writeLines(report_lines, file.path(semantic_dir, "analysis_report.txt"))
+writeLines(report_lines, file.path(explore_dir, "analysis_report_qwen.txt"))
 cat(paste(report_lines, collapse = "\n"), "\n")
 
-
-
-# Save diagnostics report
 writeLines(c(
-  "Model diagnostics report",
+  "Model diagnostics report (Qwen word-level mixed model)",
   sprintf("Generated: %s", format(Sys.time(), "%Y-%m-%d %H:%M:%S")),
   "",
   "summary(model_words):",
@@ -337,4 +317,4 @@ writeLines(c(
   "",
   "model_performance(model_words):",
   capture.output(diag_perf)
-), file.path(semantic_dir, "diagnostics_report.txt"))
+), file.path(explore_dir, "diagnostics_report_qwen.txt"))
