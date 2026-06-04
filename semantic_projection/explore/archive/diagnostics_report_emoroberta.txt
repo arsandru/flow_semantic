@@ -1,0 +1,69 @@
+Model diagnostics report (EmoRoBERTa word-level mixed model)
+Generated: 2026-04-28 11:22:54
+
+summary(model_words):
+Linear mixed model fit by REML. t-tests use Satterthwaite's method [
+lmerModLmerTest]
+Formula: projection_fear_vs_calm ~ condition + (1 | Participant)
+   Data: data
+
+REML criterion at convergence: 1028.9
+
+Scaled residuals: 
+     Min       1Q   Median       3Q      Max 
+-1.39910 -0.95472 -0.08328  0.44227  2.21008 
+
+Random effects:
+ Groups      Name        Variance Std.Dev.
+ Participant (Intercept)   0.0     0.00   
+ Residual                130.4    11.42   
+Number of obs: 135, groups:  Participant, 31
+
+Fixed effects:
+            Estimate Std. Error      df t value Pr(>|t|)    
+(Intercept)   -8.205      2.085 132.000  -3.935 0.000134 ***
+condition1    -2.949      2.658 132.000  -1.109 0.269328    
+condition2    -3.564      2.576 132.000  -1.383 0.168896    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+           (Intr) cndtn1
+condition1 -0.784       
+condition2 -0.809  0.635
+optimizer (nloptwrap) convergence code: 0 (OK)
+boundary (singular) fit: see help('isSingular')
+
+
+check_singularity(model_words):
+[1] TRUE
+
+check_convergence(model_words):
+[1] TRUE
+attr(,"gradient")
+[1] 0
+
+check_heteroscedasticity(model_words):
+Warning: Heteroscedasticity (non-constant error variance) detected (p < .001).
+
+check_normality(model_words):
+Warning: Non-normality of residuals detected (p < .001).
+
+check_outliers(model_words):
+OK: No outliers detected.
+- Based on the following method and threshold: cook (0.7).
+- For variable: (Whole model)
+
+
+r2_nakagawa(model_words):
+# R2 for Mixed Models
+
+  Conditional R2: NA
+     Marginal R2: 0.015
+
+model_performance(model_words):
+# Indices of model performance
+
+AIC    |   AICc |    BIC | R2 (cond.) | R2 (marg.) |   RMSE |  Sigma
+--------------------------------------------------------------------
+1038.9 | 1039.3 | 1053.4 |            |      0.015 | 11.294 | 11.421

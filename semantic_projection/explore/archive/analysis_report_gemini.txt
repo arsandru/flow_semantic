@@ -1,0 +1,33 @@
+Word-level Gemini distress-relaxed projection analysis report
+Generated: 2026-04-28 14:00:32
+
+Saved tables:
+- coefficients_mixed_cr2_gemini.csv
+- coefficients_lm_cr2_gemini.csv
+- pairwise_comparison_mixed_vs_lm_cr2_gemini.csv
+- significant_pairwise_findings_gemini.csv
+
+Mixed-model coefficients (CR2):
+        Coef        beta         SE null_value     tstat  df_Satt     p_Satt
+ (Intercept) -0.05965098 0.01446175          0 -4.124742 4.176996 0.01331324
+  condition1 -0.05737666 0.02040645          0 -2.811692 9.164539 0.01997501
+  condition2 -0.03255119 0.02073334          0 -1.569992 8.710452 0.15198161
+
+Sensitivity LM coefficients (CR2):
+        Coef        beta         SE null_value     tstat  df_Satt     p_Satt
+ (Intercept) -0.05965098 0.01446175          0 -4.124742 4.176996 0.01331324
+  condition1 -0.05737666 0.02040645          0 -2.811692 9.164539 0.01997501
+  condition2 -0.03255119 0.02073334          0 -1.569992 8.710452 0.15198161
+
+Pairwise contrasts from CR2 Wald tests:
+Adjusted p values use Bonferroni correction across the 3 planned contrasts.
+ comparison raw_p_value bonferroni_p_value
+   1 vs ref 0.004928164         0.01478449
+   2 vs ref 0.116416878         0.34925063
+     1 vs 2 0.230151255         0.69045376
+
+Model comparison of pairwise p values (mixed model vs sensitivity LM):
+ comparison p_mixed_CR2 p_mixed_CR2_bonferroni    p_lm_CR2 p_lm_CR2_bonferroni
+     1 vs 2 0.230151255             0.69045376 0.230151255          0.69045376
+   1 vs ref 0.004928164             0.01478449 0.004928164          0.01478449
+   2 vs ref 0.116416878             0.34925063 0.116416878          0.34925063

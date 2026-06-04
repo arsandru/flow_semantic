@@ -6,8 +6,8 @@ import cairosvg
 
 
 BASE_DIR = Path(__file__).resolve().parent
-LEFT_SVG = BASE_DIR / "semantic_projection_roberta_faceted.svg"
-RIGHT_SVG = BASE_DIR / "semantic_projection_final.svg"
+LEFT_SVG = BASE_DIR / "semantic_projection_primary_faceted.svg"
+RIGHT_SVG = BASE_DIR / "semantic_projection_primary_final.svg"
 OUTPUT_SVG = BASE_DIR / "semantic_projection_publication_figure.svg"
 OUTPUT_PDF = BASE_DIR / "semantic_projection_publication_figure.pdf"
 

@@ -14,12 +14,13 @@ semantic_dir <- file.path(project_dir, "semantic_projection")
 data_dir <- file.path(project_dir, "data")
 
 library(clubSandwich)
+library(emmeans)
 library(ggplot2)
 
 # -----------------------------
 # 1) Load data
 # -----------------------------
-data <- read.csv(file.path(semantic_dir, "semantic_projection_roberta_mean.csv"), stringsAsFactors = FALSE)
+data <- read.csv(file.path(semantic_dir, "semantic_projection_primary_mean.csv"), stringsAsFactors = FALSE)
 
 data$condition <- factor(data$condition)
 data$condition <- relevel(data$condition, ref = "3")
@@ -54,6 +55,11 @@ coef_tab <- coef_test(
   vcov = V
 )
 print(coef_tab)
+
+emm_lm <- emmeans(model_lm, ~ condition)
+emm_lm_pairs <- pairs(emm_lm)
+print(emm_lm)
+print(emm_lm_pairs)
 
 # -----------------------------
 # 3) Pairwise contrasts
@@ -155,8 +161,8 @@ p <- ggplot(means_df, aes(x = condition, y = mean, color = condition)) +
   ) +
   labs(
     x = "Condition",
-    y = "Mean fear-calm projection",
-    title = "Condition means (CR2-adjusted)",
+    y = "Mean relief-distress projection",
+    title = "Primary Qwen condition means (CR2-adjusted)",
     subtitle = "Only Bonferroni-significant pairwise differences shown; error bars are t-based 95% CI",
     color = "Group"
   ) +
@@ -189,27 +195,33 @@ print(p)
 
 
 # Save plot
-ggsave(file.path(semantic_dir, "semantic_projection_final_mean.pdf"), plot = p, width = 10, height = 8)
+ggsave(file.path(semantic_dir, "semantic_projection_primary_mean.pdf"), plot = p, width = 10, height = 8)
 
 
 # -----------------------------
 # 7) Reporting outputs
 # -----------------------------
 coef_lm_df <- as.data.frame(coef_tab)
-write.csv(coef_lm_df, file.path(semantic_dir, "coefficients_lm_cr2_mean.csv"), row.names = FALSE)
-write.csv(pairwise_raw_df, file.path(semantic_dir, "significant_pairwise_findings_mean.csv"), row.names = FALSE)
-write.csv(ci_summary, file.path(semantic_dir, "ci_summary_mean.csv"), row.names = FALSE)
+write.csv(coef_lm_df, file.path(semantic_dir, "coefficients_lm_cr2_primary_mean.csv"), row.names = FALSE)
+write.csv(pairwise_raw_df, file.path(semantic_dir, "significant_pairwise_findings_primary_mean.csv"), row.names = FALSE)
+write.csv(ci_summary, file.path(semantic_dir, "ci_summary_primary_mean.csv"), row.names = FALSE)
 
 report_lines <- c(
-  "Mean-level fear-calm projection analysis report",
+  "Mean-level primary Qwen relief-distress projection analysis report",
   sprintf("Generated: %s", format(Sys.time(), "%Y-%m-%d %H:%M:%S")),
   "",
   "Saved tables:",
-  "- coefficients_lm_cr2_mean.csv",
-  "- significant_pairwise_findings_mean.csv",
+  "- coefficients_lm_cr2_primary_mean.csv",
+  "- significant_pairwise_findings_primary_mean.csv",
   "",
   "Model coefficients (CR2):",
   capture.output(print(coef_lm_df, row.names = FALSE)),
+  "",
+  "Model emmeans:",
+  capture.output(print(emm_lm)),
+  "",
+  "Model emmeans pairwise comparisons:",
+  capture.output(print(emm_lm_pairs)),
   "",
   "Pairwise contrasts from CR2 Wald tests:",
   "Adjusted p values use Bonferroni correction across the 3 planned contrasts.",
@@ -218,7 +230,7 @@ report_lines <- c(
   sprintf("Bonferroni-adjusted alpha for 3 contrasts: %.5f", 0.05 / 3)
 )
 
-writeLines(report_lines, file.path(semantic_dir, "analysis_report_mean.txt"))
+writeLines(report_lines, file.path(semantic_dir, "analysis_report_primary_mean.txt"))
 cat(paste(report_lines, collapse = "\n"), "\n")
 
 # Diagnostics report (LM)
@@ -228,4 +240,4 @@ writeLines(c(
   "",
   "summary(model_lm):",
   capture.output(summary(model_lm))
-), file.path(semantic_dir, "diagnostics_report_mean.txt"))
+), file.path(semantic_dir, "diagnostics_report_primary_mean.txt"))

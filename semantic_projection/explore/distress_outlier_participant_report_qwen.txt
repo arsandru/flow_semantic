@@ -1,0 +1,122 @@
+Participant-level distress-extreme report: qwen
+Generated: 2026-04-28 14:22:56
+
+Input file: /Users/razvan/Documents/flow_scripts/semantic_projection/explore/semantic_projection_qwen.csv
+Zero-centered thresholding rule:
+MAD0 = 0.265151
+Multiplier = 1.25
+Lower threshold = -0.331438
+Upper threshold = 0.331438
+
+Participant-level counts:
+# A tibble: 31 × 6
+   Participant condition n_words distress_outliers non_distress_words
+         <int> <fct>       <int>             <int>              <int>
+ 1           1 3               7                 3                  4
+ 2           3 3               5                 0                  5
+ 3           5 3               9                 3                  6
+ 4           6 3               3                 1                  2
+ 5          16 3               2                 0                  2
+ 6          27 3               2                 0                  2
+ 7          31 3               2                 0                  2
+ 8           4 1               2                 0                  2
+ 9          13 1               1                 0                  1
+10          15 1               5                 0                  5
+# ℹ 21 more rows
+# ℹ 1 more variable: distress_prop <dbl>
+# ℹ Use `print(n = ...)` to see more rows
+
+Binomial model: cbind(distress_outliers, non_distress_words) ~ condition
+
+Call:
+glm(formula = cbind(distress_outliers, non_distress_words) ~ 
+    condition, family = quasibinomial(), data = participant_df)
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)  
+(Intercept)  -1.1896     0.4495  -2.646   0.0132 *
+condition1   -1.9459     0.8763  -2.221   0.0346 *
+condition2   -1.7008     0.7639  -2.226   0.0342 *
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for quasibinomial family taken to be 1.084388)
+
+    Null deviance: 33.430  on 30  degrees of freedom
+Residual deviance: 25.171  on 28  degrees of freedom
+AIC: NA
+
+Number of Fisher Scoring iterations: 5
+
+
+Binomial model omnibus test:
+Analysis of Deviance Table
+
+Model: quasibinomial, link: logit
+
+Response: cbind(distress_outliers, non_distress_words)
+
+Terms added sequentially (first to last)
+
+
+          Df Deviance Resid. Df Resid. Dev      F  Pr(>F)  
+NULL                         30     33.430                 
+condition  2   8.2591        28     25.171 3.8082 0.03444 *
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Estimated marginal distress-outlier probabilities by condition:
+ condition   prob     SE  df asymp.LCL asymp.UCL
+ 3         0.2333 0.0804 Inf   0.11199     0.423
+ 1         0.0417 0.0300 Inf   0.00986     0.160
+ 2         0.0526 0.0308 Inf   0.01629     0.157
+
+Confidence level used: 0.95 
+Intervals are back-transformed from the logit scale 
+
+Pairwise comparisons of distress-outlier probabilities:
+ contrast                odds.ratio    SE  df null z.ratio p.value
+ condition3 / condition1      7.000 6.130 Inf    1   2.221  0.0677
+ condition3 / condition2      5.478 4.190 Inf    1   2.226  0.0668
+ condition1 / condition2      0.783 0.762 Inf    1  -0.252  0.9656
+
+P value adjustment: tukey method for comparing a family of 3 estimates 
+Tests are performed on the log odds ratio scale 
+
+Proportion LM sensitivity analysis: distress_prop ~ condition
+
+Call:
+lm(formula = distress_prop ~ condition, data = participant_df)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.15646 -0.05128 -0.02435 -0.02435  0.44872 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)   
+(Intercept)  0.15646    0.05089   3.074  0.00467 **
+condition1  -0.13211    0.06510  -2.029  0.05203 . 
+condition2  -0.10518    0.06312  -1.666  0.10681   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.1346 on 28 degrees of freedom
+Multiple R-squared:  0.1349,	Adjusted R-squared:  0.07313 
+F-statistic: 2.184 on 2 and 28 DF,  p-value: 0.1315
+
+
+Estimated marginal means for distress proportion:
+ condition emmean     SE df lower.CL upper.CL
+ 3         0.1565 0.0509 28   0.0522    0.261
+ 1         0.0244 0.0406 28  -0.0588    0.108
+ 2         0.0513 0.0373 28  -0.0252    0.128
+
+Confidence level used: 0.95 
+
+Pairwise comparisons of distress proportion:
+ contrast                estimate     SE df t.ratio p.value
+ condition3 - condition1   0.1321 0.0651 28   2.029  0.1238
+ condition3 - condition2   0.1052 0.0631 28   1.666  0.2357
+ condition1 - condition2  -0.0269 0.0552 28  -0.488  0.8774
+
+P value adjustment: tukey method for comparing a family of 3 estimates 

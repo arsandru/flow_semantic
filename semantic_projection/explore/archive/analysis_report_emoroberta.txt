@@ -1,0 +1,33 @@
+Word-level EmoRoBERTa distress-relaxed projection analysis report
+Generated: 2026-04-28 11:22:54
+
+Saved tables:
+- coefficients_mixed_cr2_emoroberta.csv
+- coefficients_lm_cr2_emoroberta.csv
+- pairwise_comparison_mixed_vs_lm_cr2_emoroberta.csv
+- significant_pairwise_findings_emoroberta.csv
+
+Mixed-model coefficients (CR2):
+        Coef      beta       SE null_value     tstat  df_Satt     p_Satt
+ (Intercept) -8.204600 1.369327          0 -5.991703 4.176996 0.00339426
+  condition1 -2.948596 1.511446          0 -1.950844 9.164539 0.08227650
+  condition2 -3.563688 2.004959          0 -1.777437 8.710452 0.11032917
+
+Sensitivity LM coefficients (CR2):
+        Coef      beta       SE null_value     tstat  df_Satt     p_Satt
+ (Intercept) -8.204600 1.369327          0 -5.991703 4.176996 0.00339426
+  condition1 -2.948596 1.511446          0 -1.950844 9.164539 0.08227650
+  condition2 -3.563688 2.004959          0 -1.777437 8.710452 0.11032917
+
+Pairwise contrasts from CR2 Wald tests:
+Adjusted p values use Bonferroni correction across the 3 planned contrasts.
+ comparison raw_p_value bonferroni_p_value
+   1 vs ref  0.05107563          0.1532269
+   2 vs ref  0.07549641          0.2264892
+     1 vs 2  0.70033556          1.0000000
+
+Model comparison of pairwise p values (mixed model vs sensitivity LM):
+ comparison p_mixed_CR2 p_mixed_CR2_bonferroni   p_lm_CR2 p_lm_CR2_bonferroni
+     1 vs 2  0.70033556              1.0000000 0.70033556           1.0000000
+   1 vs ref  0.05107563              0.1532269 0.05107563           0.1532269
+   2 vs ref  0.07549641              0.2264892 0.07549641           0.2264892

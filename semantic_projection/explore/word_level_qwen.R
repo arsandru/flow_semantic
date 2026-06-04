@@ -153,11 +153,13 @@ comp_df_mixed <- data.frame(
   p_mixed_CR2 = sapply(pw_tests, function(x) x$p_val),
   stringsAsFactors = FALSE
 )
+comp_df_mixed$p_mixed_CR2_bonferroni <- p.adjust(comp_df_mixed$p_mixed_CR2, method = "bonferroni")
 comp_df_lm <- data.frame(
   comparison = names(pw_tests_lm),
   p_lm_CR2 = sapply(pw_tests_lm, function(x) x$p_val),
   stringsAsFactors = FALSE
 )
+comp_df_lm$p_lm_CR2_bonferroni <- p.adjust(comp_df_lm$p_lm_CR2, method = "bonferroni")
 comparison_check <- merge(comp_df_mixed, comp_df_lm, by = "comparison", all = TRUE)
 print(comparison_check)
 
@@ -283,7 +285,7 @@ report_lines <- c(
   "Adjusted p values use Bonferroni correction across the 3 planned contrasts.",
   capture.output(print(pairwise_raw_df, row.names = FALSE)),
   "",
-  "Model comparison of raw pairwise p values (mixed model vs sensitivity LM):",
+  "Model comparison of pairwise p values (mixed model vs sensitivity LM):",
   capture.output(print(comparison_check, row.names = FALSE))
 )
 

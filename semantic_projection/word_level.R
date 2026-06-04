@@ -14,9 +14,10 @@ semantic_dir <- file.path(project_dir, "semantic_projection")
 library(lme4)
 library(lmerTest)
 library(clubSandwich)
+library(emmeans)
 library(performance)
 library(ggplot2)
-data <- read.csv(file.path(semantic_dir, "semantic_projection_roberta.csv"), stringsAsFactors = FALSE)
+data <- read.csv(file.path(semantic_dir, "semantic_projection_primary.csv"), stringsAsFactors = FALSE)
 data$condition <- factor(data$condition)
 data$condition <- relevel(data$condition, ref = "3")
 
@@ -79,6 +80,11 @@ coef_tab <- coef_test(
 )
 print(coef_tab)
 
+emm_words <- emmeans(model_words, ~ condition)
+emm_words_pairs <- pairs(emm_words)
+print(emm_words)
+print(emm_words_pairs)
+
 beta_names <- names(fixef(model_words))
 
 V <- vcovCR(
@@ -133,6 +139,11 @@ coef_tab_lm <- coef_test(
 )
 print(coef_tab_lm)
 
+emm_lm <- emmeans(model_lm, ~ condition)
+emm_lm_pairs <- pairs(emm_lm)
+print(emm_lm)
+print(emm_lm_pairs)
+
 beta_names_lm <- names(coef(model_lm))
 pw_tests_lm <- lapply(L_pairwise, function(L) {
   Wald_test(
@@ -148,44 +159,26 @@ comp_df_mixed <- data.frame(
   p_mixed_CR2 = sapply(pw_tests, function(x) x$p_val),
   stringsAsFactors = FALSE
 )
+comp_df_mixed$p_mixed_CR2_bonferroni <- p.adjust(comp_df_mixed$p_mixed_CR2, method = "bonferroni")
 comp_df_lm <- data.frame(
   comparison = names(pw_tests_lm),
   p_lm_CR2 = sapply(pw_tests_lm, function(x) x$p_val),
   stringsAsFactors = FALSE
 )
+comp_df_lm$p_lm_CR2_bonferroni <- p.adjust(comp_df_lm$p_lm_CR2, method = "bonferroni")
 comparison_check <- merge(comp_df_mixed, comp_df_lm, by = "comparison", all = TRUE)
 print(comparison_check)
 
-means_df <- aggregate(
-  projection_fear_vs_calm ~ condition,
-  data = data,
-  FUN = function(x) c(
-    mean = mean(x, na.rm = TRUE),
-    SE = sd(x, na.rm = TRUE) / sqrt(sum(!is.na(x)))
-  )
+# Standardized model-estimated condition means (residual-SD scaled)
+resid_sd <- sigma(model_words)
+means_summary <- as.data.frame(summary(emm_words, infer = c(TRUE, TRUE)))
+means_df <- data.frame(
+  condition = sub("^condition", "", means_summary$condition),
+  mean = means_summary$emmean / resid_sd,
+  lower = means_summary$lower.CL / resid_sd,
+  upper = means_summary$upper.CL / resid_sd,
+  stringsAsFactors = FALSE
 )
-
-means_df <- do.call(data.frame, means_df)
-names(means_df) <- c("condition", "mean", "SE")
-# n per condition
-means_df <- aggregate(
-  projection_fear_vs_calm ~ condition,
-  data = data,
-  FUN = function(x) c(
-    mean = mean(x, na.rm = TRUE),
-    SE   = sd(x, na.rm = TRUE) / sqrt(sum(!is.na(x))),
-    n    = sum(!is.na(x))
-  )
-)
-
-means_df <- do.call(data.frame, means_df)
-names(means_df) <- c("condition", "mean", "SE", "n")
-
-# exact 95% CI (t-based)
-means_df$t_crit <- qt(0.975, df = means_df$n - 1)
-means_df$lower  <- means_df$mean - means_df$t_crit * means_df$SE
-means_df$upper  <- means_df$mean + means_df$t_crit * means_df$SE
-
 
 means_df$condition <- factor(as.character(means_df$condition), levels = c("3", "1", "2"))
 
@@ -202,7 +195,7 @@ if (nrow(sig_df) > 0) {
   )
 
   y_max <- max(means_df$upper, na.rm = TRUE)
-  annot_df$y <- y_max + seq_len(nrow(annot_df)) * 2
+  annot_df$y <- y_max + seq_len(nrow(annot_df)) * 0.18
 } else {
   annot_df <- data.frame()
 }
@@ -214,31 +207,30 @@ cond_colors <- c(
 )
 
 p <- ggplot(means_df, aes(x = condition, y = mean, color = condition)) +
-  geom_point(size = 3) +
+  geom_hline(yintercept = 0, linetype = "dashed", color = "gray45") +
+  geom_point(size = 3.2) +
   geom_errorbar(aes(ymin = lower, ymax = upper), width = 0.15) +
   scale_color_manual(
     values = cond_colors,
     breaks = c("1", "2", "3"),
-    labels = c("Flow (VR+Meditation)", "VR Only", "Control (Care as Usual)")
+    labels = c("VR+Meditation", "VR Only", "Control")
   ) +
   scale_x_discrete(
     breaks = c("3", "1", "2"),
-    labels = c("Control", "Flow", "VR Only")
+    labels = c("Control", "VR+Meditation", "VR Only")
   ) +
   labs(
-    x = "Condition",
-    y = "Mean fear-calm projection",
-    title = "Condition means (CR2-adjusted)",
-    subtitle = "Only Bonferroni-significant pairwise differences shown; error bars are t-based 95% CI",
-    color = "Group"
+    x = NULL,
+    y = "Standardized projection"
   ) +
-  theme_minimal()+
-    theme(
-        legend.position = "none",
-        axis.title = element_text(size = 18),
-        axis.text = element_text(size = 15),
-        plot.title = element_text(size = 18),
-        plot.subtitle = element_text(size = 13))
+  theme_minimal() +
+  theme(
+    legend.position = "none",
+    axis.title = element_text(size = 18),
+    axis.text = element_text(size = 15),
+    axis.text.x = element_text(size = 15),
+    axis.text.y = element_text(size = 15)
+  )
 
 if (nrow(annot_df) > 0) {
   p <- p +
@@ -253,7 +245,7 @@ if (nrow(annot_df) > 0) {
       aes(
         x = (as.numeric(factor(x1, levels = levels(means_df$condition))) +
              as.numeric(factor(x2, levels = levels(means_df$condition)))) / 2,
-        y = y + 0.5,
+        y = y + 0.04,
         label = label
       ),
       inherit.aes = FALSE,
@@ -265,8 +257,8 @@ if (nrow(annot_df) > 0) {
 p
 
 
-ggsave(file.path(semantic_dir, "semantic_projection_final.pdf"), plot = p, width = 10, height = 5)
-ggsave(file.path(semantic_dir, "semantic_projection_final.svg"), plot = p, width = 10, height = 5)
+ggsave(file.path(semantic_dir, "semantic_projection_primary_final.pdf"), plot = p, width = 10, height = 5)
+ggsave(file.path(semantic_dir, "semantic_projection_primary_final.svg"), plot = p, width = 10, height = 5)
 
 # -----------------------------
 # 7) Reporting outputs
@@ -274,37 +266,54 @@ ggsave(file.path(semantic_dir, "semantic_projection_final.svg"), plot = p, width
 coef_mixed_df <- as.data.frame(coef_tab)
 coef_lm_df <- as.data.frame(coef_tab_lm)
 
-write.csv(coef_mixed_df, file.path(semantic_dir, "coefficients_mixed_cr2.csv"), row.names = FALSE)
-write.csv(coef_lm_df, file.path(semantic_dir, "coefficients_lm_cr2.csv"), row.names = FALSE)
-write.csv(comparison_check, file.path(semantic_dir, "pairwise_comparison_mixed_vs_lm_cr2.csv"), row.names = FALSE)
-write.csv(pairwise_raw_df, file.path(semantic_dir, "significant_pairwise_findings.csv"), row.names = FALSE)
+write.csv(coef_mixed_df, file.path(semantic_dir, "coefficients_mixed_cr2_primary.csv"), row.names = FALSE)
+write.csv(coef_lm_df, file.path(semantic_dir, "coefficients_lm_cr2_primary.csv"), row.names = FALSE)
+write.csv(comparison_check, file.path(semantic_dir, "pairwise_comparison_mixed_vs_lm_cr2_primary.csv"), row.names = FALSE)
+write.csv(pairwise_raw_df, file.path(semantic_dir, "significant_pairwise_findings_primary.csv"), row.names = FALSE)
+write.csv(means_df, file.path(semantic_dir, "effect_sizes_primary.csv"), row.names = FALSE)
 
 # Text report
 report_lines <- c(
-  "Word-level fear-calm projection analysis report",
+  "Word-level primary Qwen relief-distress projection analysis report",
   sprintf("Generated: %s", format(Sys.time(), "%Y-%m-%d %H:%M:%S")),
   "",
   "Saved tables:",
-  "- coefficients_mixed_cr2.csv",
-  "- coefficients_lm_cr2.csv",
-  "- pairwise_comparison_mixed_vs_lm_cr2.csv",
-  "- significant_pairwise_findings.csv",
+  "- coefficients_mixed_cr2_primary.csv",
+  "- coefficients_lm_cr2_primary.csv",
+  "- pairwise_comparison_mixed_vs_lm_cr2_primary.csv",
+  "- significant_pairwise_findings_primary.csv",
+  "- effect_sizes_primary.csv",
   "",
   "Mixed-model coefficients (CR2):",
   capture.output(print(coef_mixed_df, row.names = FALSE)),
   "",
+  "Mixed-model emmeans:",
+  capture.output(print(emm_words)),
+  "",
+  "Mixed-model emmeans pairwise comparisons:",
+  capture.output(print(emm_words_pairs)),
+  "",
   "Sensitivity LM coefficients (CR2):",
   capture.output(print(coef_lm_df, row.names = FALSE)),
+  "",
+  "Sensitivity LM emmeans:",
+  capture.output(print(emm_lm)),
+  "",
+  "Sensitivity LM emmeans pairwise comparisons:",
+  capture.output(print(emm_lm_pairs)),
   "",
   "Pairwise contrasts from CR2 Wald tests:",
   "Adjusted p values use Bonferroni correction across the 3 planned contrasts.",
   capture.output(print(pairwise_raw_df, row.names = FALSE)),
   "",
-  "Model comparison of raw pairwise p values (mixed model vs sensitivity LM):",
+  "Mixed-model standardized condition means (residual-SD scaled):",
+  capture.output(print(means_df, row.names = FALSE)),
+  "",
+  "Model comparison of pairwise p values (mixed model vs sensitivity LM):",
   capture.output(print(comparison_check, row.names = FALSE))
 )
 
-writeLines(report_lines, file.path(semantic_dir, "analysis_report.txt"))
+writeLines(report_lines, file.path(semantic_dir, "analysis_report_primary.txt"))
 cat(paste(report_lines, collapse = "\n"), "\n")
 
 
@@ -337,4 +346,4 @@ writeLines(c(
   "",
   "model_performance(model_words):",
   capture.output(diag_perf)
-), file.path(semantic_dir, "diagnostics_report.txt"))
+), file.path(semantic_dir, "diagnostics_report_primary.txt"))

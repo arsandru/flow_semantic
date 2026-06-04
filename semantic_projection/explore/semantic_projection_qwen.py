@@ -11,7 +11,7 @@ from sklearn.decomposition import PCA
 
 MODEL_ID = "Qwen/Qwen3-Embedding-0.6B"
 EMBED_INSTRUCTION = (
-    "Instruct: Represent the emotional meaning of this word or short phrase.\nText: "
+    "Instruct: Represent the emotional valence and intensity of this word or short phrase.\nText: "
 )
 BASE_DIR = Path(__file__).resolve().parent
 PROJECT_DIR = BASE_DIR.parent.parent
@@ -34,11 +34,15 @@ def encode_word(w: str) -> np.ndarray:
     key = w.strip().lower()
     w = w.replace("_", " ")
     if key == "tune_out":
-        w = "tune out and relax"
-    elif key == "distracted":
-        w = "distracted from worries"
-    elif key == "engaged":
-        w = "immersed"
+        w = "tune out"
+    #elif key == "distracted":
+    #    w = "positively distracted"
+    elif key in {"bit_worried", "bit worried"}:
+        w = "a bit worried"
+    elif key in {"bit_bothered", "bit bothered"}:
+        w = "a bit bothered"
+   # elif key == "engaged":
+   #     w = "positively engaged"
     elif key in {"like", "liked"}:
         w = "liked it"
 
@@ -57,12 +61,10 @@ def get_semantic_subspace(pos_words, neg_words, encode_fn):
 
 
 distress_words = [
-    "anxiety", "anxious", "nervous", "worried", "bothered",
-    "uncomfortable", "distressed", "tense", "uneasy", "overwhelmed"
+    "distressed", "danger", "apprehensive", "anguish", "torment", "agitated"
 ]
 relaxed_words = [
-    "calm", "relaxed", "relaxing", "serene", "peaceful",
-    "comfortable", "comforting", "at ease", "soothed", "settled"
+    "relieved", "comforted", "security", "soothed", "reassured", "at ease"
 ]
 
 a_vec, b_vec, distress_relaxed_axis = get_semantic_subspace(
@@ -88,8 +90,15 @@ probe_words = [
     "somewhat anxious",
     "a bit anxious",
     "some anxiety",
+    "a little bothered",
+    "very nervous",
+    "extremely nervous",
     "calm",
-    "relaxed"
+    "relaxed",
+    "engaged",
+    "immersed",
+    "distracted",
+    "positively distracted"
 ]
 
 
@@ -251,7 +260,7 @@ cond_colors = {
     "2": "#ffb482",
     "3": "#a1c9f4"
 }
-plot_df["x_plot"] = plot_df.apply(lambda row: row["x"] + condition_offsets[row["condition"]][0], axis=1)
+plot_df["x_plot"] = plot_df["x"]
 plot_df["y_plot"] = plot_df.apply(lambda row: row["y"] + condition_offsets[row["condition"]][1], axis=1)
 plot_df.to_csv(OUTPUT_DIR / "semantic_projection_qwen_plot_points.csv", index=False)
 

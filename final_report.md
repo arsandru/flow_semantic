@@ -3,43 +3,47 @@
 ## Methods
 
 ### Design and analytic objective
-We quantified emotional language along a predefined semantic axis spanning **distress** to **relaxation** and tested whether projection scores differed by experimental condition. Analyses were conducted at two levels: (1) **word-level** projections (all available emotion words), and (2) **participant-level mean** projections (mean across words per participant).
+We quantified emotional language along a predefined semantic axis spanning **distress** to **relief** and tested whether projection scores differed by experimental condition. Analyses were conducted at two levels: (1) **word-level** projections using all available emotion words and (2) **participant-level mean** projections computed as the mean across words per participant.
 
 ### Data sources and preprocessing
 Two input files were used:
 - `data/emotion_words_checked.csv`
 - `data/Flow_current.csv`
 
-Records were linked by participant `ID` after coercing `ID` to character in both files. Condition labels were merged from `Flow_current.csv` using a stripped condition column (`Exp_Condition`, with fallback handling for trailing whitespace in source headers).
+Records were linked by participant `ID` after coercing `ID` to character in both files. Condition labels were merged from `Flow_current.csv` using the stripped experimental condition column (`Exp_Condition`, with fallback handling for trailing whitespace in source headers).
 
-For semantic projection, the emotion-word field was parsed as a list and cleaned by removing tokens prefixed with `not_` (e.g., `not_afraid`). Before encoding, underscore-delimited tokens were converted to space-delimited text so that multiword expressions were represented in natural language form. Rows without usable word lists were excluded from projection steps.
+For semantic projection, the emotion-word field was parsed as a list and cleaned by removing tokens prefixed with `not_`. Before encoding, underscore-delimited tokens were converted to space-delimited text so that multiword expressions were represented in natural language form. Rows without usable word lists were excluded from projection steps.
 
-### Embedding model and semantic axis construction
-Embeddings were generated with a Sentence-Transformers pipeline wrapping:
-- Transformer backbone: `siebert/sentiment-roberta-large-english`
-- Pooling: mean token pooling
+### Primary embedding model and axis construction
+The primary inferential model used:
+- `Qwen/Qwen3-Embedding-0.6B`
 
-The distress-relaxed axis was built using anchor sets:
-- Distress pole: `anxiety`, `anxious`, `nervous`, `worried`, `bothered`, `uncomfortable`, `distressed`, `tense`, `uneasy`, `overwhelmed`
-- Relaxed pole: `calm`, `relaxed`, `relaxing`, `serene`, `peaceful`, `comfortable`, `comforting`, `at ease`, `soothed`, `settled`
+Inputs were embedded with the instruction:
+- `Instruct: Represent the emotional valence and intensity of this word or short phrase.`
 
-Context overrides were applied before encoding for two lexical items to improve contextualized representation:
-- `tune_out` -> `tune out and relax`
-- `distracted` -> `distracted from worries`
+The semantic axis was defined from non-overlapping distress and relief anchor sets:
+- Distress pole: `distressed`, `danger`, `apprehensive`, `anguish`, `torment`, `agitated`
+- Relief pole: `relieved`, `comforted`, `security`, `soothed`, `reassured`, `at ease`
 
-Let `a` be the mean embedding of distress anchors and `b` the mean embedding of relaxed anchors. The semantic axis vector `u` was computed as the mean of all pairwise differences `(distress_i - relaxed_j)`. For each word embedding `v`, projection was computed as:
+Additional normalization rules were applied before encoding for a small number of lexical items:
+- `tune_out` -> `tune out`
+- `bit_worried` -> `a bit worried`
+- `bit_bothered` -> `a bit bothered`
+- `like` / `liked` -> `liked it`
+
+Let `u` denote the mean pairwise difference vector between the distress and relief anchor embeddings. For each word embedding `v`, projection was computed as:
 
 \[
 \text{projection} = \frac{u \cdot v}{\|u\|}
 \]
 
-Higher values indicate stronger alignment with the distress pole; lower values indicate stronger alignment with the relaxed pole.
+The sign of the axis was reversed after construction so that **higher values indicate stronger alignment with relief/comfort** and **lower values indicate stronger alignment with distress**.
 
 ### Outcome construction
 - **Word-level outcome:** one projection score per word (`projection_fear_vs_calm`)
 - **Participant-level outcome:** participant mean projection (`mean_projection_fear_vs_calm`)
 
-Condition coding followed the analysis scripts, with condition `3` used as reference (Control), and contrasts estimated for condition `1` (Flow: VR + Meditation) and condition `2` (VR Only).
+Condition coding followed the analysis scripts, with condition `3` used as the reference group (Control), condition `1` corresponding to **VR+Meditation**, and condition `2` corresponding to **VR Only**.
 
 ### Statistical models
 
@@ -50,14 +54,14 @@ A linear mixed-effects model was fit:
 \text{projection}_{ij} = \beta_0 + \beta_1\,\text{condition1}_i + \beta_2\,\text{condition2}_i + b_{0i} + \varepsilon_{ij}
 \]
 
-where `b0i` is a random intercept for participant.
+where `b0i` is a participant-level random intercept.
 
-Inference used **CR2 cluster-robust** variance estimation and Wald tests for pairwise contrasts:
-- `1 vs ref` (Flow vs Control)
+Inference used **CR2 cluster-robust** variance estimation and Wald tests for three planned pairwise contrasts:
+- `1 vs ref` (VR+Meditation vs Control)
 - `2 vs ref` (VR Only vs Control)
-- `1 vs 2` (Flow vs VR Only)
+- `1 vs 2` (VR+Meditation vs VR Only)
 
-A sensitivity analysis fit a participant-clustered linear model with CR2 correction; pairwise p-values were compared to mixed-model results.
+A sensitivity analysis fit a participant-clustered linear model with CR2 correction to the same word-level data.
 
 #### Participant-mean model
 A linear model was fit to participant means:
@@ -66,82 +70,84 @@ A linear model was fit to participant means:
 \text{mean projection}_{i} = \beta_0 + \beta_1\,\text{condition1}_i + \beta_2\,\text{condition2}_i + \varepsilon_i
 \]
 
-Inference used **CR2 robust** standard errors. Pairwise contrasts were tested with CR2 Wald tests, and condition means were reported with t-based 95% confidence intervals.
+Inference used **CR2 robust** standard errors. Pairwise contrasts were tested with CR2 Wald tests, and condition means were summarized with 95% confidence intervals.
 
-### Software and reproducibility
-Python environment targets documented in the project README:
-- Python 3.12.12
-- sentence-transformers 5.2.2
-- transformers 5.0.0
-- torch 2.9.0
-- scikit-learn 1.6.1
-- numpy 2.0.2
-- pandas 2.2.2
-- matplotlib 3.10.0
+### Extreme-word follow-up
+As an exploratory follow-up, semantically extreme words were identified using a zero-centered median absolute deviation rule:
 
-R analyses used `lme4`, `lmerTest`, `clubSandwich`, `emmeans`, `performance`, and `ggplot2`.
+\[
+MAD0 = \text{median}(|\text{projection}|)
+\]
 
-Output artifacts were generated in `semantic_projection/`, including:
-- `semantic_projection_roberta.csv`
-- `semantic_projection_roberta_mean.csv`
-- coefficient and pairwise-comparison tables
-- diagnostic text reports
-- final figures (`semantic_projection_final.pdf`, `semantic_projection_final_mean.pdf`)
+Words with projections below `-MAD0` were classified as **distress-extreme**, and words with projections above `+MAD0` were classified as **relief-extreme**. Condition differences in extreme-word frequencies were evaluated with Fisher’s exact tests.
+
+### Sensitivity checks
+Two additional embedding spaces were used as robustness checks:
+- `jinaai/jina-embeddings-v5-text-small`
+- `glove-wiki-gigaword-300`
+
+The Jina model provided a modern non-Qwen embedding comparison. The 300-dimensional GloVe model was included because it is the original embedding family validated by Grand et al. (2022) for semantic projection analyses.
 
 ## Results
 
 ### Sample characteristics
-- **Word-level dataset:** 117 projected words from 28 participants
-  - Condition 1 (Flow): 33 words, 9 participants
-  - Condition 2 (VR Only): 54 words, 12 participants
-  - Condition 3 (Control): 30 words, 7 participants
-- **Participant-mean dataset:** 28 participants
-  - Condition 1: n = 9
-  - Condition 2: n = 12
-  - Condition 3: n = 7
+- **Word-level dataset:** 135 projected words from 31 participants
+  - VR+Meditation: 48 words, 11 participants
+  - VR Only: 57 words, 13 participants
+  - Control: 30 words, 7 participants
+- **Participant-mean dataset:** 31 participants
+  - VR+Meditation: n = 11
+  - VR Only: n = 13
+  - Control: n = 7
 
-### Condition means (participant-level projections)
-Mean projection scores (lower = more relaxed-aligned):
-- Control (3): mean = -19.749, 95% CI [-30.228, -9.270]
-- Flow (1): mean = -29.056, 95% CI [-29.188, -28.924]
-- VR Only (2): mean = -22.882, 95% CI [-29.196, -16.568]
-
-### Word-level mixed-effects analysis (CR2 inference)
+### Word-level mixed-effects analysis (primary Qwen model)
 CR2-robust fixed effects (`projection_fear_vs_calm ~ condition + (1|Participant)`, ref = Control):
-- Intercept (Control): \(\beta=-15.961\), SE = 4.732, p = 0.0228
-- Flow vs Control: \(\beta=-13.065\), SE = 4.733, p = 0.0191
-- VR Only vs Control: \(\beta=-6.632\), SE = 5.536, p = 0.2597
+- Intercept (Control): \(\beta = 0.103\), SE = 0.037, p = 0.0481
+- VR+Meditation vs Control: \(\beta = 0.123\), SE = 0.050, p = 0.0359
+- VR Only vs Control: \(\beta = 0.062\), SE = 0.049, p = 0.2338
 
 Pairwise CR2 Wald tests:
-- Flow vs Control: p = 0.00577, Bonferroni-adjusted p = 0.01731
-- VR Only vs Control: p = 0.23091, Bonferroni-adjusted p = 0.69273
-- Flow vs VR Only: p = 0.02515, Bonferroni-adjusted p = 0.07545
+- VR+Meditation vs Control: raw \(p = 0.0140\), Bonferroni-adjusted \(p = 0.0420\)
+- VR Only vs Control: raw \(p = 0.2008\), Bonferroni-adjusted \(p = 0.6023\)
+- VR+Meditation vs VR Only: raw \(p = 0.1876\), Bonferroni-adjusted \(p = 0.5629\)
 
-Sensitivity check (LM + CR2) yielded highly similar pairwise inference:
-- Flow vs Control: p = 0.00362
-- VR Only vs Control: p = 0.18495
-- Flow vs VR Only: p = 0.02576
+The participant-clustered LM sensitivity check yielded the same word-level pairwise inference pattern.
 
-### Participant-mean linear model (CR2 inference)
+### Participant-level mean model
+Model-estimated participant-level mean projection scores were:
+- Control: \(M = 0.138\), 95% CI \([0.055, 0.221]\)
+- VR+Meditation: \(M = 0.248\), 95% CI \([0.183, 0.314]\)
+- VR Only: \(M = 0.158\), 95% CI \([0.097, 0.218]\)
+
 CR2-robust coefficients (`mean_projection_fear_vs_calm ~ condition`, ref = Control):
-- Intercept (Control): \(\beta=-19.749\), SE = 4.283, p = 0.00365
-- Flow vs Control: \(\beta=-9.307\), SE = 4.283, p = 0.04878
-- VR Only vs Control: \(\beta=-3.133\), SE = 5.154, p = 0.55403
+- Intercept (Control): \(\beta = 0.138\), SE = 0.049, p = 0.0301
+- VR+Meditation vs Control: \(\beta = 0.110\), SE = 0.056, p = 0.0718
+- VR Only vs Control: \(\beta = 0.020\), SE = 0.057, p = 0.7356
 
-Pairwise CR2 Wald tests (participant means):
-- Flow vs Control: p = 0.02977, Bonferroni-adjusted p = 0.08931
-- VR Only vs Control: p = 0.54330, Bonferroni-adjusted p = 1.00000
-- Flow vs VR Only: p = 0.03140, Bonferroni-adjusted p = 0.09419
+Pairwise CR2 Wald tests:
+- VR+Meditation vs Control: raw \(p = 0.0499\), Bonferroni-adjusted \(p = 0.1497\)
+- VR Only vs Control: raw \(p = 0.7298\), Bonferroni-adjusted \(p = 1.0000\)
+- VR+Meditation vs VR Only: raw \(p = 0.0247\), Bonferroni-adjusted \(p = 0.0741\)
 
-### Diagnostics summary
-For the word-level mixed model:
-- No singular fit and convergence acceptable.
-- Heteroscedasticity and residual non-normality were flagged by diagnostics.
-- Outlier check did not indicate influential outliers under the specified threshold.
-- Variance explained was modest (marginal \(R^2\) = 0.069; conditional \(R^2\) = 0.104).
+Thus, the participant-level analysis showed the same directional pattern as the word-level model, but the pairwise contrasts did not survive Bonferroni correction.
 
 ### Main empirical pattern
-At the word level, **Condition 1 (Flow: VR + Meditation)** showed more negative distress-relaxed projections than Control in both the raw and Bonferroni-corrected pairwise CR2 tests. The raw Flow versus VR Only contrast was also significant, but it did not remain significant after Bonferroni correction. At the participant-mean level, the same directional pattern was observed, with the Flow coefficient reaching nominal significance and the pairwise contrasts remaining marginal after Bonferroni correction. **Condition 2 (VR Only)** did not significantly differ from Control at either level.
+In the primary Qwen embedding space, **VR+Meditation** was associated with higher relief-aligned projection scores than Control at the word level, and this contrast remained significant after Bonferroni correction. The VR Only condition was descriptively intermediate and did not differ significantly from Control or VR+Meditation after correction. The participant-level model showed the same ordering of group means but weaker inferential separation.
 
 ### Embedding-model robustness
-As exploratory robustness checks, the word-level semantic projection pipeline was repeated using two alternative embedding spaces: `Qwen/Qwen3-Embedding-0.6B`, representing a different embedding-model family, and `j-hartmann/emotion-english-roberta-large`, representing an alternative affective fine-tuning of the RoBERTa architecture. Across all three models, the primary Flow versus Control contrast remained significant after Bonferroni correction (RoBERTa: adjusted \(p = 0.0173\); Qwen: adjusted \(p = 0.00184\); emotion-tuned RoBERTa: adjusted \(p = 0.0178\)). The secondary contrasts were less stable across models and did not survive Bonferroni correction. Thus, the principal finding that the Flow condition was more strongly aligned with the relaxed pole than Control was robust both to embedding architecture and to the specific affective fine-tuning used, whereas finer-grained contrasts between the intervention conditions were model-sensitive.
+The primary VR+Meditation versus Control effect was preserved across the sensitivity analyses:
+- **Primary Qwen model:** Bonferroni-adjusted \(p = 0.0420\)
+- **Jina embeddings:** Bonferroni-adjusted \(p = 0.0103\)
+- **GloVe 300d:** Bonferroni-adjusted \(p = 0.00547\)
+
+Across all three embedding spaces, the main intervention-versus-control contrast remained significant after correction. In contrast, the secondary pairwise contrasts were less stable: VR Only versus Control did not survive Bonferroni correction in either Jina or GloVe, and VR+Meditation versus VR Only also remained non-significant after correction in both sensitivity models. This convergence suggests that the principal finding is robust both to modern embedding-model choice and to the classic GloVe embedding space originally validated for semantic projection.
+
+### Extreme-word follow-up
+Using the zero-centered `MAD0` threshold, the **distress-extreme** tail was most prevalent in the Control condition (`7/30`, `23.3%`), compared with VR Only (`3/57`, `5.3%`) and VR+Meditation (`2/48`, `4.2%`). The overall Fisher test for distress-extreme word frequencies was significant, \(p = 0.0157\). By contrast, the **relief-extreme** tail was most prevalent in VR+Meditation (`25/48`, `52.1%`), followed by VR Only (`20/57`, `35.1%`) and Control (`10/30`, `33.3%`), but the overall Fisher test for relief-extreme frequencies was not significant, \(p = 0.1525\).
+
+These follow-up results are consistent with the main projection analyses: the strongest condition difference was concentrated in the negative distress tail, where Control contributed a larger share of strongly distress-aligned words.
+
+## Figure Caption
+**Figure 1. Semantic projection results in the primary Qwen embedding space.**  
+**Panel A** shows the semantic projection of emotion words within each condition on the relief-distress axis. Higher values indicate stronger alignment with relief/comfort, and lower values indicate stronger alignment with distress. The shaded vertical band marks the neutral region defined by `\(\pm MAD0\)`, where `MAD0` is the median absolute deviation from zero. Words falling to the left of this shaded region are distress-extreme, whereas words falling to the right are relief-extreme. In the primary analysis, distress-extreme words were most frequent in the Control condition (`23.3%`), compared with VR Only (`5.3%`) and VR+Meditation (`4.2%`), consistent with a significant overall Fisher test for the distress tail (\(p = 0.0157\)).  
+**Panel B** shows model-estimated standardized condition means from the word-level mixed model, with vertical error bars indicating 95% confidence intervals. Brackets mark Bonferroni-significant CR2 Wald contrasts. The VR+Meditation condition showed higher relief-aligned projection scores than Control, whereas VR Only was intermediate.

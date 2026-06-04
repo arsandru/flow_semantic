@@ -1,0 +1,123 @@
+Distress-extreme Fisher report: emoroberta
+Generated: 2026-04-28 18:02:54
+
+Input file: /Users/razvan/Documents/flow_scripts/semantic_projection/explore/semantic_projection_emoroberta.csv
+Zero-centered thresholding rule:
+MAD0 = 12.719483
+Multiplier = 1.00
+Lower threshold = -12.719483
+Upper threshold = 12.719483
+
+Summary:
+Control has the highest rate of distress-extreme words (0/30, 0.0%).
+Flow has the highest rate of relief-extreme words (22/48, 45.8%).
+VR Only falls in between on both tails (distress: 0/57, 0.0%; relief: 29/57, 50.9%).
+
+Condition-level extreme counts:
+# A tibble: 3 × 8
+  condition n_words distress_extremes non_distress_words distress_pct
+  <fct>       <int>             <int>              <int>        <dbl>
+1 3              30                 0                 30         0   
+2 2              57                 0                 57         0   
+3 1              48                 1                 47         2.08
+# ℹ 3 more variables: relief_extremes <int>, non_relief_words <int>,
+#   relief_pct <dbl>
+
+Overall Fisher test on distress-extreme 3x2 table (simulated p-value):
+p = 0.574514
+
+Pairwise Fisher tests for distress-extreme words:
+ comparison     tail condition_a condition_b   p_value odds_ratio conf_low
+     1_vs_3 distress           1           3 1.0000000          0        0
+     2_vs_3 distress           2           3 1.0000000          0        0
+     1_vs_2 distress           1           2 0.4571429          0        0
+ conf_high bonferroni_p_value
+  62.34019                  1
+       Inf                  1
+  32.84243                  1
+
+Overall Fisher test on relief-extreme 3x2 table (simulated p-value):
+p = 0.900851
+
+Pairwise Fisher tests for relief-extreme words:
+ comparison   tail condition_a condition_b   p_value odds_ratio  conf_low
+     1_vs_3 relief           1           3 0.8169558  1.1792800 0.4294687
+     2_vs_3 relief           2           3 1.0000000  0.9658924 0.3632997
+     1_vs_2 relief           1           2 0.6960750  1.2216607 0.5290549
+ conf_high bonferroni_p_value
+  3.249843                  1
+  2.566634                  1
+  2.836973                  1
+
+Distress-extreme words:
+ condition Participant           word projection_fear_vs_calm
+         1          15 little_worried                14.08839
+
+Relief-extreme words:
+ condition Participant          word projection_fear_vs_calm
+         3           1          calm               -24.18395
+         3           1          calm               -24.18395
+         3           5          calm               -24.18395
+         3           5          calm               -24.18395
+         3           5        calmer               -23.84060
+         3           3 very relaxing               -23.75415
+         3           5   comfortable               -23.06825
+         3           1     confident               -21.66132
+         3           6     confident               -21.66132
+         3           6      peaceful               -19.79473
+         3          27      peaceful               -19.79473
+         3          31     excellent               -18.50302
+         3          27          good               -16.27322
+         3           3       amusing               -16.00882
+         3           3    acceptable               -13.86771
+         2           9          calm               -24.18395
+         2          11          calm               -24.18395
+         2          19          calm               -24.18395
+         2          19          calm               -24.18395
+         2          21          calm               -24.18395
+         2          21          calm               -24.18395
+         2          22          calm               -24.18395
+         2          22          calm               -24.18395
+         2          36          calm               -24.18395
+         2           9      pleasant               -23.50513
+         2           9      pleasant               -23.50513
+         2          21      pleasant               -23.50513
+         2          17   comfortable               -23.06825
+         2          10       calming               -21.95461
+         2          19         happy               -21.68852
+         2           7          good               -16.27322
+         2           8          good               -16.27322
+         2           9          good               -16.27322
+         2          17          good               -16.27322
+         2          17          good               -16.27322
+         2          19          good               -16.27322
+         2          22          good               -16.27322
+         2          35          good               -16.27322
+         2           9         liked               -15.80249
+         2          35         liked               -15.80249
+         2          18      positive               -15.59982
+         2          22    comforting               -15.51078
+         2          22    comforting               -15.51078
+         2           8          cool               -15.11265
+         1          13          calm               -24.18395
+         1          15          calm               -24.18395
+         1          26          calm               -24.18395
+         1          30          calm               -24.18395
+         1          37          calm               -24.18395
+         1          38          calm               -24.18395
+         1          38          calm               -24.18395
+         1          41          calm               -24.18395
+         1          41          calm               -24.18395
+         1          41          calm               -24.18395
+         1          15     confident               -21.66132
+         1          41     confident               -21.66132
+         1          26      peaceful               -19.79473
+         1          32          good               -16.27322
+         1          37          good               -16.27322
+         1           4         liked               -15.80249
+         1          41         liked               -15.80249
+         1          45         liked               -15.80249
+         1          15      positive               -15.59982
+         1          20      positive               -15.59982
+         1          37        easier               -13.07973
+         1          38        serene               -12.72902

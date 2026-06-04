@@ -1,0 +1,119 @@
+Distress-extreme Fisher report: gemini
+Generated: 2026-04-28 18:45:17
+
+Input file: /Users/razvan/Documents/flow_scripts/semantic_projection/explore/semantic_projection_gemini.csv
+Zero-centered thresholding rule:
+MAD0 = 0.146558
+Multiplier = 1.00
+Lower threshold = -0.146558
+Upper threshold = 0.146558
+
+Summary:
+Control has the highest rate of distress-extreme words (3/30, 10.0%).
+Flow has the highest rate of relief-extreme words (26/48, 54.2%).
+VR Only falls in between on both tails (distress: 1/57, 1.8%; relief: 23/57, 40.4%).
+
+Condition-level extreme counts:
+# A tibble: 3 × 8
+  condition n_words distress_extremes non_distress_words distress_pct
+  <fct>       <int>             <int>              <int>        <dbl>
+1 3              30                 3                 27        10   
+2 2              57                 1                 56         1.75
+3 1              48                 0                 48         0   
+# ℹ 3 more variables: relief_extremes <int>, non_relief_words <int>,
+#   relief_pct <dbl>
+
+Overall Fisher test on distress-extreme 3x2 table (simulated p-value):
+p = 0.048930
+
+Pairwise Fisher tests for distress-extreme words:
+ comparison     tail condition_a condition_b    p_value odds_ratio   conf_low
+     1_vs_3 distress           1           3 0.05336768        Inf 0.68110915
+     2_vs_3 distress           2           3 0.11627907   6.084982 0.46413190
+     1_vs_2 distress           1           2 1.00000000        Inf 0.02160773
+ conf_high bonferroni_p_value
+       Inf          0.1601031
+  331.6583          0.3488372
+       Inf          1.0000000
+
+Overall Fisher test on relief-extreme 3x2 table (simulated p-value):
+p = 0.151188
+
+Pairwise Fisher tests for relief-extreme words:
+ comparison   tail condition_a condition_b   p_value odds_ratio  conf_low
+     1_vs_3 relief           1           3 0.1024270  0.4278441 0.1454165
+     2_vs_3 relief           2           3 0.6433252  0.7416827 0.2594617
+     1_vs_2 relief           1           2 0.1742657  0.5754817 0.2449486
+ conf_high bonferroni_p_value
+  1.198576          0.3072811
+  2.032824          1.0000000
+  1.334141          0.5227970
+
+Distress-extreme words:
+ condition Participant              word projection_fear_vs_calm
+         3           5 extremely_nervous               0.1879783
+         3           1      very_nervous               0.1676606
+         3           5      very_nervous               0.1676606
+         2          10           anxiety               0.1496386
+
+Relief-extreme words:
+ condition Participant          word projection_fear_vs_calm
+         3           3 very relaxing              -0.2106273
+         3          16       relaxed              -0.2029045
+         3           5   comfortable              -0.2025364
+         3           5        calmer              -0.1763274
+         3           6      peaceful              -0.1636410
+         3          27      peaceful              -0.1636410
+         3           1          calm              -0.1516323
+         3           1          calm              -0.1516323
+         3           5          calm              -0.1516323
+         3           5          calm              -0.1516323
+         2           7       relaxed              -0.2029045
+         2           9       relaxed              -0.2029045
+         2          19       relaxed              -0.2029045
+         2          21       relaxed              -0.2029045
+         2          39       relaxed              -0.2029045
+         2          17   comfortable              -0.2025364
+         2          22    comforting              -0.1858878
+         2          22    comforting              -0.1858878
+         2           9      relaxing              -0.1850674
+         2          10      relaxing              -0.1850674
+         2          10       calming              -0.1831081
+         2           9      pleasant              -0.1606291
+         2           9      pleasant              -0.1606291
+         2          21      pleasant              -0.1606291
+         2           9          calm              -0.1516323
+         2          11          calm              -0.1516323
+         2          19          calm              -0.1516323
+         2          19          calm              -0.1516323
+         2          21          calm              -0.1516323
+         2          21          calm              -0.1516323
+         2          22          calm              -0.1516323
+         2          22          calm              -0.1516323
+         2          36          calm              -0.1516323
+         1          32       relaxed              -0.2029045
+         1          32         relax              -0.1886396
+         1          32         relax              -0.1886396
+         1          38         relax              -0.1886396
+         1           4      relaxing              -0.1850674
+         1          15      relaxing              -0.1850674
+         1          20      relaxing              -0.1850674
+         1          20      relaxing              -0.1850674
+         1          26      relaxing              -0.1850674
+         1          26      relaxing              -0.1850674
+         1          30      relaxing              -0.1850674
+         1          30      relaxing              -0.1850674
+         1          37      relaxing              -0.1850674
+         1          26      peaceful              -0.1636410
+         1          37        easier              -0.1612896
+         1          38        serene              -0.1538074
+         1          13          calm              -0.1516323
+         1          15          calm              -0.1516323
+         1          26          calm              -0.1516323
+         1          30          calm              -0.1516323
+         1          37          calm              -0.1516323
+         1          38          calm              -0.1516323
+         1          38          calm              -0.1516323
+         1          41          calm              -0.1516323
+         1          41          calm              -0.1516323
+         1          41          calm              -0.1516323
