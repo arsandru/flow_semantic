@@ -1,0 +1,390 @@
+{
+  "segments": [
+    {
+      "start": 0.471,
+      "end": 6.117,
+      "text": " Estou confiante na equipa.",
+      "words": [
+        {
+          "word": "Estou",
+          "start": 0.471,
+          "end": 0.872,
+          "score": 0.863
+        },
+        {
+          "word": "confiante",
+          "start": 1.693,
+          "end": 3.674,
+          "score": 0.955
+        },
+        {
+          "word": "na",
+          "start": 3.794,
+          "end": 3.875,
+          "score": 0.537
+        },
+        {
+          "word": "equipa.",
+          "start": 3.915,
+          "end": 6.117,
+          "score": 0.901
+        }
+      ],
+      "avg_logprob": -0.08477904673280387
+    },
+    {
+      "start": 7.378,
+      "end": 17.527,
+      "text": "Não digo que estou a 100%, mas estou um bocadinho arreciosa, pronto, é normal, porque é uma coisa que é desconhecida, mas sinto-me segura.",
+      "words": [
+        {
+          "word": "Não",
+          "start": 7.378,
+          "end": 7.478,
+          "score": 0.766
+        },
+        {
+          "word": "digo",
+          "start": 7.538,
+          "end": 7.778,
+          "score": 0.609
+        },
+        {
+          "word": "que",
+          "start": 7.838,
+          "end": 8.018,
+          "score": 0.365
+        },
+        {
+          "word": "estou",
+          "start": 8.839,
+          "end": 9.139,
+          "score": 0.991
+        },
+        {
+          "word": "a",
+          "start": 9.159,
+          "end": 9.179,
+          "score": 0.01
+        },
+        {
+          "word": "100%,",
+          "start": 9.44,
+          "end": 9.64,
+          "score": 0.661
+        },
+        {
+          "word": "mas",
+          "start": 9.66,
+          "end": 9.82,
+          "score": 0.626
+        },
+        {
+          "word": "estou",
+          "start": 9.86,
+          "end": 10.421,
+          "score": 0.606
+        },
+        {
+          "word": "um",
+          "start": 10.481,
+          "end": 10.641,
+          "score": 0.566
+        },
+        {
+          "word": "bocadinho",
+          "start": 10.701,
+          "end": 11.141,
+          "score": 0.668
+        },
+        {
+          "word": "arreciosa,",
+          "start": 11.161,
+          "end": 11.682,
+          "score": 0.764
+        },
+        {
+          "word": "pronto,",
+          "start": 11.742,
+          "end": 12.002,
+          "score": 0.62
+        },
+        {
+          "word": "é",
+          "start": 12.082,
+          "end": 12.142,
+          "score": 0.562
+        },
+        {
+          "word": "normal,",
+          "start": 12.182,
+          "end": 12.583,
+          "score": 0.637
+        },
+        {
+          "word": "porque",
+          "start": 12.623,
+          "end": 12.903,
+          "score": 0.517
+        },
+        {
+          "word": "é",
+          "start": 12.983,
+          "end": 13.003,
+          "score": 0.445
+        },
+        {
+          "word": "uma",
+          "start": 13.043,
+          "end": 13.123,
+          "score": 0.939
+        },
+        {
+          "word": "coisa",
+          "start": 13.163,
+          "end": 13.323,
+          "score": 0.529
+        },
+        {
+          "word": "que",
+          "start": 13.383,
+          "end": 13.463,
+          "score": 0.698
+        },
+        {
+          "word": "é",
+          "start": 13.483,
+          "end": 13.503,
+          "score": 0.002
+        },
+        {
+          "word": "desconhecida,",
+          "start": 13.523,
+          "end": 14.164,
+          "score": 0.801
+        },
+        {
+          "word": "mas",
+          "start": 14.845,
+          "end": 15.345,
+          "score": 0.862
+        },
+        {
+          "word": "sinto-me",
+          "start": 15.786,
+          "end": 16.086,
+          "score": 0.604
+        },
+        {
+          "word": "segura.",
+          "start": 16.166,
+          "end": 17.527,
+          "score": 0.952
+        }
+      ],
+      "avg_logprob": -0.08477904673280387
+    },
+    {
+      "start": 17.567,
+      "end": 18.408,
+      "text": "Sinto-me segura.",
+      "words": [
+        {
+          "word": "Sinto-me",
+          "start": 17.567,
+          "end": 17.847,
+          "score": 0.58
+        },
+        {
+          "word": "segura.",
+          "start": 17.908,
+          "end": 18.408,
+          "score": 0.96
+        }
+      ],
+      "avg_logprob": -0.08477904673280387
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "Estou",
+      "start": 0.471,
+      "end": 0.872,
+      "score": 0.863
+    },
+    {
+      "word": "confiante",
+      "start": 1.693,
+      "end": 3.674,
+      "score": 0.955
+    },
+    {
+      "word": "na",
+      "start": 3.794,
+      "end": 3.875,
+      "score": 0.537
+    },
+    {
+      "word": "equipa.",
+      "start": 3.915,
+      "end": 6.117,
+      "score": 0.901
+    },
+    {
+      "word": "Não",
+      "start": 7.378,
+      "end": 7.478,
+      "score": 0.766
+    },
+    {
+      "word": "digo",
+      "start": 7.538,
+      "end": 7.778,
+      "score": 0.609
+    },
+    {
+      "word": "que",
+      "start": 7.838,
+      "end": 8.018,
+      "score": 0.365
+    },
+    {
+      "word": "estou",
+      "start": 8.839,
+      "end": 9.139,
+      "score": 0.991
+    },
+    {
+      "word": "a",
+      "start": 9.159,
+      "end": 9.179,
+      "score": 0.01
+    },
+    {
+      "word": "100%,",
+      "start": 9.44,
+      "end": 9.64,
+      "score": 0.661
+    },
+    {
+      "word": "mas",
+      "start": 9.66,
+      "end": 9.82,
+      "score": 0.626
+    },
+    {
+      "word": "estou",
+      "start": 9.86,
+      "end": 10.421,
+      "score": 0.606
+    },
+    {
+      "word": "um",
+      "start": 10.481,
+      "end": 10.641,
+      "score": 0.566
+    },
+    {
+      "word": "bocadinho",
+      "start": 10.701,
+      "end": 11.141,
+      "score": 0.668
+    },
+    {
+      "word": "arreciosa,",
+      "start": 11.161,
+      "end": 11.682,
+      "score": 0.764
+    },
+    {
+      "word": "pronto,",
+      "start": 11.742,
+      "end": 12.002,
+      "score": 0.62
+    },
+    {
+      "word": "é",
+      "start": 12.082,
+      "end": 12.142,
+      "score": 0.562
+    },
+    {
+      "word": "normal,",
+      "start": 12.182,
+      "end": 12.583,
+      "score": 0.637
+    },
+    {
+      "word": "porque",
+      "start": 12.623,
+      "end": 12.903,
+      "score": 0.517
+    },
+    {
+      "word": "é",
+      "start": 12.983,
+      "end": 13.003,
+      "score": 0.445
+    },
+    {
+      "word": "uma",
+      "start": 13.043,
+      "end": 13.123,
+      "score": 0.939
+    },
+    {
+      "word": "coisa",
+      "start": 13.163,
+      "end": 13.323,
+      "score": 0.529
+    },
+    {
+      "word": "que",
+      "start": 13.383,
+      "end": 13.463,
+      "score": 0.698
+    },
+    {
+      "word": "é",
+      "start": 13.483,
+      "end": 13.503,
+      "score": 0.002
+    },
+    {
+      "word": "desconhecida,",
+      "start": 13.523,
+      "end": 14.164,
+      "score": 0.801
+    },
+    {
+      "word": "mas",
+      "start": 14.845,
+      "end": 15.345,
+      "score": 0.862
+    },
+    {
+      "word": "sinto-me",
+      "start": 15.786,
+      "end": 16.086,
+      "score": 0.604
+    },
+    {
+      "word": "segura.",
+      "start": 16.166,
+      "end": 17.527,
+      "score": 0.952
+    },
+    {
+      "word": "Sinto-me",
+      "start": 17.567,
+      "end": 17.847,
+      "score": 0.58
+    },
+    {
+      "word": "segura.",
+      "start": 17.908,
+      "end": 18.408,
+      "score": 0.96
+    }
+  ]
+}

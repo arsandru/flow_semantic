@@ -1,0 +1,178 @@
+{
+  "segments": [
+    {
+      "start": 0.031,
+      "end": 8.78,
+      "text": " Um bocadito mais calma que estive tanto acusada.",
+      "words": [
+        {
+          "word": "Um",
+          "start": 0.031,
+          "end": 0.491,
+          "score": 0.898
+        },
+        {
+          "word": "bocadito",
+          "start": 0.552,
+          "end": 1.272,
+          "score": 0.432
+        },
+        {
+          "word": "mais",
+          "start": 1.392,
+          "end": 1.813,
+          "score": 0.602
+        },
+        {
+          "word": "calma",
+          "start": 1.933,
+          "end": 2.093,
+          "score": 0.3
+        },
+        {
+          "word": "que",
+          "start": 3.094,
+          "end": 5.136,
+          "score": 0.955
+        },
+        {
+          "word": "estive",
+          "start": 5.176,
+          "end": 7.819,
+          "score": 0.565
+        },
+        {
+          "word": "tanto",
+          "start": 7.839,
+          "end": 8.2,
+          "score": 0.415
+        },
+        {
+          "word": "acusada.",
+          "start": 8.3,
+          "end": 8.78,
+          "score": 0.262
+        }
+      ],
+      "avg_logprob": -0.3222477877581561
+    },
+    {
+      "start": 9.581,
+      "end": 10.342,
+      "text": "Toda a gente me acolheu.",
+      "words": [
+        {
+          "word": "Toda",
+          "start": 9.581,
+          "end": 9.721,
+          "score": 0.292
+        },
+        {
+          "word": "a",
+          "start": 9.781,
+          "end": 9.861,
+          "score": 0.75
+        },
+        {
+          "word": "gente",
+          "start": 9.882,
+          "end": 10.002,
+          "score": 0.1
+        },
+        {
+          "word": "me",
+          "start": 10.022,
+          "end": 10.082,
+          "score": 0.25
+        },
+        {
+          "word": "acolheu.",
+          "start": 10.102,
+          "end": 10.342,
+          "score": 0.333
+        }
+      ],
+      "avg_logprob": -0.3222477877581561
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "Um",
+      "start": 0.031,
+      "end": 0.491,
+      "score": 0.898
+    },
+    {
+      "word": "bocadito",
+      "start": 0.552,
+      "end": 1.272,
+      "score": 0.432
+    },
+    {
+      "word": "mais",
+      "start": 1.392,
+      "end": 1.813,
+      "score": 0.602
+    },
+    {
+      "word": "calma",
+      "start": 1.933,
+      "end": 2.093,
+      "score": 0.3
+    },
+    {
+      "word": "que",
+      "start": 3.094,
+      "end": 5.136,
+      "score": 0.955
+    },
+    {
+      "word": "estive",
+      "start": 5.176,
+      "end": 7.819,
+      "score": 0.565
+    },
+    {
+      "word": "tanto",
+      "start": 7.839,
+      "end": 8.2,
+      "score": 0.415
+    },
+    {
+      "word": "acusada.",
+      "start": 8.3,
+      "end": 8.78,
+      "score": 0.262
+    },
+    {
+      "word": "Toda",
+      "start": 9.581,
+      "end": 9.721,
+      "score": 0.292
+    },
+    {
+      "word": "a",
+      "start": 9.781,
+      "end": 9.861,
+      "score": 0.75
+    },
+    {
+      "word": "gente",
+      "start": 9.882,
+      "end": 10.002,
+      "score": 0.1
+    },
+    {
+      "word": "me",
+      "start": 10.022,
+      "end": 10.082,
+      "score": 0.25
+    },
+    {
+      "word": "acolheu.",
+      "start": 10.102,
+      "end": 10.342,
+      "score": 0.333
+    }
+  ]
+}

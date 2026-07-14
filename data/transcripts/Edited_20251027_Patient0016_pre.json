@@ -1,0 +1,578 @@
+{
+  "segments": [
+    {
+      "start": 4.028,
+      "end": 7.128,
+      "text": " Um bocadinho ansiosa, mas nada demais.",
+      "words": [
+        {
+          "word": "Um",
+          "start": 4.028,
+          "end": 4.168,
+          "score": 0.567
+        },
+        {
+          "word": "bocadinho",
+          "start": 4.668,
+          "end": 5.108,
+          "score": 0.636
+        },
+        {
+          "word": "ansiosa,",
+          "start": 5.168,
+          "end": 5.728,
+          "score": 0.921
+        },
+        {
+          "word": "mas",
+          "start": 5.808,
+          "end": 5.988,
+          "score": 0.811
+        },
+        {
+          "word": "nada",
+          "start": 6.088,
+          "end": 6.348,
+          "score": 0.915
+        },
+        {
+          "word": "demais.",
+          "start": 6.408,
+          "end": 7.128,
+          "score": 0.867
+        }
+      ],
+      "avg_logprob": -0.0972904504587253
+    },
+    {
+      "start": 7.148,
+      "end": 12.589,
+      "text": "Estou confiante nos médicos, na equipa.",
+      "words": [
+        {
+          "word": "Estou",
+          "start": 7.148,
+          "end": 9.789,
+          "score": 0.645
+        },
+        {
+          "word": "confiante",
+          "start": 9.829,
+          "end": 10.409,
+          "score": 0.929
+        },
+        {
+          "word": "nos",
+          "start": 11.249,
+          "end": 11.449,
+          "score": 0.938
+        },
+        {
+          "word": "médicos,",
+          "start": 11.489,
+          "end": 11.889,
+          "score": 0.861
+        },
+        {
+          "word": "na",
+          "start": 11.909,
+          "end": 11.989,
+          "score": 0.972
+        },
+        {
+          "word": "equipa.",
+          "start": 12.029,
+          "end": 12.589,
+          "score": 0.878
+        }
+      ],
+      "avg_logprob": -0.0972904504587253
+    },
+    {
+      "start": 13.19,
+      "end": 16.93,
+      "text": "Portanto, isso ajuda-me a acalmar.",
+      "words": [
+        {
+          "word": "Portanto,",
+          "start": 13.19,
+          "end": 13.71,
+          "score": 0.391
+        },
+        {
+          "word": "isso",
+          "start": 13.73,
+          "end": 14.13,
+          "score": 0.901
+        },
+        {
+          "word": "ajuda-me",
+          "start": 14.17,
+          "end": 14.93,
+          "score": 0.912
+        },
+        {
+          "word": "a",
+          "start": 16.05,
+          "end": 16.11,
+          "score": 0.644
+        },
+        {
+          "word": "acalmar.",
+          "start": 16.13,
+          "end": 16.93,
+          "score": 0.885
+        }
+      ],
+      "avg_logprob": -0.0972904504587253
+    },
+    {
+      "start": 18.371,
+      "end": 23.752,
+      "text": "Não sou uma pessoa, normalmente, que fico muito nervosa com atos médicos.",
+      "words": [
+        {
+          "word": "Não",
+          "start": 18.371,
+          "end": 18.511,
+          "score": 0.766
+        },
+        {
+          "word": "sou",
+          "start": 18.591,
+          "end": 18.731,
+          "score": 0.73
+        },
+        {
+          "word": "uma",
+          "start": 18.771,
+          "end": 18.911,
+          "score": 0.848
+        },
+        {
+          "word": "pessoa,",
+          "start": 18.971,
+          "end": 19.371,
+          "score": 0.868
+        },
+        {
+          "word": "normalmente,",
+          "start": 19.411,
+          "end": 20.291,
+          "score": 0.776
+        },
+        {
+          "word": "que",
+          "start": 20.451,
+          "end": 20.931,
+          "score": 0.701
+        },
+        {
+          "word": "fico",
+          "start": 21.891,
+          "end": 22.071,
+          "score": 0.606
+        },
+        {
+          "word": "muito",
+          "start": 22.091,
+          "end": 22.271,
+          "score": 0.893
+        },
+        {
+          "word": "nervosa",
+          "start": 22.291,
+          "end": 22.732,
+          "score": 0.731
+        },
+        {
+          "word": "com",
+          "start": 22.812,
+          "end": 22.912,
+          "score": 0.899
+        },
+        {
+          "word": "atos",
+          "start": 23.012,
+          "end": 23.232,
+          "score": 0.613
+        },
+        {
+          "word": "médicos.",
+          "start": 23.292,
+          "end": 23.752,
+          "score": 0.681
+        }
+      ],
+      "avg_logprob": -0.0972904504587253
+    },
+    {
+      "start": 24.112,
+      "end": 24.652,
+      "text": "Portanto...",
+      "words": [
+        {
+          "word": "Portanto...",
+          "start": 24.112,
+          "end": 24.652,
+          "score": 0.485
+        }
+      ],
+      "avg_logprob": -0.0972904504587253
+    },
+    {
+      "start": 28.181,
+      "end": 32.563,
+      "text": " Sinto-me relativamente tranquila.",
+      "words": [
+        {
+          "word": "Sinto-me",
+          "start": 28.181,
+          "end": 28.561,
+          "score": 0.877
+        },
+        {
+          "word": "relativamente",
+          "start": 28.621,
+          "end": 29.762,
+          "score": 0.916
+        },
+        {
+          "word": "tranquila.",
+          "start": 30.222,
+          "end": 32.563,
+          "score": 0.83
+        }
+      ],
+      "avg_logprob": -0.02647606477451821
+    },
+    {
+      "start": 32.684,
+      "end": 41.088,
+      "text": "Sei que não estou super calma, mas tenho alguma tranquilidade.",
+      "words": [
+        {
+          "word": "Sei",
+          "start": 32.684,
+          "end": 32.844,
+          "score": 0.922
+        },
+        {
+          "word": "que",
+          "start": 32.904,
+          "end": 33.004,
+          "score": 0.8
+        },
+        {
+          "word": "não",
+          "start": 34.965,
+          "end": 35.185,
+          "score": 0.719
+        },
+        {
+          "word": "estou",
+          "start": 35.425,
+          "end": 37.006,
+          "score": 0.704
+        },
+        {
+          "word": "super",
+          "start": 37.066,
+          "end": 37.346,
+          "score": 0.63
+        },
+        {
+          "word": "calma,",
+          "start": 37.406,
+          "end": 37.746,
+          "score": 0.904
+        },
+        {
+          "word": "mas",
+          "start": 38.186,
+          "end": 39.007,
+          "score": 0.877
+        },
+        {
+          "word": "tenho",
+          "start": 39.027,
+          "end": 39.707,
+          "score": 0.396
+        },
+        {
+          "word": "alguma",
+          "start": 39.767,
+          "end": 40.107,
+          "score": 0.834
+        },
+        {
+          "word": "tranquilidade.",
+          "start": 40.208,
+          "end": 41.088,
+          "score": 0.771
+        }
+      ],
+      "avg_logprob": -0.02647606477451821
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "Um",
+      "start": 4.028,
+      "end": 4.168,
+      "score": 0.567
+    },
+    {
+      "word": "bocadinho",
+      "start": 4.668,
+      "end": 5.108,
+      "score": 0.636
+    },
+    {
+      "word": "ansiosa,",
+      "start": 5.168,
+      "end": 5.728,
+      "score": 0.921
+    },
+    {
+      "word": "mas",
+      "start": 5.808,
+      "end": 5.988,
+      "score": 0.811
+    },
+    {
+      "word": "nada",
+      "start": 6.088,
+      "end": 6.348,
+      "score": 0.915
+    },
+    {
+      "word": "demais.",
+      "start": 6.408,
+      "end": 7.128,
+      "score": 0.867
+    },
+    {
+      "word": "Estou",
+      "start": 7.148,
+      "end": 9.789,
+      "score": 0.645
+    },
+    {
+      "word": "confiante",
+      "start": 9.829,
+      "end": 10.409,
+      "score": 0.929
+    },
+    {
+      "word": "nos",
+      "start": 11.249,
+      "end": 11.449,
+      "score": 0.938
+    },
+    {
+      "word": "médicos,",
+      "start": 11.489,
+      "end": 11.889,
+      "score": 0.861
+    },
+    {
+      "word": "na",
+      "start": 11.909,
+      "end": 11.989,
+      "score": 0.972
+    },
+    {
+      "word": "equipa.",
+      "start": 12.029,
+      "end": 12.589,
+      "score": 0.878
+    },
+    {
+      "word": "Portanto,",
+      "start": 13.19,
+      "end": 13.71,
+      "score": 0.391
+    },
+    {
+      "word": "isso",
+      "start": 13.73,
+      "end": 14.13,
+      "score": 0.901
+    },
+    {
+      "word": "ajuda-me",
+      "start": 14.17,
+      "end": 14.93,
+      "score": 0.912
+    },
+    {
+      "word": "a",
+      "start": 16.05,
+      "end": 16.11,
+      "score": 0.644
+    },
+    {
+      "word": "acalmar.",
+      "start": 16.13,
+      "end": 16.93,
+      "score": 0.885
+    },
+    {
+      "word": "Não",
+      "start": 18.371,
+      "end": 18.511,
+      "score": 0.766
+    },
+    {
+      "word": "sou",
+      "start": 18.591,
+      "end": 18.731,
+      "score": 0.73
+    },
+    {
+      "word": "uma",
+      "start": 18.771,
+      "end": 18.911,
+      "score": 0.848
+    },
+    {
+      "word": "pessoa,",
+      "start": 18.971,
+      "end": 19.371,
+      "score": 0.868
+    },
+    {
+      "word": "normalmente,",
+      "start": 19.411,
+      "end": 20.291,
+      "score": 0.776
+    },
+    {
+      "word": "que",
+      "start": 20.451,
+      "end": 20.931,
+      "score": 0.701
+    },
+    {
+      "word": "fico",
+      "start": 21.891,
+      "end": 22.071,
+      "score": 0.606
+    },
+    {
+      "word": "muito",
+      "start": 22.091,
+      "end": 22.271,
+      "score": 0.893
+    },
+    {
+      "word": "nervosa",
+      "start": 22.291,
+      "end": 22.732,
+      "score": 0.731
+    },
+    {
+      "word": "com",
+      "start": 22.812,
+      "end": 22.912,
+      "score": 0.899
+    },
+    {
+      "word": "atos",
+      "start": 23.012,
+      "end": 23.232,
+      "score": 0.613
+    },
+    {
+      "word": "médicos.",
+      "start": 23.292,
+      "end": 23.752,
+      "score": 0.681
+    },
+    {
+      "word": "Portanto...",
+      "start": 24.112,
+      "end": 24.652,
+      "score": 0.485
+    },
+    {
+      "word": "Sinto-me",
+      "start": 28.181,
+      "end": 28.561,
+      "score": 0.877
+    },
+    {
+      "word": "relativamente",
+      "start": 28.621,
+      "end": 29.762,
+      "score": 0.916
+    },
+    {
+      "word": "tranquila.",
+      "start": 30.222,
+      "end": 32.563,
+      "score": 0.83
+    },
+    {
+      "word": "Sei",
+      "start": 32.684,
+      "end": 32.844,
+      "score": 0.922
+    },
+    {
+      "word": "que",
+      "start": 32.904,
+      "end": 33.004,
+      "score": 0.8
+    },
+    {
+      "word": "não",
+      "start": 34.965,
+      "end": 35.185,
+      "score": 0.719
+    },
+    {
+      "word": "estou",
+      "start": 35.425,
+      "end": 37.006,
+      "score": 0.704
+    },
+    {
+      "word": "super",
+      "start": 37.066,
+      "end": 37.346,
+      "score": 0.63
+    },
+    {
+      "word": "calma,",
+      "start": 37.406,
+      "end": 37.746,
+      "score": 0.904
+    },
+    {
+      "word": "mas",
+      "start": 38.186,
+      "end": 39.007,
+      "score": 0.877
+    },
+    {
+      "word": "tenho",
+      "start": 39.027,
+      "end": 39.707,
+      "score": 0.396
+    },
+    {
+      "word": "alguma",
+      "start": 39.767,
+      "end": 40.107,
+      "score": 0.834
+    },
+    {
+      "word": "tranquilidade.",
+      "start": 40.208,
+      "end": 41.088,
+      "score": 0.771
+    }
+  ]
+}

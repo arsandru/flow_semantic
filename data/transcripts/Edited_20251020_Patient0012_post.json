@@ -1,0 +1,1862 @@
+{
+  "segments": [
+    {
+      "start": 2.159,
+      "end": 5.622,
+      "text": " Durante a experiência eu senti muito relaxamento.",
+      "words": [
+        {
+          "word": "Durante",
+          "start": 2.159,
+          "end": 2.7,
+          "score": 0.944
+        },
+        {
+          "word": "a",
+          "start": 2.74,
+          "end": 2.84,
+          "score": 0.801
+        },
+        {
+          "word": "experiência",
+          "start": 2.86,
+          "end": 3.46,
+          "score": 0.501
+        },
+        {
+          "word": "eu",
+          "start": 3.62,
+          "end": 3.72,
+          "score": 0.455
+        },
+        {
+          "word": "senti",
+          "start": 3.76,
+          "end": 4.261,
+          "score": 0.725
+        },
+        {
+          "word": "muito",
+          "start": 4.341,
+          "end": 4.621,
+          "score": 0.538
+        },
+        {
+          "word": "relaxamento.",
+          "start": 4.661,
+          "end": 5.622,
+          "score": 0.663
+        }
+      ],
+      "avg_logprob": -0.14029721395078912
+    },
+    {
+      "start": 5.942,
+      "end": 9.125,
+      "text": "Depois, acho que voltei um bocadinho à realidade.",
+      "words": [
+        {
+          "word": "Depois,",
+          "start": 5.942,
+          "end": 6.863,
+          "score": 0.795
+        },
+        {
+          "word": "acho",
+          "start": 6.883,
+          "end": 7.043,
+          "score": 0.196
+        },
+        {
+          "word": "que",
+          "start": 7.103,
+          "end": 7.223,
+          "score": 0.384
+        },
+        {
+          "word": "voltei",
+          "start": 7.243,
+          "end": 7.603,
+          "score": 0.446
+        },
+        {
+          "word": "um",
+          "start": 7.643,
+          "end": 7.744,
+          "score": 0.464
+        },
+        {
+          "word": "bocadinho",
+          "start": 7.764,
+          "end": 8.204,
+          "score": 0.352
+        },
+        {
+          "word": "à",
+          "start": 8.224,
+          "end": 8.284,
+          "score": 0.586
+        },
+        {
+          "word": "realidade.",
+          "start": 8.364,
+          "end": 9.125,
+          "score": 0.688
+        }
+      ],
+      "avg_logprob": -0.14029721395078912
+    },
+    {
+      "start": 10.286,
+      "end": 13.928,
+      "text": "O Zé falou em doutor Pedro, que estava à minha espera.",
+      "words": [
+        {
+          "word": "O",
+          "start": 10.286,
+          "end": 10.306,
+          "score": 0.002
+        },
+        {
+          "word": "Zé",
+          "start": 10.346,
+          "end": 10.486,
+          "score": 0.746
+        },
+        {
+          "word": "falou",
+          "start": 10.666,
+          "end": 10.786,
+          "score": 0.266
+        },
+        {
+          "word": "em",
+          "start": 10.926,
+          "end": 11.046,
+          "score": 0.526
+        },
+        {
+          "word": "doutor",
+          "start": 11.106,
+          "end": 11.406,
+          "score": 0.544
+        },
+        {
+          "word": "Pedro,",
+          "start": 11.567,
+          "end": 11.847,
+          "score": 0.588
+        },
+        {
+          "word": "que",
+          "start": 11.867,
+          "end": 11.927,
+          "score": 0.117
+        },
+        {
+          "word": "estava",
+          "start": 11.947,
+          "end": 12.367,
+          "score": 0.673
+        },
+        {
+          "word": "à",
+          "start": 12.387,
+          "end": 12.407,
+          "score": 0.0
+        },
+        {
+          "word": "minha",
+          "start": 12.487,
+          "end": 13.128,
+          "score": 0.592
+        },
+        {
+          "word": "espera.",
+          "start": 13.248,
+          "end": 13.928,
+          "score": 0.552
+        }
+      ],
+      "avg_logprob": -0.14029721395078912
+    },
+    {
+      "start": 14.489,
+      "end": 15.45,
+      "text": "Eu acho que voltei.",
+      "words": [
+        {
+          "word": "Eu",
+          "start": 14.489,
+          "end": 14.529,
+          "score": 0.381
+        },
+        {
+          "word": "acho",
+          "start": 14.629,
+          "end": 14.789,
+          "score": 0.599
+        },
+        {
+          "word": "que",
+          "start": 14.809,
+          "end": 14.909,
+          "score": 0.783
+        },
+        {
+          "word": "voltei.",
+          "start": 14.989,
+          "end": 15.45,
+          "score": 0.631
+        }
+      ],
+      "avg_logprob": -0.14029721395078912
+    },
+    {
+      "start": 15.87,
+      "end": 19.453,
+      "text": "Como vocês dizem, é que é eu na real.",
+      "words": [
+        {
+          "word": "Como",
+          "start": 15.87,
+          "end": 16.811,
+          "score": 0.405
+        },
+        {
+          "word": "vocês",
+          "start": 16.871,
+          "end": 17.171,
+          "score": 0.736
+        },
+        {
+          "word": "dizem,",
+          "start": 17.191,
+          "end": 17.431,
+          "score": 0.31
+        },
+        {
+          "word": "é",
+          "start": 17.551,
+          "end": 17.611,
+          "score": 0.627
+        },
+        {
+          "word": "que",
+          "start": 17.691,
+          "end": 17.791,
+          "score": 0.452
+        },
+        {
+          "word": "é",
+          "start": 17.872,
+          "end": 17.892,
+          "score": 0.0
+        },
+        {
+          "word": "eu",
+          "start": 17.952,
+          "end": 17.992,
+          "score": 0.134
+        },
+        {
+          "word": "na",
+          "start": 18.012,
+          "end": 18.112,
+          "score": 0.952
+        },
+        {
+          "word": "real.",
+          "start": 18.172,
+          "end": 19.453,
+          "score": 0.882
+        }
+      ],
+      "avg_logprob": -0.14029721395078912
+    },
+    {
+      "start": 19.593,
+      "end": 22.635,
+      "text": "Mas durante o filme deixei mesmo ir.",
+      "words": [
+        {
+          "word": "Mas",
+          "start": 19.593,
+          "end": 19.713,
+          "score": 0.522
+        },
+        {
+          "word": "durante",
+          "start": 19.793,
+          "end": 20.053,
+          "score": 0.316
+        },
+        {
+          "word": "o",
+          "start": 20.213,
+          "end": 20.293,
+          "score": 0.721
+        },
+        {
+          "word": "filme",
+          "start": 20.414,
+          "end": 20.694,
+          "score": 0.541
+        },
+        {
+          "word": "deixei",
+          "start": 20.774,
+          "end": 21.234,
+          "score": 0.607
+        },
+        {
+          "word": "mesmo",
+          "start": 21.334,
+          "end": 22.175,
+          "score": 0.854
+        },
+        {
+          "word": "ir.",
+          "start": 22.335,
+          "end": 22.635,
+          "score": 0.739
+        }
+      ],
+      "avg_logprob": -0.14029721395078912
+    },
+    {
+      "start": 24.777,
+      "end": 28.6,
+      "text": "Agora estou a cair mesmo na realidade outra vez, mas pronto.",
+      "words": [
+        {
+          "word": "Agora",
+          "start": 24.777,
+          "end": 25.137,
+          "score": 0.754
+        },
+        {
+          "word": "estou",
+          "start": 25.257,
+          "end": 25.718,
+          "score": 0.582
+        },
+        {
+          "word": "a",
+          "start": 25.738,
+          "end": 25.758,
+          "score": 0.012
+        },
+        {
+          "word": "cair",
+          "start": 25.838,
+          "end": 26.078,
+          "score": 0.342
+        },
+        {
+          "word": "mesmo",
+          "start": 26.158,
+          "end": 26.458,
+          "score": 0.616
+        },
+        {
+          "word": "na",
+          "start": 26.478,
+          "end": 26.518,
+          "score": 0.016
+        },
+        {
+          "word": "realidade",
+          "start": 26.578,
+          "end": 27.139,
+          "score": 0.678
+        },
+        {
+          "word": "outra",
+          "start": 27.159,
+          "end": 27.379,
+          "score": 0.438
+        },
+        {
+          "word": "vez,",
+          "start": 27.439,
+          "end": 27.719,
+          "score": 0.457
+        },
+        {
+          "word": "mas",
+          "start": 27.779,
+          "end": 28.0,
+          "score": 0.731
+        },
+        {
+          "word": "pronto.",
+          "start": 28.08,
+          "end": 28.6,
+          "score": 0.591
+        }
+      ],
+      "avg_logprob": -0.14029721395078912
+    },
+    {
+      "start": 29.464,
+      "end": 37.139,
+      "text": " Hoje não tive nada de especial, foi fazer o exame, a serigrafia, ou não sei quanto, é difícil dizer.",
+      "words": [
+        {
+          "word": "Hoje",
+          "start": 29.464,
+          "end": 29.864,
+          "score": 0.774
+        },
+        {
+          "word": "não",
+          "start": 30.386,
+          "end": 30.506,
+          "score": 0.749
+        },
+        {
+          "word": "tive",
+          "start": 30.546,
+          "end": 30.746,
+          "score": 0.277
+        },
+        {
+          "word": "nada",
+          "start": 30.786,
+          "end": 31.007,
+          "score": 0.927
+        },
+        {
+          "word": "de",
+          "start": 31.027,
+          "end": 31.067,
+          "score": 0.024
+        },
+        {
+          "word": "especial,",
+          "start": 31.107,
+          "end": 31.508,
+          "score": 0.955
+        },
+        {
+          "word": "foi",
+          "start": 31.548,
+          "end": 31.688,
+          "score": 0.576
+        },
+        {
+          "word": "fazer",
+          "start": 31.748,
+          "end": 32.109,
+          "score": 0.955
+        },
+        {
+          "word": "o",
+          "start": 32.77,
+          "end": 32.83,
+          "score": 0.953
+        },
+        {
+          "word": "exame,",
+          "start": 32.87,
+          "end": 33.452,
+          "score": 0.685
+        },
+        {
+          "word": "a",
+          "start": 34.033,
+          "end": 34.073,
+          "score": 0.502
+        },
+        {
+          "word": "serigrafia,",
+          "start": 34.153,
+          "end": 34.814,
+          "score": 0.608
+        },
+        {
+          "word": "ou",
+          "start": 34.874,
+          "end": 34.975,
+          "score": 0.721
+        },
+        {
+          "word": "não",
+          "start": 35.015,
+          "end": 35.075,
+          "score": 0.54
+        },
+        {
+          "word": "sei",
+          "start": 35.095,
+          "end": 35.275,
+          "score": 0.58
+        },
+        {
+          "word": "quanto,",
+          "start": 35.335,
+          "end": 35.776,
+          "score": 0.552
+        },
+        {
+          "word": "é",
+          "start": 35.796,
+          "end": 35.856,
+          "score": 0.757
+        },
+        {
+          "word": "difícil",
+          "start": 35.917,
+          "end": 36.398,
+          "score": 0.688
+        },
+        {
+          "word": "dizer.",
+          "start": 36.418,
+          "end": 37.139,
+          "score": 0.511
+        }
+      ],
+      "avg_logprob": -0.22212975600670123
+    },
+    {
+      "start": 37.425,
+      "end": 40.146,
+      "text": " E depois passei o tempo todo à espera.",
+      "words": [
+        {
+          "word": "E",
+          "start": 37.425,
+          "end": 37.765,
+          "score": 0.848
+        },
+        {
+          "word": "depois",
+          "start": 37.785,
+          "end": 38.085,
+          "score": 0.796
+        },
+        {
+          "word": "passei",
+          "start": 38.345,
+          "end": 38.665,
+          "score": 0.624
+        },
+        {
+          "word": "o",
+          "start": 38.685,
+          "end": 38.725,
+          "score": 0.518
+        },
+        {
+          "word": "tempo",
+          "start": 38.745,
+          "end": 38.966,
+          "score": 0.765
+        },
+        {
+          "word": "todo",
+          "start": 38.986,
+          "end": 39.186,
+          "score": 0.462
+        },
+        {
+          "word": "à",
+          "start": 39.206,
+          "end": 39.226,
+          "score": 0.007
+        },
+        {
+          "word": "espera.",
+          "start": 39.246,
+          "end": 40.146,
+          "score": 0.954
+        }
+      ],
+      "avg_logprob": -0.14875731503833894
+    },
+    {
+      "start": 40.306,
+      "end": 42.947,
+      "text": "Estava dedicada para as 13.",
+      "words": [
+        {
+          "word": "Estava",
+          "start": 40.306,
+          "end": 41.306,
+          "score": 0.708
+        },
+        {
+          "word": "dedicada",
+          "start": 41.466,
+          "end": 42.187,
+          "score": 0.773
+        },
+        {
+          "word": "para",
+          "start": 42.267,
+          "end": 42.467,
+          "score": 0.636
+        },
+        {
+          "word": "as",
+          "start": 42.547,
+          "end": 42.587,
+          "score": 0.126
+        },
+        {
+          "word": "13.",
+          "start": 42.647,
+          "end": 42.947,
+          "score": 0.792
+        }
+      ],
+      "avg_logprob": -0.14875731503833894
+    },
+    {
+      "start": 43.567,
+      "end": 48.969,
+      "text": "Não tem nada assim a... Foi normal o exame de manhã.",
+      "words": [
+        {
+          "word": "Não",
+          "start": 43.567,
+          "end": 43.667,
+          "score": 0.516
+        },
+        {
+          "word": "tem",
+          "start": 43.727,
+          "end": 43.847,
+          "score": 0.502
+        },
+        {
+          "word": "nada",
+          "start": 43.947,
+          "end": 44.227,
+          "score": 0.836
+        },
+        {
+          "word": "assim",
+          "start": 44.247,
+          "end": 44.647,
+          "score": 0.516
+        },
+        {
+          "word": "a...",
+          "start": 44.727,
+          "end": 46.148,
+          "score": 0.869
+        },
+        {
+          "word": "Foi",
+          "start": 47.188,
+          "end": 47.348,
+          "score": 0.778
+        },
+        {
+          "word": "normal",
+          "start": 47.388,
+          "end": 47.809,
+          "score": 0.788
+        },
+        {
+          "word": "o",
+          "start": 47.889,
+          "end": 47.909,
+          "score": 0.052
+        },
+        {
+          "word": "exame",
+          "start": 47.969,
+          "end": 48.309,
+          "score": 0.675
+        },
+        {
+          "word": "de",
+          "start": 48.349,
+          "end": 48.429,
+          "score": 0.499
+        },
+        {
+          "word": "manhã.",
+          "start": 48.489,
+          "end": 48.969,
+          "score": 0.65
+        }
+      ],
+      "avg_logprob": -0.14875731503833894
+    },
+    {
+      "start": 48.989,
+      "end": 50.689,
+      "text": "Sempre com muito cuidado para picar.",
+      "words": [
+        {
+          "word": "Sempre",
+          "start": 48.989,
+          "end": 49.189,
+          "score": 0.398
+        },
+        {
+          "word": "com",
+          "start": 49.289,
+          "end": 49.409,
+          "score": 0.469
+        },
+        {
+          "word": "muito",
+          "start": 49.429,
+          "end": 49.569,
+          "score": 0.179
+        },
+        {
+          "word": "cuidado",
+          "start": 49.629,
+          "end": 50.009,
+          "score": 0.65
+        },
+        {
+          "word": "para",
+          "start": 50.049,
+          "end": 50.149,
+          "score": 0.52
+        },
+        {
+          "word": "picar.",
+          "start": 50.209,
+          "end": 50.689,
+          "score": 0.901
+        }
+      ],
+      "avg_logprob": -0.14875731503833894
+    },
+    {
+      "start": 51.27,
+      "end": 56.111,
+      "text": "Mas, quer dizer, houve aí dias que eu tive 4, 5, 6 exames de fazer.",
+      "words": [
+        {
+          "word": "Mas,",
+          "start": 51.27,
+          "end": 51.43,
+          "score": 0.898
+        },
+        {
+          "word": "quer",
+          "start": 51.45,
+          "end": 51.55,
+          "score": 0.449
+        },
+        {
+          "word": "dizer,",
+          "start": 51.57,
+          "end": 51.93,
+          "score": 0.608
+        },
+        {
+          "word": "houve",
+          "start": 51.95,
+          "end": 52.65,
+          "score": 0.654
+        },
+        {
+          "word": "aí",
+          "start": 52.75,
+          "end": 53.01,
+          "score": 0.924
+        },
+        {
+          "word": "dias",
+          "start": 53.09,
+          "end": 53.45,
+          "score": 0.723
+        },
+        {
+          "word": "que",
+          "start": 53.53,
+          "end": 53.61,
+          "score": 0.23
+        },
+        {
+          "word": "eu",
+          "start": 53.63,
+          "end": 53.67,
+          "score": 0.002
+        },
+        {
+          "word": "tive",
+          "start": 53.73,
+          "end": 53.931,
+          "score": 0.504
+        },
+        {
+          "word": "4,",
+          "start": 54.111,
+          "end": 54.291,
+          "score": 0.8
+        },
+        {
+          "word": "5,",
+          "start": 54.411,
+          "end": 54.511,
+          "score": 0.754
+        },
+        {
+          "word": "6",
+          "start": 54.611,
+          "end": 54.631,
+          "score": 0.657
+        },
+        {
+          "word": "exames",
+          "start": 54.751,
+          "end": 55.371,
+          "score": 0.724
+        },
+        {
+          "word": "de",
+          "start": 55.451,
+          "end": 55.731,
+          "score": 0.766
+        },
+        {
+          "word": "fazer.",
+          "start": 55.751,
+          "end": 56.111,
+          "score": 0.529
+        }
+      ],
+      "avg_logprob": -0.14875731503833894
+    },
+    {
+      "start": 56.571,
+      "end": 59.752,
+      "text": "E realmente aí há muito mais coisas a realçar de positivo.",
+      "words": [
+        {
+          "word": "E",
+          "start": 56.571,
+          "end": 56.611,
+          "score": 0.686
+        },
+        {
+          "word": "realmente",
+          "start": 56.651,
+          "end": 57.112,
+          "score": 0.922
+        },
+        {
+          "word": "aí",
+          "start": 57.132,
+          "end": 57.412,
+          "score": 0.776
+        },
+        {
+          "word": "há",
+          "start": 57.432,
+          "end": 57.512,
+          "score": 0.408
+        },
+        {
+          "word": "muito",
+          "start": 57.572,
+          "end": 57.792,
+          "score": 0.928
+        },
+        {
+          "word": "mais",
+          "start": 57.872,
+          "end": 58.032,
+          "score": 0.94
+        },
+        {
+          "word": "coisas",
+          "start": 58.092,
+          "end": 58.472,
+          "score": 0.579
+        },
+        {
+          "word": "a",
+          "start": 58.512,
+          "end": 58.552,
+          "score": 0.788
+        },
+        {
+          "word": "realçar",
+          "start": 58.592,
+          "end": 59.012,
+          "score": 0.761
+        },
+        {
+          "word": "de",
+          "start": 59.052,
+          "end": 59.112,
+          "score": 0.792
+        },
+        {
+          "word": "positivo.",
+          "start": 59.172,
+          "end": 59.752,
+          "score": 0.859
+        }
+      ],
+      "avg_logprob": -0.14875731503833894
+    },
+    {
+      "start": 59.772,
+      "end": 60.113,
+      "text": "Hoje não.",
+      "words": [
+        {
+          "word": "Hoje",
+          "start": 59.772,
+          "end": 59.953,
+          "score": 0.346
+        },
+        {
+          "word": "não.",
+          "start": 59.993,
+          "end": 60.113,
+          "score": 0.6
+        }
+      ],
+      "avg_logprob": -0.14875731503833894
+    },
+    {
+      "start": 60.173,
+      "end": 64.274,
+      "text": "Hoje tive aquilo de manhã e depois fiquei à espera.",
+      "words": [
+        {
+          "word": "Hoje",
+          "start": 60.173,
+          "end": 60.773,
+          "score": 0.747
+        },
+        {
+          "word": "tive",
+          "start": 61.533,
+          "end": 61.753,
+          "score": 0.835
+        },
+        {
+          "word": "aquilo",
+          "start": 61.773,
+          "end": 62.053,
+          "score": 0.645
+        },
+        {
+          "word": "de",
+          "start": 62.093,
+          "end": 62.153,
+          "score": 0.5
+        },
+        {
+          "word": "manhã",
+          "start": 62.173,
+          "end": 62.493,
+          "score": 0.814
+        },
+        {
+          "word": "e",
+          "start": 62.613,
+          "end": 62.653,
+          "score": 0.476
+        },
+        {
+          "word": "depois",
+          "start": 62.673,
+          "end": 63.294,
+          "score": 0.711
+        },
+        {
+          "word": "fiquei",
+          "start": 63.354,
+          "end": 63.714,
+          "score": 0.841
+        },
+        {
+          "word": "à",
+          "start": 63.774,
+          "end": 63.814,
+          "score": 0.783
+        },
+        {
+          "word": "espera.",
+          "start": 63.834,
+          "end": 64.274,
+          "score": 0.84
+        }
+      ],
+      "avg_logprob": -0.14875731503833894
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "Durante",
+      "start": 2.159,
+      "end": 2.7,
+      "score": 0.944
+    },
+    {
+      "word": "a",
+      "start": 2.74,
+      "end": 2.84,
+      "score": 0.801
+    },
+    {
+      "word": "experiência",
+      "start": 2.86,
+      "end": 3.46,
+      "score": 0.501
+    },
+    {
+      "word": "eu",
+      "start": 3.62,
+      "end": 3.72,
+      "score": 0.455
+    },
+    {
+      "word": "senti",
+      "start": 3.76,
+      "end": 4.261,
+      "score": 0.725
+    },
+    {
+      "word": "muito",
+      "start": 4.341,
+      "end": 4.621,
+      "score": 0.538
+    },
+    {
+      "word": "relaxamento.",
+      "start": 4.661,
+      "end": 5.622,
+      "score": 0.663
+    },
+    {
+      "word": "Depois,",
+      "start": 5.942,
+      "end": 6.863,
+      "score": 0.795
+    },
+    {
+      "word": "acho",
+      "start": 6.883,
+      "end": 7.043,
+      "score": 0.196
+    },
+    {
+      "word": "que",
+      "start": 7.103,
+      "end": 7.223,
+      "score": 0.384
+    },
+    {
+      "word": "voltei",
+      "start": 7.243,
+      "end": 7.603,
+      "score": 0.446
+    },
+    {
+      "word": "um",
+      "start": 7.643,
+      "end": 7.744,
+      "score": 0.464
+    },
+    {
+      "word": "bocadinho",
+      "start": 7.764,
+      "end": 8.204,
+      "score": 0.352
+    },
+    {
+      "word": "à",
+      "start": 8.224,
+      "end": 8.284,
+      "score": 0.586
+    },
+    {
+      "word": "realidade.",
+      "start": 8.364,
+      "end": 9.125,
+      "score": 0.688
+    },
+    {
+      "word": "O",
+      "start": 10.286,
+      "end": 10.306,
+      "score": 0.002
+    },
+    {
+      "word": "Zé",
+      "start": 10.346,
+      "end": 10.486,
+      "score": 0.746
+    },
+    {
+      "word": "falou",
+      "start": 10.666,
+      "end": 10.786,
+      "score": 0.266
+    },
+    {
+      "word": "em",
+      "start": 10.926,
+      "end": 11.046,
+      "score": 0.526
+    },
+    {
+      "word": "doutor",
+      "start": 11.106,
+      "end": 11.406,
+      "score": 0.544
+    },
+    {
+      "word": "Pedro,",
+      "start": 11.567,
+      "end": 11.847,
+      "score": 0.588
+    },
+    {
+      "word": "que",
+      "start": 11.867,
+      "end": 11.927,
+      "score": 0.117
+    },
+    {
+      "word": "estava",
+      "start": 11.947,
+      "end": 12.367,
+      "score": 0.673
+    },
+    {
+      "word": "à",
+      "start": 12.387,
+      "end": 12.407,
+      "score": 0.0
+    },
+    {
+      "word": "minha",
+      "start": 12.487,
+      "end": 13.128,
+      "score": 0.592
+    },
+    {
+      "word": "espera.",
+      "start": 13.248,
+      "end": 13.928,
+      "score": 0.552
+    },
+    {
+      "word": "Eu",
+      "start": 14.489,
+      "end": 14.529,
+      "score": 0.381
+    },
+    {
+      "word": "acho",
+      "start": 14.629,
+      "end": 14.789,
+      "score": 0.599
+    },
+    {
+      "word": "que",
+      "start": 14.809,
+      "end": 14.909,
+      "score": 0.783
+    },
+    {
+      "word": "voltei.",
+      "start": 14.989,
+      "end": 15.45,
+      "score": 0.631
+    },
+    {
+      "word": "Como",
+      "start": 15.87,
+      "end": 16.811,
+      "score": 0.405
+    },
+    {
+      "word": "vocês",
+      "start": 16.871,
+      "end": 17.171,
+      "score": 0.736
+    },
+    {
+      "word": "dizem,",
+      "start": 17.191,
+      "end": 17.431,
+      "score": 0.31
+    },
+    {
+      "word": "é",
+      "start": 17.551,
+      "end": 17.611,
+      "score": 0.627
+    },
+    {
+      "word": "que",
+      "start": 17.691,
+      "end": 17.791,
+      "score": 0.452
+    },
+    {
+      "word": "é",
+      "start": 17.872,
+      "end": 17.892,
+      "score": 0.0
+    },
+    {
+      "word": "eu",
+      "start": 17.952,
+      "end": 17.992,
+      "score": 0.134
+    },
+    {
+      "word": "na",
+      "start": 18.012,
+      "end": 18.112,
+      "score": 0.952
+    },
+    {
+      "word": "real.",
+      "start": 18.172,
+      "end": 19.453,
+      "score": 0.882
+    },
+    {
+      "word": "Mas",
+      "start": 19.593,
+      "end": 19.713,
+      "score": 0.522
+    },
+    {
+      "word": "durante",
+      "start": 19.793,
+      "end": 20.053,
+      "score": 0.316
+    },
+    {
+      "word": "o",
+      "start": 20.213,
+      "end": 20.293,
+      "score": 0.721
+    },
+    {
+      "word": "filme",
+      "start": 20.414,
+      "end": 20.694,
+      "score": 0.541
+    },
+    {
+      "word": "deixei",
+      "start": 20.774,
+      "end": 21.234,
+      "score": 0.607
+    },
+    {
+      "word": "mesmo",
+      "start": 21.334,
+      "end": 22.175,
+      "score": 0.854
+    },
+    {
+      "word": "ir.",
+      "start": 22.335,
+      "end": 22.635,
+      "score": 0.739
+    },
+    {
+      "word": "Agora",
+      "start": 24.777,
+      "end": 25.137,
+      "score": 0.754
+    },
+    {
+      "word": "estou",
+      "start": 25.257,
+      "end": 25.718,
+      "score": 0.582
+    },
+    {
+      "word": "a",
+      "start": 25.738,
+      "end": 25.758,
+      "score": 0.012
+    },
+    {
+      "word": "cair",
+      "start": 25.838,
+      "end": 26.078,
+      "score": 0.342
+    },
+    {
+      "word": "mesmo",
+      "start": 26.158,
+      "end": 26.458,
+      "score": 0.616
+    },
+    {
+      "word": "na",
+      "start": 26.478,
+      "end": 26.518,
+      "score": 0.016
+    },
+    {
+      "word": "realidade",
+      "start": 26.578,
+      "end": 27.139,
+      "score": 0.678
+    },
+    {
+      "word": "outra",
+      "start": 27.159,
+      "end": 27.379,
+      "score": 0.438
+    },
+    {
+      "word": "vez,",
+      "start": 27.439,
+      "end": 27.719,
+      "score": 0.457
+    },
+    {
+      "word": "mas",
+      "start": 27.779,
+      "end": 28.0,
+      "score": 0.731
+    },
+    {
+      "word": "pronto.",
+      "start": 28.08,
+      "end": 28.6,
+      "score": 0.591
+    },
+    {
+      "word": "Hoje",
+      "start": 29.464,
+      "end": 29.864,
+      "score": 0.774
+    },
+    {
+      "word": "não",
+      "start": 30.386,
+      "end": 30.506,
+      "score": 0.749
+    },
+    {
+      "word": "tive",
+      "start": 30.546,
+      "end": 30.746,
+      "score": 0.277
+    },
+    {
+      "word": "nada",
+      "start": 30.786,
+      "end": 31.007,
+      "score": 0.927
+    },
+    {
+      "word": "de",
+      "start": 31.027,
+      "end": 31.067,
+      "score": 0.024
+    },
+    {
+      "word": "especial,",
+      "start": 31.107,
+      "end": 31.508,
+      "score": 0.955
+    },
+    {
+      "word": "foi",
+      "start": 31.548,
+      "end": 31.688,
+      "score": 0.576
+    },
+    {
+      "word": "fazer",
+      "start": 31.748,
+      "end": 32.109,
+      "score": 0.955
+    },
+    {
+      "word": "o",
+      "start": 32.77,
+      "end": 32.83,
+      "score": 0.953
+    },
+    {
+      "word": "exame,",
+      "start": 32.87,
+      "end": 33.452,
+      "score": 0.685
+    },
+    {
+      "word": "a",
+      "start": 34.033,
+      "end": 34.073,
+      "score": 0.502
+    },
+    {
+      "word": "serigrafia,",
+      "start": 34.153,
+      "end": 34.814,
+      "score": 0.608
+    },
+    {
+      "word": "ou",
+      "start": 34.874,
+      "end": 34.975,
+      "score": 0.721
+    },
+    {
+      "word": "não",
+      "start": 35.015,
+      "end": 35.075,
+      "score": 0.54
+    },
+    {
+      "word": "sei",
+      "start": 35.095,
+      "end": 35.275,
+      "score": 0.58
+    },
+    {
+      "word": "quanto,",
+      "start": 35.335,
+      "end": 35.776,
+      "score": 0.552
+    },
+    {
+      "word": "é",
+      "start": 35.796,
+      "end": 35.856,
+      "score": 0.757
+    },
+    {
+      "word": "difícil",
+      "start": 35.917,
+      "end": 36.398,
+      "score": 0.688
+    },
+    {
+      "word": "dizer.",
+      "start": 36.418,
+      "end": 37.139,
+      "score": 0.511
+    },
+    {
+      "word": "E",
+      "start": 37.425,
+      "end": 37.765,
+      "score": 0.848
+    },
+    {
+      "word": "depois",
+      "start": 37.785,
+      "end": 38.085,
+      "score": 0.796
+    },
+    {
+      "word": "passei",
+      "start": 38.345,
+      "end": 38.665,
+      "score": 0.624
+    },
+    {
+      "word": "o",
+      "start": 38.685,
+      "end": 38.725,
+      "score": 0.518
+    },
+    {
+      "word": "tempo",
+      "start": 38.745,
+      "end": 38.966,
+      "score": 0.765
+    },
+    {
+      "word": "todo",
+      "start": 38.986,
+      "end": 39.186,
+      "score": 0.462
+    },
+    {
+      "word": "à",
+      "start": 39.206,
+      "end": 39.226,
+      "score": 0.007
+    },
+    {
+      "word": "espera.",
+      "start": 39.246,
+      "end": 40.146,
+      "score": 0.954
+    },
+    {
+      "word": "Estava",
+      "start": 40.306,
+      "end": 41.306,
+      "score": 0.708
+    },
+    {
+      "word": "dedicada",
+      "start": 41.466,
+      "end": 42.187,
+      "score": 0.773
+    },
+    {
+      "word": "para",
+      "start": 42.267,
+      "end": 42.467,
+      "score": 0.636
+    },
+    {
+      "word": "as",
+      "start": 42.547,
+      "end": 42.587,
+      "score": 0.126
+    },
+    {
+      "word": "13.",
+      "start": 42.647,
+      "end": 42.947,
+      "score": 0.792
+    },
+    {
+      "word": "Não",
+      "start": 43.567,
+      "end": 43.667,
+      "score": 0.516
+    },
+    {
+      "word": "tem",
+      "start": 43.727,
+      "end": 43.847,
+      "score": 0.502
+    },
+    {
+      "word": "nada",
+      "start": 43.947,
+      "end": 44.227,
+      "score": 0.836
+    },
+    {
+      "word": "assim",
+      "start": 44.247,
+      "end": 44.647,
+      "score": 0.516
+    },
+    {
+      "word": "a...",
+      "start": 44.727,
+      "end": 46.148,
+      "score": 0.869
+    },
+    {
+      "word": "Foi",
+      "start": 47.188,
+      "end": 47.348,
+      "score": 0.778
+    },
+    {
+      "word": "normal",
+      "start": 47.388,
+      "end": 47.809,
+      "score": 0.788
+    },
+    {
+      "word": "o",
+      "start": 47.889,
+      "end": 47.909,
+      "score": 0.052
+    },
+    {
+      "word": "exame",
+      "start": 47.969,
+      "end": 48.309,
+      "score": 0.675
+    },
+    {
+      "word": "de",
+      "start": 48.349,
+      "end": 48.429,
+      "score": 0.499
+    },
+    {
+      "word": "manhã.",
+      "start": 48.489,
+      "end": 48.969,
+      "score": 0.65
+    },
+    {
+      "word": "Sempre",
+      "start": 48.989,
+      "end": 49.189,
+      "score": 0.398
+    },
+    {
+      "word": "com",
+      "start": 49.289,
+      "end": 49.409,
+      "score": 0.469
+    },
+    {
+      "word": "muito",
+      "start": 49.429,
+      "end": 49.569,
+      "score": 0.179
+    },
+    {
+      "word": "cuidado",
+      "start": 49.629,
+      "end": 50.009,
+      "score": 0.65
+    },
+    {
+      "word": "para",
+      "start": 50.049,
+      "end": 50.149,
+      "score": 0.52
+    },
+    {
+      "word": "picar.",
+      "start": 50.209,
+      "end": 50.689,
+      "score": 0.901
+    },
+    {
+      "word": "Mas,",
+      "start": 51.27,
+      "end": 51.43,
+      "score": 0.898
+    },
+    {
+      "word": "quer",
+      "start": 51.45,
+      "end": 51.55,
+      "score": 0.449
+    },
+    {
+      "word": "dizer,",
+      "start": 51.57,
+      "end": 51.93,
+      "score": 0.608
+    },
+    {
+      "word": "houve",
+      "start": 51.95,
+      "end": 52.65,
+      "score": 0.654
+    },
+    {
+      "word": "aí",
+      "start": 52.75,
+      "end": 53.01,
+      "score": 0.924
+    },
+    {
+      "word": "dias",
+      "start": 53.09,
+      "end": 53.45,
+      "score": 0.723
+    },
+    {
+      "word": "que",
+      "start": 53.53,
+      "end": 53.61,
+      "score": 0.23
+    },
+    {
+      "word": "eu",
+      "start": 53.63,
+      "end": 53.67,
+      "score": 0.002
+    },
+    {
+      "word": "tive",
+      "start": 53.73,
+      "end": 53.931,
+      "score": 0.504
+    },
+    {
+      "word": "4,",
+      "start": 54.111,
+      "end": 54.291,
+      "score": 0.8
+    },
+    {
+      "word": "5,",
+      "start": 54.411,
+      "end": 54.511,
+      "score": 0.754
+    },
+    {
+      "word": "6",
+      "start": 54.611,
+      "end": 54.631,
+      "score": 0.657
+    },
+    {
+      "word": "exames",
+      "start": 54.751,
+      "end": 55.371,
+      "score": 0.724
+    },
+    {
+      "word": "de",
+      "start": 55.451,
+      "end": 55.731,
+      "score": 0.766
+    },
+    {
+      "word": "fazer.",
+      "start": 55.751,
+      "end": 56.111,
+      "score": 0.529
+    },
+    {
+      "word": "E",
+      "start": 56.571,
+      "end": 56.611,
+      "score": 0.686
+    },
+    {
+      "word": "realmente",
+      "start": 56.651,
+      "end": 57.112,
+      "score": 0.922
+    },
+    {
+      "word": "aí",
+      "start": 57.132,
+      "end": 57.412,
+      "score": 0.776
+    },
+    {
+      "word": "há",
+      "start": 57.432,
+      "end": 57.512,
+      "score": 0.408
+    },
+    {
+      "word": "muito",
+      "start": 57.572,
+      "end": 57.792,
+      "score": 0.928
+    },
+    {
+      "word": "mais",
+      "start": 57.872,
+      "end": 58.032,
+      "score": 0.94
+    },
+    {
+      "word": "coisas",
+      "start": 58.092,
+      "end": 58.472,
+      "score": 0.579
+    },
+    {
+      "word": "a",
+      "start": 58.512,
+      "end": 58.552,
+      "score": 0.788
+    },
+    {
+      "word": "realçar",
+      "start": 58.592,
+      "end": 59.012,
+      "score": 0.761
+    },
+    {
+      "word": "de",
+      "start": 59.052,
+      "end": 59.112,
+      "score": 0.792
+    },
+    {
+      "word": "positivo.",
+      "start": 59.172,
+      "end": 59.752,
+      "score": 0.859
+    },
+    {
+      "word": "Hoje",
+      "start": 59.772,
+      "end": 59.953,
+      "score": 0.346
+    },
+    {
+      "word": "não.",
+      "start": 59.993,
+      "end": 60.113,
+      "score": 0.6
+    },
+    {
+      "word": "Hoje",
+      "start": 60.173,
+      "end": 60.773,
+      "score": 0.747
+    },
+    {
+      "word": "tive",
+      "start": 61.533,
+      "end": 61.753,
+      "score": 0.835
+    },
+    {
+      "word": "aquilo",
+      "start": 61.773,
+      "end": 62.053,
+      "score": 0.645
+    },
+    {
+      "word": "de",
+      "start": 62.093,
+      "end": 62.153,
+      "score": 0.5
+    },
+    {
+      "word": "manhã",
+      "start": 62.173,
+      "end": 62.493,
+      "score": 0.814
+    },
+    {
+      "word": "e",
+      "start": 62.613,
+      "end": 62.653,
+      "score": 0.476
+    },
+    {
+      "word": "depois",
+      "start": 62.673,
+      "end": 63.294,
+      "score": 0.711
+    },
+    {
+      "word": "fiquei",
+      "start": 63.354,
+      "end": 63.714,
+      "score": 0.841
+    },
+    {
+      "word": "à",
+      "start": 63.774,
+      "end": 63.814,
+      "score": 0.783
+    },
+    {
+      "word": "espera.",
+      "start": 63.834,
+      "end": 64.274,
+      "score": 0.84
+    }
+  ]
+}

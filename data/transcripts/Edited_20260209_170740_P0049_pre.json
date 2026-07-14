@@ -1,0 +1,38 @@
+{
+  "segments": [
+    {
+      "start": 0.217,
+      "end": 1.583,
+      "text": " Estou normal.",
+      "words": [
+        {
+          "word": "Estou",
+          "start": 0.217,
+          "end": 1.293,
+          "score": 0.529
+        },
+        {
+          "word": "normal.",
+          "start": 1.314,
+          "end": 1.583,
+          "score": 0.352
+        }
+      ],
+      "avg_logprob": -0.3383632659912109
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "Estou",
+      "start": 0.217,
+      "end": 1.293,
+      "score": 0.529
+    },
+    {
+      "word": "normal.",
+      "start": 1.314,
+      "end": 1.583,
+      "score": 0.352
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "segments": [
+    {
+      "start": 2.299,
+      "end": 5.627,
+      "text": " tranquila e ao mesmo tempo um bocadinho ansiosa.",
+      "words": [
+        {
+          "word": "tranquila",
+          "start": 2.299,
+          "end": 2.8,
+          "score": 0.948
+        },
+        {
+          "word": "e",
+          "start": 2.9,
+          "end": 2.96,
+          "score": 0.874
+        },
+        {
+          "word": "ao",
+          "start": 3.0,
+          "end": 3.061,
+          "score": 0.719
+        },
+        {
+          "word": "mesmo",
+          "start": 3.101,
+          "end": 3.361,
+          "score": 0.885
+        },
+        {
+          "word": "tempo",
+          "start": 3.462,
+          "end": 3.702,
+          "score": 0.983
+        },
+        {
+          "word": "um",
+          "start": 3.782,
+          "end": 3.823,
+          "score": 0.128
+        },
+        {
+          "word": "bocadinho",
+          "start": 3.903,
+          "end": 4.524,
+          "score": 0.53
+        },
+        {
+          "word": "ansiosa.",
+          "start": 5.106,
+          "end": 5.627,
+          "score": 0.925
+        }
+      ],
+      "avg_logprob": -0.09486488342285156
+    },
+    {
+      "start": 7.572,
+      "end": 10.78,
+      "text": "Estou tranquila e um pouco ansiosa.",
+      "words": [
+        {
+          "word": "Estou",
+          "start": 7.572,
+          "end": 8.815,
+          "score": 0.637
+        },
+        {
+          "word": "tranquila",
+          "start": 8.855,
+          "end": 9.296,
+          "score": 0.859
+        },
+        {
+          "word": "e",
+          "start": 9.597,
+          "end": 9.677,
+          "score": 0.794
+        },
+        {
+          "word": "um",
+          "start": 9.717,
+          "end": 9.777,
+          "score": 0.889
+        },
+        {
+          "word": "pouco",
+          "start": 9.838,
+          "end": 10.158,
+          "score": 0.883
+        },
+        {
+          "word": "ansiosa.",
+          "start": 10.239,
+          "end": 10.78,
+          "score": 0.918
+        }
+      ],
+      "avg_logprob": -0.09486488342285156
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "tranquila",
+      "start": 2.299,
+      "end": 2.8,
+      "score": 0.948
+    },
+    {
+      "word": "e",
+      "start": 2.9,
+      "end": 2.96,
+      "score": 0.874
+    },
+    {
+      "word": "ao",
+      "start": 3.0,
+      "end": 3.061,
+      "score": 0.719
+    },
+    {
+      "word": "mesmo",
+      "start": 3.101,
+      "end": 3.361,
+      "score": 0.885
+    },
+    {
+      "word": "tempo",
+      "start": 3.462,
+      "end": 3.702,
+      "score": 0.983
+    },
+    {
+      "word": "um",
+      "start": 3.782,
+      "end": 3.823,
+      "score": 0.128
+    },
+    {
+      "word": "bocadinho",
+      "start": 3.903,
+      "end": 4.524,
+      "score": 0.53
+    },
+    {
+      "word": "ansiosa.",
+      "start": 5.106,
+      "end": 5.627,
+      "score": 0.925
+    },
+    {
+      "word": "Estou",
+      "start": 7.572,
+      "end": 8.815,
+      "score": 0.637
+    },
+    {
+      "word": "tranquila",
+      "start": 8.855,
+      "end": 9.296,
+      "score": 0.859
+    },
+    {
+      "word": "e",
+      "start": 9.597,
+      "end": 9.677,
+      "score": 0.794
+    },
+    {
+      "word": "um",
+      "start": 9.717,
+      "end": 9.777,
+      "score": 0.889
+    },
+    {
+      "word": "pouco",
+      "start": 9.838,
+      "end": 10.158,
+      "score": 0.883
+    },
+    {
+      "word": "ansiosa.",
+      "start": 10.239,
+      "end": 10.78,
+      "score": 0.918
+    }
+  ]
+}

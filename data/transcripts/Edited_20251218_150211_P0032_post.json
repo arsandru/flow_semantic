@@ -1,0 +1,478 @@
+{
+  "segments": [
+    {
+      "start": 0.25,
+      "end": 5.155,
+      "text": " Agora, agora parece que estou assim um bocadinho mais agitada.",
+      "words": [
+        {
+          "word": "Agora,",
+          "start": 0.25,
+          "end": 0.49,
+          "score": 0.143
+        },
+        {
+          "word": "agora",
+          "start": 0.51,
+          "end": 0.971,
+          "score": 0.489
+        },
+        {
+          "word": "parece",
+          "start": 2.152,
+          "end": 2.572,
+          "score": 0.606
+        },
+        {
+          "word": "que",
+          "start": 2.592,
+          "end": 2.773,
+          "score": 0.489
+        },
+        {
+          "word": "estou",
+          "start": 2.873,
+          "end": 3.133,
+          "score": 0.4
+        },
+        {
+          "word": "assim",
+          "start": 3.153,
+          "end": 3.253,
+          "score": 0.0
+        },
+        {
+          "word": "um",
+          "start": 3.333,
+          "end": 3.413,
+          "score": 0.5
+        },
+        {
+          "word": "bocadinho",
+          "start": 3.493,
+          "end": 3.894,
+          "score": 0.29
+        },
+        {
+          "word": "mais",
+          "start": 3.914,
+          "end": 4.074,
+          "score": 0.2
+        },
+        {
+          "word": "agitada.",
+          "start": 4.114,
+          "end": 5.155,
+          "score": 0.299
+        }
+      ],
+      "avg_logprob": -0.06803306027994317
+    },
+    {
+      "start": 5.195,
+      "end": 6.817,
+      "text": "Não gostei muito das alturas, não.",
+      "words": [
+        {
+          "word": "Não",
+          "start": 5.195,
+          "end": 5.415,
+          "score": 0.508
+        },
+        {
+          "word": "gostei",
+          "start": 5.515,
+          "end": 5.715,
+          "score": 0.133
+        },
+        {
+          "word": "muito",
+          "start": 5.755,
+          "end": 5.876,
+          "score": 0.1
+        },
+        {
+          "word": "das",
+          "start": 5.936,
+          "end": 6.036,
+          "score": 0.333
+        },
+        {
+          "word": "alturas,",
+          "start": 6.236,
+          "end": 6.636,
+          "score": 0.333
+        },
+        {
+          "word": "não.",
+          "start": 6.656,
+          "end": 6.817,
+          "score": 0.312
+        }
+      ],
+      "avg_logprob": -0.06803306027994317
+    },
+    {
+      "start": 6.857,
+      "end": 9.719,
+      "text": "Estou assim um bocadinho mais agitada.",
+      "words": [
+        {
+          "word": "Estou",
+          "start": 6.857,
+          "end": 6.997,
+          "score": 0.2
+        },
+        {
+          "word": "assim",
+          "start": 7.017,
+          "end": 8.598,
+          "score": 0.59
+        },
+        {
+          "word": "um",
+          "start": 8.618,
+          "end": 8.698,
+          "score": 0.334
+        },
+        {
+          "word": "bocadinho",
+          "start": 8.738,
+          "end": 8.999,
+          "score": 0.089
+        },
+        {
+          "word": "mais",
+          "start": 9.039,
+          "end": 9.179,
+          "score": 0.292
+        },
+        {
+          "word": "agitada.",
+          "start": 9.199,
+          "end": 9.719,
+          "score": 0.286
+        }
+      ],
+      "avg_logprob": -0.06803306027994317
+    },
+    {
+      "start": 9.84,
+      "end": 14.364,
+      "text": "Estou aqui para colaborar e para fazer o melhor possível.",
+      "words": [
+        {
+          "word": "Estou",
+          "start": 9.84,
+          "end": 11.021,
+          "score": 0.511
+        },
+        {
+          "word": "aqui",
+          "start": 11.061,
+          "end": 11.201,
+          "score": 0.292
+        },
+        {
+          "word": "para",
+          "start": 11.221,
+          "end": 11.601,
+          "score": 0.6
+        },
+        {
+          "word": "colaborar",
+          "start": 11.821,
+          "end": 12.202,
+          "score": 0.227
+        },
+        {
+          "word": "e",
+          "start": 12.342,
+          "end": 12.402,
+          "score": 0.667
+        },
+        {
+          "word": "para",
+          "start": 12.542,
+          "end": 12.722,
+          "score": 0.325
+        },
+        {
+          "word": "fazer",
+          "start": 12.742,
+          "end": 12.943,
+          "score": 0.283
+        },
+        {
+          "word": "o",
+          "start": 13.023,
+          "end": 13.083,
+          "score": 0.667
+        },
+        {
+          "word": "melhor",
+          "start": 13.103,
+          "end": 13.563,
+          "score": 0.422
+        },
+        {
+          "word": "possível.",
+          "start": 13.583,
+          "end": 14.364,
+          "score": 0.483
+        }
+      ],
+      "avg_logprob": -0.06803306027994317
+    },
+    {
+      "start": 14.464,
+      "end": 16.366,
+      "text": "E é só isso.",
+      "words": [
+        {
+          "word": "E",
+          "start": 14.464,
+          "end": 14.484,
+          "score": 0.0
+        },
+        {
+          "word": "é",
+          "start": 14.684,
+          "end": 14.724,
+          "score": 0.5
+        },
+        {
+          "word": "só",
+          "start": 14.744,
+          "end": 15.005,
+          "score": 0.784
+        },
+        {
+          "word": "isso.",
+          "start": 15.625,
+          "end": 16.366,
+          "score": 0.553
+        }
+      ],
+      "avg_logprob": -0.06803306027994317
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "Agora,",
+      "start": 0.25,
+      "end": 0.49,
+      "score": 0.143
+    },
+    {
+      "word": "agora",
+      "start": 0.51,
+      "end": 0.971,
+      "score": 0.489
+    },
+    {
+      "word": "parece",
+      "start": 2.152,
+      "end": 2.572,
+      "score": 0.606
+    },
+    {
+      "word": "que",
+      "start": 2.592,
+      "end": 2.773,
+      "score": 0.489
+    },
+    {
+      "word": "estou",
+      "start": 2.873,
+      "end": 3.133,
+      "score": 0.4
+    },
+    {
+      "word": "assim",
+      "start": 3.153,
+      "end": 3.253,
+      "score": 0.0
+    },
+    {
+      "word": "um",
+      "start": 3.333,
+      "end": 3.413,
+      "score": 0.5
+    },
+    {
+      "word": "bocadinho",
+      "start": 3.493,
+      "end": 3.894,
+      "score": 0.29
+    },
+    {
+      "word": "mais",
+      "start": 3.914,
+      "end": 4.074,
+      "score": 0.2
+    },
+    {
+      "word": "agitada.",
+      "start": 4.114,
+      "end": 5.155,
+      "score": 0.299
+    },
+    {
+      "word": "Não",
+      "start": 5.195,
+      "end": 5.415,
+      "score": 0.508
+    },
+    {
+      "word": "gostei",
+      "start": 5.515,
+      "end": 5.715,
+      "score": 0.133
+    },
+    {
+      "word": "muito",
+      "start": 5.755,
+      "end": 5.876,
+      "score": 0.1
+    },
+    {
+      "word": "das",
+      "start": 5.936,
+      "end": 6.036,
+      "score": 0.333
+    },
+    {
+      "word": "alturas,",
+      "start": 6.236,
+      "end": 6.636,
+      "score": 0.333
+    },
+    {
+      "word": "não.",
+      "start": 6.656,
+      "end": 6.817,
+      "score": 0.312
+    },
+    {
+      "word": "Estou",
+      "start": 6.857,
+      "end": 6.997,
+      "score": 0.2
+    },
+    {
+      "word": "assim",
+      "start": 7.017,
+      "end": 8.598,
+      "score": 0.59
+    },
+    {
+      "word": "um",
+      "start": 8.618,
+      "end": 8.698,
+      "score": 0.334
+    },
+    {
+      "word": "bocadinho",
+      "start": 8.738,
+      "end": 8.999,
+      "score": 0.089
+    },
+    {
+      "word": "mais",
+      "start": 9.039,
+      "end": 9.179,
+      "score": 0.292
+    },
+    {
+      "word": "agitada.",
+      "start": 9.199,
+      "end": 9.719,
+      "score": 0.286
+    },
+    {
+      "word": "Estou",
+      "start": 9.84,
+      "end": 11.021,
+      "score": 0.511
+    },
+    {
+      "word": "aqui",
+      "start": 11.061,
+      "end": 11.201,
+      "score": 0.292
+    },
+    {
+      "word": "para",
+      "start": 11.221,
+      "end": 11.601,
+      "score": 0.6
+    },
+    {
+      "word": "colaborar",
+      "start": 11.821,
+      "end": 12.202,
+      "score": 0.227
+    },
+    {
+      "word": "e",
+      "start": 12.342,
+      "end": 12.402,
+      "score": 0.667
+    },
+    {
+      "word": "para",
+      "start": 12.542,
+      "end": 12.722,
+      "score": 0.325
+    },
+    {
+      "word": "fazer",
+      "start": 12.742,
+      "end": 12.943,
+      "score": 0.283
+    },
+    {
+      "word": "o",
+      "start": 13.023,
+      "end": 13.083,
+      "score": 0.667
+    },
+    {
+      "word": "melhor",
+      "start": 13.103,
+      "end": 13.563,
+      "score": 0.422
+    },
+    {
+      "word": "possível.",
+      "start": 13.583,
+      "end": 14.364,
+      "score": 0.483
+    },
+    {
+      "word": "E",
+      "start": 14.464,
+      "end": 14.484,
+      "score": 0.0
+    },
+    {
+      "word": "é",
+      "start": 14.684,
+      "end": 14.724,
+      "score": 0.5
+    },
+    {
+      "word": "só",
+      "start": 14.744,
+      "end": 15.005,
+      "score": 0.784
+    },
+    {
+      "word": "isso.",
+      "start": 15.625,
+      "end": 16.366,
+      "score": 0.553
+    }
+  ]
+}

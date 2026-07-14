@@ -1,0 +1,410 @@
+{
+  "segments": [
+    {
+      "start": 0.031,
+      "end": 23.588,
+      "text": " Não sei, já fui operada uma vez e tenho mais receio depois da cirurgia do que antes, porque de outra vez a coisa não correu muito bem com a fisioterapia e só isso.",
+      "words": [
+        {
+          "word": "Não",
+          "start": 0.031,
+          "end": 1.273,
+          "score": 0.761
+        },
+        {
+          "word": "sei,",
+          "start": 1.954,
+          "end": 2.355,
+          "score": 0.4
+        },
+        {
+          "word": "já",
+          "start": 2.395,
+          "end": 3.016,
+          "score": 0.926
+        },
+        {
+          "word": "fui",
+          "start": 3.136,
+          "end": 3.396,
+          "score": 0.303
+        },
+        {
+          "word": "operada",
+          "start": 3.436,
+          "end": 3.757,
+          "score": 0.31
+        },
+        {
+          "word": "uma",
+          "start": 4.178,
+          "end": 4.678,
+          "score": 0.775
+        },
+        {
+          "word": "vez",
+          "start": 4.859,
+          "end": 4.919,
+          "score": 0.0
+        },
+        {
+          "word": "e",
+          "start": 5.039,
+          "end": 5.059,
+          "score": 0.0
+        },
+        {
+          "word": "tenho",
+          "start": 5.099,
+          "end": 5.6,
+          "score": 0.683
+        },
+        {
+          "word": "mais",
+          "start": 5.62,
+          "end": 6.341,
+          "score": 0.442
+        },
+        {
+          "word": "receio",
+          "start": 6.421,
+          "end": 8.564,
+          "score": 0.764
+        },
+        {
+          "word": "depois",
+          "start": 8.584,
+          "end": 9.586,
+          "score": 0.56
+        },
+        {
+          "word": "da",
+          "start": 9.646,
+          "end": 9.686,
+          "score": 0.0
+        },
+        {
+          "word": "cirurgia",
+          "start": 9.706,
+          "end": 10.187,
+          "score": 0.28
+        },
+        {
+          "word": "do",
+          "start": 10.207,
+          "end": 10.367,
+          "score": 0.428
+        },
+        {
+          "word": "que",
+          "start": 10.768,
+          "end": 11.95,
+          "score": 0.947
+        },
+        {
+          "word": "antes,",
+          "start": 12.09,
+          "end": 13.893,
+          "score": 0.836
+        },
+        {
+          "word": "porque",
+          "start": 14.834,
+          "end": 16.277,
+          "score": 0.531
+        },
+        {
+          "word": "de",
+          "start": 16.297,
+          "end": 16.637,
+          "score": 0.469
+        },
+        {
+          "word": "outra",
+          "start": 16.657,
+          "end": 17.979,
+          "score": 0.197
+        },
+        {
+          "word": "vez",
+          "start": 17.999,
+          "end": 18.119,
+          "score": 0.389
+        },
+        {
+          "word": "a",
+          "start": 18.26,
+          "end": 18.52,
+          "score": 0.923
+        },
+        {
+          "word": "coisa",
+          "start": 18.64,
+          "end": 19.482,
+          "score": 0.719
+        },
+        {
+          "word": "não",
+          "start": 19.522,
+          "end": 19.982,
+          "score": 0.841
+        },
+        {
+          "word": "correu",
+          "start": 20.103,
+          "end": 20.764,
+          "score": 0.513
+        },
+        {
+          "word": "muito",
+          "start": 20.784,
+          "end": 20.964,
+          "score": 0.267
+        },
+        {
+          "word": "bem",
+          "start": 20.984,
+          "end": 21.164,
+          "score": 0.5
+        },
+        {
+          "word": "com",
+          "start": 21.204,
+          "end": 21.845,
+          "score": 0.836
+        },
+        {
+          "word": "a",
+          "start": 21.865,
+          "end": 21.885,
+          "score": 0.0
+        },
+        {
+          "word": "fisioterapia",
+          "start": 21.905,
+          "end": 22.546,
+          "score": 0.308
+        },
+        {
+          "word": "e",
+          "start": 22.827,
+          "end": 22.987,
+          "score": 0.875
+        },
+        {
+          "word": "só",
+          "start": 23.067,
+          "end": 23.127,
+          "score": 0.25
+        },
+        {
+          "word": "isso.",
+          "start": 23.207,
+          "end": 23.588,
+          "score": 0.486
+        }
+      ],
+      "avg_logprob": -0.24896266725328234
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "Não",
+      "start": 0.031,
+      "end": 1.273,
+      "score": 0.761
+    },
+    {
+      "word": "sei,",
+      "start": 1.954,
+      "end": 2.355,
+      "score": 0.4
+    },
+    {
+      "word": "já",
+      "start": 2.395,
+      "end": 3.016,
+      "score": 0.926
+    },
+    {
+      "word": "fui",
+      "start": 3.136,
+      "end": 3.396,
+      "score": 0.303
+    },
+    {
+      "word": "operada",
+      "start": 3.436,
+      "end": 3.757,
+      "score": 0.31
+    },
+    {
+      "word": "uma",
+      "start": 4.178,
+      "end": 4.678,
+      "score": 0.775
+    },
+    {
+      "word": "vez",
+      "start": 4.859,
+      "end": 4.919,
+      "score": 0.0
+    },
+    {
+      "word": "e",
+      "start": 5.039,
+      "end": 5.059,
+      "score": 0.0
+    },
+    {
+      "word": "tenho",
+      "start": 5.099,
+      "end": 5.6,
+      "score": 0.683
+    },
+    {
+      "word": "mais",
+      "start": 5.62,
+      "end": 6.341,
+      "score": 0.442
+    },
+    {
+      "word": "receio",
+      "start": 6.421,
+      "end": 8.564,
+      "score": 0.764
+    },
+    {
+      "word": "depois",
+      "start": 8.584,
+      "end": 9.586,
+      "score": 0.56
+    },
+    {
+      "word": "da",
+      "start": 9.646,
+      "end": 9.686,
+      "score": 0.0
+    },
+    {
+      "word": "cirurgia",
+      "start": 9.706,
+      "end": 10.187,
+      "score": 0.28
+    },
+    {
+      "word": "do",
+      "start": 10.207,
+      "end": 10.367,
+      "score": 0.428
+    },
+    {
+      "word": "que",
+      "start": 10.768,
+      "end": 11.95,
+      "score": 0.947
+    },
+    {
+      "word": "antes,",
+      "start": 12.09,
+      "end": 13.893,
+      "score": 0.836
+    },
+    {
+      "word": "porque",
+      "start": 14.834,
+      "end": 16.277,
+      "score": 0.531
+    },
+    {
+      "word": "de",
+      "start": 16.297,
+      "end": 16.637,
+      "score": 0.469
+    },
+    {
+      "word": "outra",
+      "start": 16.657,
+      "end": 17.979,
+      "score": 0.197
+    },
+    {
+      "word": "vez",
+      "start": 17.999,
+      "end": 18.119,
+      "score": 0.389
+    },
+    {
+      "word": "a",
+      "start": 18.26,
+      "end": 18.52,
+      "score": 0.923
+    },
+    {
+      "word": "coisa",
+      "start": 18.64,
+      "end": 19.482,
+      "score": 0.719
+    },
+    {
+      "word": "não",
+      "start": 19.522,
+      "end": 19.982,
+      "score": 0.841
+    },
+    {
+      "word": "correu",
+      "start": 20.103,
+      "end": 20.764,
+      "score": 0.513
+    },
+    {
+      "word": "muito",
+      "start": 20.784,
+      "end": 20.964,
+      "score": 0.267
+    },
+    {
+      "word": "bem",
+      "start": 20.984,
+      "end": 21.164,
+      "score": 0.5
+    },
+    {
+      "word": "com",
+      "start": 21.204,
+      "end": 21.845,
+      "score": 0.836
+    },
+    {
+      "word": "a",
+      "start": 21.865,
+      "end": 21.885,
+      "score": 0.0
+    },
+    {
+      "word": "fisioterapia",
+      "start": 21.905,
+      "end": 22.546,
+      "score": 0.308
+    },
+    {
+      "word": "e",
+      "start": 22.827,
+      "end": 22.987,
+      "score": 0.875
+    },
+    {
+      "word": "só",
+      "start": 23.067,
+      "end": 23.127,
+      "score": 0.25
+    },
+    {
+      "word": "isso.",
+      "start": 23.207,
+      "end": 23.588,
+      "score": 0.486
+    }
+  ]
+}

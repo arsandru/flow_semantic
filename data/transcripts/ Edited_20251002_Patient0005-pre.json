@@ -1,0 +1,350 @@
+{
+  "segments": [
+    {
+      "start": 1.043,
+      "end": 14.02,
+      "text": " Me senti muito bem, sinto que vai ser um momento só mesmo que me vai fazer ficar melhor e me vai fazer ultrapassar o drama que tenho vivido.",
+      "words": [
+        {
+          "word": "Me",
+          "start": 1.043,
+          "end": 1.083,
+          "score": 0.008
+        },
+        {
+          "word": "senti",
+          "start": 1.123,
+          "end": 1.363,
+          "score": 0.922
+        },
+        {
+          "word": "muito",
+          "start": 1.403,
+          "end": 1.624,
+          "score": 0.677
+        },
+        {
+          "word": "bem,",
+          "start": 1.704,
+          "end": 1.984,
+          "score": 0.881
+        },
+        {
+          "word": "sinto",
+          "start": 2.365,
+          "end": 2.605,
+          "score": 0.676
+        },
+        {
+          "word": "que",
+          "start": 2.705,
+          "end": 3.206,
+          "score": 0.795
+        },
+        {
+          "word": "vai",
+          "start": 3.286,
+          "end": 3.426,
+          "score": 0.944
+        },
+        {
+          "word": "ser",
+          "start": 3.546,
+          "end": 5.108,
+          "score": 0.904
+        },
+        {
+          "word": "um",
+          "start": 5.249,
+          "end": 5.329,
+          "score": 0.986
+        },
+        {
+          "word": "momento",
+          "start": 5.409,
+          "end": 5.989,
+          "score": 0.924
+        },
+        {
+          "word": "só",
+          "start": 6.17,
+          "end": 6.37,
+          "score": 0.912
+        },
+        {
+          "word": "mesmo",
+          "start": 6.61,
+          "end": 7.912,
+          "score": 0.903
+        },
+        {
+          "word": "que",
+          "start": 8.032,
+          "end": 8.192,
+          "score": 0.671
+        },
+        {
+          "word": "me",
+          "start": 8.333,
+          "end": 8.413,
+          "score": 0.681
+        },
+        {
+          "word": "vai",
+          "start": 8.453,
+          "end": 8.613,
+          "score": 0.928
+        },
+        {
+          "word": "fazer",
+          "start": 8.693,
+          "end": 9.094,
+          "score": 0.965
+        },
+        {
+          "word": "ficar",
+          "start": 9.734,
+          "end": 9.975,
+          "score": 0.894
+        },
+        {
+          "word": "melhor",
+          "start": 10.015,
+          "end": 10.415,
+          "score": 0.659
+        },
+        {
+          "word": "e",
+          "start": 10.936,
+          "end": 10.976,
+          "score": 0.803
+        },
+        {
+          "word": "me",
+          "start": 10.996,
+          "end": 11.036,
+          "score": 0.111
+        },
+        {
+          "word": "vai",
+          "start": 11.116,
+          "end": 11.236,
+          "score": 0.828
+        },
+        {
+          "word": "fazer",
+          "start": 11.296,
+          "end": 11.557,
+          "score": 0.814
+        },
+        {
+          "word": "ultrapassar",
+          "start": 11.577,
+          "end": 12.498,
+          "score": 0.737
+        },
+        {
+          "word": "o",
+          "start": 12.899,
+          "end": 12.919,
+          "score": 0.917
+        },
+        {
+          "word": "drama",
+          "start": 12.959,
+          "end": 13.239,
+          "score": 0.855
+        },
+        {
+          "word": "que",
+          "start": 13.259,
+          "end": 13.319,
+          "score": 0.0
+        },
+        {
+          "word": "tenho",
+          "start": 13.359,
+          "end": 13.519,
+          "score": 0.365
+        },
+        {
+          "word": "vivido.",
+          "start": 13.579,
+          "end": 14.02,
+          "score": 0.769
+        }
+      ],
+      "avg_logprob": -0.07725581848943555
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "Me",
+      "start": 1.043,
+      "end": 1.083,
+      "score": 0.008
+    },
+    {
+      "word": "senti",
+      "start": 1.123,
+      "end": 1.363,
+      "score": 0.922
+    },
+    {
+      "word": "muito",
+      "start": 1.403,
+      "end": 1.624,
+      "score": 0.677
+    },
+    {
+      "word": "bem,",
+      "start": 1.704,
+      "end": 1.984,
+      "score": 0.881
+    },
+    {
+      "word": "sinto",
+      "start": 2.365,
+      "end": 2.605,
+      "score": 0.676
+    },
+    {
+      "word": "que",
+      "start": 2.705,
+      "end": 3.206,
+      "score": 0.795
+    },
+    {
+      "word": "vai",
+      "start": 3.286,
+      "end": 3.426,
+      "score": 0.944
+    },
+    {
+      "word": "ser",
+      "start": 3.546,
+      "end": 5.108,
+      "score": 0.904
+    },
+    {
+      "word": "um",
+      "start": 5.249,
+      "end": 5.329,
+      "score": 0.986
+    },
+    {
+      "word": "momento",
+      "start": 5.409,
+      "end": 5.989,
+      "score": 0.924
+    },
+    {
+      "word": "só",
+      "start": 6.17,
+      "end": 6.37,
+      "score": 0.912
+    },
+    {
+      "word": "mesmo",
+      "start": 6.61,
+      "end": 7.912,
+      "score": 0.903
+    },
+    {
+      "word": "que",
+      "start": 8.032,
+      "end": 8.192,
+      "score": 0.671
+    },
+    {
+      "word": "me",
+      "start": 8.333,
+      "end": 8.413,
+      "score": 0.681
+    },
+    {
+      "word": "vai",
+      "start": 8.453,
+      "end": 8.613,
+      "score": 0.928
+    },
+    {
+      "word": "fazer",
+      "start": 8.693,
+      "end": 9.094,
+      "score": 0.965
+    },
+    {
+      "word": "ficar",
+      "start": 9.734,
+      "end": 9.975,
+      "score": 0.894
+    },
+    {
+      "word": "melhor",
+      "start": 10.015,
+      "end": 10.415,
+      "score": 0.659
+    },
+    {
+      "word": "e",
+      "start": 10.936,
+      "end": 10.976,
+      "score": 0.803
+    },
+    {
+      "word": "me",
+      "start": 10.996,
+      "end": 11.036,
+      "score": 0.111
+    },
+    {
+      "word": "vai",
+      "start": 11.116,
+      "end": 11.236,
+      "score": 0.828
+    },
+    {
+      "word": "fazer",
+      "start": 11.296,
+      "end": 11.557,
+      "score": 0.814
+    },
+    {
+      "word": "ultrapassar",
+      "start": 11.577,
+      "end": 12.498,
+      "score": 0.737
+    },
+    {
+      "word": "o",
+      "start": 12.899,
+      "end": 12.919,
+      "score": 0.917
+    },
+    {
+      "word": "drama",
+      "start": 12.959,
+      "end": 13.239,
+      "score": 0.855
+    },
+    {
+      "word": "que",
+      "start": 13.259,
+      "end": 13.319,
+      "score": 0.0
+    },
+    {
+      "word": "tenho",
+      "start": 13.359,
+      "end": 13.519,
+      "score": 0.365
+    },
+    {
+      "word": "vivido.",
+      "start": 13.579,
+      "end": 14.02,
+      "score": 0.769
+    }
+  ]
+}

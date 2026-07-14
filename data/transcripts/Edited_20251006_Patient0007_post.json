@@ -1,0 +1,2262 @@
+{
+  "segments": [
+    {
+      "start": 0.697,
+      "end": 9.644,
+      "text": " em relação ao sentimento da... Da espiritualidade, assim, porque como foi uma imagem de cachoeira de natureza, especificamente, tem uma conexão com a minha religião.",
+      "words": [
+        {
+          "word": "em",
+          "start": 0.697,
+          "end": 0.897,
+          "score": 0.444
+        },
+        {
+          "word": "relação",
+          "start": 0.957,
+          "end": 1.218,
+          "score": 0.252
+        },
+        {
+          "word": "ao",
+          "start": 1.338,
+          "end": 1.598,
+          "score": 0.762
+        },
+        {
+          "word": "sentimento",
+          "start": 1.978,
+          "end": 3.019,
+          "score": 0.506
+        },
+        {
+          "word": "da...",
+          "start": 3.059,
+          "end": 3.339,
+          "score": 0.825
+        },
+        {
+          "word": "Da",
+          "start": 3.359,
+          "end": 3.399,
+          "score": 0.086
+        },
+        {
+          "word": "espiritualidade,",
+          "start": 3.439,
+          "end": 4.24,
+          "score": 0.711
+        },
+        {
+          "word": "assim,",
+          "start": 4.26,
+          "end": 4.48,
+          "score": 0.735
+        },
+        {
+          "word": "porque",
+          "start": 4.52,
+          "end": 4.92,
+          "score": 0.869
+        },
+        {
+          "word": "como",
+          "start": 5.441,
+          "end": 5.641,
+          "score": 0.832
+        },
+        {
+          "word": "foi",
+          "start": 5.701,
+          "end": 5.821,
+          "score": 0.988
+        },
+        {
+          "word": "uma",
+          "start": 5.841,
+          "end": 5.921,
+          "score": 0.662
+        },
+        {
+          "word": "imagem",
+          "start": 5.941,
+          "end": 6.281,
+          "score": 0.47
+        },
+        {
+          "word": "de",
+          "start": 6.301,
+          "end": 6.341,
+          "score": 0.056
+        },
+        {
+          "word": "cachoeira",
+          "start": 6.381,
+          "end": 6.822,
+          "score": 0.462
+        },
+        {
+          "word": "de",
+          "start": 6.842,
+          "end": 6.882,
+          "score": 0.556
+        },
+        {
+          "word": "natureza,",
+          "start": 6.902,
+          "end": 7.302,
+          "score": 0.614
+        },
+        {
+          "word": "especificamente,",
+          "start": 7.342,
+          "end": 8.023,
+          "score": 0.488
+        },
+        {
+          "word": "tem",
+          "start": 8.083,
+          "end": 8.403,
+          "score": 0.741
+        },
+        {
+          "word": "uma",
+          "start": 8.483,
+          "end": 8.563,
+          "score": 0.932
+        },
+        {
+          "word": "conexão",
+          "start": 8.603,
+          "end": 8.823,
+          "score": 0.276
+        },
+        {
+          "word": "com",
+          "start": 8.843,
+          "end": 8.943,
+          "score": 0.277
+        },
+        {
+          "word": "a",
+          "start": 9.003,
+          "end": 9.043,
+          "score": 0.921
+        },
+        {
+          "word": "minha",
+          "start": 9.083,
+          "end": 9.183,
+          "score": 0.294
+        },
+        {
+          "word": "religião.",
+          "start": 9.203,
+          "end": 9.644,
+          "score": 0.754
+        }
+      ],
+      "avg_logprob": -0.1170708219851217
+    },
+    {
+      "start": 10.144,
+      "end": 11.965,
+      "text": "Então, ver aquilo foi um pouco emocionante.",
+      "words": [
+        {
+          "word": "Então,",
+          "start": 10.144,
+          "end": 10.384,
+          "score": 0.891
+        },
+        {
+          "word": "ver",
+          "start": 10.524,
+          "end": 10.685,
+          "score": 0.499
+        },
+        {
+          "word": "aquilo",
+          "start": 10.705,
+          "end": 11.005,
+          "score": 0.491
+        },
+        {
+          "word": "foi",
+          "start": 11.065,
+          "end": 11.165,
+          "score": 0.487
+        },
+        {
+          "word": "um",
+          "start": 11.185,
+          "end": 11.225,
+          "score": 0.002
+        },
+        {
+          "word": "pouco",
+          "start": 11.265,
+          "end": 11.485,
+          "score": 0.63
+        },
+        {
+          "word": "emocionante.",
+          "start": 11.505,
+          "end": 11.965,
+          "score": 0.397
+        }
+      ],
+      "avg_logprob": -0.1170708219851217
+    },
+    {
+      "start": 11.986,
+      "end": 18.51,
+      "text": "Foi tipo assim, ok, é tecnologia, é sempre por isso que eu perguntei se era o mesmo vídeo.",
+      "words": [
+        {
+          "word": "Foi",
+          "start": 11.986,
+          "end": 12.106,
+          "score": 0.714
+        },
+        {
+          "word": "tipo",
+          "start": 12.126,
+          "end": 12.226,
+          "score": 0.125
+        },
+        {
+          "word": "assim,",
+          "start": 12.246,
+          "end": 12.546,
+          "score": 0.749
+        },
+        {
+          "word": "ok,",
+          "start": 12.966,
+          "end": 13.327,
+          "score": 0.971
+        },
+        {
+          "word": "é",
+          "start": 13.607,
+          "end": 13.627,
+          "score": 0.001
+        },
+        {
+          "word": "tecnologia,",
+          "start": 13.667,
+          "end": 14.287,
+          "score": 0.93
+        },
+        {
+          "word": "é",
+          "start": 14.387,
+          "end": 14.427,
+          "score": 0.98
+        },
+        {
+          "word": "sempre",
+          "start": 14.487,
+          "end": 14.708,
+          "score": 0.881
+        },
+        {
+          "word": "por",
+          "start": 14.768,
+          "end": 14.828,
+          "score": 0.515
+        },
+        {
+          "word": "isso",
+          "start": 14.868,
+          "end": 14.948,
+          "score": 0.18
+        },
+        {
+          "word": "que",
+          "start": 14.968,
+          "end": 15.028,
+          "score": 0.039
+        },
+        {
+          "word": "eu",
+          "start": 15.048,
+          "end": 15.088,
+          "score": 0.004
+        },
+        {
+          "word": "perguntei",
+          "start": 15.108,
+          "end": 15.448,
+          "score": 0.66
+        },
+        {
+          "word": "se",
+          "start": 15.468,
+          "end": 15.528,
+          "score": 0.283
+        },
+        {
+          "word": "era",
+          "start": 15.548,
+          "end": 15.628,
+          "score": 0.502
+        },
+        {
+          "word": "o",
+          "start": 15.648,
+          "end": 15.688,
+          "score": 0.274
+        },
+        {
+          "word": "mesmo",
+          "start": 15.708,
+          "end": 15.928,
+          "score": 0.76
+        },
+        {
+          "word": "vídeo.",
+          "start": 16.049,
+          "end": 18.51,
+          "score": 0.846
+        }
+      ],
+      "avg_logprob": -0.1170708219851217
+    },
+    {
+      "start": 18.871,
+      "end": 22.053,
+      "text": "Não foi uma coincidência do tipo de dizer sempre o mesmo vídeo.",
+      "words": [
+        {
+          "word": "Não",
+          "start": 18.871,
+          "end": 18.991,
+          "score": 0.895
+        },
+        {
+          "word": "foi",
+          "start": 19.091,
+          "end": 19.211,
+          "score": 0.996
+        },
+        {
+          "word": "uma",
+          "start": 19.251,
+          "end": 19.351,
+          "score": 0.672
+        },
+        {
+          "word": "coincidência",
+          "start": 19.391,
+          "end": 20.072,
+          "score": 0.717
+        },
+        {
+          "word": "do",
+          "start": 20.092,
+          "end": 20.192,
+          "score": 0.711
+        },
+        {
+          "word": "tipo",
+          "start": 20.252,
+          "end": 20.492,
+          "score": 0.815
+        },
+        {
+          "word": "de",
+          "start": 20.512,
+          "end": 20.572,
+          "score": 0.148
+        },
+        {
+          "word": "dizer",
+          "start": 20.612,
+          "end": 20.792,
+          "score": 0.658
+        },
+        {
+          "word": "sempre",
+          "start": 20.872,
+          "end": 21.092,
+          "score": 0.675
+        },
+        {
+          "word": "o",
+          "start": 21.132,
+          "end": 21.172,
+          "score": 0.845
+        },
+        {
+          "word": "mesmo",
+          "start": 21.212,
+          "end": 21.473,
+          "score": 0.902
+        },
+        {
+          "word": "vídeo.",
+          "start": 21.553,
+          "end": 22.053,
+          "score": 0.913
+        }
+      ],
+      "avg_logprob": -0.1170708219851217
+    },
+    {
+      "start": 22.612,
+      "end": 25.415,
+      "text": " Mas, obviamente, para mim esse vídeo toca diferente.",
+      "words": [
+        {
+          "word": "Mas,",
+          "start": 22.612,
+          "end": 22.852,
+          "score": 0.884
+        },
+        {
+          "word": "obviamente,",
+          "start": 23.093,
+          "end": 23.673,
+          "score": 0.766
+        },
+        {
+          "word": "para",
+          "start": 23.713,
+          "end": 23.854,
+          "score": 0.824
+        },
+        {
+          "word": "mim",
+          "start": 23.894,
+          "end": 24.054,
+          "score": 0.616
+        },
+        {
+          "word": "esse",
+          "start": 24.074,
+          "end": 24.194,
+          "score": 0.5
+        },
+        {
+          "word": "vídeo",
+          "start": 24.234,
+          "end": 24.534,
+          "score": 0.647
+        },
+        {
+          "word": "toca",
+          "start": 24.554,
+          "end": 24.675,
+          "score": 0.364
+        },
+        {
+          "word": "diferente.",
+          "start": 24.735,
+          "end": 25.415,
+          "score": 0.833
+        }
+      ],
+      "avg_logprob": -0.1290312659913215
+    },
+    {
+      "start": 25.435,
+      "end": 28.139,
+      "text": "Acho que a experiência aqui é muito subjetiva.",
+      "words": [
+        {
+          "word": "Acho",
+          "start": 25.435,
+          "end": 26.176,
+          "score": 0.654
+        },
+        {
+          "word": "que",
+          "start": 26.236,
+          "end": 26.316,
+          "score": 0.169
+        },
+        {
+          "word": "a",
+          "start": 26.336,
+          "end": 26.357,
+          "score": 0.003
+        },
+        {
+          "word": "experiência",
+          "start": 26.377,
+          "end": 26.897,
+          "score": 0.48
+        },
+        {
+          "word": "aqui",
+          "start": 26.917,
+          "end": 27.097,
+          "score": 0.344
+        },
+        {
+          "word": "é",
+          "start": 27.137,
+          "end": 27.157,
+          "score": 0.279
+        },
+        {
+          "word": "muito",
+          "start": 27.177,
+          "end": 27.418,
+          "score": 0.722
+        },
+        {
+          "word": "subjetiva.",
+          "start": 27.458,
+          "end": 28.139,
+          "score": 0.513
+        }
+      ],
+      "avg_logprob": -0.1290312659913215
+    },
+    {
+      "start": 28.719,
+      "end": 32.984,
+      "text": "Se uma outra pessoa que não tivesse a mesma religião talvez pensasse diferente.",
+      "words": [
+        {
+          "word": "Se",
+          "start": 28.719,
+          "end": 28.759,
+          "score": 0.268
+        },
+        {
+          "word": "uma",
+          "start": 28.779,
+          "end": 28.919,
+          "score": 0.83
+        },
+        {
+          "word": "outra",
+          "start": 29.02,
+          "end": 29.22,
+          "score": 0.732
+        },
+        {
+          "word": "pessoa",
+          "start": 29.28,
+          "end": 29.5,
+          "score": 0.549
+        },
+        {
+          "word": "que",
+          "start": 29.52,
+          "end": 29.62,
+          "score": 0.221
+        },
+        {
+          "word": "não",
+          "start": 29.64,
+          "end": 29.72,
+          "score": 0.224
+        },
+        {
+          "word": "tivesse",
+          "start": 29.78,
+          "end": 30.221,
+          "score": 0.545
+        },
+        {
+          "word": "a",
+          "start": 30.241,
+          "end": 30.261,
+          "score": 0.208
+        },
+        {
+          "word": "mesma",
+          "start": 30.461,
+          "end": 30.822,
+          "score": 0.747
+        },
+        {
+          "word": "religião",
+          "start": 30.882,
+          "end": 31.603,
+          "score": 0.655
+        },
+        {
+          "word": "talvez",
+          "start": 31.683,
+          "end": 31.963,
+          "score": 0.565
+        },
+        {
+          "word": "pensasse",
+          "start": 32.003,
+          "end": 32.323,
+          "score": 0.447
+        },
+        {
+          "word": "diferente.",
+          "start": 32.364,
+          "end": 32.984,
+          "score": 0.536
+        }
+      ],
+      "avg_logprob": -0.1290312659913215
+    },
+    {
+      "start": 33.845,
+      "end": 38.27,
+      "text": "Para mim veio uma emoção, sim.",
+      "words": [
+        {
+          "word": "Para",
+          "start": 33.845,
+          "end": 33.985,
+          "score": 0.628
+        },
+        {
+          "word": "mim",
+          "start": 34.065,
+          "end": 34.266,
+          "score": 0.802
+        },
+        {
+          "word": "veio",
+          "start": 34.346,
+          "end": 34.526,
+          "score": 0.61
+        },
+        {
+          "word": "uma",
+          "start": 34.586,
+          "end": 34.706,
+          "score": 0.837
+        },
+        {
+          "word": "emoção,",
+          "start": 34.746,
+          "end": 35.127,
+          "score": 0.821
+        },
+        {
+          "word": "sim.",
+          "start": 35.247,
+          "end": 38.27,
+          "score": 0.762
+        }
+      ],
+      "avg_logprob": -0.1290312659913215
+    },
+    {
+      "start": 38.35,
+      "end": 42.235,
+      "text": "Acho que assim, eu fui... Todo mundo sempre muito simpático, sempre muito perguntando.",
+      "words": [
+        {
+          "word": "Acho",
+          "start": 38.35,
+          "end": 38.491,
+          "score": 0.292
+        },
+        {
+          "word": "que",
+          "start": 38.511,
+          "end": 38.591,
+          "score": 0.729
+        },
+        {
+          "word": "assim,",
+          "start": 38.611,
+          "end": 39.111,
+          "score": 0.732
+        },
+        {
+          "word": "eu",
+          "start": 39.131,
+          "end": 39.232,
+          "score": 0.488
+        },
+        {
+          "word": "fui...",
+          "start": 39.332,
+          "end": 39.532,
+          "score": 0.452
+        },
+        {
+          "word": "Todo",
+          "start": 39.892,
+          "end": 40.072,
+          "score": 0.736
+        },
+        {
+          "word": "mundo",
+          "start": 40.093,
+          "end": 40.313,
+          "score": 0.332
+        },
+        {
+          "word": "sempre",
+          "start": 40.373,
+          "end": 40.573,
+          "score": 0.5
+        },
+        {
+          "word": "muito",
+          "start": 40.593,
+          "end": 40.773,
+          "score": 0.285
+        },
+        {
+          "word": "simpático,",
+          "start": 40.813,
+          "end": 41.374,
+          "score": 0.791
+        },
+        {
+          "word": "sempre",
+          "start": 41.394,
+          "end": 41.614,
+          "score": 0.467
+        },
+        {
+          "word": "muito",
+          "start": 41.634,
+          "end": 41.815,
+          "score": 0.652
+        },
+        {
+          "word": "perguntando.",
+          "start": 41.895,
+          "end": 42.235,
+          "score": 0.315
+        }
+      ],
+      "avg_logprob": -0.1290312659913215
+    },
+    {
+      "start": 42.748,
+      "end": 45.509,
+      "text": " Não teve uma coisa muito...",
+      "words": [
+        {
+          "word": "Não",
+          "start": 42.748,
+          "end": 44.109,
+          "score": 0.705
+        },
+        {
+          "word": "teve",
+          "start": 44.149,
+          "end": 44.349,
+          "score": 0.452
+        },
+        {
+          "word": "uma",
+          "start": 44.389,
+          "end": 44.509,
+          "score": 0.88
+        },
+        {
+          "word": "coisa",
+          "start": 44.569,
+          "end": 44.769,
+          "score": 0.944
+        },
+        {
+          "word": "muito...",
+          "start": 44.889,
+          "end": 45.509,
+          "score": 0.674
+        }
+      ],
+      "avg_logprob": -0.08904675951129512
+    },
+    {
+      "start": 46.069,
+      "end": 46.79,
+      "text": "Não me senti...",
+      "words": [
+        {
+          "word": "Não",
+          "start": 46.069,
+          "end": 46.19,
+          "score": 0.797
+        },
+        {
+          "word": "me",
+          "start": 46.21,
+          "end": 46.29,
+          "score": 0.692
+        },
+        {
+          "word": "senti...",
+          "start": 46.35,
+          "end": 46.79,
+          "score": 0.925
+        }
+      ],
+      "avg_logprob": -0.08904675951129512
+    },
+    {
+      "start": 47.09,
+      "end": 48.11,
+      "text": "Não tenho outra palavra para usar.",
+      "words": [
+        {
+          "word": "Não",
+          "start": 47.09,
+          "end": 47.17,
+          "score": 0.185
+        },
+        {
+          "word": "tenho",
+          "start": 47.19,
+          "end": 47.41,
+          "score": 0.621
+        },
+        {
+          "word": "outra",
+          "start": 47.43,
+          "end": 47.55,
+          "score": 0.302
+        },
+        {
+          "word": "palavra",
+          "start": 47.59,
+          "end": 47.81,
+          "score": 0.379
+        },
+        {
+          "word": "para",
+          "start": 47.83,
+          "end": 47.95,
+          "score": 0.494
+        },
+        {
+          "word": "usar.",
+          "start": 47.97,
+          "end": 48.11,
+          "score": 0.29
+        }
+      ],
+      "avg_logprob": -0.08904675951129512
+    },
+    {
+      "start": 48.15,
+      "end": 49.251,
+      "text": "Não me senti no açougue.",
+      "words": [
+        {
+          "word": "Não",
+          "start": 48.15,
+          "end": 48.23,
+          "score": 0.269
+        },
+        {
+          "word": "me",
+          "start": 48.27,
+          "end": 48.35,
+          "score": 0.522
+        },
+        {
+          "word": "senti",
+          "start": 48.371,
+          "end": 48.591,
+          "score": 0.608
+        },
+        {
+          "word": "no",
+          "start": 48.631,
+          "end": 48.771,
+          "score": 0.785
+        },
+        {
+          "word": "açougue.",
+          "start": 48.791,
+          "end": 49.251,
+          "score": 0.515
+        }
+      ],
+      "avg_logprob": -0.08904675951129512
+    },
+    {
+      "start": 49.771,
+      "end": 51.712,
+      "text": "É isso.",
+      "words": [
+        {
+          "word": "É",
+          "start": 49.771,
+          "end": 49.851,
+          "score": 0.62
+        },
+        {
+          "word": "isso.",
+          "start": 50.051,
+          "end": 51.712,
+          "score": 0.753
+        }
+      ],
+      "avg_logprob": -0.08904675951129512
+    },
+    {
+      "start": 51.992,
+      "end": 61.276,
+      "text": "Acontece muito em muitos hospitais simplesmente verem como um corpo, uma máquina que está ali para ser consertada.",
+      "words": [
+        {
+          "word": "Acontece",
+          "start": 51.992,
+          "end": 52.412,
+          "score": 0.452
+        },
+        {
+          "word": "muito",
+          "start": 52.472,
+          "end": 52.732,
+          "score": 0.398
+        },
+        {
+          "word": "em",
+          "start": 52.752,
+          "end": 52.812,
+          "score": 0.217
+        },
+        {
+          "word": "muitos",
+          "start": 52.832,
+          "end": 53.493,
+          "score": 0.571
+        },
+        {
+          "word": "hospitais",
+          "start": 53.553,
+          "end": 54.093,
+          "score": 0.692
+        },
+        {
+          "word": "simplesmente",
+          "start": 54.453,
+          "end": 54.973,
+          "score": 0.675
+        },
+        {
+          "word": "verem",
+          "start": 55.053,
+          "end": 55.274,
+          "score": 0.611
+        },
+        {
+          "word": "como",
+          "start": 55.314,
+          "end": 55.774,
+          "score": 0.527
+        },
+        {
+          "word": "um",
+          "start": 56.354,
+          "end": 56.414,
+          "score": 0.532
+        },
+        {
+          "word": "corpo,",
+          "start": 56.494,
+          "end": 57.134,
+          "score": 0.893
+        },
+        {
+          "word": "uma",
+          "start": 59.135,
+          "end": 59.275,
+          "score": 0.733
+        },
+        {
+          "word": "máquina",
+          "start": 59.335,
+          "end": 59.776,
+          "score": 0.821
+        },
+        {
+          "word": "que",
+          "start": 59.816,
+          "end": 59.896,
+          "score": 0.842
+        },
+        {
+          "word": "está",
+          "start": 59.916,
+          "end": 60.016,
+          "score": 0.16
+        },
+        {
+          "word": "ali",
+          "start": 60.036,
+          "end": 60.156,
+          "score": 0.52
+        },
+        {
+          "word": "para",
+          "start": 60.216,
+          "end": 60.296,
+          "score": 0.312
+        },
+        {
+          "word": "ser",
+          "start": 60.336,
+          "end": 60.436,
+          "score": 0.32
+        },
+        {
+          "word": "consertada.",
+          "start": 60.496,
+          "end": 61.276,
+          "score": 0.873
+        }
+      ],
+      "avg_logprob": -0.08904675951129512
+    },
+    {
+      "start": 61.476,
+      "end": 64.578,
+      "text": "Então as pessoas olharam, perguntaram como eu estava me sentindo.",
+      "words": [
+        {
+          "word": "Então",
+          "start": 61.476,
+          "end": 61.716,
+          "score": 0.329
+        },
+        {
+          "word": "as",
+          "start": 61.776,
+          "end": 61.816,
+          "score": 0.012
+        },
+        {
+          "word": "pessoas",
+          "start": 61.836,
+          "end": 62.097,
+          "score": 0.641
+        },
+        {
+          "word": "olharam,",
+          "start": 62.117,
+          "end": 62.557,
+          "score": 0.658
+        },
+        {
+          "word": "perguntaram",
+          "start": 62.577,
+          "end": 63.257,
+          "score": 0.755
+        },
+        {
+          "word": "como",
+          "start": 63.297,
+          "end": 63.397,
+          "score": 0.159
+        },
+        {
+          "word": "eu",
+          "start": 63.417,
+          "end": 63.457,
+          "score": 0.005
+        },
+        {
+          "word": "estava",
+          "start": 63.477,
+          "end": 63.717,
+          "score": 0.411
+        },
+        {
+          "word": "me",
+          "start": 63.737,
+          "end": 63.837,
+          "score": 0.8
+        },
+        {
+          "word": "sentindo.",
+          "start": 63.917,
+          "end": 64.578,
+          "score": 0.718
+        }
+      ],
+      "avg_logprob": -0.08904675951129512
+    },
+    {
+      "start": 64.998,
+      "end": 68.659,
+      "text": "Teve a preocupação quando eu falei que eu estava com espada e tal.",
+      "words": [
+        {
+          "word": "Teve",
+          "start": 64.998,
+          "end": 65.158,
+          "score": 0.368
+        },
+        {
+          "word": "a",
+          "start": 65.178,
+          "end": 65.198,
+          "score": 0.026
+        },
+        {
+          "word": "preocupação",
+          "start": 65.238,
+          "end": 65.818,
+          "score": 0.411
+        },
+        {
+          "word": "quando",
+          "start": 65.858,
+          "end": 65.978,
+          "score": 0.02
+        },
+        {
+          "word": "eu",
+          "start": 65.998,
+          "end": 66.038,
+          "score": 0.006
+        },
+        {
+          "word": "falei",
+          "start": 66.078,
+          "end": 66.258,
+          "score": 0.458
+        },
+        {
+          "word": "que",
+          "start": 66.298,
+          "end": 66.378,
+          "score": 0.16
+        },
+        {
+          "word": "eu",
+          "start": 66.458,
+          "end": 66.519,
+          "score": 0.238
+        },
+        {
+          "word": "estava",
+          "start": 66.579,
+          "end": 66.979,
+          "score": 0.58
+        },
+        {
+          "word": "com",
+          "start": 67.159,
+          "end": 67.659,
+          "score": 0.783
+        },
+        {
+          "word": "espada",
+          "start": 67.699,
+          "end": 68.199,
+          "score": 0.663
+        },
+        {
+          "word": "e",
+          "start": 68.219,
+          "end": 68.239,
+          "score": 0.242
+        },
+        {
+          "word": "tal.",
+          "start": 68.319,
+          "end": 68.659,
+          "score": 0.745
+        }
+      ],
+      "avg_logprob": -0.08904675951129512
+    },
+    {
+      "start": 68.78,
+      "end": 72.121,
+      "text": "Então teve toda uma...",
+      "words": [
+        {
+          "word": "Então",
+          "start": 68.78,
+          "end": 68.98,
+          "score": 0.552
+        },
+        {
+          "word": "teve",
+          "start": 69.12,
+          "end": 69.38,
+          "score": 0.645
+        },
+        {
+          "word": "toda",
+          "start": 69.44,
+          "end": 69.72,
+          "score": 0.68
+        },
+        {
+          "word": "uma...",
+          "start": 69.74,
+          "end": 72.121,
+          "score": 0.778
+        }
+      ],
+      "avg_logprob": -0.08904675951129512
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "em",
+      "start": 0.697,
+      "end": 0.897,
+      "score": 0.444
+    },
+    {
+      "word": "relação",
+      "start": 0.957,
+      "end": 1.218,
+      "score": 0.252
+    },
+    {
+      "word": "ao",
+      "start": 1.338,
+      "end": 1.598,
+      "score": 0.762
+    },
+    {
+      "word": "sentimento",
+      "start": 1.978,
+      "end": 3.019,
+      "score": 0.506
+    },
+    {
+      "word": "da...",
+      "start": 3.059,
+      "end": 3.339,
+      "score": 0.825
+    },
+    {
+      "word": "Da",
+      "start": 3.359,
+      "end": 3.399,
+      "score": 0.086
+    },
+    {
+      "word": "espiritualidade,",
+      "start": 3.439,
+      "end": 4.24,
+      "score": 0.711
+    },
+    {
+      "word": "assim,",
+      "start": 4.26,
+      "end": 4.48,
+      "score": 0.735
+    },
+    {
+      "word": "porque",
+      "start": 4.52,
+      "end": 4.92,
+      "score": 0.869
+    },
+    {
+      "word": "como",
+      "start": 5.441,
+      "end": 5.641,
+      "score": 0.832
+    },
+    {
+      "word": "foi",
+      "start": 5.701,
+      "end": 5.821,
+      "score": 0.988
+    },
+    {
+      "word": "uma",
+      "start": 5.841,
+      "end": 5.921,
+      "score": 0.662
+    },
+    {
+      "word": "imagem",
+      "start": 5.941,
+      "end": 6.281,
+      "score": 0.47
+    },
+    {
+      "word": "de",
+      "start": 6.301,
+      "end": 6.341,
+      "score": 0.056
+    },
+    {
+      "word": "cachoeira",
+      "start": 6.381,
+      "end": 6.822,
+      "score": 0.462
+    },
+    {
+      "word": "de",
+      "start": 6.842,
+      "end": 6.882,
+      "score": 0.556
+    },
+    {
+      "word": "natureza,",
+      "start": 6.902,
+      "end": 7.302,
+      "score": 0.614
+    },
+    {
+      "word": "especificamente,",
+      "start": 7.342,
+      "end": 8.023,
+      "score": 0.488
+    },
+    {
+      "word": "tem",
+      "start": 8.083,
+      "end": 8.403,
+      "score": 0.741
+    },
+    {
+      "word": "uma",
+      "start": 8.483,
+      "end": 8.563,
+      "score": 0.932
+    },
+    {
+      "word": "conexão",
+      "start": 8.603,
+      "end": 8.823,
+      "score": 0.276
+    },
+    {
+      "word": "com",
+      "start": 8.843,
+      "end": 8.943,
+      "score": 0.277
+    },
+    {
+      "word": "a",
+      "start": 9.003,
+      "end": 9.043,
+      "score": 0.921
+    },
+    {
+      "word": "minha",
+      "start": 9.083,
+      "end": 9.183,
+      "score": 0.294
+    },
+    {
+      "word": "religião.",
+      "start": 9.203,
+      "end": 9.644,
+      "score": 0.754
+    },
+    {
+      "word": "Então,",
+      "start": 10.144,
+      "end": 10.384,
+      "score": 0.891
+    },
+    {
+      "word": "ver",
+      "start": 10.524,
+      "end": 10.685,
+      "score": 0.499
+    },
+    {
+      "word": "aquilo",
+      "start": 10.705,
+      "end": 11.005,
+      "score": 0.491
+    },
+    {
+      "word": "foi",
+      "start": 11.065,
+      "end": 11.165,
+      "score": 0.487
+    },
+    {
+      "word": "um",
+      "start": 11.185,
+      "end": 11.225,
+      "score": 0.002
+    },
+    {
+      "word": "pouco",
+      "start": 11.265,
+      "end": 11.485,
+      "score": 0.63
+    },
+    {
+      "word": "emocionante.",
+      "start": 11.505,
+      "end": 11.965,
+      "score": 0.397
+    },
+    {
+      "word": "Foi",
+      "start": 11.986,
+      "end": 12.106,
+      "score": 0.714
+    },
+    {
+      "word": "tipo",
+      "start": 12.126,
+      "end": 12.226,
+      "score": 0.125
+    },
+    {
+      "word": "assim,",
+      "start": 12.246,
+      "end": 12.546,
+      "score": 0.749
+    },
+    {
+      "word": "ok,",
+      "start": 12.966,
+      "end": 13.327,
+      "score": 0.971
+    },
+    {
+      "word": "é",
+      "start": 13.607,
+      "end": 13.627,
+      "score": 0.001
+    },
+    {
+      "word": "tecnologia,",
+      "start": 13.667,
+      "end": 14.287,
+      "score": 0.93
+    },
+    {
+      "word": "é",
+      "start": 14.387,
+      "end": 14.427,
+      "score": 0.98
+    },
+    {
+      "word": "sempre",
+      "start": 14.487,
+      "end": 14.708,
+      "score": 0.881
+    },
+    {
+      "word": "por",
+      "start": 14.768,
+      "end": 14.828,
+      "score": 0.515
+    },
+    {
+      "word": "isso",
+      "start": 14.868,
+      "end": 14.948,
+      "score": 0.18
+    },
+    {
+      "word": "que",
+      "start": 14.968,
+      "end": 15.028,
+      "score": 0.039
+    },
+    {
+      "word": "eu",
+      "start": 15.048,
+      "end": 15.088,
+      "score": 0.004
+    },
+    {
+      "word": "perguntei",
+      "start": 15.108,
+      "end": 15.448,
+      "score": 0.66
+    },
+    {
+      "word": "se",
+      "start": 15.468,
+      "end": 15.528,
+      "score": 0.283
+    },
+    {
+      "word": "era",
+      "start": 15.548,
+      "end": 15.628,
+      "score": 0.502
+    },
+    {
+      "word": "o",
+      "start": 15.648,
+      "end": 15.688,
+      "score": 0.274
+    },
+    {
+      "word": "mesmo",
+      "start": 15.708,
+      "end": 15.928,
+      "score": 0.76
+    },
+    {
+      "word": "vídeo.",
+      "start": 16.049,
+      "end": 18.51,
+      "score": 0.846
+    },
+    {
+      "word": "Não",
+      "start": 18.871,
+      "end": 18.991,
+      "score": 0.895
+    },
+    {
+      "word": "foi",
+      "start": 19.091,
+      "end": 19.211,
+      "score": 0.996
+    },
+    {
+      "word": "uma",
+      "start": 19.251,
+      "end": 19.351,
+      "score": 0.672
+    },
+    {
+      "word": "coincidência",
+      "start": 19.391,
+      "end": 20.072,
+      "score": 0.717
+    },
+    {
+      "word": "do",
+      "start": 20.092,
+      "end": 20.192,
+      "score": 0.711
+    },
+    {
+      "word": "tipo",
+      "start": 20.252,
+      "end": 20.492,
+      "score": 0.815
+    },
+    {
+      "word": "de",
+      "start": 20.512,
+      "end": 20.572,
+      "score": 0.148
+    },
+    {
+      "word": "dizer",
+      "start": 20.612,
+      "end": 20.792,
+      "score": 0.658
+    },
+    {
+      "word": "sempre",
+      "start": 20.872,
+      "end": 21.092,
+      "score": 0.675
+    },
+    {
+      "word": "o",
+      "start": 21.132,
+      "end": 21.172,
+      "score": 0.845
+    },
+    {
+      "word": "mesmo",
+      "start": 21.212,
+      "end": 21.473,
+      "score": 0.902
+    },
+    {
+      "word": "vídeo.",
+      "start": 21.553,
+      "end": 22.053,
+      "score": 0.913
+    },
+    {
+      "word": "Mas,",
+      "start": 22.612,
+      "end": 22.852,
+      "score": 0.884
+    },
+    {
+      "word": "obviamente,",
+      "start": 23.093,
+      "end": 23.673,
+      "score": 0.766
+    },
+    {
+      "word": "para",
+      "start": 23.713,
+      "end": 23.854,
+      "score": 0.824
+    },
+    {
+      "word": "mim",
+      "start": 23.894,
+      "end": 24.054,
+      "score": 0.616
+    },
+    {
+      "word": "esse",
+      "start": 24.074,
+      "end": 24.194,
+      "score": 0.5
+    },
+    {
+      "word": "vídeo",
+      "start": 24.234,
+      "end": 24.534,
+      "score": 0.647
+    },
+    {
+      "word": "toca",
+      "start": 24.554,
+      "end": 24.675,
+      "score": 0.364
+    },
+    {
+      "word": "diferente.",
+      "start": 24.735,
+      "end": 25.415,
+      "score": 0.833
+    },
+    {
+      "word": "Acho",
+      "start": 25.435,
+      "end": 26.176,
+      "score": 0.654
+    },
+    {
+      "word": "que",
+      "start": 26.236,
+      "end": 26.316,
+      "score": 0.169
+    },
+    {
+      "word": "a",
+      "start": 26.336,
+      "end": 26.357,
+      "score": 0.003
+    },
+    {
+      "word": "experiência",
+      "start": 26.377,
+      "end": 26.897,
+      "score": 0.48
+    },
+    {
+      "word": "aqui",
+      "start": 26.917,
+      "end": 27.097,
+      "score": 0.344
+    },
+    {
+      "word": "é",
+      "start": 27.137,
+      "end": 27.157,
+      "score": 0.279
+    },
+    {
+      "word": "muito",
+      "start": 27.177,
+      "end": 27.418,
+      "score": 0.722
+    },
+    {
+      "word": "subjetiva.",
+      "start": 27.458,
+      "end": 28.139,
+      "score": 0.513
+    },
+    {
+      "word": "Se",
+      "start": 28.719,
+      "end": 28.759,
+      "score": 0.268
+    },
+    {
+      "word": "uma",
+      "start": 28.779,
+      "end": 28.919,
+      "score": 0.83
+    },
+    {
+      "word": "outra",
+      "start": 29.02,
+      "end": 29.22,
+      "score": 0.732
+    },
+    {
+      "word": "pessoa",
+      "start": 29.28,
+      "end": 29.5,
+      "score": 0.549
+    },
+    {
+      "word": "que",
+      "start": 29.52,
+      "end": 29.62,
+      "score": 0.221
+    },
+    {
+      "word": "não",
+      "start": 29.64,
+      "end": 29.72,
+      "score": 0.224
+    },
+    {
+      "word": "tivesse",
+      "start": 29.78,
+      "end": 30.221,
+      "score": 0.545
+    },
+    {
+      "word": "a",
+      "start": 30.241,
+      "end": 30.261,
+      "score": 0.208
+    },
+    {
+      "word": "mesma",
+      "start": 30.461,
+      "end": 30.822,
+      "score": 0.747
+    },
+    {
+      "word": "religião",
+      "start": 30.882,
+      "end": 31.603,
+      "score": 0.655
+    },
+    {
+      "word": "talvez",
+      "start": 31.683,
+      "end": 31.963,
+      "score": 0.565
+    },
+    {
+      "word": "pensasse",
+      "start": 32.003,
+      "end": 32.323,
+      "score": 0.447
+    },
+    {
+      "word": "diferente.",
+      "start": 32.364,
+      "end": 32.984,
+      "score": 0.536
+    },
+    {
+      "word": "Para",
+      "start": 33.845,
+      "end": 33.985,
+      "score": 0.628
+    },
+    {
+      "word": "mim",
+      "start": 34.065,
+      "end": 34.266,
+      "score": 0.802
+    },
+    {
+      "word": "veio",
+      "start": 34.346,
+      "end": 34.526,
+      "score": 0.61
+    },
+    {
+      "word": "uma",
+      "start": 34.586,
+      "end": 34.706,
+      "score": 0.837
+    },
+    {
+      "word": "emoção,",
+      "start": 34.746,
+      "end": 35.127,
+      "score": 0.821
+    },
+    {
+      "word": "sim.",
+      "start": 35.247,
+      "end": 38.27,
+      "score": 0.762
+    },
+    {
+      "word": "Acho",
+      "start": 38.35,
+      "end": 38.491,
+      "score": 0.292
+    },
+    {
+      "word": "que",
+      "start": 38.511,
+      "end": 38.591,
+      "score": 0.729
+    },
+    {
+      "word": "assim,",
+      "start": 38.611,
+      "end": 39.111,
+      "score": 0.732
+    },
+    {
+      "word": "eu",
+      "start": 39.131,
+      "end": 39.232,
+      "score": 0.488
+    },
+    {
+      "word": "fui...",
+      "start": 39.332,
+      "end": 39.532,
+      "score": 0.452
+    },
+    {
+      "word": "Todo",
+      "start": 39.892,
+      "end": 40.072,
+      "score": 0.736
+    },
+    {
+      "word": "mundo",
+      "start": 40.093,
+      "end": 40.313,
+      "score": 0.332
+    },
+    {
+      "word": "sempre",
+      "start": 40.373,
+      "end": 40.573,
+      "score": 0.5
+    },
+    {
+      "word": "muito",
+      "start": 40.593,
+      "end": 40.773,
+      "score": 0.285
+    },
+    {
+      "word": "simpático,",
+      "start": 40.813,
+      "end": 41.374,
+      "score": 0.791
+    },
+    {
+      "word": "sempre",
+      "start": 41.394,
+      "end": 41.614,
+      "score": 0.467
+    },
+    {
+      "word": "muito",
+      "start": 41.634,
+      "end": 41.815,
+      "score": 0.652
+    },
+    {
+      "word": "perguntando.",
+      "start": 41.895,
+      "end": 42.235,
+      "score": 0.315
+    },
+    {
+      "word": "Não",
+      "start": 42.748,
+      "end": 44.109,
+      "score": 0.705
+    },
+    {
+      "word": "teve",
+      "start": 44.149,
+      "end": 44.349,
+      "score": 0.452
+    },
+    {
+      "word": "uma",
+      "start": 44.389,
+      "end": 44.509,
+      "score": 0.88
+    },
+    {
+      "word": "coisa",
+      "start": 44.569,
+      "end": 44.769,
+      "score": 0.944
+    },
+    {
+      "word": "muito...",
+      "start": 44.889,
+      "end": 45.509,
+      "score": 0.674
+    },
+    {
+      "word": "Não",
+      "start": 46.069,
+      "end": 46.19,
+      "score": 0.797
+    },
+    {
+      "word": "me",
+      "start": 46.21,
+      "end": 46.29,
+      "score": 0.692
+    },
+    {
+      "word": "senti...",
+      "start": 46.35,
+      "end": 46.79,
+      "score": 0.925
+    },
+    {
+      "word": "Não",
+      "start": 47.09,
+      "end": 47.17,
+      "score": 0.185
+    },
+    {
+      "word": "tenho",
+      "start": 47.19,
+      "end": 47.41,
+      "score": 0.621
+    },
+    {
+      "word": "outra",
+      "start": 47.43,
+      "end": 47.55,
+      "score": 0.302
+    },
+    {
+      "word": "palavra",
+      "start": 47.59,
+      "end": 47.81,
+      "score": 0.379
+    },
+    {
+      "word": "para",
+      "start": 47.83,
+      "end": 47.95,
+      "score": 0.494
+    },
+    {
+      "word": "usar.",
+      "start": 47.97,
+      "end": 48.11,
+      "score": 0.29
+    },
+    {
+      "word": "Não",
+      "start": 48.15,
+      "end": 48.23,
+      "score": 0.269
+    },
+    {
+      "word": "me",
+      "start": 48.27,
+      "end": 48.35,
+      "score": 0.522
+    },
+    {
+      "word": "senti",
+      "start": 48.371,
+      "end": 48.591,
+      "score": 0.608
+    },
+    {
+      "word": "no",
+      "start": 48.631,
+      "end": 48.771,
+      "score": 0.785
+    },
+    {
+      "word": "açougue.",
+      "start": 48.791,
+      "end": 49.251,
+      "score": 0.515
+    },
+    {
+      "word": "É",
+      "start": 49.771,
+      "end": 49.851,
+      "score": 0.62
+    },
+    {
+      "word": "isso.",
+      "start": 50.051,
+      "end": 51.712,
+      "score": 0.753
+    },
+    {
+      "word": "Acontece",
+      "start": 51.992,
+      "end": 52.412,
+      "score": 0.452
+    },
+    {
+      "word": "muito",
+      "start": 52.472,
+      "end": 52.732,
+      "score": 0.398
+    },
+    {
+      "word": "em",
+      "start": 52.752,
+      "end": 52.812,
+      "score": 0.217
+    },
+    {
+      "word": "muitos",
+      "start": 52.832,
+      "end": 53.493,
+      "score": 0.571
+    },
+    {
+      "word": "hospitais",
+      "start": 53.553,
+      "end": 54.093,
+      "score": 0.692
+    },
+    {
+      "word": "simplesmente",
+      "start": 54.453,
+      "end": 54.973,
+      "score": 0.675
+    },
+    {
+      "word": "verem",
+      "start": 55.053,
+      "end": 55.274,
+      "score": 0.611
+    },
+    {
+      "word": "como",
+      "start": 55.314,
+      "end": 55.774,
+      "score": 0.527
+    },
+    {
+      "word": "um",
+      "start": 56.354,
+      "end": 56.414,
+      "score": 0.532
+    },
+    {
+      "word": "corpo,",
+      "start": 56.494,
+      "end": 57.134,
+      "score": 0.893
+    },
+    {
+      "word": "uma",
+      "start": 59.135,
+      "end": 59.275,
+      "score": 0.733
+    },
+    {
+      "word": "máquina",
+      "start": 59.335,
+      "end": 59.776,
+      "score": 0.821
+    },
+    {
+      "word": "que",
+      "start": 59.816,
+      "end": 59.896,
+      "score": 0.842
+    },
+    {
+      "word": "está",
+      "start": 59.916,
+      "end": 60.016,
+      "score": 0.16
+    },
+    {
+      "word": "ali",
+      "start": 60.036,
+      "end": 60.156,
+      "score": 0.52
+    },
+    {
+      "word": "para",
+      "start": 60.216,
+      "end": 60.296,
+      "score": 0.312
+    },
+    {
+      "word": "ser",
+      "start": 60.336,
+      "end": 60.436,
+      "score": 0.32
+    },
+    {
+      "word": "consertada.",
+      "start": 60.496,
+      "end": 61.276,
+      "score": 0.873
+    },
+    {
+      "word": "Então",
+      "start": 61.476,
+      "end": 61.716,
+      "score": 0.329
+    },
+    {
+      "word": "as",
+      "start": 61.776,
+      "end": 61.816,
+      "score": 0.012
+    },
+    {
+      "word": "pessoas",
+      "start": 61.836,
+      "end": 62.097,
+      "score": 0.641
+    },
+    {
+      "word": "olharam,",
+      "start": 62.117,
+      "end": 62.557,
+      "score": 0.658
+    },
+    {
+      "word": "perguntaram",
+      "start": 62.577,
+      "end": 63.257,
+      "score": 0.755
+    },
+    {
+      "word": "como",
+      "start": 63.297,
+      "end": 63.397,
+      "score": 0.159
+    },
+    {
+      "word": "eu",
+      "start": 63.417,
+      "end": 63.457,
+      "score": 0.005
+    },
+    {
+      "word": "estava",
+      "start": 63.477,
+      "end": 63.717,
+      "score": 0.411
+    },
+    {
+      "word": "me",
+      "start": 63.737,
+      "end": 63.837,
+      "score": 0.8
+    },
+    {
+      "word": "sentindo.",
+      "start": 63.917,
+      "end": 64.578,
+      "score": 0.718
+    },
+    {
+      "word": "Teve",
+      "start": 64.998,
+      "end": 65.158,
+      "score": 0.368
+    },
+    {
+      "word": "a",
+      "start": 65.178,
+      "end": 65.198,
+      "score": 0.026
+    },
+    {
+      "word": "preocupação",
+      "start": 65.238,
+      "end": 65.818,
+      "score": 0.411
+    },
+    {
+      "word": "quando",
+      "start": 65.858,
+      "end": 65.978,
+      "score": 0.02
+    },
+    {
+      "word": "eu",
+      "start": 65.998,
+      "end": 66.038,
+      "score": 0.006
+    },
+    {
+      "word": "falei",
+      "start": 66.078,
+      "end": 66.258,
+      "score": 0.458
+    },
+    {
+      "word": "que",
+      "start": 66.298,
+      "end": 66.378,
+      "score": 0.16
+    },
+    {
+      "word": "eu",
+      "start": 66.458,
+      "end": 66.519,
+      "score": 0.238
+    },
+    {
+      "word": "estava",
+      "start": 66.579,
+      "end": 66.979,
+      "score": 0.58
+    },
+    {
+      "word": "com",
+      "start": 67.159,
+      "end": 67.659,
+      "score": 0.783
+    },
+    {
+      "word": "espada",
+      "start": 67.699,
+      "end": 68.199,
+      "score": 0.663
+    },
+    {
+      "word": "e",
+      "start": 68.219,
+      "end": 68.239,
+      "score": 0.242
+    },
+    {
+      "word": "tal.",
+      "start": 68.319,
+      "end": 68.659,
+      "score": 0.745
+    },
+    {
+      "word": "Então",
+      "start": 68.78,
+      "end": 68.98,
+      "score": 0.552
+    },
+    {
+      "word": "teve",
+      "start": 69.12,
+      "end": 69.38,
+      "score": 0.645
+    },
+    {
+      "word": "toda",
+      "start": 69.44,
+      "end": 69.72,
+      "score": 0.68
+    },
+    {
+      "word": "uma...",
+      "start": 69.74,
+      "end": 72.121,
+      "score": 0.778
+    }
+  ]
+}

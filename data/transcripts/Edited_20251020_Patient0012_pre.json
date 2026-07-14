@@ -1,0 +1,62 @@
+{
+  "segments": [
+    {
+      "start": 1.073,
+      "end": 4.418,
+      "text": " Ansiosa, mas com esperança.",
+      "words": [
+        {
+          "word": "Ansiosa,",
+          "start": 1.073,
+          "end": 3.537,
+          "score": 0.7
+        },
+        {
+          "word": "mas",
+          "start": 3.557,
+          "end": 3.697,
+          "score": 0.756
+        },
+        {
+          "word": "com",
+          "start": 3.757,
+          "end": 3.897,
+          "score": 0.739
+        },
+        {
+          "word": "esperança.",
+          "start": 3.917,
+          "end": 4.418,
+          "score": 0.508
+        }
+      ],
+      "avg_logprob": -0.12104659610324436
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "Ansiosa,",
+      "start": 1.073,
+      "end": 3.537,
+      "score": 0.7
+    },
+    {
+      "word": "mas",
+      "start": 3.557,
+      "end": 3.697,
+      "score": 0.756
+    },
+    {
+      "word": "com",
+      "start": 3.757,
+      "end": 3.897,
+      "score": 0.739
+    },
+    {
+      "word": "esperança.",
+      "start": 3.917,
+      "end": 4.418,
+      "score": 0.508
+    }
+  ]
+}

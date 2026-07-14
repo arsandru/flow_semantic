@@ -1,0 +1,594 @@
+{
+  "segments": [
+    {
+      "start": 0.031,
+      "end": 2.712,
+      "text": " Eu acho que estou um bocadinho mais calma.",
+      "words": [
+        {
+          "word": "Eu",
+          "start": 0.031,
+          "end": 0.151,
+          "score": 0.4
+        },
+        {
+          "word": "acho",
+          "start": 0.171,
+          "end": 1.012,
+          "score": 0.599
+        },
+        {
+          "word": "que",
+          "start": 1.032,
+          "end": 1.092,
+          "score": 0.0
+        },
+        {
+          "word": "estou",
+          "start": 1.112,
+          "end": 1.332,
+          "score": 0.171
+        },
+        {
+          "word": "um",
+          "start": 1.352,
+          "end": 1.512,
+          "score": 0.666
+        },
+        {
+          "word": "bocadinho",
+          "start": 1.532,
+          "end": 1.892,
+          "score": 0.296
+        },
+        {
+          "word": "mais",
+          "start": 1.912,
+          "end": 1.992,
+          "score": 0.0
+        },
+        {
+          "word": "calma.",
+          "start": 2.092,
+          "end": 2.712,
+          "score": 0.478
+        }
+      ],
+      "avg_logprob": -0.08868683158577263
+    },
+    {
+      "start": 2.872,
+      "end": 8.355,
+      "text": "Não é que antes estivesse estressada, mas estou um bocadinho mais calma.",
+      "words": [
+        {
+          "word": "Não",
+          "start": 2.872,
+          "end": 3.333,
+          "score": 0.82
+        },
+        {
+          "word": "é",
+          "start": 3.373,
+          "end": 3.393,
+          "score": 0.0
+        },
+        {
+          "word": "que",
+          "start": 3.413,
+          "end": 3.873,
+          "score": 0.81
+        },
+        {
+          "word": "antes",
+          "start": 3.913,
+          "end": 4.073,
+          "score": 0.15
+        },
+        {
+          "word": "estivesse",
+          "start": 4.133,
+          "end": 4.433,
+          "score": 0.148
+        },
+        {
+          "word": "estressada,",
+          "start": 4.693,
+          "end": 5.694,
+          "score": 0.252
+        },
+        {
+          "word": "mas",
+          "start": 5.894,
+          "end": 6.374,
+          "score": 0.598
+        },
+        {
+          "word": "estou",
+          "start": 6.434,
+          "end": 6.654,
+          "score": 0.383
+        },
+        {
+          "word": "um",
+          "start": 6.694,
+          "end": 6.754,
+          "score": 0.25
+        },
+        {
+          "word": "bocadinho",
+          "start": 6.774,
+          "end": 7.275,
+          "score": 0.44
+        },
+        {
+          "word": "mais",
+          "start": 7.575,
+          "end": 7.715,
+          "score": 0.292
+        },
+        {
+          "word": "calma.",
+          "start": 7.775,
+          "end": 8.355,
+          "score": 0.413
+        }
+      ],
+      "avg_logprob": -0.08868683158577263
+    },
+    {
+      "start": 8.375,
+      "end": 11.257,
+      "text": "Ajudou de alguma forma.",
+      "words": [
+        {
+          "word": "Ajudou",
+          "start": 8.375,
+          "end": 9.596,
+          "score": 0.684
+        },
+        {
+          "word": "de",
+          "start": 9.636,
+          "end": 9.676,
+          "score": 0.0
+        },
+        {
+          "word": "alguma",
+          "start": 9.696,
+          "end": 10.716,
+          "score": 0.407
+        },
+        {
+          "word": "forma.",
+          "start": 10.736,
+          "end": 11.257,
+          "score": 0.53
+        }
+      ],
+      "avg_logprob": -0.08868683158577263
+    },
+    {
+      "start": 11.277,
+      "end": 16.96,
+      "text": "Mais um bocadinho eu acho que adormecia, o que significa que é bom.",
+      "words": [
+        {
+          "word": "Mais",
+          "start": 11.277,
+          "end": 11.497,
+          "score": 0.375
+        },
+        {
+          "word": "um",
+          "start": 11.537,
+          "end": 11.677,
+          "score": 0.708
+        },
+        {
+          "word": "bocadinho",
+          "start": 11.697,
+          "end": 12.137,
+          "score": 0.176
+        },
+        {
+          "word": "eu",
+          "start": 12.157,
+          "end": 12.217,
+          "score": 0.25
+        },
+        {
+          "word": "acho",
+          "start": 12.277,
+          "end": 12.437,
+          "score": 0.2
+        },
+        {
+          "word": "que",
+          "start": 12.457,
+          "end": 13.158,
+          "score": 0.622
+        },
+        {
+          "word": "adormecia,",
+          "start": 13.178,
+          "end": 14.178,
+          "score": 0.543
+        },
+        {
+          "word": "o",
+          "start": 14.198,
+          "end": 14.218,
+          "score": 0.0
+        },
+        {
+          "word": "que",
+          "start": 14.238,
+          "end": 14.418,
+          "score": 0.444
+        },
+        {
+          "word": "significa",
+          "start": 14.859,
+          "end": 15.499,
+          "score": 0.272
+        },
+        {
+          "word": "que",
+          "start": 15.599,
+          "end": 16.259,
+          "score": 0.655
+        },
+        {
+          "word": "é",
+          "start": 16.319,
+          "end": 16.359,
+          "score": 0.5
+        },
+        {
+          "word": "bom.",
+          "start": 16.82,
+          "end": 16.96,
+          "score": 0.375
+        }
+      ],
+      "avg_logprob": -0.08868683158577263
+    },
+    {
+      "start": 16.98,
+      "end": 18.981,
+      "text": "Não, estou contente.",
+      "words": [
+        {
+          "word": "Não,",
+          "start": 16.98,
+          "end": 17.56,
+          "score": 0.586
+        },
+        {
+          "word": "estou",
+          "start": 17.72,
+          "end": 17.88,
+          "score": 0.233
+        },
+        {
+          "word": "contente.",
+          "start": 17.9,
+          "end": 18.981,
+          "score": 0.495
+        }
+      ],
+      "avg_logprob": -0.08868683158577263
+    },
+    {
+      "start": 19.161,
+      "end": 21.462,
+      "text": "Não tenho nada a reclamar.",
+      "words": [
+        {
+          "word": "Não",
+          "start": 19.161,
+          "end": 19.421,
+          "score": 0.681
+        },
+        {
+          "word": "tenho",
+          "start": 19.581,
+          "end": 20.081,
+          "score": 0.51
+        },
+        {
+          "word": "nada",
+          "start": 20.201,
+          "end": 20.301,
+          "score": 0.125
+        },
+        {
+          "word": "a",
+          "start": 20.321,
+          "end": 20.361,
+          "score": 0.5
+        },
+        {
+          "word": "reclamar.",
+          "start": 20.481,
+          "end": 21.462,
+          "score": 0.537
+        }
+      ],
+      "avg_logprob": -0.08868683158577263
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "Eu",
+      "start": 0.031,
+      "end": 0.151,
+      "score": 0.4
+    },
+    {
+      "word": "acho",
+      "start": 0.171,
+      "end": 1.012,
+      "score": 0.599
+    },
+    {
+      "word": "que",
+      "start": 1.032,
+      "end": 1.092,
+      "score": 0.0
+    },
+    {
+      "word": "estou",
+      "start": 1.112,
+      "end": 1.332,
+      "score": 0.171
+    },
+    {
+      "word": "um",
+      "start": 1.352,
+      "end": 1.512,
+      "score": 0.666
+    },
+    {
+      "word": "bocadinho",
+      "start": 1.532,
+      "end": 1.892,
+      "score": 0.296
+    },
+    {
+      "word": "mais",
+      "start": 1.912,
+      "end": 1.992,
+      "score": 0.0
+    },
+    {
+      "word": "calma.",
+      "start": 2.092,
+      "end": 2.712,
+      "score": 0.478
+    },
+    {
+      "word": "Não",
+      "start": 2.872,
+      "end": 3.333,
+      "score": 0.82
+    },
+    {
+      "word": "é",
+      "start": 3.373,
+      "end": 3.393,
+      "score": 0.0
+    },
+    {
+      "word": "que",
+      "start": 3.413,
+      "end": 3.873,
+      "score": 0.81
+    },
+    {
+      "word": "antes",
+      "start": 3.913,
+      "end": 4.073,
+      "score": 0.15
+    },
+    {
+      "word": "estivesse",
+      "start": 4.133,
+      "end": 4.433,
+      "score": 0.148
+    },
+    {
+      "word": "estressada,",
+      "start": 4.693,
+      "end": 5.694,
+      "score": 0.252
+    },
+    {
+      "word": "mas",
+      "start": 5.894,
+      "end": 6.374,
+      "score": 0.598
+    },
+    {
+      "word": "estou",
+      "start": 6.434,
+      "end": 6.654,
+      "score": 0.383
+    },
+    {
+      "word": "um",
+      "start": 6.694,
+      "end": 6.754,
+      "score": 0.25
+    },
+    {
+      "word": "bocadinho",
+      "start": 6.774,
+      "end": 7.275,
+      "score": 0.44
+    },
+    {
+      "word": "mais",
+      "start": 7.575,
+      "end": 7.715,
+      "score": 0.292
+    },
+    {
+      "word": "calma.",
+      "start": 7.775,
+      "end": 8.355,
+      "score": 0.413
+    },
+    {
+      "word": "Ajudou",
+      "start": 8.375,
+      "end": 9.596,
+      "score": 0.684
+    },
+    {
+      "word": "de",
+      "start": 9.636,
+      "end": 9.676,
+      "score": 0.0
+    },
+    {
+      "word": "alguma",
+      "start": 9.696,
+      "end": 10.716,
+      "score": 0.407
+    },
+    {
+      "word": "forma.",
+      "start": 10.736,
+      "end": 11.257,
+      "score": 0.53
+    },
+    {
+      "word": "Mais",
+      "start": 11.277,
+      "end": 11.497,
+      "score": 0.375
+    },
+    {
+      "word": "um",
+      "start": 11.537,
+      "end": 11.677,
+      "score": 0.708
+    },
+    {
+      "word": "bocadinho",
+      "start": 11.697,
+      "end": 12.137,
+      "score": 0.176
+    },
+    {
+      "word": "eu",
+      "start": 12.157,
+      "end": 12.217,
+      "score": 0.25
+    },
+    {
+      "word": "acho",
+      "start": 12.277,
+      "end": 12.437,
+      "score": 0.2
+    },
+    {
+      "word": "que",
+      "start": 12.457,
+      "end": 13.158,
+      "score": 0.622
+    },
+    {
+      "word": "adormecia,",
+      "start": 13.178,
+      "end": 14.178,
+      "score": 0.543
+    },
+    {
+      "word": "o",
+      "start": 14.198,
+      "end": 14.218,
+      "score": 0.0
+    },
+    {
+      "word": "que",
+      "start": 14.238,
+      "end": 14.418,
+      "score": 0.444
+    },
+    {
+      "word": "significa",
+      "start": 14.859,
+      "end": 15.499,
+      "score": 0.272
+    },
+    {
+      "word": "que",
+      "start": 15.599,
+      "end": 16.259,
+      "score": 0.655
+    },
+    {
+      "word": "é",
+      "start": 16.319,
+      "end": 16.359,
+      "score": 0.5
+    },
+    {
+      "word": "bom.",
+      "start": 16.82,
+      "end": 16.96,
+      "score": 0.375
+    },
+    {
+      "word": "Não,",
+      "start": 16.98,
+      "end": 17.56,
+      "score": 0.586
+    },
+    {
+      "word": "estou",
+      "start": 17.72,
+      "end": 17.88,
+      "score": 0.233
+    },
+    {
+      "word": "contente.",
+      "start": 17.9,
+      "end": 18.981,
+      "score": 0.495
+    },
+    {
+      "word": "Não",
+      "start": 19.161,
+      "end": 19.421,
+      "score": 0.681
+    },
+    {
+      "word": "tenho",
+      "start": 19.581,
+      "end": 20.081,
+      "score": 0.51
+    },
+    {
+      "word": "nada",
+      "start": 20.201,
+      "end": 20.301,
+      "score": 0.125
+    },
+    {
+      "word": "a",
+      "start": 20.321,
+      "end": 20.361,
+      "score": 0.5
+    },
+    {
+      "word": "reclamar.",
+      "start": 20.481,
+      "end": 21.462,
+      "score": 0.537
+    }
+  ]
+}

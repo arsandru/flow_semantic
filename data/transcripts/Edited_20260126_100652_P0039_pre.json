@@ -1,0 +1,194 @@
+{
+  "segments": [
+    {
+      "start": 2.262,
+      "end": 9.532,
+      "text": " Estou com comissões por causa das meias, mas esse é o único desconforto que tenho.",
+      "words": [
+        {
+          "word": "Estou",
+          "start": 2.262,
+          "end": 4.305,
+          "score": 0.552
+        },
+        {
+          "word": "com",
+          "start": 4.365,
+          "end": 4.465,
+          "score": 0.484
+        },
+        {
+          "word": "comissões",
+          "start": 4.505,
+          "end": 5.366,
+          "score": 0.814
+        },
+        {
+          "word": "por",
+          "start": 5.707,
+          "end": 5.827,
+          "score": 0.656
+        },
+        {
+          "word": "causa",
+          "start": 5.887,
+          "end": 6.127,
+          "score": 0.981
+        },
+        {
+          "word": "das",
+          "start": 6.167,
+          "end": 6.328,
+          "score": 1.0
+        },
+        {
+          "word": "meias,",
+          "start": 6.388,
+          "end": 6.848,
+          "score": 0.863
+        },
+        {
+          "word": "mas",
+          "start": 6.969,
+          "end": 7.109,
+          "score": 0.879
+        },
+        {
+          "word": "esse",
+          "start": 7.149,
+          "end": 7.369,
+          "score": 0.78
+        },
+        {
+          "word": "é",
+          "start": 7.389,
+          "end": 7.409,
+          "score": 0.0
+        },
+        {
+          "word": "o",
+          "start": 7.429,
+          "end": 7.449,
+          "score": 0.002
+        },
+        {
+          "word": "único",
+          "start": 7.529,
+          "end": 7.83,
+          "score": 0.721
+        },
+        {
+          "word": "desconforto",
+          "start": 7.85,
+          "end": 8.29,
+          "score": 0.407
+        },
+        {
+          "word": "que",
+          "start": 8.31,
+          "end": 8.37,
+          "score": 0.002
+        },
+        {
+          "word": "tenho.",
+          "start": 8.43,
+          "end": 9.532,
+          "score": 0.562
+        }
+      ],
+      "avg_logprob": -0.1252619419246912
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "Estou",
+      "start": 2.262,
+      "end": 4.305,
+      "score": 0.552
+    },
+    {
+      "word": "com",
+      "start": 4.365,
+      "end": 4.465,
+      "score": 0.484
+    },
+    {
+      "word": "comissões",
+      "start": 4.505,
+      "end": 5.366,
+      "score": 0.814
+    },
+    {
+      "word": "por",
+      "start": 5.707,
+      "end": 5.827,
+      "score": 0.656
+    },
+    {
+      "word": "causa",
+      "start": 5.887,
+      "end": 6.127,
+      "score": 0.981
+    },
+    {
+      "word": "das",
+      "start": 6.167,
+      "end": 6.328,
+      "score": 1.0
+    },
+    {
+      "word": "meias,",
+      "start": 6.388,
+      "end": 6.848,
+      "score": 0.863
+    },
+    {
+      "word": "mas",
+      "start": 6.969,
+      "end": 7.109,
+      "score": 0.879
+    },
+    {
+      "word": "esse",
+      "start": 7.149,
+      "end": 7.369,
+      "score": 0.78
+    },
+    {
+      "word": "é",
+      "start": 7.389,
+      "end": 7.409,
+      "score": 0.0
+    },
+    {
+      "word": "o",
+      "start": 7.429,
+      "end": 7.449,
+      "score": 0.002
+    },
+    {
+      "word": "único",
+      "start": 7.529,
+      "end": 7.83,
+      "score": 0.721
+    },
+    {
+      "word": "desconforto",
+      "start": 7.85,
+      "end": 8.29,
+      "score": 0.407
+    },
+    {
+      "word": "que",
+      "start": 8.31,
+      "end": 8.37,
+      "score": 0.002
+    },
+    {
+      "word": "tenho.",
+      "start": 8.43,
+      "end": 9.532,
+      "score": 0.562
+    }
+  ]
+}

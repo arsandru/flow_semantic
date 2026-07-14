@@ -1,0 +1,418 @@
+{
+  "segments": [
+    {
+      "start": 0.943,
+      "end": 13.415,
+      "text": " Não, quer dizer, como digo, à medida que se aproxima e ir para o bloco, a ansiedade aumenta e o receio de que algo possa correr mal também.",
+      "words": [
+        {
+          "word": "Não,",
+          "start": 0.943,
+          "end": 1.063,
+          "score": 0.459
+        },
+        {
+          "word": "quer",
+          "start": 1.143,
+          "end": 1.223,
+          "score": 0.109
+        },
+        {
+          "word": "dizer,",
+          "start": 1.264,
+          "end": 1.384,
+          "score": 0.047
+        },
+        {
+          "word": "como",
+          "start": 1.424,
+          "end": 1.564,
+          "score": 0.484
+        },
+        {
+          "word": "digo,",
+          "start": 1.584,
+          "end": 1.884,
+          "score": 0.578
+        },
+        {
+          "word": "à",
+          "start": 1.964,
+          "end": 2.004,
+          "score": 0.455
+        },
+        {
+          "word": "medida",
+          "start": 2.064,
+          "end": 2.285,
+          "score": 0.451
+        },
+        {
+          "word": "que",
+          "start": 2.305,
+          "end": 2.365,
+          "score": 0.178
+        },
+        {
+          "word": "se",
+          "start": 2.385,
+          "end": 2.485,
+          "score": 0.674
+        },
+        {
+          "word": "aproxima",
+          "start": 2.545,
+          "end": 3.145,
+          "score": 0.814
+        },
+        {
+          "word": "e",
+          "start": 3.566,
+          "end": 3.626,
+          "score": 0.835
+        },
+        {
+          "word": "ir",
+          "start": 3.726,
+          "end": 3.806,
+          "score": 0.517
+        },
+        {
+          "word": "para",
+          "start": 3.886,
+          "end": 4.046,
+          "score": 0.423
+        },
+        {
+          "word": "o",
+          "start": 4.126,
+          "end": 4.166,
+          "score": 0.659
+        },
+        {
+          "word": "bloco,",
+          "start": 4.186,
+          "end": 4.647,
+          "score": 0.64
+        },
+        {
+          "word": "a",
+          "start": 4.747,
+          "end": 5.207,
+          "score": 0.868
+        },
+        {
+          "word": "ansiedade",
+          "start": 6.389,
+          "end": 6.989,
+          "score": 0.794
+        },
+        {
+          "word": "aumenta",
+          "start": 7.029,
+          "end": 7.67,
+          "score": 0.884
+        },
+        {
+          "word": "e",
+          "start": 7.81,
+          "end": 7.89,
+          "score": 0.927
+        },
+        {
+          "word": "o",
+          "start": 7.95,
+          "end": 8.01,
+          "score": 0.732
+        },
+        {
+          "word": "receio",
+          "start": 8.03,
+          "end": 9.011,
+          "score": 0.837
+        },
+        {
+          "word": "de",
+          "start": 9.071,
+          "end": 9.852,
+          "score": 0.906
+        },
+        {
+          "word": "que",
+          "start": 9.932,
+          "end": 10.032,
+          "score": 0.824
+        },
+        {
+          "word": "algo",
+          "start": 10.132,
+          "end": 10.893,
+          "score": 0.9
+        },
+        {
+          "word": "possa",
+          "start": 10.973,
+          "end": 11.193,
+          "score": 0.97
+        },
+        {
+          "word": "correr",
+          "start": 11.313,
+          "end": 11.594,
+          "score": 0.628
+        },
+        {
+          "word": "mal",
+          "start": 11.634,
+          "end": 11.874,
+          "score": 0.918
+        },
+        {
+          "word": "também.",
+          "start": 12.995,
+          "end": 13.415,
+          "score": 0.628
+        }
+      ],
+      "avg_logprob": -0.08463722312202056
+    },
+    {
+      "start": 13.756,
+      "end": 15.798,
+      "text": "Não tenho razão de queixa.",
+      "words": [
+        {
+          "word": "Não",
+          "start": 13.756,
+          "end": 14.737,
+          "score": 0.544
+        },
+        {
+          "word": "tenho",
+          "start": 14.817,
+          "end": 15.057,
+          "score": 0.562
+        },
+        {
+          "word": "razão",
+          "start": 15.117,
+          "end": 15.397,
+          "score": 0.561
+        },
+        {
+          "word": "de",
+          "start": 15.417,
+          "end": 15.478,
+          "score": 0.296
+        },
+        {
+          "word": "queixa.",
+          "start": 15.518,
+          "end": 15.798,
+          "score": 0.357
+        }
+      ],
+      "avg_logprob": -0.08463722312202056
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "Não,",
+      "start": 0.943,
+      "end": 1.063,
+      "score": 0.459
+    },
+    {
+      "word": "quer",
+      "start": 1.143,
+      "end": 1.223,
+      "score": 0.109
+    },
+    {
+      "word": "dizer,",
+      "start": 1.264,
+      "end": 1.384,
+      "score": 0.047
+    },
+    {
+      "word": "como",
+      "start": 1.424,
+      "end": 1.564,
+      "score": 0.484
+    },
+    {
+      "word": "digo,",
+      "start": 1.584,
+      "end": 1.884,
+      "score": 0.578
+    },
+    {
+      "word": "à",
+      "start": 1.964,
+      "end": 2.004,
+      "score": 0.455
+    },
+    {
+      "word": "medida",
+      "start": 2.064,
+      "end": 2.285,
+      "score": 0.451
+    },
+    {
+      "word": "que",
+      "start": 2.305,
+      "end": 2.365,
+      "score": 0.178
+    },
+    {
+      "word": "se",
+      "start": 2.385,
+      "end": 2.485,
+      "score": 0.674
+    },
+    {
+      "word": "aproxima",
+      "start": 2.545,
+      "end": 3.145,
+      "score": 0.814
+    },
+    {
+      "word": "e",
+      "start": 3.566,
+      "end": 3.626,
+      "score": 0.835
+    },
+    {
+      "word": "ir",
+      "start": 3.726,
+      "end": 3.806,
+      "score": 0.517
+    },
+    {
+      "word": "para",
+      "start": 3.886,
+      "end": 4.046,
+      "score": 0.423
+    },
+    {
+      "word": "o",
+      "start": 4.126,
+      "end": 4.166,
+      "score": 0.659
+    },
+    {
+      "word": "bloco,",
+      "start": 4.186,
+      "end": 4.647,
+      "score": 0.64
+    },
+    {
+      "word": "a",
+      "start": 4.747,
+      "end": 5.207,
+      "score": 0.868
+    },
+    {
+      "word": "ansiedade",
+      "start": 6.389,
+      "end": 6.989,
+      "score": 0.794
+    },
+    {
+      "word": "aumenta",
+      "start": 7.029,
+      "end": 7.67,
+      "score": 0.884
+    },
+    {
+      "word": "e",
+      "start": 7.81,
+      "end": 7.89,
+      "score": 0.927
+    },
+    {
+      "word": "o",
+      "start": 7.95,
+      "end": 8.01,
+      "score": 0.732
+    },
+    {
+      "word": "receio",
+      "start": 8.03,
+      "end": 9.011,
+      "score": 0.837
+    },
+    {
+      "word": "de",
+      "start": 9.071,
+      "end": 9.852,
+      "score": 0.906
+    },
+    {
+      "word": "que",
+      "start": 9.932,
+      "end": 10.032,
+      "score": 0.824
+    },
+    {
+      "word": "algo",
+      "start": 10.132,
+      "end": 10.893,
+      "score": 0.9
+    },
+    {
+      "word": "possa",
+      "start": 10.973,
+      "end": 11.193,
+      "score": 0.97
+    },
+    {
+      "word": "correr",
+      "start": 11.313,
+      "end": 11.594,
+      "score": 0.628
+    },
+    {
+      "word": "mal",
+      "start": 11.634,
+      "end": 11.874,
+      "score": 0.918
+    },
+    {
+      "word": "também.",
+      "start": 12.995,
+      "end": 13.415,
+      "score": 0.628
+    },
+    {
+      "word": "Não",
+      "start": 13.756,
+      "end": 14.737,
+      "score": 0.544
+    },
+    {
+      "word": "tenho",
+      "start": 14.817,
+      "end": 15.057,
+      "score": 0.562
+    },
+    {
+      "word": "razão",
+      "start": 15.117,
+      "end": 15.397,
+      "score": 0.561
+    },
+    {
+      "word": "de",
+      "start": 15.417,
+      "end": 15.478,
+      "score": 0.296
+    },
+    {
+      "word": "queixa.",
+      "start": 15.518,
+      "end": 15.798,
+      "score": 0.357
+    }
+  ]
+}

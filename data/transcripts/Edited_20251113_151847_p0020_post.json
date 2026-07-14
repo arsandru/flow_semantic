@@ -1,0 +1,818 @@
+{
+  "segments": [
+    {
+      "start": 0.131,
+      "end": 13.401,
+      "text": " Eu penso que me sinto um pouco mais tranquila, relaxada, porque, bom, na preparação, você fica mais tranquila e com fome.",
+      "words": [
+        {
+          "word": "Eu",
+          "start": 0.131,
+          "end": 0.251,
+          "score": 0.4
+        },
+        {
+          "word": "penso",
+          "start": 0.571,
+          "end": 0.812,
+          "score": 0.393
+        },
+        {
+          "word": "que",
+          "start": 0.832,
+          "end": 1.152,
+          "score": 0.692
+        },
+        {
+          "word": "me",
+          "start": 1.212,
+          "end": 1.352,
+          "score": 0.65
+        },
+        {
+          "word": "sinto",
+          "start": 1.592,
+          "end": 2.112,
+          "score": 0.771
+        },
+        {
+          "word": "um",
+          "start": 2.293,
+          "end": 2.513,
+          "score": 0.45
+        },
+        {
+          "word": "pouco",
+          "start": 2.593,
+          "end": 2.693,
+          "score": 0.0
+        },
+        {
+          "word": "mais",
+          "start": 2.753,
+          "end": 2.893,
+          "score": 0.292
+        },
+        {
+          "word": "tranquila,",
+          "start": 3.033,
+          "end": 3.674,
+          "score": 0.34
+        },
+        {
+          "word": "relaxada,",
+          "start": 4.014,
+          "end": 5.515,
+          "score": 0.561
+        },
+        {
+          "word": "porque,",
+          "start": 5.535,
+          "end": 6.035,
+          "score": 0.496
+        },
+        {
+          "word": "bom,",
+          "start": 6.315,
+          "end": 7.136,
+          "score": 0.451
+        },
+        {
+          "word": "na",
+          "start": 7.156,
+          "end": 7.236,
+          "score": 0.334
+        },
+        {
+          "word": "preparação,",
+          "start": 7.376,
+          "end": 10.178,
+          "score": 0.516
+        },
+        {
+          "word": "você",
+          "start": 10.619,
+          "end": 10.919,
+          "score": 0.352
+        },
+        {
+          "word": "fica",
+          "start": 11.359,
+          "end": 11.459,
+          "score": 0.125
+        },
+        {
+          "word": "mais",
+          "start": 11.479,
+          "end": 11.799,
+          "score": 0.729
+        },
+        {
+          "word": "tranquila",
+          "start": 11.94,
+          "end": 12.8,
+          "score": 0.578
+        },
+        {
+          "word": "e",
+          "start": 12.94,
+          "end": 12.98,
+          "score": 0.5
+        },
+        {
+          "word": "com",
+          "start": 13.02,
+          "end": 13.18,
+          "score": 0.472
+        },
+        {
+          "word": "fome.",
+          "start": 13.28,
+          "end": 13.401,
+          "score": 0.1
+        }
+      ],
+      "avg_logprob": -0.18429731080929437
+    },
+    {
+      "start": 13.441,
+      "end": 23.808,
+      "text": "Não, eu penso que todo mundo aqui é muito simpático e agradável e faz a experiência agradável, tranquila.",
+      "words": [
+        {
+          "word": "Não,",
+          "start": 13.441,
+          "end": 13.801,
+          "score": 0.727
+        },
+        {
+          "word": "eu",
+          "start": 13.941,
+          "end": 14.381,
+          "score": 0.87
+        },
+        {
+          "word": "penso",
+          "start": 14.541,
+          "end": 14.922,
+          "score": 0.342
+        },
+        {
+          "word": "que",
+          "start": 15.062,
+          "end": 15.282,
+          "score": 0.458
+        },
+        {
+          "word": "todo",
+          "start": 15.422,
+          "end": 15.762,
+          "score": 0.589
+        },
+        {
+          "word": "mundo",
+          "start": 15.782,
+          "end": 16.223,
+          "score": 0.477
+        },
+        {
+          "word": "aqui",
+          "start": 16.323,
+          "end": 16.683,
+          "score": 0.357
+        },
+        {
+          "word": "é",
+          "start": 16.703,
+          "end": 16.743,
+          "score": 0.5
+        },
+        {
+          "word": "muito",
+          "start": 16.883,
+          "end": 17.243,
+          "score": 0.34
+        },
+        {
+          "word": "simpático",
+          "start": 17.343,
+          "end": 18.124,
+          "score": 0.181
+        },
+        {
+          "word": "e",
+          "start": 18.144,
+          "end": 18.164,
+          "score": 0.0
+        },
+        {
+          "word": "agradável",
+          "start": 18.184,
+          "end": 18.904,
+          "score": 0.504
+        },
+        {
+          "word": "e",
+          "start": 19.245,
+          "end": 19.305,
+          "score": 0.667
+        },
+        {
+          "word": "faz",
+          "start": 19.325,
+          "end": 19.665,
+          "score": 0.57
+        },
+        {
+          "word": "a",
+          "start": 19.685,
+          "end": 19.705,
+          "score": 0.0
+        },
+        {
+          "word": "experiência",
+          "start": 19.905,
+          "end": 20.426,
+          "score": 0.201
+        },
+        {
+          "word": "agradável,",
+          "start": 20.446,
+          "end": 22.127,
+          "score": 0.633
+        },
+        {
+          "word": "tranquila.",
+          "start": 22.307,
+          "end": 23.808,
+          "score": 0.674
+        }
+      ],
+      "avg_logprob": -0.18429731080929437
+    },
+    {
+      "start": 24.263,
+      "end": 26.625,
+      "text": " Desde a primeira, porque essa é a terceira operação.",
+      "words": [
+        {
+          "word": "Desde",
+          "start": 24.263,
+          "end": 24.683,
+          "score": 0.188
+        },
+        {
+          "word": "a",
+          "start": 24.703,
+          "end": 24.723,
+          "score": 0.0
+        },
+        {
+          "word": "primeira,",
+          "start": 24.743,
+          "end": 24.944,
+          "score": 0.056
+        },
+        {
+          "word": "porque",
+          "start": 24.964,
+          "end": 25.124,
+          "score": 0.167
+        },
+        {
+          "word": "essa",
+          "start": 25.144,
+          "end": 25.244,
+          "score": 0.125
+        },
+        {
+          "word": "é",
+          "start": 25.264,
+          "end": 25.284,
+          "score": 0.0
+        },
+        {
+          "word": "a",
+          "start": 25.344,
+          "end": 25.364,
+          "score": 0.0
+        },
+        {
+          "word": "terceira",
+          "start": 25.524,
+          "end": 25.945,
+          "score": 0.216
+        },
+        {
+          "word": "operação.",
+          "start": 26.025,
+          "end": 26.625,
+          "score": 0.288
+        }
+      ],
+      "avg_logprob": -0.21170335337519647
+    },
+    {
+      "start": 26.865,
+      "end": 35.013,
+      "text": "A primeira operação, que era mais grande, eu estava nas nuvens da felicidade, que me iam operar.",
+      "words": [
+        {
+          "word": "A",
+          "start": 26.865,
+          "end": 26.905,
+          "score": 0.5
+        },
+        {
+          "word": "primeira",
+          "start": 26.945,
+          "end": 27.166,
+          "score": 0.188
+        },
+        {
+          "word": "operação,",
+          "start": 27.226,
+          "end": 27.806,
+          "score": 0.525
+        },
+        {
+          "word": "que",
+          "start": 28.467,
+          "end": 28.687,
+          "score": 0.722
+        },
+        {
+          "word": "era",
+          "start": 28.747,
+          "end": 28.947,
+          "score": 0.667
+        },
+        {
+          "word": "mais",
+          "start": 29.027,
+          "end": 29.828,
+          "score": 0.609
+        },
+        {
+          "word": "grande,",
+          "start": 29.848,
+          "end": 30.008,
+          "score": 0.071
+        },
+        {
+          "word": "eu",
+          "start": 30.028,
+          "end": 30.189,
+          "score": 0.666
+        },
+        {
+          "word": "estava",
+          "start": 30.629,
+          "end": 30.789,
+          "score": 0.111
+        },
+        {
+          "word": "nas",
+          "start": 30.809,
+          "end": 31.129,
+          "score": 0.553
+        },
+        {
+          "word": "nuvens",
+          "start": 31.41,
+          "end": 31.55,
+          "score": 0.083
+        },
+        {
+          "word": "da",
+          "start": 31.63,
+          "end": 31.85,
+          "score": 0.804
+        },
+        {
+          "word": "felicidade,",
+          "start": 31.97,
+          "end": 32.531,
+          "score": 0.287
+        },
+        {
+          "word": "que",
+          "start": 32.651,
+          "end": 32.731,
+          "score": 0.167
+        },
+        {
+          "word": "me",
+          "start": 32.771,
+          "end": 32.831,
+          "score": 0.25
+        },
+        {
+          "word": "iam",
+          "start": 32.891,
+          "end": 32.951,
+          "score": 0.0
+        },
+        {
+          "word": "operar.",
+          "start": 33.031,
+          "end": 35.013,
+          "score": 0.738
+        }
+      ],
+      "avg_logprob": -0.21170335337519647
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "Eu",
+      "start": 0.131,
+      "end": 0.251,
+      "score": 0.4
+    },
+    {
+      "word": "penso",
+      "start": 0.571,
+      "end": 0.812,
+      "score": 0.393
+    },
+    {
+      "word": "que",
+      "start": 0.832,
+      "end": 1.152,
+      "score": 0.692
+    },
+    {
+      "word": "me",
+      "start": 1.212,
+      "end": 1.352,
+      "score": 0.65
+    },
+    {
+      "word": "sinto",
+      "start": 1.592,
+      "end": 2.112,
+      "score": 0.771
+    },
+    {
+      "word": "um",
+      "start": 2.293,
+      "end": 2.513,
+      "score": 0.45
+    },
+    {
+      "word": "pouco",
+      "start": 2.593,
+      "end": 2.693,
+      "score": 0.0
+    },
+    {
+      "word": "mais",
+      "start": 2.753,
+      "end": 2.893,
+      "score": 0.292
+    },
+    {
+      "word": "tranquila,",
+      "start": 3.033,
+      "end": 3.674,
+      "score": 0.34
+    },
+    {
+      "word": "relaxada,",
+      "start": 4.014,
+      "end": 5.515,
+      "score": 0.561
+    },
+    {
+      "word": "porque,",
+      "start": 5.535,
+      "end": 6.035,
+      "score": 0.496
+    },
+    {
+      "word": "bom,",
+      "start": 6.315,
+      "end": 7.136,
+      "score": 0.451
+    },
+    {
+      "word": "na",
+      "start": 7.156,
+      "end": 7.236,
+      "score": 0.334
+    },
+    {
+      "word": "preparação,",
+      "start": 7.376,
+      "end": 10.178,
+      "score": 0.516
+    },
+    {
+      "word": "você",
+      "start": 10.619,
+      "end": 10.919,
+      "score": 0.352
+    },
+    {
+      "word": "fica",
+      "start": 11.359,
+      "end": 11.459,
+      "score": 0.125
+    },
+    {
+      "word": "mais",
+      "start": 11.479,
+      "end": 11.799,
+      "score": 0.729
+    },
+    {
+      "word": "tranquila",
+      "start": 11.94,
+      "end": 12.8,
+      "score": 0.578
+    },
+    {
+      "word": "e",
+      "start": 12.94,
+      "end": 12.98,
+      "score": 0.5
+    },
+    {
+      "word": "com",
+      "start": 13.02,
+      "end": 13.18,
+      "score": 0.472
+    },
+    {
+      "word": "fome.",
+      "start": 13.28,
+      "end": 13.401,
+      "score": 0.1
+    },
+    {
+      "word": "Não,",
+      "start": 13.441,
+      "end": 13.801,
+      "score": 0.727
+    },
+    {
+      "word": "eu",
+      "start": 13.941,
+      "end": 14.381,
+      "score": 0.87
+    },
+    {
+      "word": "penso",
+      "start": 14.541,
+      "end": 14.922,
+      "score": 0.342
+    },
+    {
+      "word": "que",
+      "start": 15.062,
+      "end": 15.282,
+      "score": 0.458
+    },
+    {
+      "word": "todo",
+      "start": 15.422,
+      "end": 15.762,
+      "score": 0.589
+    },
+    {
+      "word": "mundo",
+      "start": 15.782,
+      "end": 16.223,
+      "score": 0.477
+    },
+    {
+      "word": "aqui",
+      "start": 16.323,
+      "end": 16.683,
+      "score": 0.357
+    },
+    {
+      "word": "é",
+      "start": 16.703,
+      "end": 16.743,
+      "score": 0.5
+    },
+    {
+      "word": "muito",
+      "start": 16.883,
+      "end": 17.243,
+      "score": 0.34
+    },
+    {
+      "word": "simpático",
+      "start": 17.343,
+      "end": 18.124,
+      "score": 0.181
+    },
+    {
+      "word": "e",
+      "start": 18.144,
+      "end": 18.164,
+      "score": 0.0
+    },
+    {
+      "word": "agradável",
+      "start": 18.184,
+      "end": 18.904,
+      "score": 0.504
+    },
+    {
+      "word": "e",
+      "start": 19.245,
+      "end": 19.305,
+      "score": 0.667
+    },
+    {
+      "word": "faz",
+      "start": 19.325,
+      "end": 19.665,
+      "score": 0.57
+    },
+    {
+      "word": "a",
+      "start": 19.685,
+      "end": 19.705,
+      "score": 0.0
+    },
+    {
+      "word": "experiência",
+      "start": 19.905,
+      "end": 20.426,
+      "score": 0.201
+    },
+    {
+      "word": "agradável,",
+      "start": 20.446,
+      "end": 22.127,
+      "score": 0.633
+    },
+    {
+      "word": "tranquila.",
+      "start": 22.307,
+      "end": 23.808,
+      "score": 0.674
+    },
+    {
+      "word": "Desde",
+      "start": 24.263,
+      "end": 24.683,
+      "score": 0.188
+    },
+    {
+      "word": "a",
+      "start": 24.703,
+      "end": 24.723,
+      "score": 0.0
+    },
+    {
+      "word": "primeira,",
+      "start": 24.743,
+      "end": 24.944,
+      "score": 0.056
+    },
+    {
+      "word": "porque",
+      "start": 24.964,
+      "end": 25.124,
+      "score": 0.167
+    },
+    {
+      "word": "essa",
+      "start": 25.144,
+      "end": 25.244,
+      "score": 0.125
+    },
+    {
+      "word": "é",
+      "start": 25.264,
+      "end": 25.284,
+      "score": 0.0
+    },
+    {
+      "word": "a",
+      "start": 25.344,
+      "end": 25.364,
+      "score": 0.0
+    },
+    {
+      "word": "terceira",
+      "start": 25.524,
+      "end": 25.945,
+      "score": 0.216
+    },
+    {
+      "word": "operação.",
+      "start": 26.025,
+      "end": 26.625,
+      "score": 0.288
+    },
+    {
+      "word": "A",
+      "start": 26.865,
+      "end": 26.905,
+      "score": 0.5
+    },
+    {
+      "word": "primeira",
+      "start": 26.945,
+      "end": 27.166,
+      "score": 0.188
+    },
+    {
+      "word": "operação,",
+      "start": 27.226,
+      "end": 27.806,
+      "score": 0.525
+    },
+    {
+      "word": "que",
+      "start": 28.467,
+      "end": 28.687,
+      "score": 0.722
+    },
+    {
+      "word": "era",
+      "start": 28.747,
+      "end": 28.947,
+      "score": 0.667
+    },
+    {
+      "word": "mais",
+      "start": 29.027,
+      "end": 29.828,
+      "score": 0.609
+    },
+    {
+      "word": "grande,",
+      "start": 29.848,
+      "end": 30.008,
+      "score": 0.071
+    },
+    {
+      "word": "eu",
+      "start": 30.028,
+      "end": 30.189,
+      "score": 0.666
+    },
+    {
+      "word": "estava",
+      "start": 30.629,
+      "end": 30.789,
+      "score": 0.111
+    },
+    {
+      "word": "nas",
+      "start": 30.809,
+      "end": 31.129,
+      "score": 0.553
+    },
+    {
+      "word": "nuvens",
+      "start": 31.41,
+      "end": 31.55,
+      "score": 0.083
+    },
+    {
+      "word": "da",
+      "start": 31.63,
+      "end": 31.85,
+      "score": 0.804
+    },
+    {
+      "word": "felicidade,",
+      "start": 31.97,
+      "end": 32.531,
+      "score": 0.287
+    },
+    {
+      "word": "que",
+      "start": 32.651,
+      "end": 32.731,
+      "score": 0.167
+    },
+    {
+      "word": "me",
+      "start": 32.771,
+      "end": 32.831,
+      "score": 0.25
+    },
+    {
+      "word": "iam",
+      "start": 32.891,
+      "end": 32.951,
+      "score": 0.0
+    },
+    {
+      "word": "operar.",
+      "start": 33.031,
+      "end": 35.013,
+      "score": 0.738
+    }
+  ]
+}

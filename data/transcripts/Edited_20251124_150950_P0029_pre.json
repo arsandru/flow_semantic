@@ -1,0 +1,134 @@
+{
+  "segments": [
+    {
+      "start": 0.031,
+      "end": 7.304,
+      "text": " Desejamos que isto acabe e depois vamos ver o pós-operatório.",
+      "words": [
+        {
+          "word": "Desejamos",
+          "start": 0.031,
+          "end": 0.993,
+          "score": 0.515
+        },
+        {
+          "word": "que",
+          "start": 1.033,
+          "end": 1.113,
+          "score": 0.167
+        },
+        {
+          "word": "isto",
+          "start": 1.133,
+          "end": 1.293,
+          "score": 0.312
+        },
+        {
+          "word": "acabe",
+          "start": 1.434,
+          "end": 1.814,
+          "score": 0.475
+        },
+        {
+          "word": "e",
+          "start": 2.996,
+          "end": 3.157,
+          "score": 0.875
+        },
+        {
+          "word": "depois",
+          "start": 3.197,
+          "end": 3.517,
+          "score": 0.375
+        },
+        {
+          "word": "vamos",
+          "start": 3.557,
+          "end": 3.938,
+          "score": 0.488
+        },
+        {
+          "word": "ver",
+          "start": 5.04,
+          "end": 5.12,
+          "score": 0.167
+        },
+        {
+          "word": "o",
+          "start": 5.14,
+          "end": 5.16,
+          "score": 0.0
+        },
+        {
+          "word": "pós-operatório.",
+          "start": 6.483,
+          "end": 7.304,
+          "score": 0.252
+        }
+      ],
+      "avg_logprob": -0.14781460875556582
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "Desejamos",
+      "start": 0.031,
+      "end": 0.993,
+      "score": 0.515
+    },
+    {
+      "word": "que",
+      "start": 1.033,
+      "end": 1.113,
+      "score": 0.167
+    },
+    {
+      "word": "isto",
+      "start": 1.133,
+      "end": 1.293,
+      "score": 0.312
+    },
+    {
+      "word": "acabe",
+      "start": 1.434,
+      "end": 1.814,
+      "score": 0.475
+    },
+    {
+      "word": "e",
+      "start": 2.996,
+      "end": 3.157,
+      "score": 0.875
+    },
+    {
+      "word": "depois",
+      "start": 3.197,
+      "end": 3.517,
+      "score": 0.375
+    },
+    {
+      "word": "vamos",
+      "start": 3.557,
+      "end": 3.938,
+      "score": 0.488
+    },
+    {
+      "word": "ver",
+      "start": 5.04,
+      "end": 5.12,
+      "score": 0.167
+    },
+    {
+      "word": "o",
+      "start": 5.14,
+      "end": 5.16,
+      "score": 0.0
+    },
+    {
+      "word": "pós-operatório.",
+      "start": 6.483,
+      "end": 7.304,
+      "score": 0.252
+    }
+  ]
+}

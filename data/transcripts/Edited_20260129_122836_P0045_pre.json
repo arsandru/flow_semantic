@@ -1,0 +1,154 @@
+{
+  "segments": [
+    {
+      "start": 0.031,
+      "end": 1.073,
+      "text": " Sinta-te tranquila e confiante.",
+      "words": [
+        {
+          "word": "Sinta-te",
+          "start": 0.031,
+          "end": 0.332,
+          "score": 0.229
+        },
+        {
+          "word": "tranquila",
+          "start": 0.372,
+          "end": 0.612,
+          "score": 0.13
+        },
+        {
+          "word": "e",
+          "start": 0.692,
+          "end": 0.732,
+          "score": 0.5
+        },
+        {
+          "word": "confiante.",
+          "start": 0.792,
+          "end": 1.073,
+          "score": 0.133
+        }
+      ],
+      "avg_logprob": -0.1025041587650776
+    },
+    {
+      "start": 1.093,
+      "end": 3.457,
+      "text": "E acho que vai correr tudo bem.",
+      "words": [
+        {
+          "word": "E",
+          "start": 1.093,
+          "end": 1.173,
+          "score": 0.75
+        },
+        {
+          "word": "acho",
+          "start": 1.193,
+          "end": 1.273,
+          "score": 0.0
+        },
+        {
+          "word": "que",
+          "start": 1.293,
+          "end": 1.534,
+          "score": 0.722
+        },
+        {
+          "word": "vai",
+          "start": 1.594,
+          "end": 1.794,
+          "score": 0.452
+        },
+        {
+          "word": "correr",
+          "start": 2.535,
+          "end": 2.696,
+          "score": 0.167
+        },
+        {
+          "word": "tudo",
+          "start": 2.816,
+          "end": 3.257,
+          "score": 0.546
+        },
+        {
+          "word": "bem.",
+          "start": 3.317,
+          "end": 3.457,
+          "score": 0.542
+        }
+      ],
+      "avg_logprob": -0.1025041587650776
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "Sinta-te",
+      "start": 0.031,
+      "end": 0.332,
+      "score": 0.229
+    },
+    {
+      "word": "tranquila",
+      "start": 0.372,
+      "end": 0.612,
+      "score": 0.13
+    },
+    {
+      "word": "e",
+      "start": 0.692,
+      "end": 0.732,
+      "score": 0.5
+    },
+    {
+      "word": "confiante.",
+      "start": 0.792,
+      "end": 1.073,
+      "score": 0.133
+    },
+    {
+      "word": "E",
+      "start": 1.093,
+      "end": 1.173,
+      "score": 0.75
+    },
+    {
+      "word": "acho",
+      "start": 1.193,
+      "end": 1.273,
+      "score": 0.0
+    },
+    {
+      "word": "que",
+      "start": 1.293,
+      "end": 1.534,
+      "score": 0.722
+    },
+    {
+      "word": "vai",
+      "start": 1.594,
+      "end": 1.794,
+      "score": 0.452
+    },
+    {
+      "word": "correr",
+      "start": 2.535,
+      "end": 2.696,
+      "score": 0.167
+    },
+    {
+      "word": "tudo",
+      "start": 2.816,
+      "end": 3.257,
+      "score": 0.546
+    },
+    {
+      "word": "bem.",
+      "start": 3.317,
+      "end": 3.457,
+      "score": 0.542
+    }
+  ]
+}

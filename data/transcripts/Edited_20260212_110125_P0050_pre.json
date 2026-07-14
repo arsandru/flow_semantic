@@ -1,0 +1,194 @@
+{
+  "segments": [
+    {
+      "start": 0.318,
+      "end": 6.123,
+      "text": " preocupada, mas ao mesmo tempo também aliviada porque estou a avançar com isto de despachar.",
+      "words": [
+        {
+          "word": "preocupada,",
+          "start": 0.318,
+          "end": 0.598,
+          "score": 0.106
+        },
+        {
+          "word": "mas",
+          "start": 0.618,
+          "end": 0.678,
+          "score": 0.0
+        },
+        {
+          "word": "ao",
+          "start": 0.698,
+          "end": 0.738,
+          "score": 0.0
+        },
+        {
+          "word": "mesmo",
+          "start": 0.758,
+          "end": 0.878,
+          "score": 0.1
+        },
+        {
+          "word": "tempo",
+          "start": 0.899,
+          "end": 1.039,
+          "score": 0.2
+        },
+        {
+          "word": "também",
+          "start": 1.059,
+          "end": 2.7,
+          "score": 0.39
+        },
+        {
+          "word": "aliviada",
+          "start": 2.74,
+          "end": 2.98,
+          "score": 0.208
+        },
+        {
+          "word": "porque",
+          "start": 3.0,
+          "end": 3.241,
+          "score": 0.32
+        },
+        {
+          "word": "estou",
+          "start": 3.261,
+          "end": 3.521,
+          "score": 0.305
+        },
+        {
+          "word": "a",
+          "start": 3.581,
+          "end": 3.621,
+          "score": 0.5
+        },
+        {
+          "word": "avançar",
+          "start": 3.661,
+          "end": 4.061,
+          "score": 0.316
+        },
+        {
+          "word": "com",
+          "start": 4.081,
+          "end": 4.482,
+          "score": 0.755
+        },
+        {
+          "word": "isto",
+          "start": 4.662,
+          "end": 4.762,
+          "score": 0.125
+        },
+        {
+          "word": "de",
+          "start": 4.802,
+          "end": 5.062,
+          "score": 0.838
+        },
+        {
+          "word": "despachar.",
+          "start": 5.222,
+          "end": 6.123,
+          "score": 0.433
+        }
+      ],
+      "avg_logprob": -0.29205634117126467
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "preocupada,",
+      "start": 0.318,
+      "end": 0.598,
+      "score": 0.106
+    },
+    {
+      "word": "mas",
+      "start": 0.618,
+      "end": 0.678,
+      "score": 0.0
+    },
+    {
+      "word": "ao",
+      "start": 0.698,
+      "end": 0.738,
+      "score": 0.0
+    },
+    {
+      "word": "mesmo",
+      "start": 0.758,
+      "end": 0.878,
+      "score": 0.1
+    },
+    {
+      "word": "tempo",
+      "start": 0.899,
+      "end": 1.039,
+      "score": 0.2
+    },
+    {
+      "word": "também",
+      "start": 1.059,
+      "end": 2.7,
+      "score": 0.39
+    },
+    {
+      "word": "aliviada",
+      "start": 2.74,
+      "end": 2.98,
+      "score": 0.208
+    },
+    {
+      "word": "porque",
+      "start": 3.0,
+      "end": 3.241,
+      "score": 0.32
+    },
+    {
+      "word": "estou",
+      "start": 3.261,
+      "end": 3.521,
+      "score": 0.305
+    },
+    {
+      "word": "a",
+      "start": 3.581,
+      "end": 3.621,
+      "score": 0.5
+    },
+    {
+      "word": "avançar",
+      "start": 3.661,
+      "end": 4.061,
+      "score": 0.316
+    },
+    {
+      "word": "com",
+      "start": 4.081,
+      "end": 4.482,
+      "score": 0.755
+    },
+    {
+      "word": "isto",
+      "start": 4.662,
+      "end": 4.762,
+      "score": 0.125
+    },
+    {
+      "word": "de",
+      "start": 4.802,
+      "end": 5.062,
+      "score": 0.838
+    },
+    {
+      "word": "despachar.",
+      "start": 5.222,
+      "end": 6.123,
+      "score": 0.433
+    }
+  ]
+}

@@ -1,0 +1,658 @@
+{
+  "segments": [
+    {
+      "start": 0.031,
+      "end": 8.538,
+      "text": " Estou-me a sentir, ou seja, um pouco, não diria ansiosa, mas pode ser ansiosa.",
+      "words": [
+        {
+          "word": "Estou-me",
+          "start": 0.031,
+          "end": 6.737,
+          "score": 0.686
+        },
+        {
+          "word": "a",
+          "start": 6.757,
+          "end": 6.777,
+          "score": 0.0
+        },
+        {
+          "word": "sentir,",
+          "start": 6.797,
+          "end": 6.957,
+          "score": 0.071
+        },
+        {
+          "word": "ou",
+          "start": 6.977,
+          "end": 7.177,
+          "score": 0.444
+        },
+        {
+          "word": "seja,",
+          "start": 7.197,
+          "end": 7.297,
+          "score": 0.0
+        },
+        {
+          "word": "um",
+          "start": 7.317,
+          "end": 7.357,
+          "score": 0.0
+        },
+        {
+          "word": "pouco,",
+          "start": 7.377,
+          "end": 7.497,
+          "score": 0.006
+        },
+        {
+          "word": "não",
+          "start": 7.517,
+          "end": 7.577,
+          "score": 0.001
+        },
+        {
+          "word": "diria",
+          "start": 7.598,
+          "end": 7.738,
+          "score": 0.133
+        },
+        {
+          "word": "ansiosa,",
+          "start": 7.758,
+          "end": 7.918,
+          "score": 0.0
+        },
+        {
+          "word": "mas",
+          "start": 7.938,
+          "end": 8.018,
+          "score": 0.167
+        },
+        {
+          "word": "pode",
+          "start": 8.178,
+          "end": 8.258,
+          "score": 0.0
+        },
+        {
+          "word": "ser",
+          "start": 8.278,
+          "end": 8.338,
+          "score": 0.0
+        },
+        {
+          "word": "ansiosa.",
+          "start": 8.358,
+          "end": 8.538,
+          "score": 0.062
+        }
+      ],
+      "avg_logprob": -0.05106812060238367
+    },
+    {
+      "start": 8.558,
+      "end": 13.423,
+      "text": "Espero que isso passe tudo, não é?",
+      "words": [
+        {
+          "word": "Espero",
+          "start": 8.558,
+          "end": 8.718,
+          "score": 0.167
+        },
+        {
+          "word": "que",
+          "start": 8.738,
+          "end": 8.819,
+          "score": 0.167
+        },
+        {
+          "word": "isso",
+          "start": 9.059,
+          "end": 12.962,
+          "score": 0.659
+        },
+        {
+          "word": "passe",
+          "start": 13.002,
+          "end": 13.102,
+          "score": 0.0
+        },
+        {
+          "word": "tudo,",
+          "start": 13.122,
+          "end": 13.262,
+          "score": 0.2
+        },
+        {
+          "word": "não",
+          "start": 13.282,
+          "end": 13.342,
+          "score": 0.0
+        },
+        {
+          "word": "é?",
+          "start": 13.382,
+          "end": 13.423,
+          "score": 0.0
+        }
+      ],
+      "avg_logprob": -0.05106812060238367
+    },
+    {
+      "start": 13.443,
+      "end": 15.644,
+      "text": "E que a cirurgia seja feita rapidamente, mas tranquila, mas tranquila e confiante, que vai correr tudo bem.",
+      "words": [
+        {
+          "word": "E",
+          "start": 13.443,
+          "end": 13.463,
+          "score": 0.0
+        },
+        {
+          "word": "que",
+          "start": 13.503,
+          "end": 13.563,
+          "score": 0.0
+        },
+        {
+          "word": "a",
+          "start": 13.583,
+          "end": 13.603,
+          "score": 0.0
+        },
+        {
+          "word": "cirurgia",
+          "start": 13.623,
+          "end": 13.803,
+          "score": 0.062
+        },
+        {
+          "word": "seja",
+          "start": 13.823,
+          "end": 13.903,
+          "score": 0.0
+        },
+        {
+          "word": "feita",
+          "start": 13.923,
+          "end": 14.023,
+          "score": 0.0
+        },
+        {
+          "word": "rapidamente,",
+          "start": 14.043,
+          "end": 14.283,
+          "score": 0.006
+        },
+        {
+          "word": "mas",
+          "start": 14.303,
+          "end": 14.363,
+          "score": 0.001
+        },
+        {
+          "word": "tranquila,",
+          "start": 14.383,
+          "end": 14.584,
+          "score": 0.004
+        },
+        {
+          "word": "mas",
+          "start": 14.604,
+          "end": 14.664,
+          "score": 0.001
+        },
+        {
+          "word": "tranquila",
+          "start": 14.684,
+          "end": 14.864,
+          "score": 0.001
+        },
+        {
+          "word": "e",
+          "start": 14.884,
+          "end": 14.904,
+          "score": 0.0
+        },
+        {
+          "word": "confiante,",
+          "start": 14.924,
+          "end": 15.124,
+          "score": 0.001
+        },
+        {
+          "word": "que",
+          "start": 15.144,
+          "end": 15.204,
+          "score": 0.0
+        },
+        {
+          "word": "vai",
+          "start": 15.224,
+          "end": 15.284,
+          "score": 0.001
+        },
+        {
+          "word": "correr",
+          "start": 15.304,
+          "end": 15.444,
+          "score": 0.083
+        },
+        {
+          "word": "tudo",
+          "start": 15.464,
+          "end": 15.544,
+          "score": 0.0
+        },
+        {
+          "word": "bem.",
+          "start": 15.564,
+          "end": 15.644,
+          "score": 0.0
+        }
+      ],
+      "avg_logprob": -0.05106812060238367
+    },
+    {
+      "start": 15.664,
+      "end": 16.005,
+      "text": "Não, não sinto.",
+      "words": [
+        {
+          "word": "Não,",
+          "start": 15.664,
+          "end": 15.745,
+          "score": 0.0
+        },
+        {
+          "word": "não",
+          "start": 15.765,
+          "end": 15.865,
+          "score": 0.222
+        },
+        {
+          "word": "sinto.",
+          "start": 15.885,
+          "end": 16.005,
+          "score": 0.0
+        }
+      ],
+      "avg_logprob": -0.05106812060238367
+    },
+    {
+      "start": 16.025,
+      "end": 25.613,
+      "text": "Não, está tudo bem, não tenho nada a dizer.",
+      "words": [
+        {
+          "word": "Não,",
+          "start": 16.025,
+          "end": 16.105,
+          "score": 0.0
+        },
+        {
+          "word": "está",
+          "start": 16.125,
+          "end": 16.205,
+          "score": 0.0
+        },
+        {
+          "word": "tudo",
+          "start": 16.225,
+          "end": 16.445,
+          "score": 0.339
+        },
+        {
+          "word": "bem,",
+          "start": 17.026,
+          "end": 17.846,
+          "score": 0.633
+        },
+        {
+          "word": "não",
+          "start": 17.886,
+          "end": 18.006,
+          "score": 0.25
+        },
+        {
+          "word": "tenho",
+          "start": 18.727,
+          "end": 22.23,
+          "score": 0.721
+        },
+        {
+          "word": "nada",
+          "start": 23.671,
+          "end": 24.172,
+          "score": 0.454
+        },
+        {
+          "word": "a",
+          "start": 24.232,
+          "end": 24.292,
+          "score": 0.667
+        },
+        {
+          "word": "dizer.",
+          "start": 24.312,
+          "end": 25.613,
+          "score": 0.33
+        }
+      ],
+      "avg_logprob": -0.05106812060238367
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "Estou-me",
+      "start": 0.031,
+      "end": 6.737,
+      "score": 0.686
+    },
+    {
+      "word": "a",
+      "start": 6.757,
+      "end": 6.777,
+      "score": 0.0
+    },
+    {
+      "word": "sentir,",
+      "start": 6.797,
+      "end": 6.957,
+      "score": 0.071
+    },
+    {
+      "word": "ou",
+      "start": 6.977,
+      "end": 7.177,
+      "score": 0.444
+    },
+    {
+      "word": "seja,",
+      "start": 7.197,
+      "end": 7.297,
+      "score": 0.0
+    },
+    {
+      "word": "um",
+      "start": 7.317,
+      "end": 7.357,
+      "score": 0.0
+    },
+    {
+      "word": "pouco,",
+      "start": 7.377,
+      "end": 7.497,
+      "score": 0.006
+    },
+    {
+      "word": "não",
+      "start": 7.517,
+      "end": 7.577,
+      "score": 0.001
+    },
+    {
+      "word": "diria",
+      "start": 7.598,
+      "end": 7.738,
+      "score": 0.133
+    },
+    {
+      "word": "ansiosa,",
+      "start": 7.758,
+      "end": 7.918,
+      "score": 0.0
+    },
+    {
+      "word": "mas",
+      "start": 7.938,
+      "end": 8.018,
+      "score": 0.167
+    },
+    {
+      "word": "pode",
+      "start": 8.178,
+      "end": 8.258,
+      "score": 0.0
+    },
+    {
+      "word": "ser",
+      "start": 8.278,
+      "end": 8.338,
+      "score": 0.0
+    },
+    {
+      "word": "ansiosa.",
+      "start": 8.358,
+      "end": 8.538,
+      "score": 0.062
+    },
+    {
+      "word": "Espero",
+      "start": 8.558,
+      "end": 8.718,
+      "score": 0.167
+    },
+    {
+      "word": "que",
+      "start": 8.738,
+      "end": 8.819,
+      "score": 0.167
+    },
+    {
+      "word": "isso",
+      "start": 9.059,
+      "end": 12.962,
+      "score": 0.659
+    },
+    {
+      "word": "passe",
+      "start": 13.002,
+      "end": 13.102,
+      "score": 0.0
+    },
+    {
+      "word": "tudo,",
+      "start": 13.122,
+      "end": 13.262,
+      "score": 0.2
+    },
+    {
+      "word": "não",
+      "start": 13.282,
+      "end": 13.342,
+      "score": 0.0
+    },
+    {
+      "word": "é?",
+      "start": 13.382,
+      "end": 13.423,
+      "score": 0.0
+    },
+    {
+      "word": "E",
+      "start": 13.443,
+      "end": 13.463,
+      "score": 0.0
+    },
+    {
+      "word": "que",
+      "start": 13.503,
+      "end": 13.563,
+      "score": 0.0
+    },
+    {
+      "word": "a",
+      "start": 13.583,
+      "end": 13.603,
+      "score": 0.0
+    },
+    {
+      "word": "cirurgia",
+      "start": 13.623,
+      "end": 13.803,
+      "score": 0.062
+    },
+    {
+      "word": "seja",
+      "start": 13.823,
+      "end": 13.903,
+      "score": 0.0
+    },
+    {
+      "word": "feita",
+      "start": 13.923,
+      "end": 14.023,
+      "score": 0.0
+    },
+    {
+      "word": "rapidamente,",
+      "start": 14.043,
+      "end": 14.283,
+      "score": 0.006
+    },
+    {
+      "word": "mas",
+      "start": 14.303,
+      "end": 14.363,
+      "score": 0.001
+    },
+    {
+      "word": "tranquila,",
+      "start": 14.383,
+      "end": 14.584,
+      "score": 0.004
+    },
+    {
+      "word": "mas",
+      "start": 14.604,
+      "end": 14.664,
+      "score": 0.001
+    },
+    {
+      "word": "tranquila",
+      "start": 14.684,
+      "end": 14.864,
+      "score": 0.001
+    },
+    {
+      "word": "e",
+      "start": 14.884,
+      "end": 14.904,
+      "score": 0.0
+    },
+    {
+      "word": "confiante,",
+      "start": 14.924,
+      "end": 15.124,
+      "score": 0.001
+    },
+    {
+      "word": "que",
+      "start": 15.144,
+      "end": 15.204,
+      "score": 0.0
+    },
+    {
+      "word": "vai",
+      "start": 15.224,
+      "end": 15.284,
+      "score": 0.001
+    },
+    {
+      "word": "correr",
+      "start": 15.304,
+      "end": 15.444,
+      "score": 0.083
+    },
+    {
+      "word": "tudo",
+      "start": 15.464,
+      "end": 15.544,
+      "score": 0.0
+    },
+    {
+      "word": "bem.",
+      "start": 15.564,
+      "end": 15.644,
+      "score": 0.0
+    },
+    {
+      "word": "Não,",
+      "start": 15.664,
+      "end": 15.745,
+      "score": 0.0
+    },
+    {
+      "word": "não",
+      "start": 15.765,
+      "end": 15.865,
+      "score": 0.222
+    },
+    {
+      "word": "sinto.",
+      "start": 15.885,
+      "end": 16.005,
+      "score": 0.0
+    },
+    {
+      "word": "Não,",
+      "start": 16.025,
+      "end": 16.105,
+      "score": 0.0
+    },
+    {
+      "word": "está",
+      "start": 16.125,
+      "end": 16.205,
+      "score": 0.0
+    },
+    {
+      "word": "tudo",
+      "start": 16.225,
+      "end": 16.445,
+      "score": 0.339
+    },
+    {
+      "word": "bem,",
+      "start": 17.026,
+      "end": 17.846,
+      "score": 0.633
+    },
+    {
+      "word": "não",
+      "start": 17.886,
+      "end": 18.006,
+      "score": 0.25
+    },
+    {
+      "word": "tenho",
+      "start": 18.727,
+      "end": 22.23,
+      "score": 0.721
+    },
+    {
+      "word": "nada",
+      "start": 23.671,
+      "end": 24.172,
+      "score": 0.454
+    },
+    {
+      "word": "a",
+      "start": 24.232,
+      "end": 24.292,
+      "score": 0.667
+    },
+    {
+      "word": "dizer.",
+      "start": 24.312,
+      "end": 25.613,
+      "score": 0.33
+    }
+  ]
+}

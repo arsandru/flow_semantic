@@ -1,0 +1,202 @@
+{
+  "segments": [
+    {
+      "start": 5.473,
+      "end": 6.798,
+      "text": " Bem, dentro do normal, bem, dentro das circunstâncias, não.",
+      "words": [
+        {
+          "word": "Bem,",
+          "start": 5.473,
+          "end": 5.553,
+          "score": 0.004
+        },
+        {
+          "word": "dentro",
+          "start": 5.573,
+          "end": 5.694,
+          "score": 0.0
+        },
+        {
+          "word": "do",
+          "start": 5.714,
+          "end": 5.754,
+          "score": 0.0
+        },
+        {
+          "word": "normal,",
+          "start": 5.774,
+          "end": 5.935,
+          "score": 0.072
+        },
+        {
+          "word": "bem,",
+          "start": 5.955,
+          "end": 6.035,
+          "score": 0.004
+        },
+        {
+          "word": "dentro",
+          "start": 6.055,
+          "end": 6.196,
+          "score": 0.121
+        },
+        {
+          "word": "das",
+          "start": 6.216,
+          "end": 6.276,
+          "score": 0.006
+        },
+        {
+          "word": "circunstâncias,",
+          "start": 6.316,
+          "end": 6.658,
+          "score": 0.153
+        },
+        {
+          "word": "não.",
+          "start": 6.718,
+          "end": 6.798,
+          "score": 0.016
+        }
+      ],
+      "avg_logprob": -0.09901326199372609
+    },
+    {
+      "start": 6.818,
+      "end": 11.978,
+      "text": "Não, sempre fui bem acolhida aqui.",
+      "words": [
+        {
+          "word": "Não,",
+          "start": 6.818,
+          "end": 6.899,
+          "score": 0.018
+        },
+        {
+          "word": "sempre",
+          "start": 6.919,
+          "end": 7.039,
+          "score": 0.002
+        },
+        {
+          "word": "fui",
+          "start": 7.059,
+          "end": 7.119,
+          "score": 0.001
+        },
+        {
+          "word": "bem",
+          "start": 7.139,
+          "end": 7.2,
+          "score": 0.001
+        },
+        {
+          "word": "acolhida",
+          "start": 7.22,
+          "end": 7.38,
+          "score": 0.0
+        },
+        {
+          "word": "aqui.",
+          "start": 7.4,
+          "end": 11.978,
+          "score": 0.596
+        }
+      ],
+      "avg_logprob": -0.09901326199372609
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "Bem,",
+      "start": 5.473,
+      "end": 5.553,
+      "score": 0.004
+    },
+    {
+      "word": "dentro",
+      "start": 5.573,
+      "end": 5.694,
+      "score": 0.0
+    },
+    {
+      "word": "do",
+      "start": 5.714,
+      "end": 5.754,
+      "score": 0.0
+    },
+    {
+      "word": "normal,",
+      "start": 5.774,
+      "end": 5.935,
+      "score": 0.072
+    },
+    {
+      "word": "bem,",
+      "start": 5.955,
+      "end": 6.035,
+      "score": 0.004
+    },
+    {
+      "word": "dentro",
+      "start": 6.055,
+      "end": 6.196,
+      "score": 0.121
+    },
+    {
+      "word": "das",
+      "start": 6.216,
+      "end": 6.276,
+      "score": 0.006
+    },
+    {
+      "word": "circunstâncias,",
+      "start": 6.316,
+      "end": 6.658,
+      "score": 0.153
+    },
+    {
+      "word": "não.",
+      "start": 6.718,
+      "end": 6.798,
+      "score": 0.016
+    },
+    {
+      "word": "Não,",
+      "start": 6.818,
+      "end": 6.899,
+      "score": 0.018
+    },
+    {
+      "word": "sempre",
+      "start": 6.919,
+      "end": 7.039,
+      "score": 0.002
+    },
+    {
+      "word": "fui",
+      "start": 7.059,
+      "end": 7.119,
+      "score": 0.001
+    },
+    {
+      "word": "bem",
+      "start": 7.139,
+      "end": 7.2,
+      "score": 0.001
+    },
+    {
+      "word": "acolhida",
+      "start": 7.22,
+      "end": 7.38,
+      "score": 0.0
+    },
+    {
+      "word": "aqui.",
+      "start": 7.4,
+      "end": 11.978,
+      "score": 0.596
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "segments": [
+    {
+      "start": 0.031,
+      "end": 2.199,
+      "text": " Mas continua assim, tenta desistir de casa.",
+      "words": [
+        {
+          "word": "Mas",
+          "start": 0.031,
+          "end": 0.252,
+          "score": 0.296
+        },
+        {
+          "word": "continua",
+          "start": 0.292,
+          "end": 0.673,
+          "score": 0.329
+        },
+        {
+          "word": "assim,",
+          "start": 0.713,
+          "end": 1.235,
+          "score": 0.517
+        },
+        {
+          "word": "tenta",
+          "start": 1.336,
+          "end": 1.456,
+          "score": 0.1
+        },
+        {
+          "word": "desistir",
+          "start": 1.476,
+          "end": 1.737,
+          "score": 0.162
+        },
+        {
+          "word": "de",
+          "start": 1.878,
+          "end": 1.958,
+          "score": 0.334
+        },
+        {
+          "word": "casa.",
+          "start": 2.098,
+          "end": 2.199,
+          "score": 0.0
+        }
+      ],
+      "avg_logprob": -0.6265271168488723
+    },
+    {
+      "start": 2.239,
+      "end": 4.667,
+      "text": "Sim, vai entrar em casa.",
+      "words": [
+        {
+          "word": "Sim,",
+          "start": 2.239,
+          "end": 3.945,
+          "score": 0.701
+        },
+        {
+          "word": "vai",
+          "start": 4.025,
+          "end": 4.125,
+          "score": 0.222
+        },
+        {
+          "word": "entrar",
+          "start": 4.306,
+          "end": 4.427,
+          "score": 0.0
+        },
+        {
+          "word": "em",
+          "start": 4.467,
+          "end": 4.507,
+          "score": 0.0
+        },
+        {
+          "word": "casa.",
+          "start": 4.527,
+          "end": 4.667,
+          "score": 0.2
+        }
+      ],
+      "avg_logprob": -0.6265271168488723
+    },
+    {
+      "start": 4.768,
+      "end": 6.815,
+      "text": "Tem que andar em casa.",
+      "words": [
+        {
+          "word": "Tem",
+          "start": 4.768,
+          "end": 4.828,
+          "score": 0.0
+        },
+        {
+          "word": "que",
+          "start": 4.868,
+          "end": 4.948,
+          "score": 0.167
+        },
+        {
+          "word": "andar",
+          "start": 4.989,
+          "end": 5.149,
+          "score": 0.233
+        },
+        {
+          "word": "em",
+          "start": 5.189,
+          "end": 5.27,
+          "score": 0.5
+        },
+        {
+          "word": "casa.",
+          "start": 6.414,
+          "end": 6.815,
+          "score": 0.543
+        }
+      ],
+      "avg_logprob": -0.6265271168488723
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "Mas",
+      "start": 0.031,
+      "end": 0.252,
+      "score": 0.296
+    },
+    {
+      "word": "continua",
+      "start": 0.292,
+      "end": 0.673,
+      "score": 0.329
+    },
+    {
+      "word": "assim,",
+      "start": 0.713,
+      "end": 1.235,
+      "score": 0.517
+    },
+    {
+      "word": "tenta",
+      "start": 1.336,
+      "end": 1.456,
+      "score": 0.1
+    },
+    {
+      "word": "desistir",
+      "start": 1.476,
+      "end": 1.737,
+      "score": 0.162
+    },
+    {
+      "word": "de",
+      "start": 1.878,
+      "end": 1.958,
+      "score": 0.334
+    },
+    {
+      "word": "casa.",
+      "start": 2.098,
+      "end": 2.199,
+      "score": 0.0
+    },
+    {
+      "word": "Sim,",
+      "start": 2.239,
+      "end": 3.945,
+      "score": 0.701
+    },
+    {
+      "word": "vai",
+      "start": 4.025,
+      "end": 4.125,
+      "score": 0.222
+    },
+    {
+      "word": "entrar",
+      "start": 4.306,
+      "end": 4.427,
+      "score": 0.0
+    },
+    {
+      "word": "em",
+      "start": 4.467,
+      "end": 4.507,
+      "score": 0.0
+    },
+    {
+      "word": "casa.",
+      "start": 4.527,
+      "end": 4.667,
+      "score": 0.2
+    },
+    {
+      "word": "Tem",
+      "start": 4.768,
+      "end": 4.828,
+      "score": 0.0
+    },
+    {
+      "word": "que",
+      "start": 4.868,
+      "end": 4.948,
+      "score": 0.167
+    },
+    {
+      "word": "andar",
+      "start": 4.989,
+      "end": 5.149,
+      "score": 0.233
+    },
+    {
+      "word": "em",
+      "start": 5.189,
+      "end": 5.27,
+      "score": 0.5
+    },
+    {
+      "word": "casa.",
+      "start": 6.414,
+      "end": 6.815,
+      "score": 0.543
+    }
+  ]
+}

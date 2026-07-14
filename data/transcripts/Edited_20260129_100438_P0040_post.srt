@@ -1,0 +1,8 @@
+1
+00:00:00,031 --> 00:00:04,181
+Sinto-me bem, sinto-me estável.
+
+2
+00:00:04,201 --> 00:00:04,823
+Sinto-me mais calma.
+

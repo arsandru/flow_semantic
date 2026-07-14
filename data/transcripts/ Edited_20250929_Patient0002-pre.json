@@ -1,0 +1,1382 @@
+{
+  "segments": [
+    {
+      "start": 1.421,
+      "end": 3.303,
+      "text": " Eu estou muito assustada.",
+      "words": [
+        {
+          "word": "Eu",
+          "start": 1.421,
+          "end": 1.541,
+          "score": 0.933
+        },
+        {
+          "word": "estou",
+          "start": 1.561,
+          "end": 2.062,
+          "score": 0.638
+        },
+        {
+          "word": "muito",
+          "start": 2.402,
+          "end": 2.702,
+          "score": 0.73
+        },
+        {
+          "word": "assustada.",
+          "start": 2.722,
+          "end": 3.303,
+          "score": 0.798
+        }
+      ],
+      "avg_logprob": -0.0762678060542654
+    },
+    {
+      "start": 4.443,
+      "end": 7.246,
+      "text": "Estou, assim como assim, num carrossel de emoções.",
+      "words": [
+        {
+          "word": "Estou,",
+          "start": 4.443,
+          "end": 4.924,
+          "score": 0.709
+        },
+        {
+          "word": "assim",
+          "start": 5.044,
+          "end": 5.244,
+          "score": 0.421
+        },
+        {
+          "word": "como",
+          "start": 5.264,
+          "end": 5.404,
+          "score": 0.289
+        },
+        {
+          "word": "assim,",
+          "start": 5.424,
+          "end": 5.584,
+          "score": 0.286
+        },
+        {
+          "word": "num",
+          "start": 5.604,
+          "end": 5.724,
+          "score": 0.415
+        },
+        {
+          "word": "carrossel",
+          "start": 5.785,
+          "end": 6.345,
+          "score": 0.619
+        },
+        {
+          "word": "de",
+          "start": 6.405,
+          "end": 6.505,
+          "score": 0.571
+        },
+        {
+          "word": "emoções.",
+          "start": 6.525,
+          "end": 7.246,
+          "score": 0.623
+        }
+      ],
+      "avg_logprob": -0.0762678060542654
+    },
+    {
+      "start": 7.986,
+      "end": 16.433,
+      "text": "E, não sei, talvez a analogia mais próxima que eu possa fazer, eu acho que estou no nono círculo do inferno Dante.",
+      "words": [
+        {
+          "word": "E,",
+          "start": 7.986,
+          "end": 8.447,
+          "score": 0.976
+        },
+        {
+          "word": "não",
+          "start": 9.187,
+          "end": 9.307,
+          "score": 0.433
+        },
+        {
+          "word": "sei,",
+          "start": 9.447,
+          "end": 9.588,
+          "score": 0.324
+        },
+        {
+          "word": "talvez",
+          "start": 9.628,
+          "end": 9.948,
+          "score": 0.623
+        },
+        {
+          "word": "a",
+          "start": 9.988,
+          "end": 10.068,
+          "score": 0.749
+        },
+        {
+          "word": "analogia",
+          "start": 10.088,
+          "end": 10.548,
+          "score": 0.56
+        },
+        {
+          "word": "mais",
+          "start": 10.608,
+          "end": 11.109,
+          "score": 0.867
+        },
+        {
+          "word": "próxima",
+          "start": 12.05,
+          "end": 12.47,
+          "score": 0.533
+        },
+        {
+          "word": "que",
+          "start": 12.53,
+          "end": 12.61,
+          "score": 0.187
+        },
+        {
+          "word": "eu",
+          "start": 12.63,
+          "end": 12.67,
+          "score": 0.004
+        },
+        {
+          "word": "possa",
+          "start": 12.71,
+          "end": 12.99,
+          "score": 0.497
+        },
+        {
+          "word": "fazer,",
+          "start": 13.05,
+          "end": 13.551,
+          "score": 0.74
+        },
+        {
+          "word": "eu",
+          "start": 13.591,
+          "end": 13.751,
+          "score": 0.65
+        },
+        {
+          "word": "acho",
+          "start": 13.811,
+          "end": 14.051,
+          "score": 0.328
+        },
+        {
+          "word": "que",
+          "start": 14.071,
+          "end": 14.171,
+          "score": 0.22
+        },
+        {
+          "word": "estou",
+          "start": 14.231,
+          "end": 14.451,
+          "score": 0.52
+        },
+        {
+          "word": "no",
+          "start": 14.491,
+          "end": 14.572,
+          "score": 0.667
+        },
+        {
+          "word": "nono",
+          "start": 14.632,
+          "end": 14.832,
+          "score": 0.55
+        },
+        {
+          "word": "círculo",
+          "start": 14.952,
+          "end": 15.312,
+          "score": 0.608
+        },
+        {
+          "word": "do",
+          "start": 15.332,
+          "end": 15.392,
+          "score": 0.551
+        },
+        {
+          "word": "inferno",
+          "start": 15.412,
+          "end": 15.792,
+          "score": 0.4
+        },
+        {
+          "word": "Dante.",
+          "start": 15.933,
+          "end": 16.433,
+          "score": 0.976
+        }
+      ],
+      "avg_logprob": -0.0762678060542654
+    },
+    {
+      "start": 19.625,
+      "end": 25.689,
+      "text": " Espero que seja só esta fase e que daqui para a frente corra tudo.",
+      "words": [
+        {
+          "word": "Espero",
+          "start": 19.625,
+          "end": 20.106,
+          "score": 0.856
+        },
+        {
+          "word": "que",
+          "start": 20.226,
+          "end": 21.126,
+          "score": 0.704
+        },
+        {
+          "word": "seja",
+          "start": 21.627,
+          "end": 21.907,
+          "score": 0.656
+        },
+        {
+          "word": "só",
+          "start": 22.027,
+          "end": 22.187,
+          "score": 0.808
+        },
+        {
+          "word": "esta",
+          "start": 22.207,
+          "end": 22.467,
+          "score": 0.578
+        },
+        {
+          "word": "fase",
+          "start": 22.547,
+          "end": 22.867,
+          "score": 0.715
+        },
+        {
+          "word": "e",
+          "start": 23.067,
+          "end": 23.108,
+          "score": 0.552
+        },
+        {
+          "word": "que",
+          "start": 23.208,
+          "end": 23.468,
+          "score": 0.665
+        },
+        {
+          "word": "daqui",
+          "start": 23.508,
+          "end": 23.748,
+          "score": 0.46
+        },
+        {
+          "word": "para",
+          "start": 23.808,
+          "end": 23.908,
+          "score": 0.23
+        },
+        {
+          "word": "a",
+          "start": 23.928,
+          "end": 23.988,
+          "score": 0.584
+        },
+        {
+          "word": "frente",
+          "start": 24.008,
+          "end": 24.268,
+          "score": 0.409
+        },
+        {
+          "word": "corra",
+          "start": 24.328,
+          "end": 24.609,
+          "score": 0.875
+        },
+        {
+          "word": "tudo.",
+          "start": 24.709,
+          "end": 25.689,
+          "score": 0.875
+        }
+      ],
+      "avg_logprob": -0.11020013822449579
+    },
+    {
+      "start": 26.109,
+      "end": 32.954,
+      "text": "Indica que, até agora os estudos indicam que não há de ser assim muito, muito, muito mal, já sendo mal.",
+      "words": [
+        {
+          "word": "Indica",
+          "start": 26.109,
+          "end": 26.65,
+          "score": 0.808
+        },
+        {
+          "word": "que,",
+          "start": 26.79,
+          "end": 27.13,
+          "score": 0.818
+        },
+        {
+          "word": "até",
+          "start": 27.51,
+          "end": 27.711,
+          "score": 0.497
+        },
+        {
+          "word": "agora",
+          "start": 27.731,
+          "end": 28.111,
+          "score": 0.574
+        },
+        {
+          "word": "os",
+          "start": 28.171,
+          "end": 28.231,
+          "score": 0.333
+        },
+        {
+          "word": "estudos",
+          "start": 28.271,
+          "end": 28.631,
+          "score": 0.675
+        },
+        {
+          "word": "indicam",
+          "start": 28.731,
+          "end": 29.192,
+          "score": 0.585
+        },
+        {
+          "word": "que",
+          "start": 29.252,
+          "end": 29.372,
+          "score": 0.412
+        },
+        {
+          "word": "não",
+          "start": 29.392,
+          "end": 29.452,
+          "score": 0.225
+        },
+        {
+          "word": "há",
+          "start": 29.472,
+          "end": 29.592,
+          "score": 0.374
+        },
+        {
+          "word": "de",
+          "start": 29.652,
+          "end": 29.692,
+          "score": 0.306
+        },
+        {
+          "word": "ser",
+          "start": 29.712,
+          "end": 29.912,
+          "score": 0.598
+        },
+        {
+          "word": "assim",
+          "start": 29.932,
+          "end": 30.192,
+          "score": 0.524
+        },
+        {
+          "word": "muito,",
+          "start": 30.232,
+          "end": 30.813,
+          "score": 0.464
+        },
+        {
+          "word": "muito,",
+          "start": 30.833,
+          "end": 31.173,
+          "score": 0.514
+        },
+        {
+          "word": "muito",
+          "start": 31.193,
+          "end": 31.453,
+          "score": 0.381
+        },
+        {
+          "word": "mal,",
+          "start": 31.493,
+          "end": 32.053,
+          "score": 0.824
+        },
+        {
+          "word": "já",
+          "start": 32.093,
+          "end": 32.193,
+          "score": 0.728
+        },
+        {
+          "word": "sendo",
+          "start": 32.274,
+          "end": 32.514,
+          "score": 0.889
+        },
+        {
+          "word": "mal.",
+          "start": 32.574,
+          "end": 32.954,
+          "score": 0.994
+        }
+      ],
+      "avg_logprob": -0.11020013822449579
+    },
+    {
+      "start": 33.565,
+      "end": 48.722,
+      "text": " Acho que passar depois da operação e depois de ouvir que as coisas estão controladas e que depois da operação com os tratamentos vou ficar bem, sem ser bem, mas pronto.",
+      "words": [
+        {
+          "word": "Acho",
+          "start": 33.565,
+          "end": 34.826,
+          "score": 0.566
+        },
+        {
+          "word": "que",
+          "start": 34.907,
+          "end": 34.987,
+          "score": 0.174
+        },
+        {
+          "word": "passar",
+          "start": 35.047,
+          "end": 35.347,
+          "score": 0.507
+        },
+        {
+          "word": "depois",
+          "start": 35.387,
+          "end": 36.168,
+          "score": 0.76
+        },
+        {
+          "word": "da",
+          "start": 36.208,
+          "end": 36.288,
+          "score": 0.49
+        },
+        {
+          "word": "operação",
+          "start": 36.308,
+          "end": 36.849,
+          "score": 0.683
+        },
+        {
+          "word": "e",
+          "start": 36.909,
+          "end": 36.949,
+          "score": 0.775
+        },
+        {
+          "word": "depois",
+          "start": 37.009,
+          "end": 37.369,
+          "score": 0.538
+        },
+        {
+          "word": "de",
+          "start": 37.429,
+          "end": 37.49,
+          "score": 0.492
+        },
+        {
+          "word": "ouvir",
+          "start": 37.51,
+          "end": 37.91,
+          "score": 0.789
+        },
+        {
+          "word": "que",
+          "start": 38.03,
+          "end": 38.411,
+          "score": 0.868
+        },
+        {
+          "word": "as",
+          "start": 39.091,
+          "end": 39.312,
+          "score": 0.446
+        },
+        {
+          "word": "coisas",
+          "start": 39.772,
+          "end": 40.173,
+          "score": 0.585
+        },
+        {
+          "word": "estão",
+          "start": 40.253,
+          "end": 41.134,
+          "score": 0.848
+        },
+        {
+          "word": "controladas",
+          "start": 41.274,
+          "end": 42.035,
+          "score": 0.87
+        },
+        {
+          "word": "e",
+          "start": 42.095,
+          "end": 42.175,
+          "score": 0.69
+        },
+        {
+          "word": "que",
+          "start": 42.255,
+          "end": 42.355,
+          "score": 0.218
+        },
+        {
+          "word": "depois",
+          "start": 42.375,
+          "end": 42.696,
+          "score": 0.509
+        },
+        {
+          "word": "da",
+          "start": 42.716,
+          "end": 42.776,
+          "score": 0.372
+        },
+        {
+          "word": "operação",
+          "start": 42.796,
+          "end": 43.236,
+          "score": 0.562
+        },
+        {
+          "word": "com",
+          "start": 43.316,
+          "end": 43.516,
+          "score": 0.365
+        },
+        {
+          "word": "os",
+          "start": 43.597,
+          "end": 43.737,
+          "score": 0.705
+        },
+        {
+          "word": "tratamentos",
+          "start": 43.777,
+          "end": 44.498,
+          "score": 0.671
+        },
+        {
+          "word": "vou",
+          "start": 45.679,
+          "end": 45.759,
+          "score": 0.299
+        },
+        {
+          "word": "ficar",
+          "start": 45.839,
+          "end": 46.24,
+          "score": 0.618
+        },
+        {
+          "word": "bem,",
+          "start": 46.28,
+          "end": 46.86,
+          "score": 0.724
+        },
+        {
+          "word": "sem",
+          "start": 46.88,
+          "end": 47.121,
+          "score": 0.598
+        },
+        {
+          "word": "ser",
+          "start": 47.141,
+          "end": 47.301,
+          "score": 0.535
+        },
+        {
+          "word": "bem,",
+          "start": 47.361,
+          "end": 47.681,
+          "score": 0.727
+        },
+        {
+          "word": "mas",
+          "start": 47.801,
+          "end": 48.002,
+          "score": 0.682
+        },
+        {
+          "word": "pronto.",
+          "start": 48.102,
+          "end": 48.722,
+          "score": 0.593
+        }
+      ],
+      "avg_logprob": -0.06270477368400015
+    },
+    {
+      "start": 49.523,
+      "end": 52.647,
+      "text": "Talvez aí no final do dia consiga relaxar mais um bocadinho.",
+      "words": [
+        {
+          "word": "Talvez",
+          "start": 49.523,
+          "end": 49.944,
+          "score": 0.676
+        },
+        {
+          "word": "aí",
+          "start": 49.964,
+          "end": 50.264,
+          "score": 0.822
+        },
+        {
+          "word": "no",
+          "start": 50.324,
+          "end": 50.404,
+          "score": 0.908
+        },
+        {
+          "word": "final",
+          "start": 50.464,
+          "end": 50.725,
+          "score": 0.928
+        },
+        {
+          "word": "do",
+          "start": 50.745,
+          "end": 50.825,
+          "score": 0.618
+        },
+        {
+          "word": "dia",
+          "start": 50.865,
+          "end": 51.005,
+          "score": 0.425
+        },
+        {
+          "word": "consiga",
+          "start": 51.065,
+          "end": 51.346,
+          "score": 0.429
+        },
+        {
+          "word": "relaxar",
+          "start": 51.366,
+          "end": 51.566,
+          "score": 0.203
+        },
+        {
+          "word": "mais",
+          "start": 51.586,
+          "end": 51.706,
+          "score": 0.383
+        },
+        {
+          "word": "um",
+          "start": 51.726,
+          "end": 51.766,
+          "score": 0.001
+        },
+        {
+          "word": "bocadinho.",
+          "start": 51.786,
+          "end": 52.647,
+          "score": 0.543
+        }
+      ],
+      "avg_logprob": -0.06270477368400015
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "Eu",
+      "start": 1.421,
+      "end": 1.541,
+      "score": 0.933
+    },
+    {
+      "word": "estou",
+      "start": 1.561,
+      "end": 2.062,
+      "score": 0.638
+    },
+    {
+      "word": "muito",
+      "start": 2.402,
+      "end": 2.702,
+      "score": 0.73
+    },
+    {
+      "word": "assustada.",
+      "start": 2.722,
+      "end": 3.303,
+      "score": 0.798
+    },
+    {
+      "word": "Estou,",
+      "start": 4.443,
+      "end": 4.924,
+      "score": 0.709
+    },
+    {
+      "word": "assim",
+      "start": 5.044,
+      "end": 5.244,
+      "score": 0.421
+    },
+    {
+      "word": "como",
+      "start": 5.264,
+      "end": 5.404,
+      "score": 0.289
+    },
+    {
+      "word": "assim,",
+      "start": 5.424,
+      "end": 5.584,
+      "score": 0.286
+    },
+    {
+      "word": "num",
+      "start": 5.604,
+      "end": 5.724,
+      "score": 0.415
+    },
+    {
+      "word": "carrossel",
+      "start": 5.785,
+      "end": 6.345,
+      "score": 0.619
+    },
+    {
+      "word": "de",
+      "start": 6.405,
+      "end": 6.505,
+      "score": 0.571
+    },
+    {
+      "word": "emoções.",
+      "start": 6.525,
+      "end": 7.246,
+      "score": 0.623
+    },
+    {
+      "word": "E,",
+      "start": 7.986,
+      "end": 8.447,
+      "score": 0.976
+    },
+    {
+      "word": "não",
+      "start": 9.187,
+      "end": 9.307,
+      "score": 0.433
+    },
+    {
+      "word": "sei,",
+      "start": 9.447,
+      "end": 9.588,
+      "score": 0.324
+    },
+    {
+      "word": "talvez",
+      "start": 9.628,
+      "end": 9.948,
+      "score": 0.623
+    },
+    {
+      "word": "a",
+      "start": 9.988,
+      "end": 10.068,
+      "score": 0.749
+    },
+    {
+      "word": "analogia",
+      "start": 10.088,
+      "end": 10.548,
+      "score": 0.56
+    },
+    {
+      "word": "mais",
+      "start": 10.608,
+      "end": 11.109,
+      "score": 0.867
+    },
+    {
+      "word": "próxima",
+      "start": 12.05,
+      "end": 12.47,
+      "score": 0.533
+    },
+    {
+      "word": "que",
+      "start": 12.53,
+      "end": 12.61,
+      "score": 0.187
+    },
+    {
+      "word": "eu",
+      "start": 12.63,
+      "end": 12.67,
+      "score": 0.004
+    },
+    {
+      "word": "possa",
+      "start": 12.71,
+      "end": 12.99,
+      "score": 0.497
+    },
+    {
+      "word": "fazer,",
+      "start": 13.05,
+      "end": 13.551,
+      "score": 0.74
+    },
+    {
+      "word": "eu",
+      "start": 13.591,
+      "end": 13.751,
+      "score": 0.65
+    },
+    {
+      "word": "acho",
+      "start": 13.811,
+      "end": 14.051,
+      "score": 0.328
+    },
+    {
+      "word": "que",
+      "start": 14.071,
+      "end": 14.171,
+      "score": 0.22
+    },
+    {
+      "word": "estou",
+      "start": 14.231,
+      "end": 14.451,
+      "score": 0.52
+    },
+    {
+      "word": "no",
+      "start": 14.491,
+      "end": 14.572,
+      "score": 0.667
+    },
+    {
+      "word": "nono",
+      "start": 14.632,
+      "end": 14.832,
+      "score": 0.55
+    },
+    {
+      "word": "círculo",
+      "start": 14.952,
+      "end": 15.312,
+      "score": 0.608
+    },
+    {
+      "word": "do",
+      "start": 15.332,
+      "end": 15.392,
+      "score": 0.551
+    },
+    {
+      "word": "inferno",
+      "start": 15.412,
+      "end": 15.792,
+      "score": 0.4
+    },
+    {
+      "word": "Dante.",
+      "start": 15.933,
+      "end": 16.433,
+      "score": 0.976
+    },
+    {
+      "word": "Espero",
+      "start": 19.625,
+      "end": 20.106,
+      "score": 0.856
+    },
+    {
+      "word": "que",
+      "start": 20.226,
+      "end": 21.126,
+      "score": 0.704
+    },
+    {
+      "word": "seja",
+      "start": 21.627,
+      "end": 21.907,
+      "score": 0.656
+    },
+    {
+      "word": "só",
+      "start": 22.027,
+      "end": 22.187,
+      "score": 0.808
+    },
+    {
+      "word": "esta",
+      "start": 22.207,
+      "end": 22.467,
+      "score": 0.578
+    },
+    {
+      "word": "fase",
+      "start": 22.547,
+      "end": 22.867,
+      "score": 0.715
+    },
+    {
+      "word": "e",
+      "start": 23.067,
+      "end": 23.108,
+      "score": 0.552
+    },
+    {
+      "word": "que",
+      "start": 23.208,
+      "end": 23.468,
+      "score": 0.665
+    },
+    {
+      "word": "daqui",
+      "start": 23.508,
+      "end": 23.748,
+      "score": 0.46
+    },
+    {
+      "word": "para",
+      "start": 23.808,
+      "end": 23.908,
+      "score": 0.23
+    },
+    {
+      "word": "a",
+      "start": 23.928,
+      "end": 23.988,
+      "score": 0.584
+    },
+    {
+      "word": "frente",
+      "start": 24.008,
+      "end": 24.268,
+      "score": 0.409
+    },
+    {
+      "word": "corra",
+      "start": 24.328,
+      "end": 24.609,
+      "score": 0.875
+    },
+    {
+      "word": "tudo.",
+      "start": 24.709,
+      "end": 25.689,
+      "score": 0.875
+    },
+    {
+      "word": "Indica",
+      "start": 26.109,
+      "end": 26.65,
+      "score": 0.808
+    },
+    {
+      "word": "que,",
+      "start": 26.79,
+      "end": 27.13,
+      "score": 0.818
+    },
+    {
+      "word": "até",
+      "start": 27.51,
+      "end": 27.711,
+      "score": 0.497
+    },
+    {
+      "word": "agora",
+      "start": 27.731,
+      "end": 28.111,
+      "score": 0.574
+    },
+    {
+      "word": "os",
+      "start": 28.171,
+      "end": 28.231,
+      "score": 0.333
+    },
+    {
+      "word": "estudos",
+      "start": 28.271,
+      "end": 28.631,
+      "score": 0.675
+    },
+    {
+      "word": "indicam",
+      "start": 28.731,
+      "end": 29.192,
+      "score": 0.585
+    },
+    {
+      "word": "que",
+      "start": 29.252,
+      "end": 29.372,
+      "score": 0.412
+    },
+    {
+      "word": "não",
+      "start": 29.392,
+      "end": 29.452,
+      "score": 0.225
+    },
+    {
+      "word": "há",
+      "start": 29.472,
+      "end": 29.592,
+      "score": 0.374
+    },
+    {
+      "word": "de",
+      "start": 29.652,
+      "end": 29.692,
+      "score": 0.306
+    },
+    {
+      "word": "ser",
+      "start": 29.712,
+      "end": 29.912,
+      "score": 0.598
+    },
+    {
+      "word": "assim",
+      "start": 29.932,
+      "end": 30.192,
+      "score": 0.524
+    },
+    {
+      "word": "muito,",
+      "start": 30.232,
+      "end": 30.813,
+      "score": 0.464
+    },
+    {
+      "word": "muito,",
+      "start": 30.833,
+      "end": 31.173,
+      "score": 0.514
+    },
+    {
+      "word": "muito",
+      "start": 31.193,
+      "end": 31.453,
+      "score": 0.381
+    },
+    {
+      "word": "mal,",
+      "start": 31.493,
+      "end": 32.053,
+      "score": 0.824
+    },
+    {
+      "word": "já",
+      "start": 32.093,
+      "end": 32.193,
+      "score": 0.728
+    },
+    {
+      "word": "sendo",
+      "start": 32.274,
+      "end": 32.514,
+      "score": 0.889
+    },
+    {
+      "word": "mal.",
+      "start": 32.574,
+      "end": 32.954,
+      "score": 0.994
+    },
+    {
+      "word": "Acho",
+      "start": 33.565,
+      "end": 34.826,
+      "score": 0.566
+    },
+    {
+      "word": "que",
+      "start": 34.907,
+      "end": 34.987,
+      "score": 0.174
+    },
+    {
+      "word": "passar",
+      "start": 35.047,
+      "end": 35.347,
+      "score": 0.507
+    },
+    {
+      "word": "depois",
+      "start": 35.387,
+      "end": 36.168,
+      "score": 0.76
+    },
+    {
+      "word": "da",
+      "start": 36.208,
+      "end": 36.288,
+      "score": 0.49
+    },
+    {
+      "word": "operação",
+      "start": 36.308,
+      "end": 36.849,
+      "score": 0.683
+    },
+    {
+      "word": "e",
+      "start": 36.909,
+      "end": 36.949,
+      "score": 0.775
+    },
+    {
+      "word": "depois",
+      "start": 37.009,
+      "end": 37.369,
+      "score": 0.538
+    },
+    {
+      "word": "de",
+      "start": 37.429,
+      "end": 37.49,
+      "score": 0.492
+    },
+    {
+      "word": "ouvir",
+      "start": 37.51,
+      "end": 37.91,
+      "score": 0.789
+    },
+    {
+      "word": "que",
+      "start": 38.03,
+      "end": 38.411,
+      "score": 0.868
+    },
+    {
+      "word": "as",
+      "start": 39.091,
+      "end": 39.312,
+      "score": 0.446
+    },
+    {
+      "word": "coisas",
+      "start": 39.772,
+      "end": 40.173,
+      "score": 0.585
+    },
+    {
+      "word": "estão",
+      "start": 40.253,
+      "end": 41.134,
+      "score": 0.848
+    },
+    {
+      "word": "controladas",
+      "start": 41.274,
+      "end": 42.035,
+      "score": 0.87
+    },
+    {
+      "word": "e",
+      "start": 42.095,
+      "end": 42.175,
+      "score": 0.69
+    },
+    {
+      "word": "que",
+      "start": 42.255,
+      "end": 42.355,
+      "score": 0.218
+    },
+    {
+      "word": "depois",
+      "start": 42.375,
+      "end": 42.696,
+      "score": 0.509
+    },
+    {
+      "word": "da",
+      "start": 42.716,
+      "end": 42.776,
+      "score": 0.372
+    },
+    {
+      "word": "operação",
+      "start": 42.796,
+      "end": 43.236,
+      "score": 0.562
+    },
+    {
+      "word": "com",
+      "start": 43.316,
+      "end": 43.516,
+      "score": 0.365
+    },
+    {
+      "word": "os",
+      "start": 43.597,
+      "end": 43.737,
+      "score": 0.705
+    },
+    {
+      "word": "tratamentos",
+      "start": 43.777,
+      "end": 44.498,
+      "score": 0.671
+    },
+    {
+      "word": "vou",
+      "start": 45.679,
+      "end": 45.759,
+      "score": 0.299
+    },
+    {
+      "word": "ficar",
+      "start": 45.839,
+      "end": 46.24,
+      "score": 0.618
+    },
+    {
+      "word": "bem,",
+      "start": 46.28,
+      "end": 46.86,
+      "score": 0.724
+    },
+    {
+      "word": "sem",
+      "start": 46.88,
+      "end": 47.121,
+      "score": 0.598
+    },
+    {
+      "word": "ser",
+      "start": 47.141,
+      "end": 47.301,
+      "score": 0.535
+    },
+    {
+      "word": "bem,",
+      "start": 47.361,
+      "end": 47.681,
+      "score": 0.727
+    },
+    {
+      "word": "mas",
+      "start": 47.801,
+      "end": 48.002,
+      "score": 0.682
+    },
+    {
+      "word": "pronto.",
+      "start": 48.102,
+      "end": 48.722,
+      "score": 0.593
+    },
+    {
+      "word": "Talvez",
+      "start": 49.523,
+      "end": 49.944,
+      "score": 0.676
+    },
+    {
+      "word": "aí",
+      "start": 49.964,
+      "end": 50.264,
+      "score": 0.822
+    },
+    {
+      "word": "no",
+      "start": 50.324,
+      "end": 50.404,
+      "score": 0.908
+    },
+    {
+      "word": "final",
+      "start": 50.464,
+      "end": 50.725,
+      "score": 0.928
+    },
+    {
+      "word": "do",
+      "start": 50.745,
+      "end": 50.825,
+      "score": 0.618
+    },
+    {
+      "word": "dia",
+      "start": 50.865,
+      "end": 51.005,
+      "score": 0.425
+    },
+    {
+      "word": "consiga",
+      "start": 51.065,
+      "end": 51.346,
+      "score": 0.429
+    },
+    {
+      "word": "relaxar",
+      "start": 51.366,
+      "end": 51.566,
+      "score": 0.203
+    },
+    {
+      "word": "mais",
+      "start": 51.586,
+      "end": 51.706,
+      "score": 0.383
+    },
+    {
+      "word": "um",
+      "start": 51.726,
+      "end": 51.766,
+      "score": 0.001
+    },
+    {
+      "word": "bocadinho.",
+      "start": 51.786,
+      "end": 52.647,
+      "score": 0.543
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "segments": [
+    {
+      "start": 0.487,
+      "end": 2.9,
+      "text": " Estou tranquila e feliz de que me vou operar.",
+      "words": [
+        {
+          "word": "Estou",
+          "start": 0.487,
+          "end": 1.271,
+          "score": 0.603
+        },
+        {
+          "word": "tranquila",
+          "start": 1.392,
+          "end": 1.593,
+          "score": 0.058
+        },
+        {
+          "word": "e",
+          "start": 1.693,
+          "end": 1.714,
+          "score": 0.001
+        },
+        {
+          "word": "feliz",
+          "start": 1.734,
+          "end": 1.834,
+          "score": 0.023
+        },
+        {
+          "word": "de",
+          "start": 1.874,
+          "end": 1.915,
+          "score": 0.002
+        },
+        {
+          "word": "que",
+          "start": 1.935,
+          "end": 2.035,
+          "score": 0.333
+        },
+        {
+          "word": "me",
+          "start": 2.096,
+          "end": 2.176,
+          "score": 0.497
+        },
+        {
+          "word": "vou",
+          "start": 2.216,
+          "end": 2.277,
+          "score": 0.0
+        },
+        {
+          "word": "operar.",
+          "start": 2.297,
+          "end": 2.9,
+          "score": 0.623
+        }
+      ],
+      "avg_logprob": -0.07560471179229873
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "Estou",
+      "start": 0.487,
+      "end": 1.271,
+      "score": 0.603
+    },
+    {
+      "word": "tranquila",
+      "start": 1.392,
+      "end": 1.593,
+      "score": 0.058
+    },
+    {
+      "word": "e",
+      "start": 1.693,
+      "end": 1.714,
+      "score": 0.001
+    },
+    {
+      "word": "feliz",
+      "start": 1.734,
+      "end": 1.834,
+      "score": 0.023
+    },
+    {
+      "word": "de",
+      "start": 1.874,
+      "end": 1.915,
+      "score": 0.002
+    },
+    {
+      "word": "que",
+      "start": 1.935,
+      "end": 2.035,
+      "score": 0.333
+    },
+    {
+      "word": "me",
+      "start": 2.096,
+      "end": 2.176,
+      "score": 0.497
+    },
+    {
+      "word": "vou",
+      "start": 2.216,
+      "end": 2.277,
+      "score": 0.0
+    },
+    {
+      "word": "operar.",
+      "start": 2.297,
+      "end": 2.9,
+      "score": 0.623
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "segments": [
+    {
+      "start": 0.031,
+      "end": 2.733,
+      "text": " Pouco nervosa.",
+      "words": [
+        {
+          "word": "Pouco",
+          "start": 0.031,
+          "end": 0.511,
+          "score": 0.447
+        },
+        {
+          "word": "nervosa.",
+          "start": 0.591,
+          "end": 2.733,
+          "score": 0.424
+        }
+      ],
+      "avg_logprob": -0.1738585460753668
+    },
+    {
+      "start": 2.793,
+      "end": 7.237,
+      "text": "Sempre que faço uma cirurgia tenho medo de não acordar.",
+      "words": [
+        {
+          "word": "Sempre",
+          "start": 2.793,
+          "end": 3.394,
+          "score": 0.386
+        },
+        {
+          "word": "que",
+          "start": 3.414,
+          "end": 3.594,
+          "score": 0.286
+        },
+        {
+          "word": "faço",
+          "start": 4.154,
+          "end": 4.275,
+          "score": 0.167
+        },
+        {
+          "word": "uma",
+          "start": 4.475,
+          "end": 4.535,
+          "score": 0.0
+        },
+        {
+          "word": "cirurgia",
+          "start": 4.555,
+          "end": 5.155,
+          "score": 0.369
+        },
+        {
+          "word": "tenho",
+          "start": 5.255,
+          "end": 5.596,
+          "score": 0.621
+        },
+        {
+          "word": "medo",
+          "start": 5.696,
+          "end": 6.136,
+          "score": 0.546
+        },
+        {
+          "word": "de",
+          "start": 6.276,
+          "end": 6.356,
+          "score": 0.5
+        },
+        {
+          "word": "não",
+          "start": 6.396,
+          "end": 6.596,
+          "score": 0.517
+        },
+        {
+          "word": "acordar.",
+          "start": 6.797,
+          "end": 7.237,
+          "score": 0.482
+        }
+      ],
+      "avg_logprob": -0.1738585460753668
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "Pouco",
+      "start": 0.031,
+      "end": 0.511,
+      "score": 0.447
+    },
+    {
+      "word": "nervosa.",
+      "start": 0.591,
+      "end": 2.733,
+      "score": 0.424
+    },
+    {
+      "word": "Sempre",
+      "start": 2.793,
+      "end": 3.394,
+      "score": 0.386
+    },
+    {
+      "word": "que",
+      "start": 3.414,
+      "end": 3.594,
+      "score": 0.286
+    },
+    {
+      "word": "faço",
+      "start": 4.154,
+      "end": 4.275,
+      "score": 0.167
+    },
+    {
+      "word": "uma",
+      "start": 4.475,
+      "end": 4.535,
+      "score": 0.0
+    },
+    {
+      "word": "cirurgia",
+      "start": 4.555,
+      "end": 5.155,
+      "score": 0.369
+    },
+    {
+      "word": "tenho",
+      "start": 5.255,
+      "end": 5.596,
+      "score": 0.621
+    },
+    {
+      "word": "medo",
+      "start": 5.696,
+      "end": 6.136,
+      "score": 0.546
+    },
+    {
+      "word": "de",
+      "start": 6.276,
+      "end": 6.356,
+      "score": 0.5
+    },
+    {
+      "word": "não",
+      "start": 6.396,
+      "end": 6.596,
+      "score": 0.517
+    },
+    {
+      "word": "acordar.",
+      "start": 6.797,
+      "end": 7.237,
+      "score": 0.482
+    }
+  ]
+}

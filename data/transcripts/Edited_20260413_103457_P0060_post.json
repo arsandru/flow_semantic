@@ -1,0 +1,474 @@
+{
+  "segments": [
+    {
+      "start": 7.237,
+      "end": 15.421,
+      "text": " Agora estou melhor do que quando entrei.",
+      "words": [
+        {
+          "word": "Agora",
+          "start": 7.237,
+          "end": 7.337,
+          "score": 0.0
+        },
+        {
+          "word": "estou",
+          "start": 7.357,
+          "end": 7.457,
+          "score": 0.0
+        },
+        {
+          "word": "melhor",
+          "start": 7.477,
+          "end": 7.877,
+          "score": 0.639
+        },
+        {
+          "word": "do",
+          "start": 7.917,
+          "end": 7.997,
+          "score": 0.334
+        },
+        {
+          "word": "que",
+          "start": 8.037,
+          "end": 9.418,
+          "score": 0.628
+        },
+        {
+          "word": "quando",
+          "start": 12.64,
+          "end": 13.0,
+          "score": 0.467
+        },
+        {
+          "word": "entrei.",
+          "start": 13.44,
+          "end": 15.421,
+          "score": 0.576
+        }
+      ],
+      "avg_logprob": -0.15387876945383408
+    },
+    {
+      "start": 15.542,
+      "end": 20.524,
+      "text": "Sentir que estava quentinha.",
+      "words": [
+        {
+          "word": "Sentir",
+          "start": 15.542,
+          "end": 17.042,
+          "score": 0.603
+        },
+        {
+          "word": "que",
+          "start": 17.323,
+          "end": 17.663,
+          "score": 0.819
+        },
+        {
+          "word": "estava",
+          "start": 18.783,
+          "end": 18.963,
+          "score": 0.125
+        },
+        {
+          "word": "quentinha.",
+          "start": 18.983,
+          "end": 20.524,
+          "score": 0.655
+        }
+      ],
+      "avg_logprob": -0.15387876945383408
+    },
+    {
+      "start": 20.925,
+      "end": 27.568,
+      "text": "Estava a imaginar que estava numa nuvem de conforto.",
+      "words": [
+        {
+          "word": "Estava",
+          "start": 20.925,
+          "end": 21.125,
+          "score": 0.133
+        },
+        {
+          "word": "a",
+          "start": 21.145,
+          "end": 21.185,
+          "score": 0.5
+        },
+        {
+          "word": "imaginar",
+          "start": 21.245,
+          "end": 21.745,
+          "score": 0.542
+        },
+        {
+          "word": "que",
+          "start": 21.765,
+          "end": 22.645,
+          "score": 0.602
+        },
+        {
+          "word": "estava",
+          "start": 23.066,
+          "end": 23.666,
+          "score": 0.436
+        },
+        {
+          "word": "numa",
+          "start": 23.906,
+          "end": 24.326,
+          "score": 0.725
+        },
+        {
+          "word": "nuvem",
+          "start": 24.346,
+          "end": 24.687,
+          "score": 0.511
+        },
+        {
+          "word": "de",
+          "start": 24.727,
+          "end": 24.967,
+          "score": 0.778
+        },
+        {
+          "word": "conforto.",
+          "start": 25.087,
+          "end": 27.568,
+          "score": 0.594
+        }
+      ],
+      "avg_logprob": -0.15387876945383408
+    },
+    {
+      "start": 27.608,
+      "end": 27.908,
+      "text": "Fantasias.",
+      "words": [
+        {
+          "word": "Fantasias.",
+          "start": 27.608,
+          "end": 27.908,
+          "score": 0.183
+        }
+      ],
+      "avg_logprob": -0.15387876945383408
+    },
+    {
+      "start": 27.928,
+      "end": 36.413,
+      "text": "Acho que é toda a gente muito amável e sensível ao meu estar.",
+      "words": [
+        {
+          "word": "Acho",
+          "start": 27.928,
+          "end": 28.008,
+          "score": 0.0
+        },
+        {
+          "word": "que",
+          "start": 28.088,
+          "end": 28.689,
+          "score": 0.321
+        },
+        {
+          "word": "é",
+          "start": 29.529,
+          "end": 29.629,
+          "score": 0.8
+        },
+        {
+          "word": "toda",
+          "start": 29.649,
+          "end": 29.729,
+          "score": 0.0
+        },
+        {
+          "word": "a",
+          "start": 29.849,
+          "end": 29.949,
+          "score": 0.8
+        },
+        {
+          "word": "gente",
+          "start": 30.05,
+          "end": 30.51,
+          "score": 0.585
+        },
+        {
+          "word": "muito",
+          "start": 30.65,
+          "end": 31.19,
+          "score": 0.597
+        },
+        {
+          "word": "amável",
+          "start": 31.21,
+          "end": 31.891,
+          "score": 0.637
+        },
+        {
+          "word": "e",
+          "start": 31.951,
+          "end": 32.051,
+          "score": 0.8
+        },
+        {
+          "word": "sensível",
+          "start": 32.131,
+          "end": 33.992,
+          "score": 0.592
+        },
+        {
+          "word": "ao",
+          "start": 34.012,
+          "end": 34.852,
+          "score": 0.93
+        },
+        {
+          "word": "meu",
+          "start": 35.272,
+          "end": 35.773,
+          "score": 0.319
+        },
+        {
+          "word": "estar.",
+          "start": 35.853,
+          "end": 36.413,
+          "score": 0.659
+        }
+      ],
+      "avg_logprob": -0.15387876945383408
+    },
+    {
+      "start": 38.152,
+      "end": 38.472,
+      "text": " Obrigada.",
+      "words": [
+        {
+          "word": "Obrigada.",
+          "start": 38.152,
+          "end": 38.472,
+          "score": 0.115
+        }
+      ],
+      "avg_logprob": -0.44693849980831146
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "Agora",
+      "start": 7.237,
+      "end": 7.337,
+      "score": 0.0
+    },
+    {
+      "word": "estou",
+      "start": 7.357,
+      "end": 7.457,
+      "score": 0.0
+    },
+    {
+      "word": "melhor",
+      "start": 7.477,
+      "end": 7.877,
+      "score": 0.639
+    },
+    {
+      "word": "do",
+      "start": 7.917,
+      "end": 7.997,
+      "score": 0.334
+    },
+    {
+      "word": "que",
+      "start": 8.037,
+      "end": 9.418,
+      "score": 0.628
+    },
+    {
+      "word": "quando",
+      "start": 12.64,
+      "end": 13.0,
+      "score": 0.467
+    },
+    {
+      "word": "entrei.",
+      "start": 13.44,
+      "end": 15.421,
+      "score": 0.576
+    },
+    {
+      "word": "Sentir",
+      "start": 15.542,
+      "end": 17.042,
+      "score": 0.603
+    },
+    {
+      "word": "que",
+      "start": 17.323,
+      "end": 17.663,
+      "score": 0.819
+    },
+    {
+      "word": "estava",
+      "start": 18.783,
+      "end": 18.963,
+      "score": 0.125
+    },
+    {
+      "word": "quentinha.",
+      "start": 18.983,
+      "end": 20.524,
+      "score": 0.655
+    },
+    {
+      "word": "Estava",
+      "start": 20.925,
+      "end": 21.125,
+      "score": 0.133
+    },
+    {
+      "word": "a",
+      "start": 21.145,
+      "end": 21.185,
+      "score": 0.5
+    },
+    {
+      "word": "imaginar",
+      "start": 21.245,
+      "end": 21.745,
+      "score": 0.542
+    },
+    {
+      "word": "que",
+      "start": 21.765,
+      "end": 22.645,
+      "score": 0.602
+    },
+    {
+      "word": "estava",
+      "start": 23.066,
+      "end": 23.666,
+      "score": 0.436
+    },
+    {
+      "word": "numa",
+      "start": 23.906,
+      "end": 24.326,
+      "score": 0.725
+    },
+    {
+      "word": "nuvem",
+      "start": 24.346,
+      "end": 24.687,
+      "score": 0.511
+    },
+    {
+      "word": "de",
+      "start": 24.727,
+      "end": 24.967,
+      "score": 0.778
+    },
+    {
+      "word": "conforto.",
+      "start": 25.087,
+      "end": 27.568,
+      "score": 0.594
+    },
+    {
+      "word": "Fantasias.",
+      "start": 27.608,
+      "end": 27.908,
+      "score": 0.183
+    },
+    {
+      "word": "Acho",
+      "start": 27.928,
+      "end": 28.008,
+      "score": 0.0
+    },
+    {
+      "word": "que",
+      "start": 28.088,
+      "end": 28.689,
+      "score": 0.321
+    },
+    {
+      "word": "é",
+      "start": 29.529,
+      "end": 29.629,
+      "score": 0.8
+    },
+    {
+      "word": "toda",
+      "start": 29.649,
+      "end": 29.729,
+      "score": 0.0
+    },
+    {
+      "word": "a",
+      "start": 29.849,
+      "end": 29.949,
+      "score": 0.8
+    },
+    {
+      "word": "gente",
+      "start": 30.05,
+      "end": 30.51,
+      "score": 0.585
+    },
+    {
+      "word": "muito",
+      "start": 30.65,
+      "end": 31.19,
+      "score": 0.597
+    },
+    {
+      "word": "amável",
+      "start": 31.21,
+      "end": 31.891,
+      "score": 0.637
+    },
+    {
+      "word": "e",
+      "start": 31.951,
+      "end": 32.051,
+      "score": 0.8
+    },
+    {
+      "word": "sensível",
+      "start": 32.131,
+      "end": 33.992,
+      "score": 0.592
+    },
+    {
+      "word": "ao",
+      "start": 34.012,
+      "end": 34.852,
+      "score": 0.93
+    },
+    {
+      "word": "meu",
+      "start": 35.272,
+      "end": 35.773,
+      "score": 0.319
+    },
+    {
+      "word": "estar.",
+      "start": 35.853,
+      "end": 36.413,
+      "score": 0.659
+    },
+    {
+      "word": "Obrigada.",
+      "start": 38.152,
+      "end": 38.472,
+      "score": 0.115
+    }
+  ]
+}

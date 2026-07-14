@@ -1,0 +1,418 @@
+{
+  "segments": [
+    {
+      "start": 0.031,
+      "end": 1.031,
+      "text": " Estou mais tranquila.",
+      "words": [
+        {
+          "word": "Estou",
+          "start": 0.031,
+          "end": 0.371,
+          "score": 0.202
+        },
+        {
+          "word": "mais",
+          "start": 0.391,
+          "end": 0.511,
+          "score": 0.9
+        },
+        {
+          "word": "tranquila.",
+          "start": 0.551,
+          "end": 1.031,
+          "score": 0.893
+        }
+      ],
+      "avg_logprob": -0.08126695380836237
+    },
+    {
+      "start": 2.032,
+      "end": 4.353,
+      "text": "Estou mais tranquila, sem dúvida alguma.",
+      "words": [
+        {
+          "word": "Estou",
+          "start": 2.032,
+          "end": 2.192,
+          "score": 0.236
+        },
+        {
+          "word": "mais",
+          "start": 2.212,
+          "end": 2.332,
+          "score": 0.836
+        },
+        {
+          "word": "tranquila,",
+          "start": 2.432,
+          "end": 2.832,
+          "score": 0.384
+        },
+        {
+          "word": "sem",
+          "start": 2.852,
+          "end": 2.932,
+          "score": 0.289
+        },
+        {
+          "word": "dúvida",
+          "start": 2.972,
+          "end": 3.272,
+          "score": 0.576
+        },
+        {
+          "word": "alguma.",
+          "start": 3.332,
+          "end": 4.353,
+          "score": 0.715
+        }
+      ],
+      "avg_logprob": -0.08126695380836237
+    },
+    {
+      "start": 4.373,
+      "end": 6.593,
+      "text": "Sinto mais tranquilidade dentro de mim.",
+      "words": [
+        {
+          "word": "Sinto",
+          "start": 4.373,
+          "end": 4.613,
+          "score": 0.541
+        },
+        {
+          "word": "mais",
+          "start": 4.673,
+          "end": 4.813,
+          "score": 0.829
+        },
+        {
+          "word": "tranquilidade",
+          "start": 5.053,
+          "end": 6.093,
+          "score": 0.763
+        },
+        {
+          "word": "dentro",
+          "start": 6.113,
+          "end": 6.353,
+          "score": 0.286
+        },
+        {
+          "word": "de",
+          "start": 6.393,
+          "end": 6.493,
+          "score": 0.728
+        },
+        {
+          "word": "mim.",
+          "start": 6.513,
+          "end": 6.593,
+          "score": 0.04
+        }
+      ],
+      "avg_logprob": -0.08126695380836237
+    },
+    {
+      "start": 7.214,
+      "end": 7.334,
+      "text": "Sim.",
+      "words": [
+        {
+          "word": "Sim.",
+          "start": 7.214,
+          "end": 7.334,
+          "score": 0.3
+        }
+      ],
+      "avg_logprob": -0.08126695380836237
+    },
+    {
+      "start": 9.795,
+      "end": 10.815,
+      "text": "Não, cinco estrelas.",
+      "words": [
+        {
+          "word": "Não,",
+          "start": 9.795,
+          "end": 9.935,
+          "score": 0.776
+        },
+        {
+          "word": "cinco",
+          "start": 10.095,
+          "end": 10.275,
+          "score": 0.965
+        },
+        {
+          "word": "estrelas.",
+          "start": 10.295,
+          "end": 10.815,
+          "score": 0.859
+        }
+      ],
+      "avg_logprob": -0.08126695380836237
+    },
+    {
+      "start": 11.515,
+      "end": 14.296,
+      "text": "Não tenho nada a dizer, não.",
+      "words": [
+        {
+          "word": "Não",
+          "start": 11.515,
+          "end": 11.615,
+          "score": 0.726
+        },
+        {
+          "word": "tenho",
+          "start": 11.655,
+          "end": 12.015,
+          "score": 0.61
+        },
+        {
+          "word": "nada",
+          "start": 12.095,
+          "end": 12.516,
+          "score": 0.627
+        },
+        {
+          "word": "a",
+          "start": 12.596,
+          "end": 12.636,
+          "score": 0.889
+        },
+        {
+          "word": "dizer,",
+          "start": 12.676,
+          "end": 13.176,
+          "score": 0.744
+        },
+        {
+          "word": "não.",
+          "start": 13.556,
+          "end": 14.296,
+          "score": 0.665
+        }
+      ],
+      "avg_logprob": -0.08126695380836237
+    },
+    {
+      "start": 14.996,
+      "end": 18.538,
+      "text": "Acolhida, acolhida, acarinhada.",
+      "words": [
+        {
+          "word": "Acolhida,",
+          "start": 14.996,
+          "end": 15.657,
+          "score": 0.876
+        },
+        {
+          "word": "acolhida,",
+          "start": 15.677,
+          "end": 16.177,
+          "score": 0.862
+        },
+        {
+          "word": "acarinhada.",
+          "start": 16.197,
+          "end": 18.538,
+          "score": 0.724
+        }
+      ],
+      "avg_logprob": -0.08126695380836237
+    },
+    {
+      "start": 18.598,
+      "end": 18.818,
+      "text": "100%.",
+      "words": [
+        {
+          "word": "100%.",
+          "start": 18.598,
+          "end": 18.818,
+          "score": 0.789
+        }
+      ],
+      "avg_logprob": -0.08126695380836237
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "Estou",
+      "start": 0.031,
+      "end": 0.371,
+      "score": 0.202
+    },
+    {
+      "word": "mais",
+      "start": 0.391,
+      "end": 0.511,
+      "score": 0.9
+    },
+    {
+      "word": "tranquila.",
+      "start": 0.551,
+      "end": 1.031,
+      "score": 0.893
+    },
+    {
+      "word": "Estou",
+      "start": 2.032,
+      "end": 2.192,
+      "score": 0.236
+    },
+    {
+      "word": "mais",
+      "start": 2.212,
+      "end": 2.332,
+      "score": 0.836
+    },
+    {
+      "word": "tranquila,",
+      "start": 2.432,
+      "end": 2.832,
+      "score": 0.384
+    },
+    {
+      "word": "sem",
+      "start": 2.852,
+      "end": 2.932,
+      "score": 0.289
+    },
+    {
+      "word": "dúvida",
+      "start": 2.972,
+      "end": 3.272,
+      "score": 0.576
+    },
+    {
+      "word": "alguma.",
+      "start": 3.332,
+      "end": 4.353,
+      "score": 0.715
+    },
+    {
+      "word": "Sinto",
+      "start": 4.373,
+      "end": 4.613,
+      "score": 0.541
+    },
+    {
+      "word": "mais",
+      "start": 4.673,
+      "end": 4.813,
+      "score": 0.829
+    },
+    {
+      "word": "tranquilidade",
+      "start": 5.053,
+      "end": 6.093,
+      "score": 0.763
+    },
+    {
+      "word": "dentro",
+      "start": 6.113,
+      "end": 6.353,
+      "score": 0.286
+    },
+    {
+      "word": "de",
+      "start": 6.393,
+      "end": 6.493,
+      "score": 0.728
+    },
+    {
+      "word": "mim.",
+      "start": 6.513,
+      "end": 6.593,
+      "score": 0.04
+    },
+    {
+      "word": "Sim.",
+      "start": 7.214,
+      "end": 7.334,
+      "score": 0.3
+    },
+    {
+      "word": "Não,",
+      "start": 9.795,
+      "end": 9.935,
+      "score": 0.776
+    },
+    {
+      "word": "cinco",
+      "start": 10.095,
+      "end": 10.275,
+      "score": 0.965
+    },
+    {
+      "word": "estrelas.",
+      "start": 10.295,
+      "end": 10.815,
+      "score": 0.859
+    },
+    {
+      "word": "Não",
+      "start": 11.515,
+      "end": 11.615,
+      "score": 0.726
+    },
+    {
+      "word": "tenho",
+      "start": 11.655,
+      "end": 12.015,
+      "score": 0.61
+    },
+    {
+      "word": "nada",
+      "start": 12.095,
+      "end": 12.516,
+      "score": 0.627
+    },
+    {
+      "word": "a",
+      "start": 12.596,
+      "end": 12.636,
+      "score": 0.889
+    },
+    {
+      "word": "dizer,",
+      "start": 12.676,
+      "end": 13.176,
+      "score": 0.744
+    },
+    {
+      "word": "não.",
+      "start": 13.556,
+      "end": 14.296,
+      "score": 0.665
+    },
+    {
+      "word": "Acolhida,",
+      "start": 14.996,
+      "end": 15.657,
+      "score": 0.876
+    },
+    {
+      "word": "acolhida,",
+      "start": 15.677,
+      "end": 16.177,
+      "score": 0.862
+    },
+    {
+      "word": "acarinhada.",
+      "start": 16.197,
+      "end": 18.538,
+      "score": 0.724
+    },
+    {
+      "word": "100%.",
+      "start": 18.598,
+      "end": 18.818,
+      "score": 0.789
+    }
+  ]
+}

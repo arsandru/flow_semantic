@@ -1,0 +1,506 @@
+{
+  "segments": [
+    {
+      "start": 0.031,
+      "end": 4.937,
+      "text": " Eu estou preocupada por saber o que é que vai acontecer.",
+      "words": [
+        {
+          "word": "Eu",
+          "start": 0.031,
+          "end": 0.071,
+          "score": 0.0
+        },
+        {
+          "word": "estou",
+          "start": 0.191,
+          "end": 0.351,
+          "score": 0.3
+        },
+        {
+          "word": "preocupada",
+          "start": 0.391,
+          "end": 0.832,
+          "score": 0.24
+        },
+        {
+          "word": "por",
+          "start": 1.172,
+          "end": 1.273,
+          "score": 0.222
+        },
+        {
+          "word": "saber",
+          "start": 1.293,
+          "end": 1.733,
+          "score": 0.497
+        },
+        {
+          "word": "o",
+          "start": 1.813,
+          "end": 1.853,
+          "score": 0.5
+        },
+        {
+          "word": "que",
+          "start": 1.873,
+          "end": 2.074,
+          "score": 0.667
+        },
+        {
+          "word": "é",
+          "start": 2.814,
+          "end": 2.855,
+          "score": 0.5
+        },
+        {
+          "word": "que",
+          "start": 2.875,
+          "end": 3.255,
+          "score": 0.533
+        },
+        {
+          "word": "vai",
+          "start": 3.415,
+          "end": 3.515,
+          "score": 0.222
+        },
+        {
+          "word": "acontecer.",
+          "start": 3.716,
+          "end": 4.937,
+          "score": 0.436
+        }
+      ],
+      "avg_logprob": -0.10441076228844709
+    },
+    {
+      "start": 4.957,
+      "end": 7.04,
+      "text": "É a primeira vez.",
+      "words": [
+        {
+          "word": "É",
+          "start": 4.957,
+          "end": 4.997,
+          "score": 0.5
+        },
+        {
+          "word": "a",
+          "start": 5.037,
+          "end": 5.057,
+          "score": 0.0
+        },
+        {
+          "word": "primeira",
+          "start": 5.077,
+          "end": 5.318,
+          "score": 0.25
+        },
+        {
+          "word": "vez.",
+          "start": 6.94,
+          "end": 7.04,
+          "score": 0.125
+        }
+      ],
+      "avg_logprob": -0.10441076228844709
+    },
+    {
+      "start": 7.06,
+      "end": 8.401,
+      "text": "Logo é sempre um desconhecido e espero que ocorra tudo bem.",
+      "words": [
+        {
+          "word": "Logo",
+          "start": 7.06,
+          "end": 7.22,
+          "score": 0.312
+        },
+        {
+          "word": "é",
+          "start": 7.24,
+          "end": 7.26,
+          "score": 0.0
+        },
+        {
+          "word": "sempre",
+          "start": 7.3,
+          "end": 7.44,
+          "score": 0.083
+        },
+        {
+          "word": "um",
+          "start": 7.46,
+          "end": 7.5,
+          "score": 0.0
+        },
+        {
+          "word": "desconhecido",
+          "start": 7.52,
+          "end": 7.781,
+          "score": 0.042
+        },
+        {
+          "word": "e",
+          "start": 7.821,
+          "end": 7.841,
+          "score": 0.0
+        },
+        {
+          "word": "espero",
+          "start": 7.861,
+          "end": 7.981,
+          "score": 0.0
+        },
+        {
+          "word": "que",
+          "start": 8.001,
+          "end": 8.061,
+          "score": 0.0
+        },
+        {
+          "word": "ocorra",
+          "start": 8.081,
+          "end": 8.201,
+          "score": 0.0
+        },
+        {
+          "word": "tudo",
+          "start": 8.221,
+          "end": 8.301,
+          "score": 0.0
+        },
+        {
+          "word": "bem.",
+          "start": 8.321,
+          "end": 8.401,
+          "score": 0.0
+        }
+      ],
+      "avg_logprob": -0.10441076228844709
+    },
+    {
+      "start": 8.421,
+      "end": 9.022,
+      "text": "E acredito que sim.",
+      "words": [
+        {
+          "word": "E",
+          "start": 8.421,
+          "end": 8.441,
+          "score": 0.0
+        },
+        {
+          "word": "acredito",
+          "start": 8.461,
+          "end": 8.682,
+          "score": 0.188
+        },
+        {
+          "word": "que",
+          "start": 8.702,
+          "end": 8.922,
+          "score": 0.296
+        },
+        {
+          "word": "sim.",
+          "start": 8.942,
+          "end": 9.022,
+          "score": 0.0
+        }
+      ],
+      "avg_logprob": -0.10441076228844709
+    },
+    {
+      "start": 9.062,
+      "end": 14.169,
+      "text": "Parece-me que estou bem entregue.",
+      "words": [
+        {
+          "word": "Parece-me",
+          "start": 9.062,
+          "end": 9.923,
+          "score": 0.419
+        },
+        {
+          "word": "que",
+          "start": 10.864,
+          "end": 11.786,
+          "score": 0.917
+        },
+        {
+          "word": "estou",
+          "start": 12.707,
+          "end": 13.007,
+          "score": 0.427
+        },
+        {
+          "word": "bem",
+          "start": 13.388,
+          "end": 13.528,
+          "score": 0.417
+        },
+        {
+          "word": "entregue.",
+          "start": 13.708,
+          "end": 14.169,
+          "score": 0.194
+        }
+      ],
+      "avg_logprob": -0.10441076228844709
+    },
+    {
+      "start": 14.189,
+      "end": 16.111,
+      "text": "Acreditar.",
+      "words": [
+        {
+          "word": "Acreditar.",
+          "start": 14.189,
+          "end": 16.111,
+          "score": 0.655
+        }
+      ],
+      "avg_logprob": -0.10441076228844709
+    },
+    {
+      "start": 16.151,
+      "end": 17.733,
+      "text": "Perfeito.",
+      "words": [
+        {
+          "word": "Perfeito.",
+          "start": 16.151,
+          "end": 17.733,
+          "score": 0.577
+        }
+      ],
+      "avg_logprob": -0.10441076228844709
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "Eu",
+      "start": 0.031,
+      "end": 0.071,
+      "score": 0.0
+    },
+    {
+      "word": "estou",
+      "start": 0.191,
+      "end": 0.351,
+      "score": 0.3
+    },
+    {
+      "word": "preocupada",
+      "start": 0.391,
+      "end": 0.832,
+      "score": 0.24
+    },
+    {
+      "word": "por",
+      "start": 1.172,
+      "end": 1.273,
+      "score": 0.222
+    },
+    {
+      "word": "saber",
+      "start": 1.293,
+      "end": 1.733,
+      "score": 0.497
+    },
+    {
+      "word": "o",
+      "start": 1.813,
+      "end": 1.853,
+      "score": 0.5
+    },
+    {
+      "word": "que",
+      "start": 1.873,
+      "end": 2.074,
+      "score": 0.667
+    },
+    {
+      "word": "é",
+      "start": 2.814,
+      "end": 2.855,
+      "score": 0.5
+    },
+    {
+      "word": "que",
+      "start": 2.875,
+      "end": 3.255,
+      "score": 0.533
+    },
+    {
+      "word": "vai",
+      "start": 3.415,
+      "end": 3.515,
+      "score": 0.222
+    },
+    {
+      "word": "acontecer.",
+      "start": 3.716,
+      "end": 4.937,
+      "score": 0.436
+    },
+    {
+      "word": "É",
+      "start": 4.957,
+      "end": 4.997,
+      "score": 0.5
+    },
+    {
+      "word": "a",
+      "start": 5.037,
+      "end": 5.057,
+      "score": 0.0
+    },
+    {
+      "word": "primeira",
+      "start": 5.077,
+      "end": 5.318,
+      "score": 0.25
+    },
+    {
+      "word": "vez.",
+      "start": 6.94,
+      "end": 7.04,
+      "score": 0.125
+    },
+    {
+      "word": "Logo",
+      "start": 7.06,
+      "end": 7.22,
+      "score": 0.312
+    },
+    {
+      "word": "é",
+      "start": 7.24,
+      "end": 7.26,
+      "score": 0.0
+    },
+    {
+      "word": "sempre",
+      "start": 7.3,
+      "end": 7.44,
+      "score": 0.083
+    },
+    {
+      "word": "um",
+      "start": 7.46,
+      "end": 7.5,
+      "score": 0.0
+    },
+    {
+      "word": "desconhecido",
+      "start": 7.52,
+      "end": 7.781,
+      "score": 0.042
+    },
+    {
+      "word": "e",
+      "start": 7.821,
+      "end": 7.841,
+      "score": 0.0
+    },
+    {
+      "word": "espero",
+      "start": 7.861,
+      "end": 7.981,
+      "score": 0.0
+    },
+    {
+      "word": "que",
+      "start": 8.001,
+      "end": 8.061,
+      "score": 0.0
+    },
+    {
+      "word": "ocorra",
+      "start": 8.081,
+      "end": 8.201,
+      "score": 0.0
+    },
+    {
+      "word": "tudo",
+      "start": 8.221,
+      "end": 8.301,
+      "score": 0.0
+    },
+    {
+      "word": "bem.",
+      "start": 8.321,
+      "end": 8.401,
+      "score": 0.0
+    },
+    {
+      "word": "E",
+      "start": 8.421,
+      "end": 8.441,
+      "score": 0.0
+    },
+    {
+      "word": "acredito",
+      "start": 8.461,
+      "end": 8.682,
+      "score": 0.188
+    },
+    {
+      "word": "que",
+      "start": 8.702,
+      "end": 8.922,
+      "score": 0.296
+    },
+    {
+      "word": "sim.",
+      "start": 8.942,
+      "end": 9.022,
+      "score": 0.0
+    },
+    {
+      "word": "Parece-me",
+      "start": 9.062,
+      "end": 9.923,
+      "score": 0.419
+    },
+    {
+      "word": "que",
+      "start": 10.864,
+      "end": 11.786,
+      "score": 0.917
+    },
+    {
+      "word": "estou",
+      "start": 12.707,
+      "end": 13.007,
+      "score": 0.427
+    },
+    {
+      "word": "bem",
+      "start": 13.388,
+      "end": 13.528,
+      "score": 0.417
+    },
+    {
+      "word": "entregue.",
+      "start": 13.708,
+      "end": 14.169,
+      "score": 0.194
+    },
+    {
+      "word": "Acreditar.",
+      "start": 14.189,
+      "end": 16.111,
+      "score": 0.655
+    },
+    {
+      "word": "Perfeito.",
+      "start": 16.151,
+      "end": 17.733,
+      "score": 0.577
+    }
+  ]
+}

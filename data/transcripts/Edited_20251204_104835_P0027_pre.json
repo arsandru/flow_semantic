@@ -1,0 +1,326 @@
+{
+  "segments": [
+    {
+      "start": 0.132,
+      "end": 16.67,
+      "text": " Sinto-me com algum receio, mas ao mesmo tempo confiante na competência de quem me está a tratar e com esperança de que o problema fique resolvido.",
+      "words": [
+        {
+          "word": "Sinto-me",
+          "start": 0.132,
+          "end": 1.153,
+          "score": 0.312
+        },
+        {
+          "word": "com",
+          "start": 1.193,
+          "end": 1.433,
+          "score": 0.694
+        },
+        {
+          "word": "algum",
+          "start": 2.635,
+          "end": 2.975,
+          "score": 0.471
+        },
+        {
+          "word": "receio,",
+          "start": 3.135,
+          "end": 3.536,
+          "score": 0.337
+        },
+        {
+          "word": "mas",
+          "start": 5.298,
+          "end": 5.758,
+          "score": 0.597
+        },
+        {
+          "word": "ao",
+          "start": 5.778,
+          "end": 5.818,
+          "score": 0.0
+        },
+        {
+          "word": "mesmo",
+          "start": 5.838,
+          "end": 5.938,
+          "score": 0.0
+        },
+        {
+          "word": "tempo",
+          "start": 5.958,
+          "end": 6.439,
+          "score": 0.587
+        },
+        {
+          "word": "confiante",
+          "start": 6.459,
+          "end": 6.839,
+          "score": 0.185
+        },
+        {
+          "word": "na",
+          "start": 6.859,
+          "end": 6.899,
+          "score": 0.0
+        },
+        {
+          "word": "competência",
+          "start": 6.919,
+          "end": 7.34,
+          "score": 0.083
+        },
+        {
+          "word": "de",
+          "start": 7.38,
+          "end": 7.42,
+          "score": 0.0
+        },
+        {
+          "word": "quem",
+          "start": 7.54,
+          "end": 7.62,
+          "score": 0.0
+        },
+        {
+          "word": "me",
+          "start": 7.66,
+          "end": 7.7,
+          "score": 0.0
+        },
+        {
+          "word": "está",
+          "start": 7.72,
+          "end": 7.8,
+          "score": 0.0
+        },
+        {
+          "word": "a",
+          "start": 7.82,
+          "end": 7.86,
+          "score": 0.5
+        },
+        {
+          "word": "tratar",
+          "start": 7.961,
+          "end": 8.081,
+          "score": 0.0
+        },
+        {
+          "word": "e",
+          "start": 8.521,
+          "end": 8.621,
+          "score": 0.8
+        },
+        {
+          "word": "com",
+          "start": 8.721,
+          "end": 8.922,
+          "score": 0.611
+        },
+        {
+          "word": "esperança",
+          "start": 9.122,
+          "end": 9.803,
+          "score": 0.35
+        },
+        {
+          "word": "de",
+          "start": 9.843,
+          "end": 10.083,
+          "score": 0.812
+        },
+        {
+          "word": "que",
+          "start": 10.223,
+          "end": 10.403,
+          "score": 0.286
+        },
+        {
+          "word": "o",
+          "start": 10.423,
+          "end": 10.443,
+          "score": 0.0
+        },
+        {
+          "word": "problema",
+          "start": 10.463,
+          "end": 13.346,
+          "score": 0.571
+        },
+        {
+          "word": "fique",
+          "start": 13.446,
+          "end": 14.347,
+          "score": 0.81
+        },
+        {
+          "word": "resolvido.",
+          "start": 14.367,
+          "end": 16.67,
+          "score": 0.476
+        }
+      ],
+      "avg_logprob": -0.023139513551424712
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "Sinto-me",
+      "start": 0.132,
+      "end": 1.153,
+      "score": 0.312
+    },
+    {
+      "word": "com",
+      "start": 1.193,
+      "end": 1.433,
+      "score": 0.694
+    },
+    {
+      "word": "algum",
+      "start": 2.635,
+      "end": 2.975,
+      "score": 0.471
+    },
+    {
+      "word": "receio,",
+      "start": 3.135,
+      "end": 3.536,
+      "score": 0.337
+    },
+    {
+      "word": "mas",
+      "start": 5.298,
+      "end": 5.758,
+      "score": 0.597
+    },
+    {
+      "word": "ao",
+      "start": 5.778,
+      "end": 5.818,
+      "score": 0.0
+    },
+    {
+      "word": "mesmo",
+      "start": 5.838,
+      "end": 5.938,
+      "score": 0.0
+    },
+    {
+      "word": "tempo",
+      "start": 5.958,
+      "end": 6.439,
+      "score": 0.587
+    },
+    {
+      "word": "confiante",
+      "start": 6.459,
+      "end": 6.839,
+      "score": 0.185
+    },
+    {
+      "word": "na",
+      "start": 6.859,
+      "end": 6.899,
+      "score": 0.0
+    },
+    {
+      "word": "competência",
+      "start": 6.919,
+      "end": 7.34,
+      "score": 0.083
+    },
+    {
+      "word": "de",
+      "start": 7.38,
+      "end": 7.42,
+      "score": 0.0
+    },
+    {
+      "word": "quem",
+      "start": 7.54,
+      "end": 7.62,
+      "score": 0.0
+    },
+    {
+      "word": "me",
+      "start": 7.66,
+      "end": 7.7,
+      "score": 0.0
+    },
+    {
+      "word": "está",
+      "start": 7.72,
+      "end": 7.8,
+      "score": 0.0
+    },
+    {
+      "word": "a",
+      "start": 7.82,
+      "end": 7.86,
+      "score": 0.5
+    },
+    {
+      "word": "tratar",
+      "start": 7.961,
+      "end": 8.081,
+      "score": 0.0
+    },
+    {
+      "word": "e",
+      "start": 8.521,
+      "end": 8.621,
+      "score": 0.8
+    },
+    {
+      "word": "com",
+      "start": 8.721,
+      "end": 8.922,
+      "score": 0.611
+    },
+    {
+      "word": "esperança",
+      "start": 9.122,
+      "end": 9.803,
+      "score": 0.35
+    },
+    {
+      "word": "de",
+      "start": 9.843,
+      "end": 10.083,
+      "score": 0.812
+    },
+    {
+      "word": "que",
+      "start": 10.223,
+      "end": 10.403,
+      "score": 0.286
+    },
+    {
+      "word": "o",
+      "start": 10.423,
+      "end": 10.443,
+      "score": 0.0
+    },
+    {
+      "word": "problema",
+      "start": 10.463,
+      "end": 13.346,
+      "score": 0.571
+    },
+    {
+      "word": "fique",
+      "start": 13.446,
+      "end": 14.347,
+      "score": 0.81
+    },
+    {
+      "word": "resolvido.",
+      "start": 14.367,
+      "end": 16.67,
+      "score": 0.476
+    }
+  ]
+}

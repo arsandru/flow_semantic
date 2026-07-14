@@ -1,0 +1,106 @@
+{
+  "segments": [
+    {
+      "start": 0.031,
+      "end": 4.181,
+      "text": " Sinto-me bem, sinto-me estável.",
+      "words": [
+        {
+          "word": "Sinto-me",
+          "start": 0.031,
+          "end": 0.813,
+          "score": 0.393
+        },
+        {
+          "word": "bem,",
+          "start": 0.833,
+          "end": 1.475,
+          "score": 0.65
+        },
+        {
+          "word": "sinto-me",
+          "start": 1.515,
+          "end": 3.981,
+          "score": 0.52
+        },
+        {
+          "word": "estável.",
+          "start": 4.001,
+          "end": 4.181,
+          "score": 0.062
+        }
+      ],
+      "avg_logprob": -0.06899794936180115
+    },
+    {
+      "start": 4.201,
+      "end": 4.823,
+      "text": "Sinto-me mais calma.",
+      "words": [
+        {
+          "word": "Sinto-me",
+          "start": 4.201,
+          "end": 4.422,
+          "score": 0.146
+        },
+        {
+          "word": "mais",
+          "start": 4.502,
+          "end": 4.602,
+          "score": 0.125
+        },
+        {
+          "word": "calma.",
+          "start": 4.622,
+          "end": 4.823,
+          "score": 0.5
+        }
+      ],
+      "avg_logprob": -0.06899794936180115
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "Sinto-me",
+      "start": 0.031,
+      "end": 0.813,
+      "score": 0.393
+    },
+    {
+      "word": "bem,",
+      "start": 0.833,
+      "end": 1.475,
+      "score": 0.65
+    },
+    {
+      "word": "sinto-me",
+      "start": 1.515,
+      "end": 3.981,
+      "score": 0.52
+    },
+    {
+      "word": "estável.",
+      "start": 4.001,
+      "end": 4.181,
+      "score": 0.062
+    },
+    {
+      "word": "Sinto-me",
+      "start": 4.201,
+      "end": 4.422,
+      "score": 0.146
+    },
+    {
+      "word": "mais",
+      "start": 4.502,
+      "end": 4.602,
+      "score": 0.125
+    },
+    {
+      "word": "calma.",
+      "start": 4.622,
+      "end": 4.823,
+      "score": 0.5
+    }
+  ]
+}

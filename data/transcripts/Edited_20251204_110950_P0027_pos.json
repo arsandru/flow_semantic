@@ -1,0 +1,1262 @@
+{
+  "segments": [
+    {
+      "start": 0.551,
+      "end": 28.853,
+      "text": " sinto-me calma confiante e pouco preocupada sim, eventualmente sim este tempo de espera seria muito mais para mim sofreria mais porque estaria mais entregue a mim própria eventualmente e",
+      "words": [
+        {
+          "word": "sinto-me",
+          "start": 0.551,
+          "end": 3.193,
+          "score": 0.585
+        },
+        {
+          "word": "calma",
+          "start": 3.213,
+          "end": 3.334,
+          "score": 0.1
+        },
+        {
+          "word": "confiante",
+          "start": 3.354,
+          "end": 5.255,
+          "score": 0.276
+        },
+        {
+          "word": "e",
+          "start": 5.315,
+          "end": 5.335,
+          "score": 0.0
+        },
+        {
+          "word": "pouco",
+          "start": 5.395,
+          "end": 5.775,
+          "score": 0.417
+        },
+        {
+          "word": "preocupada",
+          "start": 5.795,
+          "end": 6.276,
+          "score": 0.318
+        },
+        {
+          "word": "sim,",
+          "start": 6.396,
+          "end": 8.237,
+          "score": 0.247
+        },
+        {
+          "word": "eventualmente",
+          "start": 11.46,
+          "end": 16.043,
+          "score": 0.502
+        },
+        {
+          "word": "sim",
+          "start": 16.083,
+          "end": 16.163,
+          "score": 0.167
+        },
+        {
+          "word": "este",
+          "start": 16.464,
+          "end": 17.604,
+          "score": 0.453
+        },
+        {
+          "word": "tempo",
+          "start": 17.704,
+          "end": 18.005,
+          "score": 0.45
+        },
+        {
+          "word": "de",
+          "start": 18.785,
+          "end": 18.825,
+          "score": 0.0
+        },
+        {
+          "word": "espera",
+          "start": 18.925,
+          "end": 19.206,
+          "score": 0.264
+        },
+        {
+          "word": "seria",
+          "start": 19.226,
+          "end": 19.566,
+          "score": 0.471
+        },
+        {
+          "word": "muito",
+          "start": 19.766,
+          "end": 20.046,
+          "score": 0.308
+        },
+        {
+          "word": "mais",
+          "start": 20.066,
+          "end": 20.226,
+          "score": 0.417
+        },
+        {
+          "word": "para",
+          "start": 20.387,
+          "end": 20.587,
+          "score": 0.45
+        },
+        {
+          "word": "mim",
+          "start": 20.607,
+          "end": 20.727,
+          "score": 0.389
+        },
+        {
+          "word": "sofreria",
+          "start": 20.887,
+          "end": 22.588,
+          "score": 0.23
+        },
+        {
+          "word": "mais",
+          "start": 22.648,
+          "end": 22.868,
+          "score": 0.492
+        },
+        {
+          "word": "porque",
+          "start": 22.928,
+          "end": 23.549,
+          "score": 0.526
+        },
+        {
+          "word": "estaria",
+          "start": 23.709,
+          "end": 24.37,
+          "score": 0.5
+        },
+        {
+          "word": "mais",
+          "start": 24.61,
+          "end": 25.17,
+          "score": 0.807
+        },
+        {
+          "word": "entregue",
+          "start": 25.31,
+          "end": 26.271,
+          "score": 0.499
+        },
+        {
+          "word": "a",
+          "start": 26.291,
+          "end": 26.311,
+          "score": 0.0
+        },
+        {
+          "word": "mim",
+          "start": 26.451,
+          "end": 26.571,
+          "score": 0.389
+        },
+        {
+          "word": "própria",
+          "start": 26.691,
+          "end": 26.912,
+          "score": 0.238
+        },
+        {
+          "word": "eventualmente",
+          "start": 26.952,
+          "end": 28.012,
+          "score": 0.371
+        },
+        {
+          "word": "e",
+          "start": 28.833,
+          "end": 28.853,
+          "score": 0.0
+        }
+      ],
+      "avg_logprob": -0.08071927353739738
+    },
+    {
+      "start": 29.798,
+      "end": 31.599,
+      "text": " E a pensar não nos problemas e não em outras coisas, que foi o que aconteceu aqui.",
+      "words": [
+        {
+          "word": "E",
+          "start": 29.798,
+          "end": 29.818,
+          "score": 0.0
+        },
+        {
+          "word": "a",
+          "start": 29.838,
+          "end": 29.858,
+          "score": 0.0
+        },
+        {
+          "word": "pensar",
+          "start": 29.878,
+          "end": 30.018,
+          "score": 0.078
+        },
+        {
+          "word": "não",
+          "start": 30.038,
+          "end": 30.098,
+          "score": 0.019
+        },
+        {
+          "word": "nos",
+          "start": 30.118,
+          "end": 30.178,
+          "score": 0.023
+        },
+        {
+          "word": "problemas",
+          "start": 30.198,
+          "end": 30.378,
+          "score": 0.005
+        },
+        {
+          "word": "e",
+          "start": 30.398,
+          "end": 30.418,
+          "score": 0.0
+        },
+        {
+          "word": "não",
+          "start": 30.438,
+          "end": 30.498,
+          "score": 0.0
+        },
+        {
+          "word": "em",
+          "start": 30.518,
+          "end": 30.558,
+          "score": 0.0
+        },
+        {
+          "word": "outras",
+          "start": 30.578,
+          "end": 30.698,
+          "score": 0.0
+        },
+        {
+          "word": "coisas,",
+          "start": 30.738,
+          "end": 30.879,
+          "score": 0.0
+        },
+        {
+          "word": "que",
+          "start": 30.919,
+          "end": 30.979,
+          "score": 0.0
+        },
+        {
+          "word": "foi",
+          "start": 30.999,
+          "end": 31.159,
+          "score": 0.278
+        },
+        {
+          "word": "o",
+          "start": 31.179,
+          "end": 31.199,
+          "score": 0.0
+        },
+        {
+          "word": "que",
+          "start": 31.219,
+          "end": 31.279,
+          "score": 0.0
+        },
+        {
+          "word": "aconteceu",
+          "start": 31.299,
+          "end": 31.479,
+          "score": 0.0
+        },
+        {
+          "word": "aqui.",
+          "start": 31.499,
+          "end": 31.599,
+          "score": 0.0
+        }
+      ],
+      "avg_logprob": -0.15253181238141325
+    },
+    {
+      "start": 31.619,
+      "end": 35.561,
+      "text": "Estive distraída e numa dimensão completamente diferente.",
+      "words": [
+        {
+          "word": "Estive",
+          "start": 31.619,
+          "end": 31.739,
+          "score": 0.0
+        },
+        {
+          "word": "distraída",
+          "start": 31.759,
+          "end": 31.939,
+          "score": 0.0
+        },
+        {
+          "word": "e",
+          "start": 31.959,
+          "end": 31.979,
+          "score": 0.0
+        },
+        {
+          "word": "numa",
+          "start": 31.999,
+          "end": 32.079,
+          "score": 0.0
+        },
+        {
+          "word": "dimensão",
+          "start": 32.099,
+          "end": 32.679,
+          "score": 0.119
+        },
+        {
+          "word": "completamente",
+          "start": 32.699,
+          "end": 34.34,
+          "score": 0.507
+        },
+        {
+          "word": "diferente.",
+          "start": 35.301,
+          "end": 35.561,
+          "score": 0.15
+        }
+      ],
+      "avg_logprob": -0.15253181238141325
+    },
+    {
+      "start": 35.601,
+      "end": 37.302,
+      "text": "Não, tudo bom.",
+      "words": [
+        {
+          "word": "Não,",
+          "start": 35.601,
+          "end": 36.941,
+          "score": 0.246
+        },
+        {
+          "word": "tudo",
+          "start": 37.021,
+          "end": 37.121,
+          "score": 0.125
+        },
+        {
+          "word": "bom.",
+          "start": 37.141,
+          "end": 37.302,
+          "score": 0.417
+        }
+      ],
+      "avg_logprob": -0.15253181238141325
+    },
+    {
+      "start": 37.322,
+      "end": 48.347,
+      "text": "Quero referenciar, de facto, a qualidade dos serviços que me têm sido prestados.",
+      "words": [
+        {
+          "word": "Quero",
+          "start": 37.322,
+          "end": 37.422,
+          "score": 0.0
+        },
+        {
+          "word": "referenciar,",
+          "start": 37.542,
+          "end": 42.364,
+          "score": 0.46
+        },
+        {
+          "word": "de",
+          "start": 42.564,
+          "end": 42.644,
+          "score": 0.334
+        },
+        {
+          "word": "facto,",
+          "start": 42.664,
+          "end": 43.164,
+          "score": 0.517
+        },
+        {
+          "word": "a",
+          "start": 43.184,
+          "end": 43.204,
+          "score": 0.0
+        },
+        {
+          "word": "qualidade",
+          "start": 43.464,
+          "end": 43.825,
+          "score": 0.154
+        },
+        {
+          "word": "dos",
+          "start": 43.845,
+          "end": 45.385,
+          "score": 0.614
+        },
+        {
+          "word": "serviços",
+          "start": 45.425,
+          "end": 47.506,
+          "score": 0.419
+        },
+        {
+          "word": "que",
+          "start": 47.546,
+          "end": 47.606,
+          "score": 0.0
+        },
+        {
+          "word": "me",
+          "start": 47.626,
+          "end": 47.706,
+          "score": 0.334
+        },
+        {
+          "word": "têm",
+          "start": 47.726,
+          "end": 47.786,
+          "score": 0.0
+        },
+        {
+          "word": "sido",
+          "start": 47.806,
+          "end": 47.907,
+          "score": 0.125
+        },
+        {
+          "word": "prestados.",
+          "start": 47.927,
+          "end": 48.347,
+          "score": 0.308
+        }
+      ],
+      "avg_logprob": -0.15253181238141325
+    },
+    {
+      "start": 48.367,
+      "end": 55.33,
+      "text": "A atenção, cuidado a explicar todas as situações, mesmo...",
+      "words": [
+        {
+          "word": "A",
+          "start": 48.367,
+          "end": 48.387,
+          "score": 0.0
+        },
+        {
+          "word": "atenção,",
+          "start": 48.407,
+          "end": 48.647,
+          "score": 0.1
+        },
+        {
+          "word": "cuidado",
+          "start": 48.747,
+          "end": 49.027,
+          "score": 0.194
+        },
+        {
+          "word": "a",
+          "start": 49.287,
+          "end": 49.607,
+          "score": 0.937
+        },
+        {
+          "word": "explicar",
+          "start": 49.767,
+          "end": 51.928,
+          "score": 0.321
+        },
+        {
+          "word": "todas",
+          "start": 51.948,
+          "end": 52.509,
+          "score": 0.391
+        },
+        {
+          "word": "as",
+          "start": 52.549,
+          "end": 52.589,
+          "score": 0.0
+        },
+        {
+          "word": "situações,",
+          "start": 52.609,
+          "end": 53.709,
+          "score": 0.273
+        },
+        {
+          "word": "mesmo...",
+          "start": 53.809,
+          "end": 55.33,
+          "score": 0.544
+        }
+      ],
+      "avg_logprob": -0.15253181238141325
+    },
+    {
+      "start": 56.326,
+      "end": 69.033,
+      "text": " quando perguntamos alguma coisa, a preocupação em esclarecer tudo com simpatia, com amabilidade, que é uma das coisas mais importantes destes momentos.",
+      "words": [
+        {
+          "word": "quando",
+          "start": 56.326,
+          "end": 56.546,
+          "score": 0.217
+        },
+        {
+          "word": "perguntamos",
+          "start": 56.566,
+          "end": 57.066,
+          "score": 0.33
+        },
+        {
+          "word": "alguma",
+          "start": 57.086,
+          "end": 57.367,
+          "score": 0.148
+        },
+        {
+          "word": "coisa,",
+          "start": 57.387,
+          "end": 58.087,
+          "score": 0.683
+        },
+        {
+          "word": "a",
+          "start": 58.227,
+          "end": 58.267,
+          "score": 0.5
+        },
+        {
+          "word": "preocupação",
+          "start": 58.447,
+          "end": 59.228,
+          "score": 0.402
+        },
+        {
+          "word": "em",
+          "start": 59.288,
+          "end": 59.588,
+          "score": 0.712
+        },
+        {
+          "word": "esclarecer",
+          "start": 59.668,
+          "end": 60.508,
+          "score": 0.322
+        },
+        {
+          "word": "tudo",
+          "start": 61.969,
+          "end": 62.129,
+          "score": 0.2
+        },
+        {
+          "word": "com",
+          "start": 62.149,
+          "end": 62.329,
+          "score": 0.444
+        },
+        {
+          "word": "simpatia,",
+          "start": 62.409,
+          "end": 63.49,
+          "score": 0.469
+        },
+        {
+          "word": "com",
+          "start": 63.53,
+          "end": 63.61,
+          "score": 0.167
+        },
+        {
+          "word": "amabilidade,",
+          "start": 63.73,
+          "end": 64.19,
+          "score": 0.171
+        },
+        {
+          "word": "que",
+          "start": 64.27,
+          "end": 64.851,
+          "score": 0.736
+        },
+        {
+          "word": "é",
+          "start": 64.891,
+          "end": 64.911,
+          "score": 0.0
+        },
+        {
+          "word": "uma",
+          "start": 64.931,
+          "end": 65.011,
+          "score": 0.167
+        },
+        {
+          "word": "das",
+          "start": 65.111,
+          "end": 65.231,
+          "score": 0.25
+        },
+        {
+          "word": "coisas",
+          "start": 65.311,
+          "end": 66.732,
+          "score": 0.312
+        },
+        {
+          "word": "mais",
+          "start": 66.832,
+          "end": 66.912,
+          "score": 0.0
+        },
+        {
+          "word": "importantes",
+          "start": 66.932,
+          "end": 67.312,
+          "score": 0.273
+        },
+        {
+          "word": "destes",
+          "start": 67.352,
+          "end": 67.552,
+          "score": 0.208
+        },
+        {
+          "word": "momentos.",
+          "start": 67.592,
+          "end": 69.033,
+          "score": 0.51
+        }
+      ],
+      "avg_logprob": -0.05519073114201829
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "sinto-me",
+      "start": 0.551,
+      "end": 3.193,
+      "score": 0.585
+    },
+    {
+      "word": "calma",
+      "start": 3.213,
+      "end": 3.334,
+      "score": 0.1
+    },
+    {
+      "word": "confiante",
+      "start": 3.354,
+      "end": 5.255,
+      "score": 0.276
+    },
+    {
+      "word": "e",
+      "start": 5.315,
+      "end": 5.335,
+      "score": 0.0
+    },
+    {
+      "word": "pouco",
+      "start": 5.395,
+      "end": 5.775,
+      "score": 0.417
+    },
+    {
+      "word": "preocupada",
+      "start": 5.795,
+      "end": 6.276,
+      "score": 0.318
+    },
+    {
+      "word": "sim,",
+      "start": 6.396,
+      "end": 8.237,
+      "score": 0.247
+    },
+    {
+      "word": "eventualmente",
+      "start": 11.46,
+      "end": 16.043,
+      "score": 0.502
+    },
+    {
+      "word": "sim",
+      "start": 16.083,
+      "end": 16.163,
+      "score": 0.167
+    },
+    {
+      "word": "este",
+      "start": 16.464,
+      "end": 17.604,
+      "score": 0.453
+    },
+    {
+      "word": "tempo",
+      "start": 17.704,
+      "end": 18.005,
+      "score": 0.45
+    },
+    {
+      "word": "de",
+      "start": 18.785,
+      "end": 18.825,
+      "score": 0.0
+    },
+    {
+      "word": "espera",
+      "start": 18.925,
+      "end": 19.206,
+      "score": 0.264
+    },
+    {
+      "word": "seria",
+      "start": 19.226,
+      "end": 19.566,
+      "score": 0.471
+    },
+    {
+      "word": "muito",
+      "start": 19.766,
+      "end": 20.046,
+      "score": 0.308
+    },
+    {
+      "word": "mais",
+      "start": 20.066,
+      "end": 20.226,
+      "score": 0.417
+    },
+    {
+      "word": "para",
+      "start": 20.387,
+      "end": 20.587,
+      "score": 0.45
+    },
+    {
+      "word": "mim",
+      "start": 20.607,
+      "end": 20.727,
+      "score": 0.389
+    },
+    {
+      "word": "sofreria",
+      "start": 20.887,
+      "end": 22.588,
+      "score": 0.23
+    },
+    {
+      "word": "mais",
+      "start": 22.648,
+      "end": 22.868,
+      "score": 0.492
+    },
+    {
+      "word": "porque",
+      "start": 22.928,
+      "end": 23.549,
+      "score": 0.526
+    },
+    {
+      "word": "estaria",
+      "start": 23.709,
+      "end": 24.37,
+      "score": 0.5
+    },
+    {
+      "word": "mais",
+      "start": 24.61,
+      "end": 25.17,
+      "score": 0.807
+    },
+    {
+      "word": "entregue",
+      "start": 25.31,
+      "end": 26.271,
+      "score": 0.499
+    },
+    {
+      "word": "a",
+      "start": 26.291,
+      "end": 26.311,
+      "score": 0.0
+    },
+    {
+      "word": "mim",
+      "start": 26.451,
+      "end": 26.571,
+      "score": 0.389
+    },
+    {
+      "word": "própria",
+      "start": 26.691,
+      "end": 26.912,
+      "score": 0.238
+    },
+    {
+      "word": "eventualmente",
+      "start": 26.952,
+      "end": 28.012,
+      "score": 0.371
+    },
+    {
+      "word": "e",
+      "start": 28.833,
+      "end": 28.853,
+      "score": 0.0
+    },
+    {
+      "word": "E",
+      "start": 29.798,
+      "end": 29.818,
+      "score": 0.0
+    },
+    {
+      "word": "a",
+      "start": 29.838,
+      "end": 29.858,
+      "score": 0.0
+    },
+    {
+      "word": "pensar",
+      "start": 29.878,
+      "end": 30.018,
+      "score": 0.078
+    },
+    {
+      "word": "não",
+      "start": 30.038,
+      "end": 30.098,
+      "score": 0.019
+    },
+    {
+      "word": "nos",
+      "start": 30.118,
+      "end": 30.178,
+      "score": 0.023
+    },
+    {
+      "word": "problemas",
+      "start": 30.198,
+      "end": 30.378,
+      "score": 0.005
+    },
+    {
+      "word": "e",
+      "start": 30.398,
+      "end": 30.418,
+      "score": 0.0
+    },
+    {
+      "word": "não",
+      "start": 30.438,
+      "end": 30.498,
+      "score": 0.0
+    },
+    {
+      "word": "em",
+      "start": 30.518,
+      "end": 30.558,
+      "score": 0.0
+    },
+    {
+      "word": "outras",
+      "start": 30.578,
+      "end": 30.698,
+      "score": 0.0
+    },
+    {
+      "word": "coisas,",
+      "start": 30.738,
+      "end": 30.879,
+      "score": 0.0
+    },
+    {
+      "word": "que",
+      "start": 30.919,
+      "end": 30.979,
+      "score": 0.0
+    },
+    {
+      "word": "foi",
+      "start": 30.999,
+      "end": 31.159,
+      "score": 0.278
+    },
+    {
+      "word": "o",
+      "start": 31.179,
+      "end": 31.199,
+      "score": 0.0
+    },
+    {
+      "word": "que",
+      "start": 31.219,
+      "end": 31.279,
+      "score": 0.0
+    },
+    {
+      "word": "aconteceu",
+      "start": 31.299,
+      "end": 31.479,
+      "score": 0.0
+    },
+    {
+      "word": "aqui.",
+      "start": 31.499,
+      "end": 31.599,
+      "score": 0.0
+    },
+    {
+      "word": "Estive",
+      "start": 31.619,
+      "end": 31.739,
+      "score": 0.0
+    },
+    {
+      "word": "distraída",
+      "start": 31.759,
+      "end": 31.939,
+      "score": 0.0
+    },
+    {
+      "word": "e",
+      "start": 31.959,
+      "end": 31.979,
+      "score": 0.0
+    },
+    {
+      "word": "numa",
+      "start": 31.999,
+      "end": 32.079,
+      "score": 0.0
+    },
+    {
+      "word": "dimensão",
+      "start": 32.099,
+      "end": 32.679,
+      "score": 0.119
+    },
+    {
+      "word": "completamente",
+      "start": 32.699,
+      "end": 34.34,
+      "score": 0.507
+    },
+    {
+      "word": "diferente.",
+      "start": 35.301,
+      "end": 35.561,
+      "score": 0.15
+    },
+    {
+      "word": "Não,",
+      "start": 35.601,
+      "end": 36.941,
+      "score": 0.246
+    },
+    {
+      "word": "tudo",
+      "start": 37.021,
+      "end": 37.121,
+      "score": 0.125
+    },
+    {
+      "word": "bom.",
+      "start": 37.141,
+      "end": 37.302,
+      "score": 0.417
+    },
+    {
+      "word": "Quero",
+      "start": 37.322,
+      "end": 37.422,
+      "score": 0.0
+    },
+    {
+      "word": "referenciar,",
+      "start": 37.542,
+      "end": 42.364,
+      "score": 0.46
+    },
+    {
+      "word": "de",
+      "start": 42.564,
+      "end": 42.644,
+      "score": 0.334
+    },
+    {
+      "word": "facto,",
+      "start": 42.664,
+      "end": 43.164,
+      "score": 0.517
+    },
+    {
+      "word": "a",
+      "start": 43.184,
+      "end": 43.204,
+      "score": 0.0
+    },
+    {
+      "word": "qualidade",
+      "start": 43.464,
+      "end": 43.825,
+      "score": 0.154
+    },
+    {
+      "word": "dos",
+      "start": 43.845,
+      "end": 45.385,
+      "score": 0.614
+    },
+    {
+      "word": "serviços",
+      "start": 45.425,
+      "end": 47.506,
+      "score": 0.419
+    },
+    {
+      "word": "que",
+      "start": 47.546,
+      "end": 47.606,
+      "score": 0.0
+    },
+    {
+      "word": "me",
+      "start": 47.626,
+      "end": 47.706,
+      "score": 0.334
+    },
+    {
+      "word": "têm",
+      "start": 47.726,
+      "end": 47.786,
+      "score": 0.0
+    },
+    {
+      "word": "sido",
+      "start": 47.806,
+      "end": 47.907,
+      "score": 0.125
+    },
+    {
+      "word": "prestados.",
+      "start": 47.927,
+      "end": 48.347,
+      "score": 0.308
+    },
+    {
+      "word": "A",
+      "start": 48.367,
+      "end": 48.387,
+      "score": 0.0
+    },
+    {
+      "word": "atenção,",
+      "start": 48.407,
+      "end": 48.647,
+      "score": 0.1
+    },
+    {
+      "word": "cuidado",
+      "start": 48.747,
+      "end": 49.027,
+      "score": 0.194
+    },
+    {
+      "word": "a",
+      "start": 49.287,
+      "end": 49.607,
+      "score": 0.937
+    },
+    {
+      "word": "explicar",
+      "start": 49.767,
+      "end": 51.928,
+      "score": 0.321
+    },
+    {
+      "word": "todas",
+      "start": 51.948,
+      "end": 52.509,
+      "score": 0.391
+    },
+    {
+      "word": "as",
+      "start": 52.549,
+      "end": 52.589,
+      "score": 0.0
+    },
+    {
+      "word": "situações,",
+      "start": 52.609,
+      "end": 53.709,
+      "score": 0.273
+    },
+    {
+      "word": "mesmo...",
+      "start": 53.809,
+      "end": 55.33,
+      "score": 0.544
+    },
+    {
+      "word": "quando",
+      "start": 56.326,
+      "end": 56.546,
+      "score": 0.217
+    },
+    {
+      "word": "perguntamos",
+      "start": 56.566,
+      "end": 57.066,
+      "score": 0.33
+    },
+    {
+      "word": "alguma",
+      "start": 57.086,
+      "end": 57.367,
+      "score": 0.148
+    },
+    {
+      "word": "coisa,",
+      "start": 57.387,
+      "end": 58.087,
+      "score": 0.683
+    },
+    {
+      "word": "a",
+      "start": 58.227,
+      "end": 58.267,
+      "score": 0.5
+    },
+    {
+      "word": "preocupação",
+      "start": 58.447,
+      "end": 59.228,
+      "score": 0.402
+    },
+    {
+      "word": "em",
+      "start": 59.288,
+      "end": 59.588,
+      "score": 0.712
+    },
+    {
+      "word": "esclarecer",
+      "start": 59.668,
+      "end": 60.508,
+      "score": 0.322
+    },
+    {
+      "word": "tudo",
+      "start": 61.969,
+      "end": 62.129,
+      "score": 0.2
+    },
+    {
+      "word": "com",
+      "start": 62.149,
+      "end": 62.329,
+      "score": 0.444
+    },
+    {
+      "word": "simpatia,",
+      "start": 62.409,
+      "end": 63.49,
+      "score": 0.469
+    },
+    {
+      "word": "com",
+      "start": 63.53,
+      "end": 63.61,
+      "score": 0.167
+    },
+    {
+      "word": "amabilidade,",
+      "start": 63.73,
+      "end": 64.19,
+      "score": 0.171
+    },
+    {
+      "word": "que",
+      "start": 64.27,
+      "end": 64.851,
+      "score": 0.736
+    },
+    {
+      "word": "é",
+      "start": 64.891,
+      "end": 64.911,
+      "score": 0.0
+    },
+    {
+      "word": "uma",
+      "start": 64.931,
+      "end": 65.011,
+      "score": 0.167
+    },
+    {
+      "word": "das",
+      "start": 65.111,
+      "end": 65.231,
+      "score": 0.25
+    },
+    {
+      "word": "coisas",
+      "start": 65.311,
+      "end": 66.732,
+      "score": 0.312
+    },
+    {
+      "word": "mais",
+      "start": 66.832,
+      "end": 66.912,
+      "score": 0.0
+    },
+    {
+      "word": "importantes",
+      "start": 66.932,
+      "end": 67.312,
+      "score": 0.273
+    },
+    {
+      "word": "destes",
+      "start": 67.352,
+      "end": 67.552,
+      "score": 0.208
+    },
+    {
+      "word": "momentos.",
+      "start": 67.592,
+      "end": 69.033,
+      "score": 0.51
+    }
+  ]
+}

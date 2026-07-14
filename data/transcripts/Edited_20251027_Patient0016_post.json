@@ -1,0 +1,482 @@
+{
+  "segments": [
+    {
+      "start": 3.261,
+      "end": 26.968,
+      "text": " sim, acho que sinto sinto um pouco mais de ansiedade acho eu, nada assim de extraordinário mas pronto, ficar aqui sozinha sem ninguém para falar ou para abstrair daqui acho que aumenta um bocadinho a ansiedade são todos fantásticos",
+      "words": [
+        {
+          "word": "sim,",
+          "start": 3.261,
+          "end": 3.462,
+          "score": 0.66
+        },
+        {
+          "word": "acho",
+          "start": 3.502,
+          "end": 3.682,
+          "score": 0.328
+        },
+        {
+          "word": "que",
+          "start": 3.702,
+          "end": 3.782,
+          "score": 0.162
+        },
+        {
+          "word": "sinto",
+          "start": 3.942,
+          "end": 4.342,
+          "score": 0.697
+        },
+        {
+          "word": "sinto",
+          "start": 5.422,
+          "end": 5.822,
+          "score": 0.711
+        },
+        {
+          "word": "um",
+          "start": 5.982,
+          "end": 6.322,
+          "score": 0.638
+        },
+        {
+          "word": "pouco",
+          "start": 6.402,
+          "end": 6.662,
+          "score": 0.582
+        },
+        {
+          "word": "mais",
+          "start": 6.682,
+          "end": 6.902,
+          "score": 0.745
+        },
+        {
+          "word": "de",
+          "start": 7.122,
+          "end": 7.162,
+          "score": 0.004
+        },
+        {
+          "word": "ansiedade",
+          "start": 7.183,
+          "end": 8.163,
+          "score": 0.664
+        },
+        {
+          "word": "acho",
+          "start": 8.183,
+          "end": 8.463,
+          "score": 0.442
+        },
+        {
+          "word": "eu,",
+          "start": 8.563,
+          "end": 9.263,
+          "score": 0.768
+        },
+        {
+          "word": "nada",
+          "start": 9.783,
+          "end": 10.043,
+          "score": 0.457
+        },
+        {
+          "word": "assim",
+          "start": 10.083,
+          "end": 10.523,
+          "score": 0.707
+        },
+        {
+          "word": "de",
+          "start": 10.543,
+          "end": 10.623,
+          "score": 0.564
+        },
+        {
+          "word": "extraordinário",
+          "start": 10.643,
+          "end": 12.644,
+          "score": 0.639
+        },
+        {
+          "word": "mas",
+          "start": 12.664,
+          "end": 13.124,
+          "score": 0.803
+        },
+        {
+          "word": "pronto,",
+          "start": 13.264,
+          "end": 13.584,
+          "score": 0.478
+        },
+        {
+          "word": "ficar",
+          "start": 13.624,
+          "end": 13.964,
+          "score": 0.667
+        },
+        {
+          "word": "aqui",
+          "start": 14.004,
+          "end": 14.244,
+          "score": 0.694
+        },
+        {
+          "word": "sozinha",
+          "start": 14.324,
+          "end": 15.105,
+          "score": 0.747
+        },
+        {
+          "word": "sem",
+          "start": 17.065,
+          "end": 17.185,
+          "score": 0.726
+        },
+        {
+          "word": "ninguém",
+          "start": 17.205,
+          "end": 17.525,
+          "score": 0.619
+        },
+        {
+          "word": "para",
+          "start": 17.565,
+          "end": 17.705,
+          "score": 0.898
+        },
+        {
+          "word": "falar",
+          "start": 17.805,
+          "end": 18.205,
+          "score": 0.927
+        },
+        {
+          "word": "ou",
+          "start": 18.245,
+          "end": 18.305,
+          "score": 0.186
+        },
+        {
+          "word": "para",
+          "start": 18.385,
+          "end": 18.545,
+          "score": 0.478
+        },
+        {
+          "word": "abstrair",
+          "start": 18.665,
+          "end": 19.386,
+          "score": 0.75
+        },
+        {
+          "word": "daqui",
+          "start": 19.406,
+          "end": 21.866,
+          "score": 0.644
+        },
+        {
+          "word": "acho",
+          "start": 22.246,
+          "end": 22.406,
+          "score": 0.227
+        },
+        {
+          "word": "que",
+          "start": 22.566,
+          "end": 22.707,
+          "score": 0.418
+        },
+        {
+          "word": "aumenta",
+          "start": 22.807,
+          "end": 23.247,
+          "score": 0.618
+        },
+        {
+          "word": "um",
+          "start": 23.287,
+          "end": 23.387,
+          "score": 0.359
+        },
+        {
+          "word": "bocadinho",
+          "start": 23.427,
+          "end": 23.807,
+          "score": 0.277
+        },
+        {
+          "word": "a",
+          "start": 23.827,
+          "end": 23.887,
+          "score": 0.639
+        },
+        {
+          "word": "ansiedade",
+          "start": 23.907,
+          "end": 25.147,
+          "score": 0.725
+        },
+        {
+          "word": "são",
+          "start": 25.307,
+          "end": 25.447,
+          "score": 0.539
+        },
+        {
+          "word": "todos",
+          "start": 25.527,
+          "end": 25.847,
+          "score": 0.536
+        },
+        {
+          "word": "fantásticos",
+          "start": 25.887,
+          "end": 26.968,
+          "score": 0.709
+        }
+      ],
+      "avg_logprob": -0.08261138411859671
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "sim,",
+      "start": 3.261,
+      "end": 3.462,
+      "score": 0.66
+    },
+    {
+      "word": "acho",
+      "start": 3.502,
+      "end": 3.682,
+      "score": 0.328
+    },
+    {
+      "word": "que",
+      "start": 3.702,
+      "end": 3.782,
+      "score": 0.162
+    },
+    {
+      "word": "sinto",
+      "start": 3.942,
+      "end": 4.342,
+      "score": 0.697
+    },
+    {
+      "word": "sinto",
+      "start": 5.422,
+      "end": 5.822,
+      "score": 0.711
+    },
+    {
+      "word": "um",
+      "start": 5.982,
+      "end": 6.322,
+      "score": 0.638
+    },
+    {
+      "word": "pouco",
+      "start": 6.402,
+      "end": 6.662,
+      "score": 0.582
+    },
+    {
+      "word": "mais",
+      "start": 6.682,
+      "end": 6.902,
+      "score": 0.745
+    },
+    {
+      "word": "de",
+      "start": 7.122,
+      "end": 7.162,
+      "score": 0.004
+    },
+    {
+      "word": "ansiedade",
+      "start": 7.183,
+      "end": 8.163,
+      "score": 0.664
+    },
+    {
+      "word": "acho",
+      "start": 8.183,
+      "end": 8.463,
+      "score": 0.442
+    },
+    {
+      "word": "eu,",
+      "start": 8.563,
+      "end": 9.263,
+      "score": 0.768
+    },
+    {
+      "word": "nada",
+      "start": 9.783,
+      "end": 10.043,
+      "score": 0.457
+    },
+    {
+      "word": "assim",
+      "start": 10.083,
+      "end": 10.523,
+      "score": 0.707
+    },
+    {
+      "word": "de",
+      "start": 10.543,
+      "end": 10.623,
+      "score": 0.564
+    },
+    {
+      "word": "extraordinário",
+      "start": 10.643,
+      "end": 12.644,
+      "score": 0.639
+    },
+    {
+      "word": "mas",
+      "start": 12.664,
+      "end": 13.124,
+      "score": 0.803
+    },
+    {
+      "word": "pronto,",
+      "start": 13.264,
+      "end": 13.584,
+      "score": 0.478
+    },
+    {
+      "word": "ficar",
+      "start": 13.624,
+      "end": 13.964,
+      "score": 0.667
+    },
+    {
+      "word": "aqui",
+      "start": 14.004,
+      "end": 14.244,
+      "score": 0.694
+    },
+    {
+      "word": "sozinha",
+      "start": 14.324,
+      "end": 15.105,
+      "score": 0.747
+    },
+    {
+      "word": "sem",
+      "start": 17.065,
+      "end": 17.185,
+      "score": 0.726
+    },
+    {
+      "word": "ninguém",
+      "start": 17.205,
+      "end": 17.525,
+      "score": 0.619
+    },
+    {
+      "word": "para",
+      "start": 17.565,
+      "end": 17.705,
+      "score": 0.898
+    },
+    {
+      "word": "falar",
+      "start": 17.805,
+      "end": 18.205,
+      "score": 0.927
+    },
+    {
+      "word": "ou",
+      "start": 18.245,
+      "end": 18.305,
+      "score": 0.186
+    },
+    {
+      "word": "para",
+      "start": 18.385,
+      "end": 18.545,
+      "score": 0.478
+    },
+    {
+      "word": "abstrair",
+      "start": 18.665,
+      "end": 19.386,
+      "score": 0.75
+    },
+    {
+      "word": "daqui",
+      "start": 19.406,
+      "end": 21.866,
+      "score": 0.644
+    },
+    {
+      "word": "acho",
+      "start": 22.246,
+      "end": 22.406,
+      "score": 0.227
+    },
+    {
+      "word": "que",
+      "start": 22.566,
+      "end": 22.707,
+      "score": 0.418
+    },
+    {
+      "word": "aumenta",
+      "start": 22.807,
+      "end": 23.247,
+      "score": 0.618
+    },
+    {
+      "word": "um",
+      "start": 23.287,
+      "end": 23.387,
+      "score": 0.359
+    },
+    {
+      "word": "bocadinho",
+      "start": 23.427,
+      "end": 23.807,
+      "score": 0.277
+    },
+    {
+      "word": "a",
+      "start": 23.827,
+      "end": 23.887,
+      "score": 0.639
+    },
+    {
+      "word": "ansiedade",
+      "start": 23.907,
+      "end": 25.147,
+      "score": 0.725
+    },
+    {
+      "word": "são",
+      "start": 25.307,
+      "end": 25.447,
+      "score": 0.539
+    },
+    {
+      "word": "todos",
+      "start": 25.527,
+      "end": 25.847,
+      "score": 0.536
+    },
+    {
+      "word": "fantásticos",
+      "start": 25.887,
+      "end": 26.968,
+      "score": 0.709
+    }
+  ]
+}

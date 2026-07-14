@@ -1,0 +1,174 @@
+{
+  "segments": [
+    {
+      "start": 1.837,
+      "end": 4.363,
+      "text": " Sim, bem.",
+      "words": [
+        {
+          "word": "Sim,",
+          "start": 1.837,
+          "end": 2.418,
+          "score": 0.655
+        },
+        {
+          "word": "bem.",
+          "start": 2.559,
+          "end": 4.363,
+          "score": 0.247
+        }
+      ],
+      "avg_logprob": -0.16605450958013535
+    },
+    {
+      "start": 4.383,
+      "end": 6.748,
+      "text": "Não muito bem, mas é bem dentro do possível.",
+      "words": [
+        {
+          "word": "Não",
+          "start": 4.383,
+          "end": 4.483,
+          "score": 0.222
+        },
+        {
+          "word": "muito",
+          "start": 4.503,
+          "end": 4.663,
+          "score": 0.15
+        },
+        {
+          "word": "bem,",
+          "start": 4.683,
+          "end": 4.944,
+          "score": 0.386
+        },
+        {
+          "word": "mas",
+          "start": 4.964,
+          "end": 5.024,
+          "score": 0.0
+        },
+        {
+          "word": "é",
+          "start": 5.044,
+          "end": 5.064,
+          "score": 0.0
+        },
+        {
+          "word": "bem",
+          "start": 5.084,
+          "end": 5.144,
+          "score": 0.0
+        },
+        {
+          "word": "dentro",
+          "start": 5.164,
+          "end": 5.285,
+          "score": 0.0
+        },
+        {
+          "word": "do",
+          "start": 5.786,
+          "end": 5.906,
+          "score": 0.4
+        },
+        {
+          "word": "possível.",
+          "start": 5.986,
+          "end": 6.748,
+          "score": 0.514
+        }
+      ],
+      "avg_logprob": -0.16605450958013535
+    },
+    {
+      "start": 8.051,
+      "end": 9.093,
+      "text": "Sim.",
+      "words": [
+        {
+          "word": "Sim.",
+          "start": 8.051,
+          "end": 9.093,
+          "score": 0.682
+        }
+      ],
+      "avg_logprob": -0.16605450958013535
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "Sim,",
+      "start": 1.837,
+      "end": 2.418,
+      "score": 0.655
+    },
+    {
+      "word": "bem.",
+      "start": 2.559,
+      "end": 4.363,
+      "score": 0.247
+    },
+    {
+      "word": "Não",
+      "start": 4.383,
+      "end": 4.483,
+      "score": 0.222
+    },
+    {
+      "word": "muito",
+      "start": 4.503,
+      "end": 4.663,
+      "score": 0.15
+    },
+    {
+      "word": "bem,",
+      "start": 4.683,
+      "end": 4.944,
+      "score": 0.386
+    },
+    {
+      "word": "mas",
+      "start": 4.964,
+      "end": 5.024,
+      "score": 0.0
+    },
+    {
+      "word": "é",
+      "start": 5.044,
+      "end": 5.064,
+      "score": 0.0
+    },
+    {
+      "word": "bem",
+      "start": 5.084,
+      "end": 5.144,
+      "score": 0.0
+    },
+    {
+      "word": "dentro",
+      "start": 5.164,
+      "end": 5.285,
+      "score": 0.0
+    },
+    {
+      "word": "do",
+      "start": 5.786,
+      "end": 5.906,
+      "score": 0.4
+    },
+    {
+      "word": "possível.",
+      "start": 5.986,
+      "end": 6.748,
+      "score": 0.514
+    },
+    {
+      "word": "Sim.",
+      "start": 8.051,
+      "end": 9.093,
+      "score": 0.682
+    }
+  ]
+}

@@ -1,0 +1,826 @@
+{
+  "segments": [
+    {
+      "start": 0.031,
+      "end": 29.022,
+      "text": " durante o vídeo eu abstraí-me completamente do sítio onde estava estava completamente envolvida no vídeo após tirar os óculos senti-me um bocadinho mais calma mas como entretanto entrou o doutor Pedro o meu pensamento voltou outra vez para a cirurgia mas acho que o facto desse vídeo ser neste momento eu acho que sim que faz muito sentido principalmente para quem está com descansamentos",
+      "words": [
+        {
+          "word": "durante",
+          "start": 0.031,
+          "end": 0.191,
+          "score": 0.071
+        },
+        {
+          "word": "o",
+          "start": 0.211,
+          "end": 0.231,
+          "score": 0.0
+        },
+        {
+          "word": "vídeo",
+          "start": 0.251,
+          "end": 0.491,
+          "score": 0.367
+        },
+        {
+          "word": "eu",
+          "start": 0.531,
+          "end": 0.571,
+          "score": 0.0
+        },
+        {
+          "word": "abstraí-me",
+          "start": 0.591,
+          "end": 0.791,
+          "score": 0.0
+        },
+        {
+          "word": "completamente",
+          "start": 0.811,
+          "end": 1.071,
+          "score": 0.0
+        },
+        {
+          "word": "do",
+          "start": 1.091,
+          "end": 1.131,
+          "score": 0.0
+        },
+        {
+          "word": "sítio",
+          "start": 1.171,
+          "end": 1.291,
+          "score": 0.1
+        },
+        {
+          "word": "onde",
+          "start": 1.311,
+          "end": 1.392,
+          "score": 0.0
+        },
+        {
+          "word": "estava",
+          "start": 1.412,
+          "end": 1.592,
+          "score": 0.194
+        },
+        {
+          "word": "estava",
+          "start": 1.612,
+          "end": 1.772,
+          "score": 0.167
+        },
+        {
+          "word": "completamente",
+          "start": 1.792,
+          "end": 2.172,
+          "score": 0.115
+        },
+        {
+          "word": "envolvida",
+          "start": 2.252,
+          "end": 2.832,
+          "score": 0.414
+        },
+        {
+          "word": "no",
+          "start": 2.852,
+          "end": 2.992,
+          "score": 0.416
+        },
+        {
+          "word": "vídeo",
+          "start": 3.012,
+          "end": 3.732,
+          "score": 0.667
+        },
+        {
+          "word": "após",
+          "start": 3.772,
+          "end": 4.093,
+          "score": 0.427
+        },
+        {
+          "word": "tirar",
+          "start": 4.173,
+          "end": 4.373,
+          "score": 0.167
+        },
+        {
+          "word": "os",
+          "start": 4.413,
+          "end": 4.633,
+          "score": 0.771
+        },
+        {
+          "word": "óculos",
+          "start": 4.873,
+          "end": 5.213,
+          "score": 0.261
+        },
+        {
+          "word": "senti-me",
+          "start": 5.233,
+          "end": 5.693,
+          "score": 0.22
+        },
+        {
+          "word": "um",
+          "start": 5.753,
+          "end": 5.813,
+          "score": 0.25
+        },
+        {
+          "word": "bocadinho",
+          "start": 5.833,
+          "end": 6.173,
+          "score": 0.178
+        },
+        {
+          "word": "mais",
+          "start": 6.193,
+          "end": 6.493,
+          "score": 0.352
+        },
+        {
+          "word": "calma",
+          "start": 7.614,
+          "end": 8.374,
+          "score": 0.459
+        },
+        {
+          "word": "mas",
+          "start": 8.394,
+          "end": 8.494,
+          "score": 0.222
+        },
+        {
+          "word": "como",
+          "start": 8.534,
+          "end": 8.614,
+          "score": 0.0
+        },
+        {
+          "word": "entretanto",
+          "start": 8.794,
+          "end": 9.635,
+          "score": 0.422
+        },
+        {
+          "word": "entrou",
+          "start": 9.975,
+          "end": 10.295,
+          "score": 0.276
+        },
+        {
+          "word": "o",
+          "start": 10.435,
+          "end": 10.455,
+          "score": 0.0
+        },
+        {
+          "word": "doutor",
+          "start": 10.595,
+          "end": 11.155,
+          "score": 0.426
+        },
+        {
+          "word": "Pedro",
+          "start": 11.275,
+          "end": 11.415,
+          "score": 0.2
+        },
+        {
+          "word": "o",
+          "start": 11.455,
+          "end": 11.735,
+          "score": 0.929
+        },
+        {
+          "word": "meu",
+          "start": 12.296,
+          "end": 12.496,
+          "score": 0.517
+        },
+        {
+          "word": "pensamento",
+          "start": 12.576,
+          "end": 12.976,
+          "score": 0.227
+        },
+        {
+          "word": "voltou",
+          "start": 12.996,
+          "end": 13.316,
+          "score": 0.351
+        },
+        {
+          "word": "outra",
+          "start": 13.356,
+          "end": 13.496,
+          "score": 0.2
+        },
+        {
+          "word": "vez",
+          "start": 13.516,
+          "end": 13.696,
+          "score": 0.667
+        },
+        {
+          "word": "para",
+          "start": 13.756,
+          "end": 13.856,
+          "score": 0.125
+        },
+        {
+          "word": "a",
+          "start": 13.936,
+          "end": 13.956,
+          "score": 0.0
+        },
+        {
+          "word": "cirurgia",
+          "start": 13.976,
+          "end": 14.356,
+          "score": 0.115
+        },
+        {
+          "word": "mas",
+          "start": 14.577,
+          "end": 14.977,
+          "score": 0.315
+        },
+        {
+          "word": "acho",
+          "start": 15.437,
+          "end": 15.617,
+          "score": 0.325
+        },
+        {
+          "word": "que",
+          "start": 15.697,
+          "end": 15.957,
+          "score": 0.303
+        },
+        {
+          "word": "o",
+          "start": 16.017,
+          "end": 16.097,
+          "score": 0.75
+        },
+        {
+          "word": "facto",
+          "start": 16.197,
+          "end": 16.437,
+          "score": 0.271
+        },
+        {
+          "word": "desse",
+          "start": 16.537,
+          "end": 18.478,
+          "score": 0.385
+        },
+        {
+          "word": "vídeo",
+          "start": 18.498,
+          "end": 19.078,
+          "score": 0.468
+        },
+        {
+          "word": "ser",
+          "start": 19.098,
+          "end": 19.158,
+          "score": 0.0
+        },
+        {
+          "word": "neste",
+          "start": 19.398,
+          "end": 19.839,
+          "score": 0.551
+        },
+        {
+          "word": "momento",
+          "start": 19.959,
+          "end": 20.219,
+          "score": 0.19
+        },
+        {
+          "word": "eu",
+          "start": 20.259,
+          "end": 20.479,
+          "score": 0.694
+        },
+        {
+          "word": "acho",
+          "start": 20.959,
+          "end": 21.119,
+          "score": 0.334
+        },
+        {
+          "word": "que",
+          "start": 21.159,
+          "end": 21.399,
+          "score": 0.463
+        },
+        {
+          "word": "sim",
+          "start": 21.459,
+          "end": 21.679,
+          "score": 0.528
+        },
+        {
+          "word": "que",
+          "start": 21.719,
+          "end": 21.899,
+          "score": 0.286
+        },
+        {
+          "word": "faz",
+          "start": 21.919,
+          "end": 21.999,
+          "score": 0.167
+        },
+        {
+          "word": "muito",
+          "start": 22.039,
+          "end": 22.139,
+          "score": 0.0
+        },
+        {
+          "word": "sentido",
+          "start": 22.159,
+          "end": 22.44,
+          "score": 0.194
+        },
+        {
+          "word": "principalmente",
+          "start": 22.66,
+          "end": 23.66,
+          "score": 0.434
+        },
+        {
+          "word": "para",
+          "start": 23.78,
+          "end": 24.0,
+          "score": 0.219
+        },
+        {
+          "word": "quem",
+          "start": 24.44,
+          "end": 24.7,
+          "score": 0.521
+        },
+        {
+          "word": "está",
+          "start": 25.04,
+          "end": 26.601,
+          "score": 0.486
+        },
+        {
+          "word": "com",
+          "start": 26.621,
+          "end": 26.861,
+          "score": 0.3
+        },
+        {
+          "word": "descansamentos",
+          "start": 26.881,
+          "end": 29.022,
+          "score": 0.63
+        }
+      ],
+      "avg_logprob": -0.09277551272964996
+    },
+    {
+      "start": 29.596,
+      "end": 31.435,
+      "text": " Que é normal.",
+      "words": [
+        {
+          "word": "Que",
+          "start": 29.596,
+          "end": 30.0,
+          "score": 0.48
+        },
+        {
+          "word": "é",
+          "start": 30.97,
+          "end": 31.132,
+          "score": 0.875
+        },
+        {
+          "word": "normal.",
+          "start": 31.172,
+          "end": 31.435,
+          "score": 0.265
+        }
+      ],
+      "avg_logprob": -0.43699893951416013
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "durante",
+      "start": 0.031,
+      "end": 0.191,
+      "score": 0.071
+    },
+    {
+      "word": "o",
+      "start": 0.211,
+      "end": 0.231,
+      "score": 0.0
+    },
+    {
+      "word": "vídeo",
+      "start": 0.251,
+      "end": 0.491,
+      "score": 0.367
+    },
+    {
+      "word": "eu",
+      "start": 0.531,
+      "end": 0.571,
+      "score": 0.0
+    },
+    {
+      "word": "abstraí-me",
+      "start": 0.591,
+      "end": 0.791,
+      "score": 0.0
+    },
+    {
+      "word": "completamente",
+      "start": 0.811,
+      "end": 1.071,
+      "score": 0.0
+    },
+    {
+      "word": "do",
+      "start": 1.091,
+      "end": 1.131,
+      "score": 0.0
+    },
+    {
+      "word": "sítio",
+      "start": 1.171,
+      "end": 1.291,
+      "score": 0.1
+    },
+    {
+      "word": "onde",
+      "start": 1.311,
+      "end": 1.392,
+      "score": 0.0
+    },
+    {
+      "word": "estava",
+      "start": 1.412,
+      "end": 1.592,
+      "score": 0.194
+    },
+    {
+      "word": "estava",
+      "start": 1.612,
+      "end": 1.772,
+      "score": 0.167
+    },
+    {
+      "word": "completamente",
+      "start": 1.792,
+      "end": 2.172,
+      "score": 0.115
+    },
+    {
+      "word": "envolvida",
+      "start": 2.252,
+      "end": 2.832,
+      "score": 0.414
+    },
+    {
+      "word": "no",
+      "start": 2.852,
+      "end": 2.992,
+      "score": 0.416
+    },
+    {
+      "word": "vídeo",
+      "start": 3.012,
+      "end": 3.732,
+      "score": 0.667
+    },
+    {
+      "word": "após",
+      "start": 3.772,
+      "end": 4.093,
+      "score": 0.427
+    },
+    {
+      "word": "tirar",
+      "start": 4.173,
+      "end": 4.373,
+      "score": 0.167
+    },
+    {
+      "word": "os",
+      "start": 4.413,
+      "end": 4.633,
+      "score": 0.771
+    },
+    {
+      "word": "óculos",
+      "start": 4.873,
+      "end": 5.213,
+      "score": 0.261
+    },
+    {
+      "word": "senti-me",
+      "start": 5.233,
+      "end": 5.693,
+      "score": 0.22
+    },
+    {
+      "word": "um",
+      "start": 5.753,
+      "end": 5.813,
+      "score": 0.25
+    },
+    {
+      "word": "bocadinho",
+      "start": 5.833,
+      "end": 6.173,
+      "score": 0.178
+    },
+    {
+      "word": "mais",
+      "start": 6.193,
+      "end": 6.493,
+      "score": 0.352
+    },
+    {
+      "word": "calma",
+      "start": 7.614,
+      "end": 8.374,
+      "score": 0.459
+    },
+    {
+      "word": "mas",
+      "start": 8.394,
+      "end": 8.494,
+      "score": 0.222
+    },
+    {
+      "word": "como",
+      "start": 8.534,
+      "end": 8.614,
+      "score": 0.0
+    },
+    {
+      "word": "entretanto",
+      "start": 8.794,
+      "end": 9.635,
+      "score": 0.422
+    },
+    {
+      "word": "entrou",
+      "start": 9.975,
+      "end": 10.295,
+      "score": 0.276
+    },
+    {
+      "word": "o",
+      "start": 10.435,
+      "end": 10.455,
+      "score": 0.0
+    },
+    {
+      "word": "doutor",
+      "start": 10.595,
+      "end": 11.155,
+      "score": 0.426
+    },
+    {
+      "word": "Pedro",
+      "start": 11.275,
+      "end": 11.415,
+      "score": 0.2
+    },
+    {
+      "word": "o",
+      "start": 11.455,
+      "end": 11.735,
+      "score": 0.929
+    },
+    {
+      "word": "meu",
+      "start": 12.296,
+      "end": 12.496,
+      "score": 0.517
+    },
+    {
+      "word": "pensamento",
+      "start": 12.576,
+      "end": 12.976,
+      "score": 0.227
+    },
+    {
+      "word": "voltou",
+      "start": 12.996,
+      "end": 13.316,
+      "score": 0.351
+    },
+    {
+      "word": "outra",
+      "start": 13.356,
+      "end": 13.496,
+      "score": 0.2
+    },
+    {
+      "word": "vez",
+      "start": 13.516,
+      "end": 13.696,
+      "score": 0.667
+    },
+    {
+      "word": "para",
+      "start": 13.756,
+      "end": 13.856,
+      "score": 0.125
+    },
+    {
+      "word": "a",
+      "start": 13.936,
+      "end": 13.956,
+      "score": 0.0
+    },
+    {
+      "word": "cirurgia",
+      "start": 13.976,
+      "end": 14.356,
+      "score": 0.115
+    },
+    {
+      "word": "mas",
+      "start": 14.577,
+      "end": 14.977,
+      "score": 0.315
+    },
+    {
+      "word": "acho",
+      "start": 15.437,
+      "end": 15.617,
+      "score": 0.325
+    },
+    {
+      "word": "que",
+      "start": 15.697,
+      "end": 15.957,
+      "score": 0.303
+    },
+    {
+      "word": "o",
+      "start": 16.017,
+      "end": 16.097,
+      "score": 0.75
+    },
+    {
+      "word": "facto",
+      "start": 16.197,
+      "end": 16.437,
+      "score": 0.271
+    },
+    {
+      "word": "desse",
+      "start": 16.537,
+      "end": 18.478,
+      "score": 0.385
+    },
+    {
+      "word": "vídeo",
+      "start": 18.498,
+      "end": 19.078,
+      "score": 0.468
+    },
+    {
+      "word": "ser",
+      "start": 19.098,
+      "end": 19.158,
+      "score": 0.0
+    },
+    {
+      "word": "neste",
+      "start": 19.398,
+      "end": 19.839,
+      "score": 0.551
+    },
+    {
+      "word": "momento",
+      "start": 19.959,
+      "end": 20.219,
+      "score": 0.19
+    },
+    {
+      "word": "eu",
+      "start": 20.259,
+      "end": 20.479,
+      "score": 0.694
+    },
+    {
+      "word": "acho",
+      "start": 20.959,
+      "end": 21.119,
+      "score": 0.334
+    },
+    {
+      "word": "que",
+      "start": 21.159,
+      "end": 21.399,
+      "score": 0.463
+    },
+    {
+      "word": "sim",
+      "start": 21.459,
+      "end": 21.679,
+      "score": 0.528
+    },
+    {
+      "word": "que",
+      "start": 21.719,
+      "end": 21.899,
+      "score": 0.286
+    },
+    {
+      "word": "faz",
+      "start": 21.919,
+      "end": 21.999,
+      "score": 0.167
+    },
+    {
+      "word": "muito",
+      "start": 22.039,
+      "end": 22.139,
+      "score": 0.0
+    },
+    {
+      "word": "sentido",
+      "start": 22.159,
+      "end": 22.44,
+      "score": 0.194
+    },
+    {
+      "word": "principalmente",
+      "start": 22.66,
+      "end": 23.66,
+      "score": 0.434
+    },
+    {
+      "word": "para",
+      "start": 23.78,
+      "end": 24.0,
+      "score": 0.219
+    },
+    {
+      "word": "quem",
+      "start": 24.44,
+      "end": 24.7,
+      "score": 0.521
+    },
+    {
+      "word": "está",
+      "start": 25.04,
+      "end": 26.601,
+      "score": 0.486
+    },
+    {
+      "word": "com",
+      "start": 26.621,
+      "end": 26.861,
+      "score": 0.3
+    },
+    {
+      "word": "descansamentos",
+      "start": 26.881,
+      "end": 29.022,
+      "score": 0.63
+    },
+    {
+      "word": "Que",
+      "start": 29.596,
+      "end": 30.0,
+      "score": 0.48
+    },
+    {
+      "word": "é",
+      "start": 30.97,
+      "end": 31.132,
+      "score": 0.875
+    },
+    {
+      "word": "normal.",
+      "start": 31.172,
+      "end": 31.435,
+      "score": 0.265
+    }
+  ]
+}

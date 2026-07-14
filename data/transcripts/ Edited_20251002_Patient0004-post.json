@@ -1,0 +1,994 @@
+{
+  "segments": [
+    {
+      "start": 1.072,
+      "end": 9.4,
+      "text": " Sinto-me igualmente otimista, sinto-me igualmente sem medo, sinto-me mais tranquila porque...",
+      "words": [
+        {
+          "word": "Sinto-me",
+          "start": 1.072,
+          "end": 1.673,
+          "score": 0.732
+        },
+        {
+          "word": "igualmente",
+          "start": 1.793,
+          "end": 2.213,
+          "score": 0.537
+        },
+        {
+          "word": "otimista,",
+          "start": 2.253,
+          "end": 2.974,
+          "score": 0.778
+        },
+        {
+          "word": "sinto-me",
+          "start": 3.755,
+          "end": 4.055,
+          "score": 0.461
+        },
+        {
+          "word": "igualmente",
+          "start": 4.075,
+          "end": 4.455,
+          "score": 0.699
+        },
+        {
+          "word": "sem",
+          "start": 4.515,
+          "end": 4.635,
+          "score": 0.804
+        },
+        {
+          "word": "medo,",
+          "start": 4.695,
+          "end": 5.236,
+          "score": 0.762
+        },
+        {
+          "word": "sinto-me",
+          "start": 5.837,
+          "end": 6.217,
+          "score": 0.457
+        },
+        {
+          "word": "mais",
+          "start": 6.257,
+          "end": 6.437,
+          "score": 0.78
+        },
+        {
+          "word": "tranquila",
+          "start": 6.497,
+          "end": 7.418,
+          "score": 0.666
+        },
+        {
+          "word": "porque...",
+          "start": 7.498,
+          "end": 9.4,
+          "score": 0.688
+        }
+      ],
+      "avg_logprob": -0.07094252955269169
+    },
+    {
+      "start": 9.52,
+      "end": 19.91,
+      "text": "Aliás, sinto-me ainda mais tranquila porque estive a descansar e a pensar com boas memórias quando os meus filhos eram pequeninos e quando estava a brincar com eles.",
+      "words": [
+        {
+          "word": "Aliás,",
+          "start": 9.52,
+          "end": 9.82,
+          "score": 0.487
+        },
+        {
+          "word": "sinto-me",
+          "start": 9.84,
+          "end": 10.201,
+          "score": 0.459
+        },
+        {
+          "word": "ainda",
+          "start": 10.261,
+          "end": 10.541,
+          "score": 0.696
+        },
+        {
+          "word": "mais",
+          "start": 10.601,
+          "end": 10.801,
+          "score": 0.678
+        },
+        {
+          "word": "tranquila",
+          "start": 10.841,
+          "end": 11.442,
+          "score": 0.635
+        },
+        {
+          "word": "porque",
+          "start": 11.542,
+          "end": 11.702,
+          "score": 0.182
+        },
+        {
+          "word": "estive",
+          "start": 11.822,
+          "end": 12.543,
+          "score": 0.713
+        },
+        {
+          "word": "a",
+          "start": 13.284,
+          "end": 13.304,
+          "score": 0.802
+        },
+        {
+          "word": "descansar",
+          "start": 13.344,
+          "end": 13.884,
+          "score": 0.707
+        },
+        {
+          "word": "e",
+          "start": 13.964,
+          "end": 13.984,
+          "score": 0.159
+        },
+        {
+          "word": "a",
+          "start": 14.024,
+          "end": 14.064,
+          "score": 0.804
+        },
+        {
+          "word": "pensar",
+          "start": 14.144,
+          "end": 14.865,
+          "score": 0.719
+        },
+        {
+          "word": "com",
+          "start": 15.085,
+          "end": 15.185,
+          "score": 0.34
+        },
+        {
+          "word": "boas",
+          "start": 15.226,
+          "end": 15.446,
+          "score": 0.409
+        },
+        {
+          "word": "memórias",
+          "start": 15.486,
+          "end": 15.886,
+          "score": 0.561
+        },
+        {
+          "word": "quando",
+          "start": 15.966,
+          "end": 16.347,
+          "score": 0.546
+        },
+        {
+          "word": "os",
+          "start": 16.367,
+          "end": 16.407,
+          "score": 0.148
+        },
+        {
+          "word": "meus",
+          "start": 16.447,
+          "end": 16.567,
+          "score": 0.312
+        },
+        {
+          "word": "filhos",
+          "start": 16.587,
+          "end": 16.767,
+          "score": 0.276
+        },
+        {
+          "word": "eram",
+          "start": 16.787,
+          "end": 16.907,
+          "score": 0.337
+        },
+        {
+          "word": "pequeninos",
+          "start": 16.927,
+          "end": 17.368,
+          "score": 0.414
+        },
+        {
+          "word": "e",
+          "start": 17.388,
+          "end": 17.428,
+          "score": 0.716
+        },
+        {
+          "word": "quando",
+          "start": 17.508,
+          "end": 17.728,
+          "score": 0.599
+        },
+        {
+          "word": "estava",
+          "start": 17.808,
+          "end": 18.028,
+          "score": 0.325
+        },
+        {
+          "word": "a",
+          "start": 18.188,
+          "end": 18.248,
+          "score": 0.663
+        },
+        {
+          "word": "brincar",
+          "start": 18.268,
+          "end": 18.509,
+          "score": 0.445
+        },
+        {
+          "word": "com",
+          "start": 18.569,
+          "end": 18.709,
+          "score": 0.63
+        },
+        {
+          "word": "eles.",
+          "start": 18.729,
+          "end": 19.91,
+          "score": 0.666
+        }
+      ],
+      "avg_logprob": -0.07094252955269169
+    },
+    {
+      "start": 20.621,
+      "end": 23.224,
+      "text": " A atenciosidade de todas as pessoas.",
+      "words": [
+        {
+          "word": "A",
+          "start": 20.621,
+          "end": 20.781,
+          "score": 0.534
+        },
+        {
+          "word": "atenciosidade",
+          "start": 20.862,
+          "end": 21.842,
+          "score": 0.946
+        },
+        {
+          "word": "de",
+          "start": 21.922,
+          "end": 21.983,
+          "score": 0.374
+        },
+        {
+          "word": "todas",
+          "start": 22.063,
+          "end": 22.323,
+          "score": 0.724
+        },
+        {
+          "word": "as",
+          "start": 22.363,
+          "end": 22.463,
+          "score": 0.892
+        },
+        {
+          "word": "pessoas.",
+          "start": 22.523,
+          "end": 23.224,
+          "score": 0.901
+        }
+      ],
+      "avg_logprob": -0.11661544930739481
+    },
+    {
+      "start": 23.764,
+      "end": 25.366,
+      "text": "As pessoas apresentarem-se pelo nome.",
+      "words": [
+        {
+          "word": "As",
+          "start": 23.764,
+          "end": 23.824,
+          "score": 0.246
+        },
+        {
+          "word": "pessoas",
+          "start": 23.844,
+          "end": 24.084,
+          "score": 0.534
+        },
+        {
+          "word": "apresentarem-se",
+          "start": 24.124,
+          "end": 24.785,
+          "score": 0.585
+        },
+        {
+          "word": "pelo",
+          "start": 24.805,
+          "end": 24.945,
+          "score": 0.231
+        },
+        {
+          "word": "nome.",
+          "start": 24.985,
+          "end": 25.366,
+          "score": 0.712
+        }
+      ],
+      "avg_logprob": -0.11661544930739481
+    },
+    {
+      "start": 25.426,
+      "end": 31.271,
+      "text": "Acho que dá um caráter mais pessoal, mais personalizado.",
+      "words": [
+        {
+          "word": "Acho",
+          "start": 25.426,
+          "end": 25.726,
+          "score": 0.348
+        },
+        {
+          "word": "que",
+          "start": 25.846,
+          "end": 26.907,
+          "score": 0.554
+        },
+        {
+          "word": "dá",
+          "start": 26.927,
+          "end": 27.227,
+          "score": 0.726
+        },
+        {
+          "word": "um",
+          "start": 27.387,
+          "end": 27.427,
+          "score": 0.09
+        },
+        {
+          "word": "caráter",
+          "start": 27.488,
+          "end": 27.848,
+          "score": 0.714
+        },
+        {
+          "word": "mais",
+          "start": 27.888,
+          "end": 28.048,
+          "score": 0.857
+        },
+        {
+          "word": "pessoal,",
+          "start": 28.128,
+          "end": 28.669,
+          "score": 0.82
+        },
+        {
+          "word": "mais",
+          "start": 28.709,
+          "end": 28.869,
+          "score": 0.783
+        },
+        {
+          "word": "personalizado.",
+          "start": 28.909,
+          "end": 31.271,
+          "score": 0.798
+        }
+      ],
+      "avg_logprob": -0.11661544930739481
+    },
+    {
+      "start": 31.311,
+      "end": 33.353,
+      "text": "Serem todos muito cuidadosos.",
+      "words": [
+        {
+          "word": "Serem",
+          "start": 31.311,
+          "end": 31.851,
+          "score": 0.688
+        },
+        {
+          "word": "todos",
+          "start": 31.891,
+          "end": 32.112,
+          "score": 0.586
+        },
+        {
+          "word": "muito",
+          "start": 32.172,
+          "end": 32.372,
+          "score": 0.458
+        },
+        {
+          "word": "cuidadosos.",
+          "start": 32.412,
+          "end": 33.353,
+          "score": 0.843
+        }
+      ],
+      "avg_logprob": -0.11661544930739481
+    },
+    {
+      "start": 34.294,
+      "end": 40.559,
+      "text": "Acho que foi assim o que eu mais valorizei.",
+      "words": [
+        {
+          "word": "Acho",
+          "start": 34.294,
+          "end": 35.495,
+          "score": 0.488
+        },
+        {
+          "word": "que",
+          "start": 35.535,
+          "end": 35.815,
+          "score": 0.526
+        },
+        {
+          "word": "foi",
+          "start": 35.915,
+          "end": 36.055,
+          "score": 0.486
+        },
+        {
+          "word": "assim",
+          "start": 36.075,
+          "end": 36.396,
+          "score": 0.569
+        },
+        {
+          "word": "o",
+          "start": 36.436,
+          "end": 36.496,
+          "score": 0.612
+        },
+        {
+          "word": "que",
+          "start": 36.576,
+          "end": 37.937,
+          "score": 0.668
+        },
+        {
+          "word": "eu",
+          "start": 37.977,
+          "end": 38.217,
+          "score": 0.557
+        },
+        {
+          "word": "mais",
+          "start": 38.257,
+          "end": 38.878,
+          "score": 0.88
+        },
+        {
+          "word": "valorizei.",
+          "start": 39.298,
+          "end": 40.559,
+          "score": 0.632
+        }
+      ],
+      "avg_logprob": -0.11661544930739481
+    },
+    {
+      "start": 40.579,
+      "end": 42.421,
+      "text": "A componente humana das pessoas.",
+      "words": [
+        {
+          "word": "A",
+          "start": 40.579,
+          "end": 40.599,
+          "score": 0.089
+        },
+        {
+          "word": "componente",
+          "start": 40.639,
+          "end": 41.02,
+          "score": 0.49
+        },
+        {
+          "word": "humana",
+          "start": 41.04,
+          "end": 41.78,
+          "score": 0.429
+        },
+        {
+          "word": "das",
+          "start": 41.8,
+          "end": 41.921,
+          "score": 0.697
+        },
+        {
+          "word": "pessoas.",
+          "start": 41.941,
+          "end": 42.421,
+          "score": 0.858
+        }
+      ],
+      "avg_logprob": -0.11661544930739481
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "Sinto-me",
+      "start": 1.072,
+      "end": 1.673,
+      "score": 0.732
+    },
+    {
+      "word": "igualmente",
+      "start": 1.793,
+      "end": 2.213,
+      "score": 0.537
+    },
+    {
+      "word": "otimista,",
+      "start": 2.253,
+      "end": 2.974,
+      "score": 0.778
+    },
+    {
+      "word": "sinto-me",
+      "start": 3.755,
+      "end": 4.055,
+      "score": 0.461
+    },
+    {
+      "word": "igualmente",
+      "start": 4.075,
+      "end": 4.455,
+      "score": 0.699
+    },
+    {
+      "word": "sem",
+      "start": 4.515,
+      "end": 4.635,
+      "score": 0.804
+    },
+    {
+      "word": "medo,",
+      "start": 4.695,
+      "end": 5.236,
+      "score": 0.762
+    },
+    {
+      "word": "sinto-me",
+      "start": 5.837,
+      "end": 6.217,
+      "score": 0.457
+    },
+    {
+      "word": "mais",
+      "start": 6.257,
+      "end": 6.437,
+      "score": 0.78
+    },
+    {
+      "word": "tranquila",
+      "start": 6.497,
+      "end": 7.418,
+      "score": 0.666
+    },
+    {
+      "word": "porque...",
+      "start": 7.498,
+      "end": 9.4,
+      "score": 0.688
+    },
+    {
+      "word": "Aliás,",
+      "start": 9.52,
+      "end": 9.82,
+      "score": 0.487
+    },
+    {
+      "word": "sinto-me",
+      "start": 9.84,
+      "end": 10.201,
+      "score": 0.459
+    },
+    {
+      "word": "ainda",
+      "start": 10.261,
+      "end": 10.541,
+      "score": 0.696
+    },
+    {
+      "word": "mais",
+      "start": 10.601,
+      "end": 10.801,
+      "score": 0.678
+    },
+    {
+      "word": "tranquila",
+      "start": 10.841,
+      "end": 11.442,
+      "score": 0.635
+    },
+    {
+      "word": "porque",
+      "start": 11.542,
+      "end": 11.702,
+      "score": 0.182
+    },
+    {
+      "word": "estive",
+      "start": 11.822,
+      "end": 12.543,
+      "score": 0.713
+    },
+    {
+      "word": "a",
+      "start": 13.284,
+      "end": 13.304,
+      "score": 0.802
+    },
+    {
+      "word": "descansar",
+      "start": 13.344,
+      "end": 13.884,
+      "score": 0.707
+    },
+    {
+      "word": "e",
+      "start": 13.964,
+      "end": 13.984,
+      "score": 0.159
+    },
+    {
+      "word": "a",
+      "start": 14.024,
+      "end": 14.064,
+      "score": 0.804
+    },
+    {
+      "word": "pensar",
+      "start": 14.144,
+      "end": 14.865,
+      "score": 0.719
+    },
+    {
+      "word": "com",
+      "start": 15.085,
+      "end": 15.185,
+      "score": 0.34
+    },
+    {
+      "word": "boas",
+      "start": 15.226,
+      "end": 15.446,
+      "score": 0.409
+    },
+    {
+      "word": "memórias",
+      "start": 15.486,
+      "end": 15.886,
+      "score": 0.561
+    },
+    {
+      "word": "quando",
+      "start": 15.966,
+      "end": 16.347,
+      "score": 0.546
+    },
+    {
+      "word": "os",
+      "start": 16.367,
+      "end": 16.407,
+      "score": 0.148
+    },
+    {
+      "word": "meus",
+      "start": 16.447,
+      "end": 16.567,
+      "score": 0.312
+    },
+    {
+      "word": "filhos",
+      "start": 16.587,
+      "end": 16.767,
+      "score": 0.276
+    },
+    {
+      "word": "eram",
+      "start": 16.787,
+      "end": 16.907,
+      "score": 0.337
+    },
+    {
+      "word": "pequeninos",
+      "start": 16.927,
+      "end": 17.368,
+      "score": 0.414
+    },
+    {
+      "word": "e",
+      "start": 17.388,
+      "end": 17.428,
+      "score": 0.716
+    },
+    {
+      "word": "quando",
+      "start": 17.508,
+      "end": 17.728,
+      "score": 0.599
+    },
+    {
+      "word": "estava",
+      "start": 17.808,
+      "end": 18.028,
+      "score": 0.325
+    },
+    {
+      "word": "a",
+      "start": 18.188,
+      "end": 18.248,
+      "score": 0.663
+    },
+    {
+      "word": "brincar",
+      "start": 18.268,
+      "end": 18.509,
+      "score": 0.445
+    },
+    {
+      "word": "com",
+      "start": 18.569,
+      "end": 18.709,
+      "score": 0.63
+    },
+    {
+      "word": "eles.",
+      "start": 18.729,
+      "end": 19.91,
+      "score": 0.666
+    },
+    {
+      "word": "A",
+      "start": 20.621,
+      "end": 20.781,
+      "score": 0.534
+    },
+    {
+      "word": "atenciosidade",
+      "start": 20.862,
+      "end": 21.842,
+      "score": 0.946
+    },
+    {
+      "word": "de",
+      "start": 21.922,
+      "end": 21.983,
+      "score": 0.374
+    },
+    {
+      "word": "todas",
+      "start": 22.063,
+      "end": 22.323,
+      "score": 0.724
+    },
+    {
+      "word": "as",
+      "start": 22.363,
+      "end": 22.463,
+      "score": 0.892
+    },
+    {
+      "word": "pessoas.",
+      "start": 22.523,
+      "end": 23.224,
+      "score": 0.901
+    },
+    {
+      "word": "As",
+      "start": 23.764,
+      "end": 23.824,
+      "score": 0.246
+    },
+    {
+      "word": "pessoas",
+      "start": 23.844,
+      "end": 24.084,
+      "score": 0.534
+    },
+    {
+      "word": "apresentarem-se",
+      "start": 24.124,
+      "end": 24.785,
+      "score": 0.585
+    },
+    {
+      "word": "pelo",
+      "start": 24.805,
+      "end": 24.945,
+      "score": 0.231
+    },
+    {
+      "word": "nome.",
+      "start": 24.985,
+      "end": 25.366,
+      "score": 0.712
+    },
+    {
+      "word": "Acho",
+      "start": 25.426,
+      "end": 25.726,
+      "score": 0.348
+    },
+    {
+      "word": "que",
+      "start": 25.846,
+      "end": 26.907,
+      "score": 0.554
+    },
+    {
+      "word": "dá",
+      "start": 26.927,
+      "end": 27.227,
+      "score": 0.726
+    },
+    {
+      "word": "um",
+      "start": 27.387,
+      "end": 27.427,
+      "score": 0.09
+    },
+    {
+      "word": "caráter",
+      "start": 27.488,
+      "end": 27.848,
+      "score": 0.714
+    },
+    {
+      "word": "mais",
+      "start": 27.888,
+      "end": 28.048,
+      "score": 0.857
+    },
+    {
+      "word": "pessoal,",
+      "start": 28.128,
+      "end": 28.669,
+      "score": 0.82
+    },
+    {
+      "word": "mais",
+      "start": 28.709,
+      "end": 28.869,
+      "score": 0.783
+    },
+    {
+      "word": "personalizado.",
+      "start": 28.909,
+      "end": 31.271,
+      "score": 0.798
+    },
+    {
+      "word": "Serem",
+      "start": 31.311,
+      "end": 31.851,
+      "score": 0.688
+    },
+    {
+      "word": "todos",
+      "start": 31.891,
+      "end": 32.112,
+      "score": 0.586
+    },
+    {
+      "word": "muito",
+      "start": 32.172,
+      "end": 32.372,
+      "score": 0.458
+    },
+    {
+      "word": "cuidadosos.",
+      "start": 32.412,
+      "end": 33.353,
+      "score": 0.843
+    },
+    {
+      "word": "Acho",
+      "start": 34.294,
+      "end": 35.495,
+      "score": 0.488
+    },
+    {
+      "word": "que",
+      "start": 35.535,
+      "end": 35.815,
+      "score": 0.526
+    },
+    {
+      "word": "foi",
+      "start": 35.915,
+      "end": 36.055,
+      "score": 0.486
+    },
+    {
+      "word": "assim",
+      "start": 36.075,
+      "end": 36.396,
+      "score": 0.569
+    },
+    {
+      "word": "o",
+      "start": 36.436,
+      "end": 36.496,
+      "score": 0.612
+    },
+    {
+      "word": "que",
+      "start": 36.576,
+      "end": 37.937,
+      "score": 0.668
+    },
+    {
+      "word": "eu",
+      "start": 37.977,
+      "end": 38.217,
+      "score": 0.557
+    },
+    {
+      "word": "mais",
+      "start": 38.257,
+      "end": 38.878,
+      "score": 0.88
+    },
+    {
+      "word": "valorizei.",
+      "start": 39.298,
+      "end": 40.559,
+      "score": 0.632
+    },
+    {
+      "word": "A",
+      "start": 40.579,
+      "end": 40.599,
+      "score": 0.089
+    },
+    {
+      "word": "componente",
+      "start": 40.639,
+      "end": 41.02,
+      "score": 0.49
+    },
+    {
+      "word": "humana",
+      "start": 41.04,
+      "end": 41.78,
+      "score": 0.429
+    },
+    {
+      "word": "das",
+      "start": 41.8,
+      "end": 41.921,
+      "score": 0.697
+    },
+    {
+      "word": "pessoas.",
+      "start": 41.941,
+      "end": 42.421,
+      "score": 0.858
+    }
+  ]
+}

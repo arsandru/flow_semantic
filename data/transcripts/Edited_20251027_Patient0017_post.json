@@ -1,0 +1,1022 @@
+{
+  "segments": [
+    {
+      "start": 0.78,
+      "end": 14.93,
+      "text": " Eu acho que a diferença, eu já estava calma, acho que a diferença foi explotar um bocadinho mais de sentimentos mais de alegria, mais bem disposta, digamos.",
+      "words": [
+        {
+          "word": "Eu",
+          "start": 0.78,
+          "end": 0.86,
+          "score": 0.751
+        },
+        {
+          "word": "acho",
+          "start": 0.92,
+          "end": 1.04,
+          "score": 0.988
+        },
+        {
+          "word": "que",
+          "start": 1.06,
+          "end": 1.12,
+          "score": 0.789
+        },
+        {
+          "word": "a",
+          "start": 1.14,
+          "end": 1.18,
+          "score": 0.495
+        },
+        {
+          "word": "diferença,",
+          "start": 1.2,
+          "end": 1.821,
+          "score": 0.961
+        },
+        {
+          "word": "eu",
+          "start": 3.182,
+          "end": 3.302,
+          "score": 0.75
+        },
+        {
+          "word": "já",
+          "start": 3.822,
+          "end": 3.942,
+          "score": 0.679
+        },
+        {
+          "word": "estava",
+          "start": 3.962,
+          "end": 4.303,
+          "score": 0.919
+        },
+        {
+          "word": "calma,",
+          "start": 4.403,
+          "end": 4.803,
+          "score": 0.958
+        },
+        {
+          "word": "acho",
+          "start": 5.303,
+          "end": 5.423,
+          "score": 0.355
+        },
+        {
+          "word": "que",
+          "start": 5.443,
+          "end": 5.523,
+          "score": 0.55
+        },
+        {
+          "word": "a",
+          "start": 5.543,
+          "end": 5.563,
+          "score": 0.009
+        },
+        {
+          "word": "diferença",
+          "start": 5.583,
+          "end": 6.124,
+          "score": 0.945
+        },
+        {
+          "word": "foi",
+          "start": 6.264,
+          "end": 6.664,
+          "score": 0.855
+        },
+        {
+          "word": "explotar",
+          "start": 7.425,
+          "end": 8.005,
+          "score": 0.765
+        },
+        {
+          "word": "um",
+          "start": 8.065,
+          "end": 8.105,
+          "score": 0.976
+        },
+        {
+          "word": "bocadinho",
+          "start": 8.125,
+          "end": 8.505,
+          "score": 0.503
+        },
+        {
+          "word": "mais",
+          "start": 8.586,
+          "end": 8.946,
+          "score": 0.779
+        },
+        {
+          "word": "de",
+          "start": 9.046,
+          "end": 9.226,
+          "score": 0.629
+        },
+        {
+          "word": "sentimentos",
+          "start": 9.286,
+          "end": 9.846,
+          "score": 0.855
+        },
+        {
+          "word": "mais",
+          "start": 9.926,
+          "end": 10.207,
+          "score": 0.856
+        },
+        {
+          "word": "de",
+          "start": 10.227,
+          "end": 10.287,
+          "score": 0.838
+        },
+        {
+          "word": "alegria,",
+          "start": 10.307,
+          "end": 10.827,
+          "score": 0.952
+        },
+        {
+          "word": "mais",
+          "start": 11.428,
+          "end": 12.728,
+          "score": 0.806
+        },
+        {
+          "word": "bem",
+          "start": 13.489,
+          "end": 13.609,
+          "score": 0.819
+        },
+        {
+          "word": "disposta,",
+          "start": 13.629,
+          "end": 14.37,
+          "score": 0.762
+        },
+        {
+          "word": "digamos.",
+          "start": 14.41,
+          "end": 14.93,
+          "score": 0.756
+        }
+      ],
+      "avg_logprob": -0.14214379092057547
+    },
+    {
+      "start": 16.691,
+      "end": 29.941,
+      "text": "A sensação de nós estarmos a viajar com o vídeo, então há momentos bem bonitos, quando vamos atrás do pássaro parece que estamos mesmo lá, então isso cria um sentimento muito agradável, esquecendo-nos que estamos aqui.",
+      "words": [
+        {
+          "word": "A",
+          "start": 16.691,
+          "end": 16.731,
+          "score": 0.686
+        },
+        {
+          "word": "sensação",
+          "start": 16.791,
+          "end": 17.072,
+          "score": 0.608
+        },
+        {
+          "word": "de",
+          "start": 17.092,
+          "end": 17.132,
+          "score": 0.362
+        },
+        {
+          "word": "nós",
+          "start": 17.172,
+          "end": 17.292,
+          "score": 0.975
+        },
+        {
+          "word": "estarmos",
+          "start": 17.312,
+          "end": 17.532,
+          "score": 0.24
+        },
+        {
+          "word": "a",
+          "start": 17.572,
+          "end": 17.612,
+          "score": 0.435
+        },
+        {
+          "word": "viajar",
+          "start": 17.652,
+          "end": 18.212,
+          "score": 0.871
+        },
+        {
+          "word": "com",
+          "start": 18.733,
+          "end": 18.853,
+          "score": 0.777
+        },
+        {
+          "word": "o",
+          "start": 18.873,
+          "end": 18.913,
+          "score": 0.562
+        },
+        {
+          "word": "vídeo,",
+          "start": 18.953,
+          "end": 19.233,
+          "score": 0.581
+        },
+        {
+          "word": "então",
+          "start": 19.253,
+          "end": 19.533,
+          "score": 0.84
+        },
+        {
+          "word": "há",
+          "start": 19.653,
+          "end": 19.914,
+          "score": 0.402
+        },
+        {
+          "word": "momentos",
+          "start": 20.674,
+          "end": 21.074,
+          "score": 0.82
+        },
+        {
+          "word": "bem",
+          "start": 21.134,
+          "end": 21.274,
+          "score": 0.934
+        },
+        {
+          "word": "bonitos,",
+          "start": 21.355,
+          "end": 21.835,
+          "score": 0.831
+        },
+        {
+          "word": "quando",
+          "start": 22.395,
+          "end": 22.555,
+          "score": 0.867
+        },
+        {
+          "word": "vamos",
+          "start": 22.575,
+          "end": 22.735,
+          "score": 0.699
+        },
+        {
+          "word": "atrás",
+          "start": 22.756,
+          "end": 23.016,
+          "score": 0.922
+        },
+        {
+          "word": "do",
+          "start": 23.036,
+          "end": 23.116,
+          "score": 0.608
+        },
+        {
+          "word": "pássaro",
+          "start": 23.196,
+          "end": 24.076,
+          "score": 0.704
+        },
+        {
+          "word": "parece",
+          "start": 25.037,
+          "end": 25.277,
+          "score": 0.683
+        },
+        {
+          "word": "que",
+          "start": 25.297,
+          "end": 25.357,
+          "score": 0.717
+        },
+        {
+          "word": "estamos",
+          "start": 25.377,
+          "end": 25.658,
+          "score": 0.901
+        },
+        {
+          "word": "mesmo",
+          "start": 25.718,
+          "end": 25.998,
+          "score": 0.88
+        },
+        {
+          "word": "lá,",
+          "start": 26.018,
+          "end": 26.078,
+          "score": 0.002
+        },
+        {
+          "word": "então",
+          "start": 26.098,
+          "end": 26.338,
+          "score": 0.547
+        },
+        {
+          "word": "isso",
+          "start": 26.378,
+          "end": 26.578,
+          "score": 0.448
+        },
+        {
+          "word": "cria",
+          "start": 26.618,
+          "end": 26.798,
+          "score": 0.698
+        },
+        {
+          "word": "um",
+          "start": 26.838,
+          "end": 26.878,
+          "score": 0.003
+        },
+        {
+          "word": "sentimento",
+          "start": 26.918,
+          "end": 27.439,
+          "score": 0.929
+        },
+        {
+          "word": "muito",
+          "start": 27.499,
+          "end": 27.699,
+          "score": 0.917
+        },
+        {
+          "word": "agradável,",
+          "start": 27.739,
+          "end": 28.279,
+          "score": 0.941
+        },
+        {
+          "word": "esquecendo-nos",
+          "start": 28.68,
+          "end": 29.24,
+          "score": 0.617
+        },
+        {
+          "word": "que",
+          "start": 29.26,
+          "end": 29.32,
+          "score": 0.021
+        },
+        {
+          "word": "estamos",
+          "start": 29.36,
+          "end": 29.7,
+          "score": 0.728
+        },
+        {
+          "word": "aqui.",
+          "start": 29.74,
+          "end": 29.941,
+          "score": 0.7
+        }
+      ],
+      "avg_logprob": -0.14214379092057547
+    },
+    {
+      "start": 31.836,
+      "end": 42.322,
+      "text": " Olha, o acolhimento é excelente, mas esta experiência, no meu entender, é uma mais-valia.",
+      "words": [
+        {
+          "word": "Olha,",
+          "start": 31.836,
+          "end": 32.136,
+          "score": 0.808
+        },
+        {
+          "word": "o",
+          "start": 32.216,
+          "end": 32.236,
+          "score": 0.977
+        },
+        {
+          "word": "acolhimento",
+          "start": 32.256,
+          "end": 32.917,
+          "score": 0.592
+        },
+        {
+          "word": "é",
+          "start": 32.937,
+          "end": 32.957,
+          "score": 0.0
+        },
+        {
+          "word": "excelente,",
+          "start": 32.977,
+          "end": 33.797,
+          "score": 0.711
+        },
+        {
+          "word": "mas",
+          "start": 33.957,
+          "end": 34.417,
+          "score": 0.837
+        },
+        {
+          "word": "esta",
+          "start": 36.939,
+          "end": 37.119,
+          "score": 0.962
+        },
+        {
+          "word": "experiência,",
+          "start": 37.159,
+          "end": 38.039,
+          "score": 0.949
+        },
+        {
+          "word": "no",
+          "start": 39.26,
+          "end": 39.36,
+          "score": 0.996
+        },
+        {
+          "word": "meu",
+          "start": 39.4,
+          "end": 39.5,
+          "score": 0.566
+        },
+        {
+          "word": "entender,",
+          "start": 39.54,
+          "end": 40.041,
+          "score": 0.972
+        },
+        {
+          "word": "é",
+          "start": 40.101,
+          "end": 40.361,
+          "score": 0.92
+        },
+        {
+          "word": "uma",
+          "start": 40.761,
+          "end": 40.961,
+          "score": 0.543
+        },
+        {
+          "word": "mais-valia.",
+          "start": 41.001,
+          "end": 42.322,
+          "score": 0.917
+        }
+      ],
+      "avg_logprob": -0.03500909285826816
+    },
+    {
+      "start": 42.382,
+      "end": 44.463,
+      "text": "Foi fantástico, foi mesmo fantástico.",
+      "words": [
+        {
+          "word": "Foi",
+          "start": 42.382,
+          "end": 42.482,
+          "score": 0.87
+        },
+        {
+          "word": "fantástico,",
+          "start": 42.522,
+          "end": 43.302,
+          "score": 0.907
+        },
+        {
+          "word": "foi",
+          "start": 43.342,
+          "end": 43.462,
+          "score": 0.832
+        },
+        {
+          "word": "mesmo",
+          "start": 43.502,
+          "end": 43.723,
+          "score": 0.9
+        },
+        {
+          "word": "fantástico.",
+          "start": 43.763,
+          "end": 44.463,
+          "score": 0.983
+        }
+      ],
+      "avg_logprob": -0.03500909285826816
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "Eu",
+      "start": 0.78,
+      "end": 0.86,
+      "score": 0.751
+    },
+    {
+      "word": "acho",
+      "start": 0.92,
+      "end": 1.04,
+      "score": 0.988
+    },
+    {
+      "word": "que",
+      "start": 1.06,
+      "end": 1.12,
+      "score": 0.789
+    },
+    {
+      "word": "a",
+      "start": 1.14,
+      "end": 1.18,
+      "score": 0.495
+    },
+    {
+      "word": "diferença,",
+      "start": 1.2,
+      "end": 1.821,
+      "score": 0.961
+    },
+    {
+      "word": "eu",
+      "start": 3.182,
+      "end": 3.302,
+      "score": 0.75
+    },
+    {
+      "word": "já",
+      "start": 3.822,
+      "end": 3.942,
+      "score": 0.679
+    },
+    {
+      "word": "estava",
+      "start": 3.962,
+      "end": 4.303,
+      "score": 0.919
+    },
+    {
+      "word": "calma,",
+      "start": 4.403,
+      "end": 4.803,
+      "score": 0.958
+    },
+    {
+      "word": "acho",
+      "start": 5.303,
+      "end": 5.423,
+      "score": 0.355
+    },
+    {
+      "word": "que",
+      "start": 5.443,
+      "end": 5.523,
+      "score": 0.55
+    },
+    {
+      "word": "a",
+      "start": 5.543,
+      "end": 5.563,
+      "score": 0.009
+    },
+    {
+      "word": "diferença",
+      "start": 5.583,
+      "end": 6.124,
+      "score": 0.945
+    },
+    {
+      "word": "foi",
+      "start": 6.264,
+      "end": 6.664,
+      "score": 0.855
+    },
+    {
+      "word": "explotar",
+      "start": 7.425,
+      "end": 8.005,
+      "score": 0.765
+    },
+    {
+      "word": "um",
+      "start": 8.065,
+      "end": 8.105,
+      "score": 0.976
+    },
+    {
+      "word": "bocadinho",
+      "start": 8.125,
+      "end": 8.505,
+      "score": 0.503
+    },
+    {
+      "word": "mais",
+      "start": 8.586,
+      "end": 8.946,
+      "score": 0.779
+    },
+    {
+      "word": "de",
+      "start": 9.046,
+      "end": 9.226,
+      "score": 0.629
+    },
+    {
+      "word": "sentimentos",
+      "start": 9.286,
+      "end": 9.846,
+      "score": 0.855
+    },
+    {
+      "word": "mais",
+      "start": 9.926,
+      "end": 10.207,
+      "score": 0.856
+    },
+    {
+      "word": "de",
+      "start": 10.227,
+      "end": 10.287,
+      "score": 0.838
+    },
+    {
+      "word": "alegria,",
+      "start": 10.307,
+      "end": 10.827,
+      "score": 0.952
+    },
+    {
+      "word": "mais",
+      "start": 11.428,
+      "end": 12.728,
+      "score": 0.806
+    },
+    {
+      "word": "bem",
+      "start": 13.489,
+      "end": 13.609,
+      "score": 0.819
+    },
+    {
+      "word": "disposta,",
+      "start": 13.629,
+      "end": 14.37,
+      "score": 0.762
+    },
+    {
+      "word": "digamos.",
+      "start": 14.41,
+      "end": 14.93,
+      "score": 0.756
+    },
+    {
+      "word": "A",
+      "start": 16.691,
+      "end": 16.731,
+      "score": 0.686
+    },
+    {
+      "word": "sensação",
+      "start": 16.791,
+      "end": 17.072,
+      "score": 0.608
+    },
+    {
+      "word": "de",
+      "start": 17.092,
+      "end": 17.132,
+      "score": 0.362
+    },
+    {
+      "word": "nós",
+      "start": 17.172,
+      "end": 17.292,
+      "score": 0.975
+    },
+    {
+      "word": "estarmos",
+      "start": 17.312,
+      "end": 17.532,
+      "score": 0.24
+    },
+    {
+      "word": "a",
+      "start": 17.572,
+      "end": 17.612,
+      "score": 0.435
+    },
+    {
+      "word": "viajar",
+      "start": 17.652,
+      "end": 18.212,
+      "score": 0.871
+    },
+    {
+      "word": "com",
+      "start": 18.733,
+      "end": 18.853,
+      "score": 0.777
+    },
+    {
+      "word": "o",
+      "start": 18.873,
+      "end": 18.913,
+      "score": 0.562
+    },
+    {
+      "word": "vídeo,",
+      "start": 18.953,
+      "end": 19.233,
+      "score": 0.581
+    },
+    {
+      "word": "então",
+      "start": 19.253,
+      "end": 19.533,
+      "score": 0.84
+    },
+    {
+      "word": "há",
+      "start": 19.653,
+      "end": 19.914,
+      "score": 0.402
+    },
+    {
+      "word": "momentos",
+      "start": 20.674,
+      "end": 21.074,
+      "score": 0.82
+    },
+    {
+      "word": "bem",
+      "start": 21.134,
+      "end": 21.274,
+      "score": 0.934
+    },
+    {
+      "word": "bonitos,",
+      "start": 21.355,
+      "end": 21.835,
+      "score": 0.831
+    },
+    {
+      "word": "quando",
+      "start": 22.395,
+      "end": 22.555,
+      "score": 0.867
+    },
+    {
+      "word": "vamos",
+      "start": 22.575,
+      "end": 22.735,
+      "score": 0.699
+    },
+    {
+      "word": "atrás",
+      "start": 22.756,
+      "end": 23.016,
+      "score": 0.922
+    },
+    {
+      "word": "do",
+      "start": 23.036,
+      "end": 23.116,
+      "score": 0.608
+    },
+    {
+      "word": "pássaro",
+      "start": 23.196,
+      "end": 24.076,
+      "score": 0.704
+    },
+    {
+      "word": "parece",
+      "start": 25.037,
+      "end": 25.277,
+      "score": 0.683
+    },
+    {
+      "word": "que",
+      "start": 25.297,
+      "end": 25.357,
+      "score": 0.717
+    },
+    {
+      "word": "estamos",
+      "start": 25.377,
+      "end": 25.658,
+      "score": 0.901
+    },
+    {
+      "word": "mesmo",
+      "start": 25.718,
+      "end": 25.998,
+      "score": 0.88
+    },
+    {
+      "word": "lá,",
+      "start": 26.018,
+      "end": 26.078,
+      "score": 0.002
+    },
+    {
+      "word": "então",
+      "start": 26.098,
+      "end": 26.338,
+      "score": 0.547
+    },
+    {
+      "word": "isso",
+      "start": 26.378,
+      "end": 26.578,
+      "score": 0.448
+    },
+    {
+      "word": "cria",
+      "start": 26.618,
+      "end": 26.798,
+      "score": 0.698
+    },
+    {
+      "word": "um",
+      "start": 26.838,
+      "end": 26.878,
+      "score": 0.003
+    },
+    {
+      "word": "sentimento",
+      "start": 26.918,
+      "end": 27.439,
+      "score": 0.929
+    },
+    {
+      "word": "muito",
+      "start": 27.499,
+      "end": 27.699,
+      "score": 0.917
+    },
+    {
+      "word": "agradável,",
+      "start": 27.739,
+      "end": 28.279,
+      "score": 0.941
+    },
+    {
+      "word": "esquecendo-nos",
+      "start": 28.68,
+      "end": 29.24,
+      "score": 0.617
+    },
+    {
+      "word": "que",
+      "start": 29.26,
+      "end": 29.32,
+      "score": 0.021
+    },
+    {
+      "word": "estamos",
+      "start": 29.36,
+      "end": 29.7,
+      "score": 0.728
+    },
+    {
+      "word": "aqui.",
+      "start": 29.74,
+      "end": 29.941,
+      "score": 0.7
+    },
+    {
+      "word": "Olha,",
+      "start": 31.836,
+      "end": 32.136,
+      "score": 0.808
+    },
+    {
+      "word": "o",
+      "start": 32.216,
+      "end": 32.236,
+      "score": 0.977
+    },
+    {
+      "word": "acolhimento",
+      "start": 32.256,
+      "end": 32.917,
+      "score": 0.592
+    },
+    {
+      "word": "é",
+      "start": 32.937,
+      "end": 32.957,
+      "score": 0.0
+    },
+    {
+      "word": "excelente,",
+      "start": 32.977,
+      "end": 33.797,
+      "score": 0.711
+    },
+    {
+      "word": "mas",
+      "start": 33.957,
+      "end": 34.417,
+      "score": 0.837
+    },
+    {
+      "word": "esta",
+      "start": 36.939,
+      "end": 37.119,
+      "score": 0.962
+    },
+    {
+      "word": "experiência,",
+      "start": 37.159,
+      "end": 38.039,
+      "score": 0.949
+    },
+    {
+      "word": "no",
+      "start": 39.26,
+      "end": 39.36,
+      "score": 0.996
+    },
+    {
+      "word": "meu",
+      "start": 39.4,
+      "end": 39.5,
+      "score": 0.566
+    },
+    {
+      "word": "entender,",
+      "start": 39.54,
+      "end": 40.041,
+      "score": 0.972
+    },
+    {
+      "word": "é",
+      "start": 40.101,
+      "end": 40.361,
+      "score": 0.92
+    },
+    {
+      "word": "uma",
+      "start": 40.761,
+      "end": 40.961,
+      "score": 0.543
+    },
+    {
+      "word": "mais-valia.",
+      "start": 41.001,
+      "end": 42.322,
+      "score": 0.917
+    },
+    {
+      "word": "Foi",
+      "start": 42.382,
+      "end": 42.482,
+      "score": 0.87
+    },
+    {
+      "word": "fantástico,",
+      "start": 42.522,
+      "end": 43.302,
+      "score": 0.907
+    },
+    {
+      "word": "foi",
+      "start": 43.342,
+      "end": 43.462,
+      "score": 0.832
+    },
+    {
+      "word": "mesmo",
+      "start": 43.502,
+      "end": 43.723,
+      "score": 0.9
+    },
+    {
+      "word": "fantástico.",
+      "start": 43.763,
+      "end": 44.463,
+      "score": 0.983
+    }
+  ]
+}

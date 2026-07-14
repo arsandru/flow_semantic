@@ -1,0 +1,26 @@
+{
+  "segments": [
+    {
+      "start": 0.031,
+      "end": 1.178,
+      "text": " Obrigada.",
+      "words": [
+        {
+          "word": "Obrigada.",
+          "start": 0.031,
+          "end": 1.178,
+          "score": 0.324
+        }
+      ],
+      "avg_logprob": -0.5187171846628189
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "Obrigada.",
+      "start": 0.031,
+      "end": 1.178,
+      "score": 0.324
+    }
+  ]
+}

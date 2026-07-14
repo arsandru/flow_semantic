@@ -1,0 +1,1242 @@
+{
+  "segments": [
+    {
+      "start": 0.149,
+      "end": 3.151,
+      "text": " Porque sinto muito tudo isto.",
+      "words": [
+        {
+          "word": "Porque",
+          "start": 0.149,
+          "end": 0.349,
+          "score": 0.133
+        },
+        {
+          "word": "sinto",
+          "start": 0.369,
+          "end": 0.95,
+          "score": 0.524
+        },
+        {
+          "word": "muito",
+          "start": 1.55,
+          "end": 2.331,
+          "score": 0.633
+        },
+        {
+          "word": "tudo",
+          "start": 2.391,
+          "end": 2.871,
+          "score": 0.453
+        },
+        {
+          "word": "isto.",
+          "start": 2.891,
+          "end": 3.151,
+          "score": 0.305
+        }
+      ],
+      "avg_logprob": -0.06891959991592628
+    },
+    {
+      "start": 3.191,
+      "end": 11.538,
+      "text": "Porque sou médica, sou cirurgiã e sou cirurgiã de mama.",
+      "words": [
+        {
+          "word": "Porque",
+          "start": 3.191,
+          "end": 4.332,
+          "score": 0.402
+        },
+        {
+          "word": "sou",
+          "start": 4.472,
+          "end": 5.533,
+          "score": 0.327
+        },
+        {
+          "word": "médica,",
+          "start": 5.573,
+          "end": 7.394,
+          "score": 0.499
+        },
+        {
+          "word": "sou",
+          "start": 7.415,
+          "end": 7.515,
+          "score": 0.333
+        },
+        {
+          "word": "cirurgiã",
+          "start": 7.655,
+          "end": 8.956,
+          "score": 0.232
+        },
+        {
+          "word": "e",
+          "start": 8.976,
+          "end": 9.016,
+          "score": 0.5
+        },
+        {
+          "word": "sou",
+          "start": 9.096,
+          "end": 9.156,
+          "score": 0.0
+        },
+        {
+          "word": "cirurgiã",
+          "start": 9.316,
+          "end": 9.616,
+          "score": 0.17
+        },
+        {
+          "word": "de",
+          "start": 9.756,
+          "end": 9.816,
+          "score": 0.25
+        },
+        {
+          "word": "mama.",
+          "start": 9.836,
+          "end": 11.538,
+          "score": 0.835
+        }
+      ],
+      "avg_logprob": -0.06891959991592628
+    },
+    {
+      "start": 12.358,
+      "end": 21.785,
+      "text": "Por isso, sei os passos que me vão, que eu vou ter que seguir e que vou ter que passar.",
+      "words": [
+        {
+          "word": "Por",
+          "start": 12.358,
+          "end": 12.538,
+          "score": 0.444
+        },
+        {
+          "word": "isso,",
+          "start": 12.578,
+          "end": 12.959,
+          "score": 0.432
+        },
+        {
+          "word": "sei",
+          "start": 13.039,
+          "end": 13.439,
+          "score": 0.48
+        },
+        {
+          "word": "os",
+          "start": 13.459,
+          "end": 13.579,
+          "score": 0.625
+        },
+        {
+          "word": "passos",
+          "start": 13.679,
+          "end": 15.04,
+          "score": 0.438
+        },
+        {
+          "word": "que",
+          "start": 15.06,
+          "end": 15.32,
+          "score": 0.63
+        },
+        {
+          "word": "me",
+          "start": 15.381,
+          "end": 15.761,
+          "score": 0.72
+        },
+        {
+          "word": "vão,",
+          "start": 15.801,
+          "end": 16.381,
+          "score": 0.427
+        },
+        {
+          "word": "que",
+          "start": 16.401,
+          "end": 16.581,
+          "score": 0.286
+        },
+        {
+          "word": "eu",
+          "start": 16.601,
+          "end": 16.662,
+          "score": 0.25
+        },
+        {
+          "word": "vou",
+          "start": 16.822,
+          "end": 16.922,
+          "score": 0.333
+        },
+        {
+          "word": "ter",
+          "start": 16.942,
+          "end": 17.362,
+          "score": 0.743
+        },
+        {
+          "word": "que",
+          "start": 17.422,
+          "end": 17.762,
+          "score": 0.311
+        },
+        {
+          "word": "seguir",
+          "start": 17.782,
+          "end": 18.963,
+          "score": 0.545
+        },
+        {
+          "word": "e",
+          "start": 19.003,
+          "end": 19.083,
+          "score": 0.75
+        },
+        {
+          "word": "que",
+          "start": 19.103,
+          "end": 19.304,
+          "score": 0.452
+        },
+        {
+          "word": "vou",
+          "start": 19.324,
+          "end": 19.624,
+          "score": 0.308
+        },
+        {
+          "word": "ter",
+          "start": 19.644,
+          "end": 20.084,
+          "score": 0.767
+        },
+        {
+          "word": "que",
+          "start": 20.104,
+          "end": 21.105,
+          "score": 0.548
+        },
+        {
+          "word": "passar.",
+          "start": 21.205,
+          "end": 21.785,
+          "score": 0.403
+        }
+      ],
+      "avg_logprob": -0.06891959991592628
+    },
+    {
+      "start": 21.865,
+      "end": 23.487,
+      "text": "Sei o tipo de cirurgia que me vão fazer.",
+      "words": [
+        {
+          "word": "Sei",
+          "start": 21.865,
+          "end": 21.946,
+          "score": 0.167
+        },
+        {
+          "word": "o",
+          "start": 22.026,
+          "end": 22.046,
+          "score": 0.0
+        },
+        {
+          "word": "tipo",
+          "start": 22.066,
+          "end": 22.166,
+          "score": 0.125
+        },
+        {
+          "word": "de",
+          "start": 22.206,
+          "end": 22.266,
+          "score": 0.25
+        },
+        {
+          "word": "cirurgia",
+          "start": 22.286,
+          "end": 22.526,
+          "score": 0.156
+        },
+        {
+          "word": "que",
+          "start": 22.546,
+          "end": 22.906,
+          "score": 0.312
+        },
+        {
+          "word": "me",
+          "start": 22.926,
+          "end": 23.006,
+          "score": 0.334
+        },
+        {
+          "word": "vão",
+          "start": 23.086,
+          "end": 23.146,
+          "score": 0.0
+        },
+        {
+          "word": "fazer.",
+          "start": 23.166,
+          "end": 23.487,
+          "score": 0.271
+        }
+      ],
+      "avg_logprob": -0.06891959991592628
+    },
+    {
+      "start": 23.627,
+      "end": 26.549,
+      "text": "Acompanho tudo isto.",
+      "words": [
+        {
+          "word": "Acompanho",
+          "start": 23.627,
+          "end": 24.227,
+          "score": 0.312
+        },
+        {
+          "word": "tudo",
+          "start": 24.908,
+          "end": 25.909,
+          "score": 0.912
+        },
+        {
+          "word": "isto.",
+          "start": 26.289,
+          "end": 26.549,
+          "score": 0.317
+        }
+      ],
+      "avg_logprob": -0.06891959991592628
+    },
+    {
+      "start": 26.649,
+      "end": 29.191,
+      "text": "Faço isto aos meus doentes.",
+      "words": [
+        {
+          "word": "Faço",
+          "start": 26.649,
+          "end": 26.769,
+          "score": 0.167
+        },
+        {
+          "word": "isto",
+          "start": 26.789,
+          "end": 26.969,
+          "score": 0.208
+        },
+        {
+          "word": "aos",
+          "start": 26.989,
+          "end": 27.25,
+          "score": 0.552
+        },
+        {
+          "word": "meus",
+          "start": 27.27,
+          "end": 27.99,
+          "score": 0.492
+        },
+        {
+          "word": "doentes.",
+          "start": 28.01,
+          "end": 29.191,
+          "score": 0.526
+        }
+      ],
+      "avg_logprob": -0.06891959991592628
+    },
+    {
+      "start": 30.541,
+      "end": 53.533,
+      "text": " E então, por um lado, estou descansada porque estou com um ótimo cirurgião, mas sei que o que eu faço também, e que às vezes as coisas não correm tão bem como nós queremos.",
+      "words": [
+        {
+          "word": "E",
+          "start": 30.541,
+          "end": 30.561,
+          "score": 0.0
+        },
+        {
+          "word": "então,",
+          "start": 30.581,
+          "end": 30.721,
+          "score": 0.083
+        },
+        {
+          "word": "por",
+          "start": 30.741,
+          "end": 31.181,
+          "score": 0.861
+        },
+        {
+          "word": "um",
+          "start": 31.201,
+          "end": 32.222,
+          "score": 0.823
+        },
+        {
+          "word": "lado,",
+          "start": 33.182,
+          "end": 33.863,
+          "score": 0.78
+        },
+        {
+          "word": "estou",
+          "start": 33.903,
+          "end": 34.823,
+          "score": 0.345
+        },
+        {
+          "word": "descansada",
+          "start": 34.843,
+          "end": 35.424,
+          "score": 0.422
+        },
+        {
+          "word": "porque",
+          "start": 35.504,
+          "end": 36.824,
+          "score": 0.466
+        },
+        {
+          "word": "estou",
+          "start": 36.924,
+          "end": 37.185,
+          "score": 0.275
+        },
+        {
+          "word": "com",
+          "start": 37.205,
+          "end": 37.265,
+          "score": 0.0
+        },
+        {
+          "word": "um",
+          "start": 37.325,
+          "end": 37.725,
+          "score": 0.474
+        },
+        {
+          "word": "ótimo",
+          "start": 37.785,
+          "end": 38.405,
+          "score": 0.688
+        },
+        {
+          "word": "cirurgião,",
+          "start": 38.565,
+          "end": 41.147,
+          "score": 0.577
+        },
+        {
+          "word": "mas",
+          "start": 41.167,
+          "end": 41.267,
+          "score": 0.222
+        },
+        {
+          "word": "sei",
+          "start": 41.287,
+          "end": 42.447,
+          "score": 0.941
+        },
+        {
+          "word": "que",
+          "start": 43.788,
+          "end": 43.988,
+          "score": 0.656
+        },
+        {
+          "word": "o",
+          "start": 44.008,
+          "end": 44.028,
+          "score": 0.0
+        },
+        {
+          "word": "que",
+          "start": 44.048,
+          "end": 44.268,
+          "score": 0.683
+        },
+        {
+          "word": "eu",
+          "start": 44.628,
+          "end": 44.668,
+          "score": 0.0
+        },
+        {
+          "word": "faço",
+          "start": 44.829,
+          "end": 45.709,
+          "score": 0.725
+        },
+        {
+          "word": "também,",
+          "start": 45.729,
+          "end": 46.509,
+          "score": 0.459
+        },
+        {
+          "word": "e",
+          "start": 46.589,
+          "end": 46.63,
+          "score": 0.5
+        },
+        {
+          "word": "que",
+          "start": 46.69,
+          "end": 46.77,
+          "score": 0.167
+        },
+        {
+          "word": "às",
+          "start": 46.79,
+          "end": 46.85,
+          "score": 0.25
+        },
+        {
+          "word": "vezes",
+          "start": 46.89,
+          "end": 47.05,
+          "score": 0.233
+        },
+        {
+          "word": "as",
+          "start": 47.07,
+          "end": 47.11,
+          "score": 0.0
+        },
+        {
+          "word": "coisas",
+          "start": 47.13,
+          "end": 47.29,
+          "score": 0.111
+        },
+        {
+          "word": "não",
+          "start": 47.31,
+          "end": 47.45,
+          "score": 0.267
+        },
+        {
+          "word": "correm",
+          "start": 47.57,
+          "end": 47.77,
+          "score": 0.208
+        },
+        {
+          "word": "tão",
+          "start": 47.79,
+          "end": 47.87,
+          "score": 0.167
+        },
+        {
+          "word": "bem",
+          "start": 47.97,
+          "end": 48.09,
+          "score": 0.389
+        },
+        {
+          "word": "como",
+          "start": 48.11,
+          "end": 48.19,
+          "score": 0.0
+        },
+        {
+          "word": "nós",
+          "start": 48.41,
+          "end": 48.49,
+          "score": 0.167
+        },
+        {
+          "word": "queremos.",
+          "start": 48.571,
+          "end": 53.533,
+          "score": 0.549
+        }
+      ],
+      "avg_logprob": -0.08598200885617004
+    },
+    {
+      "start": 53.873,
+      "end": 57.035,
+      "text": "Por isso.",
+      "words": [
+        {
+          "word": "Por",
+          "start": 53.873,
+          "end": 55.034,
+          "score": 0.618
+        },
+        {
+          "word": "isso.",
+          "start": 55.134,
+          "end": 57.035,
+          "score": 0.929
+        }
+      ],
+      "avg_logprob": -0.08598200885617004
+    },
+    {
+      "start": 58.283,
+      "end": 61.642,
+      "text": " ansiosa por este mensagem, para ver se acaba rápido.",
+      "words": [
+        {
+          "word": "ansiosa",
+          "start": 58.283,
+          "end": 58.484,
+          "score": 0.107
+        },
+        {
+          "word": "por",
+          "start": 58.524,
+          "end": 58.685,
+          "score": 0.472
+        },
+        {
+          "word": "este",
+          "start": 59.067,
+          "end": 59.148,
+          "score": 0.0
+        },
+        {
+          "word": "mensagem,",
+          "start": 59.168,
+          "end": 60.013,
+          "score": 0.413
+        },
+        {
+          "word": "para",
+          "start": 60.596,
+          "end": 60.697,
+          "score": 0.125
+        },
+        {
+          "word": "ver",
+          "start": 60.717,
+          "end": 60.777,
+          "score": 0.0
+        },
+        {
+          "word": "se",
+          "start": 60.797,
+          "end": 61.119,
+          "score": 0.866
+        },
+        {
+          "word": "acaba",
+          "start": 61.159,
+          "end": 61.441,
+          "score": 0.567
+        },
+        {
+          "word": "rápido.",
+          "start": 61.461,
+          "end": 61.642,
+          "score": 0.238
+        }
+      ],
+      "avg_logprob": -0.27167844772338867
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "Porque",
+      "start": 0.149,
+      "end": 0.349,
+      "score": 0.133
+    },
+    {
+      "word": "sinto",
+      "start": 0.369,
+      "end": 0.95,
+      "score": 0.524
+    },
+    {
+      "word": "muito",
+      "start": 1.55,
+      "end": 2.331,
+      "score": 0.633
+    },
+    {
+      "word": "tudo",
+      "start": 2.391,
+      "end": 2.871,
+      "score": 0.453
+    },
+    {
+      "word": "isto.",
+      "start": 2.891,
+      "end": 3.151,
+      "score": 0.305
+    },
+    {
+      "word": "Porque",
+      "start": 3.191,
+      "end": 4.332,
+      "score": 0.402
+    },
+    {
+      "word": "sou",
+      "start": 4.472,
+      "end": 5.533,
+      "score": 0.327
+    },
+    {
+      "word": "médica,",
+      "start": 5.573,
+      "end": 7.394,
+      "score": 0.499
+    },
+    {
+      "word": "sou",
+      "start": 7.415,
+      "end": 7.515,
+      "score": 0.333
+    },
+    {
+      "word": "cirurgiã",
+      "start": 7.655,
+      "end": 8.956,
+      "score": 0.232
+    },
+    {
+      "word": "e",
+      "start": 8.976,
+      "end": 9.016,
+      "score": 0.5
+    },
+    {
+      "word": "sou",
+      "start": 9.096,
+      "end": 9.156,
+      "score": 0.0
+    },
+    {
+      "word": "cirurgiã",
+      "start": 9.316,
+      "end": 9.616,
+      "score": 0.17
+    },
+    {
+      "word": "de",
+      "start": 9.756,
+      "end": 9.816,
+      "score": 0.25
+    },
+    {
+      "word": "mama.",
+      "start": 9.836,
+      "end": 11.538,
+      "score": 0.835
+    },
+    {
+      "word": "Por",
+      "start": 12.358,
+      "end": 12.538,
+      "score": 0.444
+    },
+    {
+      "word": "isso,",
+      "start": 12.578,
+      "end": 12.959,
+      "score": 0.432
+    },
+    {
+      "word": "sei",
+      "start": 13.039,
+      "end": 13.439,
+      "score": 0.48
+    },
+    {
+      "word": "os",
+      "start": 13.459,
+      "end": 13.579,
+      "score": 0.625
+    },
+    {
+      "word": "passos",
+      "start": 13.679,
+      "end": 15.04,
+      "score": 0.438
+    },
+    {
+      "word": "que",
+      "start": 15.06,
+      "end": 15.32,
+      "score": 0.63
+    },
+    {
+      "word": "me",
+      "start": 15.381,
+      "end": 15.761,
+      "score": 0.72
+    },
+    {
+      "word": "vão,",
+      "start": 15.801,
+      "end": 16.381,
+      "score": 0.427
+    },
+    {
+      "word": "que",
+      "start": 16.401,
+      "end": 16.581,
+      "score": 0.286
+    },
+    {
+      "word": "eu",
+      "start": 16.601,
+      "end": 16.662,
+      "score": 0.25
+    },
+    {
+      "word": "vou",
+      "start": 16.822,
+      "end": 16.922,
+      "score": 0.333
+    },
+    {
+      "word": "ter",
+      "start": 16.942,
+      "end": 17.362,
+      "score": 0.743
+    },
+    {
+      "word": "que",
+      "start": 17.422,
+      "end": 17.762,
+      "score": 0.311
+    },
+    {
+      "word": "seguir",
+      "start": 17.782,
+      "end": 18.963,
+      "score": 0.545
+    },
+    {
+      "word": "e",
+      "start": 19.003,
+      "end": 19.083,
+      "score": 0.75
+    },
+    {
+      "word": "que",
+      "start": 19.103,
+      "end": 19.304,
+      "score": 0.452
+    },
+    {
+      "word": "vou",
+      "start": 19.324,
+      "end": 19.624,
+      "score": 0.308
+    },
+    {
+      "word": "ter",
+      "start": 19.644,
+      "end": 20.084,
+      "score": 0.767
+    },
+    {
+      "word": "que",
+      "start": 20.104,
+      "end": 21.105,
+      "score": 0.548
+    },
+    {
+      "word": "passar.",
+      "start": 21.205,
+      "end": 21.785,
+      "score": 0.403
+    },
+    {
+      "word": "Sei",
+      "start": 21.865,
+      "end": 21.946,
+      "score": 0.167
+    },
+    {
+      "word": "o",
+      "start": 22.026,
+      "end": 22.046,
+      "score": 0.0
+    },
+    {
+      "word": "tipo",
+      "start": 22.066,
+      "end": 22.166,
+      "score": 0.125
+    },
+    {
+      "word": "de",
+      "start": 22.206,
+      "end": 22.266,
+      "score": 0.25
+    },
+    {
+      "word": "cirurgia",
+      "start": 22.286,
+      "end": 22.526,
+      "score": 0.156
+    },
+    {
+      "word": "que",
+      "start": 22.546,
+      "end": 22.906,
+      "score": 0.312
+    },
+    {
+      "word": "me",
+      "start": 22.926,
+      "end": 23.006,
+      "score": 0.334
+    },
+    {
+      "word": "vão",
+      "start": 23.086,
+      "end": 23.146,
+      "score": 0.0
+    },
+    {
+      "word": "fazer.",
+      "start": 23.166,
+      "end": 23.487,
+      "score": 0.271
+    },
+    {
+      "word": "Acompanho",
+      "start": 23.627,
+      "end": 24.227,
+      "score": 0.312
+    },
+    {
+      "word": "tudo",
+      "start": 24.908,
+      "end": 25.909,
+      "score": 0.912
+    },
+    {
+      "word": "isto.",
+      "start": 26.289,
+      "end": 26.549,
+      "score": 0.317
+    },
+    {
+      "word": "Faço",
+      "start": 26.649,
+      "end": 26.769,
+      "score": 0.167
+    },
+    {
+      "word": "isto",
+      "start": 26.789,
+      "end": 26.969,
+      "score": 0.208
+    },
+    {
+      "word": "aos",
+      "start": 26.989,
+      "end": 27.25,
+      "score": 0.552
+    },
+    {
+      "word": "meus",
+      "start": 27.27,
+      "end": 27.99,
+      "score": 0.492
+    },
+    {
+      "word": "doentes.",
+      "start": 28.01,
+      "end": 29.191,
+      "score": 0.526
+    },
+    {
+      "word": "E",
+      "start": 30.541,
+      "end": 30.561,
+      "score": 0.0
+    },
+    {
+      "word": "então,",
+      "start": 30.581,
+      "end": 30.721,
+      "score": 0.083
+    },
+    {
+      "word": "por",
+      "start": 30.741,
+      "end": 31.181,
+      "score": 0.861
+    },
+    {
+      "word": "um",
+      "start": 31.201,
+      "end": 32.222,
+      "score": 0.823
+    },
+    {
+      "word": "lado,",
+      "start": 33.182,
+      "end": 33.863,
+      "score": 0.78
+    },
+    {
+      "word": "estou",
+      "start": 33.903,
+      "end": 34.823,
+      "score": 0.345
+    },
+    {
+      "word": "descansada",
+      "start": 34.843,
+      "end": 35.424,
+      "score": 0.422
+    },
+    {
+      "word": "porque",
+      "start": 35.504,
+      "end": 36.824,
+      "score": 0.466
+    },
+    {
+      "word": "estou",
+      "start": 36.924,
+      "end": 37.185,
+      "score": 0.275
+    },
+    {
+      "word": "com",
+      "start": 37.205,
+      "end": 37.265,
+      "score": 0.0
+    },
+    {
+      "word": "um",
+      "start": 37.325,
+      "end": 37.725,
+      "score": 0.474
+    },
+    {
+      "word": "ótimo",
+      "start": 37.785,
+      "end": 38.405,
+      "score": 0.688
+    },
+    {
+      "word": "cirurgião,",
+      "start": 38.565,
+      "end": 41.147,
+      "score": 0.577
+    },
+    {
+      "word": "mas",
+      "start": 41.167,
+      "end": 41.267,
+      "score": 0.222
+    },
+    {
+      "word": "sei",
+      "start": 41.287,
+      "end": 42.447,
+      "score": 0.941
+    },
+    {
+      "word": "que",
+      "start": 43.788,
+      "end": 43.988,
+      "score": 0.656
+    },
+    {
+      "word": "o",
+      "start": 44.008,
+      "end": 44.028,
+      "score": 0.0
+    },
+    {
+      "word": "que",
+      "start": 44.048,
+      "end": 44.268,
+      "score": 0.683
+    },
+    {
+      "word": "eu",
+      "start": 44.628,
+      "end": 44.668,
+      "score": 0.0
+    },
+    {
+      "word": "faço",
+      "start": 44.829,
+      "end": 45.709,
+      "score": 0.725
+    },
+    {
+      "word": "também,",
+      "start": 45.729,
+      "end": 46.509,
+      "score": 0.459
+    },
+    {
+      "word": "e",
+      "start": 46.589,
+      "end": 46.63,
+      "score": 0.5
+    },
+    {
+      "word": "que",
+      "start": 46.69,
+      "end": 46.77,
+      "score": 0.167
+    },
+    {
+      "word": "às",
+      "start": 46.79,
+      "end": 46.85,
+      "score": 0.25
+    },
+    {
+      "word": "vezes",
+      "start": 46.89,
+      "end": 47.05,
+      "score": 0.233
+    },
+    {
+      "word": "as",
+      "start": 47.07,
+      "end": 47.11,
+      "score": 0.0
+    },
+    {
+      "word": "coisas",
+      "start": 47.13,
+      "end": 47.29,
+      "score": 0.111
+    },
+    {
+      "word": "não",
+      "start": 47.31,
+      "end": 47.45,
+      "score": 0.267
+    },
+    {
+      "word": "correm",
+      "start": 47.57,
+      "end": 47.77,
+      "score": 0.208
+    },
+    {
+      "word": "tão",
+      "start": 47.79,
+      "end": 47.87,
+      "score": 0.167
+    },
+    {
+      "word": "bem",
+      "start": 47.97,
+      "end": 48.09,
+      "score": 0.389
+    },
+    {
+      "word": "como",
+      "start": 48.11,
+      "end": 48.19,
+      "score": 0.0
+    },
+    {
+      "word": "nós",
+      "start": 48.41,
+      "end": 48.49,
+      "score": 0.167
+    },
+    {
+      "word": "queremos.",
+      "start": 48.571,
+      "end": 53.533,
+      "score": 0.549
+    },
+    {
+      "word": "Por",
+      "start": 53.873,
+      "end": 55.034,
+      "score": 0.618
+    },
+    {
+      "word": "isso.",
+      "start": 55.134,
+      "end": 57.035,
+      "score": 0.929
+    },
+    {
+      "word": "ansiosa",
+      "start": 58.283,
+      "end": 58.484,
+      "score": 0.107
+    },
+    {
+      "word": "por",
+      "start": 58.524,
+      "end": 58.685,
+      "score": 0.472
+    },
+    {
+      "word": "este",
+      "start": 59.067,
+      "end": 59.148,
+      "score": 0.0
+    },
+    {
+      "word": "mensagem,",
+      "start": 59.168,
+      "end": 60.013,
+      "score": 0.413
+    },
+    {
+      "word": "para",
+      "start": 60.596,
+      "end": 60.697,
+      "score": 0.125
+    },
+    {
+      "word": "ver",
+      "start": 60.717,
+      "end": 60.777,
+      "score": 0.0
+    },
+    {
+      "word": "se",
+      "start": 60.797,
+      "end": 61.119,
+      "score": 0.866
+    },
+    {
+      "word": "acaba",
+      "start": 61.159,
+      "end": 61.441,
+      "score": 0.567
+    },
+    {
+      "word": "rápido.",
+      "start": 61.461,
+      "end": 61.642,
+      "score": 0.238
+    }
+  ]
+}

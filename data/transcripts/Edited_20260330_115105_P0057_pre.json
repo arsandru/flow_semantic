@@ -1,0 +1,142 @@
+{
+  "segments": [
+    {
+      "start": 0.031,
+      "end": 3.877,
+      "text": " Expectante.",
+      "words": [
+        {
+          "word": "Expectante.",
+          "start": 0.031,
+          "end": 3.877,
+          "score": 0.614
+        }
+      ],
+      "avg_logprob": -0.21480029448866844
+    },
+    {
+      "start": 3.917,
+      "end": 14.493,
+      "text": "Não tenho grandes palavras neste momento, mas estou expectante.",
+      "words": [
+        {
+          "word": "Não",
+          "start": 3.917,
+          "end": 6.361,
+          "score": 0.886
+        },
+        {
+          "word": "tenho",
+          "start": 6.821,
+          "end": 8.704,
+          "score": 0.479
+        },
+        {
+          "word": "grandes",
+          "start": 9.425,
+          "end": 10.347,
+          "score": 0.443
+        },
+        {
+          "word": "palavras",
+          "start": 11.368,
+          "end": 11.869,
+          "score": 0.458
+        },
+        {
+          "word": "neste",
+          "start": 11.889,
+          "end": 12.109,
+          "score": 0.267
+        },
+        {
+          "word": "momento,",
+          "start": 12.149,
+          "end": 12.37,
+          "score": 0.094
+        },
+        {
+          "word": "mas",
+          "start": 12.39,
+          "end": 12.49,
+          "score": 0.222
+        },
+        {
+          "word": "estou",
+          "start": 12.59,
+          "end": 13.431,
+          "score": 0.703
+        },
+        {
+          "word": "expectante.",
+          "start": 13.572,
+          "end": 14.493,
+          "score": 0.483
+        }
+      ],
+      "avg_logprob": -0.21480029448866844
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "Expectante.",
+      "start": 0.031,
+      "end": 3.877,
+      "score": 0.614
+    },
+    {
+      "word": "Não",
+      "start": 3.917,
+      "end": 6.361,
+      "score": 0.886
+    },
+    {
+      "word": "tenho",
+      "start": 6.821,
+      "end": 8.704,
+      "score": 0.479
+    },
+    {
+      "word": "grandes",
+      "start": 9.425,
+      "end": 10.347,
+      "score": 0.443
+    },
+    {
+      "word": "palavras",
+      "start": 11.368,
+      "end": 11.869,
+      "score": 0.458
+    },
+    {
+      "word": "neste",
+      "start": 11.889,
+      "end": 12.109,
+      "score": 0.267
+    },
+    {
+      "word": "momento,",
+      "start": 12.149,
+      "end": 12.37,
+      "score": 0.094
+    },
+    {
+      "word": "mas",
+      "start": 12.39,
+      "end": 12.49,
+      "score": 0.222
+    },
+    {
+      "word": "estou",
+      "start": 12.59,
+      "end": 13.431,
+      "score": 0.703
+    },
+    {
+      "word": "expectante.",
+      "start": 13.572,
+      "end": 14.493,
+      "score": 0.483
+    }
+  ]
+}

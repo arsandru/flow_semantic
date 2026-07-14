@@ -1,0 +1,326 @@
+{
+  "segments": [
+    {
+      "start": 0.332,
+      "end": 3.878,
+      "text": " Pronto, a ansiedade acho que está a aumentar.",
+      "words": [
+        {
+          "word": "Pronto,",
+          "start": 0.332,
+          "end": 0.612,
+          "score": 0.299
+        },
+        {
+          "word": "a",
+          "start": 0.632,
+          "end": 0.652,
+          "score": 0.007
+        },
+        {
+          "word": "ansiedade",
+          "start": 0.712,
+          "end": 1.313,
+          "score": 0.627
+        },
+        {
+          "word": "acho",
+          "start": 1.333,
+          "end": 1.434,
+          "score": 0.112
+        },
+        {
+          "word": "que",
+          "start": 1.474,
+          "end": 1.534,
+          "score": 0.034
+        },
+        {
+          "word": "está",
+          "start": 1.554,
+          "end": 1.794,
+          "score": 0.939
+        },
+        {
+          "word": "a",
+          "start": 1.814,
+          "end": 1.834,
+          "score": 0.001
+        },
+        {
+          "word": "aumentar.",
+          "start": 1.854,
+          "end": 3.878,
+          "score": 0.693
+        }
+      ],
+      "avg_logprob": -0.09498078748583794
+    },
+    {
+      "start": 3.999,
+      "end": 8.227,
+      "text": "O medo está presente.",
+      "words": [
+        {
+          "word": "O",
+          "start": 3.999,
+          "end": 4.039,
+          "score": 0.44
+        },
+        {
+          "word": "medo",
+          "start": 4.099,
+          "end": 4.439,
+          "score": 0.659
+        },
+        {
+          "word": "está",
+          "start": 5.281,
+          "end": 5.642,
+          "score": 0.913
+        },
+        {
+          "word": "presente.",
+          "start": 6.564,
+          "end": 8.227,
+          "score": 0.941
+        }
+      ],
+      "avg_logprob": -0.09498078748583794
+    },
+    {
+      "start": 8.327,
+      "end": 9.85,
+      "text": "E quero ver se me desfecho.",
+      "words": [
+        {
+          "word": "E",
+          "start": 8.327,
+          "end": 8.407,
+          "score": 0.659
+        },
+        {
+          "word": "quero",
+          "start": 8.708,
+          "end": 8.908,
+          "score": 0.288
+        },
+        {
+          "word": "ver",
+          "start": 8.948,
+          "end": 9.068,
+          "score": 0.465
+        },
+        {
+          "word": "se",
+          "start": 9.128,
+          "end": 9.169,
+          "score": 0.531
+        },
+        {
+          "word": "me",
+          "start": 9.209,
+          "end": 9.249,
+          "score": 0.061
+        },
+        {
+          "word": "desfecho.",
+          "start": 9.289,
+          "end": 9.85,
+          "score": 0.473
+        }
+      ],
+      "avg_logprob": -0.09498078748583794
+    },
+    {
+      "start": 9.97,
+      "end": 12.535,
+      "text": "Quanto mais depressa me desfecho, melhor.",
+      "words": [
+        {
+          "word": "Quanto",
+          "start": 9.97,
+          "end": 10.711,
+          "score": 0.448
+        },
+        {
+          "word": "mais",
+          "start": 10.812,
+          "end": 10.972,
+          "score": 0.977
+        },
+        {
+          "word": "depressa",
+          "start": 10.992,
+          "end": 11.433,
+          "score": 0.762
+        },
+        {
+          "word": "me",
+          "start": 11.453,
+          "end": 11.513,
+          "score": 0.233
+        },
+        {
+          "word": "desfecho,",
+          "start": 11.533,
+          "end": 12.014,
+          "score": 0.502
+        },
+        {
+          "word": "melhor.",
+          "start": 12.034,
+          "end": 12.535,
+          "score": 0.738
+        }
+      ],
+      "avg_logprob": -0.09498078748583794
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "Pronto,",
+      "start": 0.332,
+      "end": 0.612,
+      "score": 0.299
+    },
+    {
+      "word": "a",
+      "start": 0.632,
+      "end": 0.652,
+      "score": 0.007
+    },
+    {
+      "word": "ansiedade",
+      "start": 0.712,
+      "end": 1.313,
+      "score": 0.627
+    },
+    {
+      "word": "acho",
+      "start": 1.333,
+      "end": 1.434,
+      "score": 0.112
+    },
+    {
+      "word": "que",
+      "start": 1.474,
+      "end": 1.534,
+      "score": 0.034
+    },
+    {
+      "word": "está",
+      "start": 1.554,
+      "end": 1.794,
+      "score": 0.939
+    },
+    {
+      "word": "a",
+      "start": 1.814,
+      "end": 1.834,
+      "score": 0.001
+    },
+    {
+      "word": "aumentar.",
+      "start": 1.854,
+      "end": 3.878,
+      "score": 0.693
+    },
+    {
+      "word": "O",
+      "start": 3.999,
+      "end": 4.039,
+      "score": 0.44
+    },
+    {
+      "word": "medo",
+      "start": 4.099,
+      "end": 4.439,
+      "score": 0.659
+    },
+    {
+      "word": "está",
+      "start": 5.281,
+      "end": 5.642,
+      "score": 0.913
+    },
+    {
+      "word": "presente.",
+      "start": 6.564,
+      "end": 8.227,
+      "score": 0.941
+    },
+    {
+      "word": "E",
+      "start": 8.327,
+      "end": 8.407,
+      "score": 0.659
+    },
+    {
+      "word": "quero",
+      "start": 8.708,
+      "end": 8.908,
+      "score": 0.288
+    },
+    {
+      "word": "ver",
+      "start": 8.948,
+      "end": 9.068,
+      "score": 0.465
+    },
+    {
+      "word": "se",
+      "start": 9.128,
+      "end": 9.169,
+      "score": 0.531
+    },
+    {
+      "word": "me",
+      "start": 9.209,
+      "end": 9.249,
+      "score": 0.061
+    },
+    {
+      "word": "desfecho.",
+      "start": 9.289,
+      "end": 9.85,
+      "score": 0.473
+    },
+    {
+      "word": "Quanto",
+      "start": 9.97,
+      "end": 10.711,
+      "score": 0.448
+    },
+    {
+      "word": "mais",
+      "start": 10.812,
+      "end": 10.972,
+      "score": 0.977
+    },
+    {
+      "word": "depressa",
+      "start": 10.992,
+      "end": 11.433,
+      "score": 0.762
+    },
+    {
+      "word": "me",
+      "start": 11.453,
+      "end": 11.513,
+      "score": 0.233
+    },
+    {
+      "word": "desfecho,",
+      "start": 11.533,
+      "end": 12.014,
+      "score": 0.502
+    },
+    {
+      "word": "melhor.",
+      "start": 12.034,
+      "end": 12.535,
+      "score": 0.738
+    }
+  ]
+}

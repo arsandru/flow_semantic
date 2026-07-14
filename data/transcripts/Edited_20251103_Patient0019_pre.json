@@ -1,0 +1,282 @@
+{
+  "segments": [
+    {
+      "start": 0.665,
+      "end": 7.589,
+      "text": " Estranhamente tranquila, mas consciente de alguma ansiedade de fundo.",
+      "words": [
+        {
+          "word": "Estranhamente",
+          "start": 0.665,
+          "end": 1.386,
+          "score": 0.846
+        },
+        {
+          "word": "tranquila,",
+          "start": 1.466,
+          "end": 2.186,
+          "score": 0.866
+        },
+        {
+          "word": "mas",
+          "start": 3.327,
+          "end": 3.527,
+          "score": 0.879
+        },
+        {
+          "word": "consciente",
+          "start": 3.767,
+          "end": 4.367,
+          "score": 0.831
+        },
+        {
+          "word": "de",
+          "start": 4.427,
+          "end": 4.508,
+          "score": 0.568
+        },
+        {
+          "word": "alguma",
+          "start": 4.548,
+          "end": 4.788,
+          "score": 0.814
+        },
+        {
+          "word": "ansiedade",
+          "start": 4.848,
+          "end": 5.468,
+          "score": 0.893
+        },
+        {
+          "word": "de",
+          "start": 5.568,
+          "end": 5.688,
+          "score": 0.681
+        },
+        {
+          "word": "fundo.",
+          "start": 5.768,
+          "end": 7.589,
+          "score": 0.9
+        }
+      ],
+      "avg_logprob": -0.04795987559482455
+    },
+    {
+      "start": 7.65,
+      "end": 9.271,
+      "text": "Só receio, porque é uma cirurgia.",
+      "words": [
+        {
+          "word": "Só",
+          "start": 7.65,
+          "end": 7.77,
+          "score": 0.746
+        },
+        {
+          "word": "receio,",
+          "start": 7.83,
+          "end": 8.21,
+          "score": 0.557
+        },
+        {
+          "word": "porque",
+          "start": 8.23,
+          "end": 8.45,
+          "score": 0.619
+        },
+        {
+          "word": "é",
+          "start": 8.47,
+          "end": 8.49,
+          "score": 0.0
+        },
+        {
+          "word": "uma",
+          "start": 8.51,
+          "end": 8.61,
+          "score": 0.608
+        },
+        {
+          "word": "cirurgia.",
+          "start": 8.67,
+          "end": 9.271,
+          "score": 0.908
+        }
+      ],
+      "avg_logprob": -0.04795987559482455
+    },
+    {
+      "start": 9.571,
+      "end": 11.472,
+      "text": "Não pelo tumor, mas pela cirurgia.",
+      "words": [
+        {
+          "word": "Não",
+          "start": 9.571,
+          "end": 9.671,
+          "score": 0.663
+        },
+        {
+          "word": "pelo",
+          "start": 9.751,
+          "end": 9.911,
+          "score": 0.826
+        },
+        {
+          "word": "tumor,",
+          "start": 10.011,
+          "end": 10.291,
+          "score": 0.817
+        },
+        {
+          "word": "mas",
+          "start": 10.311,
+          "end": 10.431,
+          "score": 0.799
+        },
+        {
+          "word": "pela",
+          "start": 10.471,
+          "end": 10.651,
+          "score": 0.661
+        },
+        {
+          "word": "cirurgia.",
+          "start": 10.712,
+          "end": 11.472,
+          "score": 0.943
+        }
+      ],
+      "avg_logprob": -0.04795987559482455
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "Estranhamente",
+      "start": 0.665,
+      "end": 1.386,
+      "score": 0.846
+    },
+    {
+      "word": "tranquila,",
+      "start": 1.466,
+      "end": 2.186,
+      "score": 0.866
+    },
+    {
+      "word": "mas",
+      "start": 3.327,
+      "end": 3.527,
+      "score": 0.879
+    },
+    {
+      "word": "consciente",
+      "start": 3.767,
+      "end": 4.367,
+      "score": 0.831
+    },
+    {
+      "word": "de",
+      "start": 4.427,
+      "end": 4.508,
+      "score": 0.568
+    },
+    {
+      "word": "alguma",
+      "start": 4.548,
+      "end": 4.788,
+      "score": 0.814
+    },
+    {
+      "word": "ansiedade",
+      "start": 4.848,
+      "end": 5.468,
+      "score": 0.893
+    },
+    {
+      "word": "de",
+      "start": 5.568,
+      "end": 5.688,
+      "score": 0.681
+    },
+    {
+      "word": "fundo.",
+      "start": 5.768,
+      "end": 7.589,
+      "score": 0.9
+    },
+    {
+      "word": "Só",
+      "start": 7.65,
+      "end": 7.77,
+      "score": 0.746
+    },
+    {
+      "word": "receio,",
+      "start": 7.83,
+      "end": 8.21,
+      "score": 0.557
+    },
+    {
+      "word": "porque",
+      "start": 8.23,
+      "end": 8.45,
+      "score": 0.619
+    },
+    {
+      "word": "é",
+      "start": 8.47,
+      "end": 8.49,
+      "score": 0.0
+    },
+    {
+      "word": "uma",
+      "start": 8.51,
+      "end": 8.61,
+      "score": 0.608
+    },
+    {
+      "word": "cirurgia.",
+      "start": 8.67,
+      "end": 9.271,
+      "score": 0.908
+    },
+    {
+      "word": "Não",
+      "start": 9.571,
+      "end": 9.671,
+      "score": 0.663
+    },
+    {
+      "word": "pelo",
+      "start": 9.751,
+      "end": 9.911,
+      "score": 0.826
+    },
+    {
+      "word": "tumor,",
+      "start": 10.011,
+      "end": 10.291,
+      "score": 0.817
+    },
+    {
+      "word": "mas",
+      "start": 10.311,
+      "end": 10.431,
+      "score": 0.799
+    },
+    {
+      "word": "pela",
+      "start": 10.471,
+      "end": 10.651,
+      "score": 0.661
+    },
+    {
+      "word": "cirurgia.",
+      "start": 10.712,
+      "end": 11.472,
+      "score": 0.943
+    }
+  ]
+}

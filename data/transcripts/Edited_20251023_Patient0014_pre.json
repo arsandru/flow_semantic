@@ -1,0 +1,82 @@
+{
+  "segments": [
+    {
+      "start": 0.465,
+      "end": 1.95,
+      "text": " Senti bem, tranquila.",
+      "words": [
+        {
+          "word": "Senti",
+          "start": 0.465,
+          "end": 0.846,
+          "score": 0.556
+        },
+        {
+          "word": "bem,",
+          "start": 0.906,
+          "end": 1.127,
+          "score": 0.873
+        },
+        {
+          "word": "tranquila.",
+          "start": 1.388,
+          "end": 1.95,
+          "score": 0.704
+        }
+      ],
+      "avg_logprob": -0.25497711621798
+    },
+    {
+      "start": 3.095,
+      "end": 4.52,
+      "text": "Estou tranquila.",
+      "words": [
+        {
+          "word": "Estou",
+          "start": 3.095,
+          "end": 3.737,
+          "score": 0.584
+        },
+        {
+          "word": "tranquila.",
+          "start": 3.797,
+          "end": 4.52,
+          "score": 0.799
+        }
+      ],
+      "avg_logprob": -0.25497711621798
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "Senti",
+      "start": 0.465,
+      "end": 0.846,
+      "score": 0.556
+    },
+    {
+      "word": "bem,",
+      "start": 0.906,
+      "end": 1.127,
+      "score": 0.873
+    },
+    {
+      "word": "tranquila.",
+      "start": 1.388,
+      "end": 1.95,
+      "score": 0.704
+    },
+    {
+      "word": "Estou",
+      "start": 3.095,
+      "end": 3.737,
+      "score": 0.584
+    },
+    {
+      "word": "tranquila.",
+      "start": 3.797,
+      "end": 4.52,
+      "score": 0.799
+    }
+  ]
+}

@@ -1,0 +1,370 @@
+{
+  "segments": [
+    {
+      "start": 0.233,
+      "end": 0.674,
+      "text": " Muito tranquila.",
+      "words": [
+        {
+          "word": "Muito",
+          "start": 0.233,
+          "end": 0.433,
+          "score": 0.283
+        },
+        {
+          "word": "tranquila.",
+          "start": 0.453,
+          "end": 0.674,
+          "score": 0.05
+        }
+      ],
+      "avg_logprob": -0.18417689837515355
+    },
+    {
+      "start": 0.694,
+      "end": 3.139,
+      "text": "Estive a pensar em coisas de trabalho.",
+      "words": [
+        {
+          "word": "Estive",
+          "start": 0.694,
+          "end": 0.914,
+          "score": 0.306
+        },
+        {
+          "word": "a",
+          "start": 0.934,
+          "end": 0.975,
+          "score": 0.5
+        },
+        {
+          "word": "pensar",
+          "start": 0.995,
+          "end": 1.215,
+          "score": 0.306
+        },
+        {
+          "word": "em",
+          "start": 2.277,
+          "end": 2.398,
+          "score": 0.625
+        },
+        {
+          "word": "coisas",
+          "start": 2.418,
+          "end": 2.598,
+          "score": 0.125
+        },
+        {
+          "word": "de",
+          "start": 2.658,
+          "end": 2.698,
+          "score": 0.0
+        },
+        {
+          "word": "trabalho.",
+          "start": 2.718,
+          "end": 3.139,
+          "score": 0.367
+        }
+      ],
+      "avg_logprob": -0.18417689837515355
+    },
+    {
+      "start": 3.199,
+      "end": 6.146,
+      "text": "Coisas que tenho que resolver.",
+      "words": [
+        {
+          "word": "Coisas",
+          "start": 3.199,
+          "end": 3.34,
+          "score": 0.083
+        },
+        {
+          "word": "que",
+          "start": 3.36,
+          "end": 3.42,
+          "score": 0.0
+        },
+        {
+          "word": "tenho",
+          "start": 3.44,
+          "end": 4.201,
+          "score": 0.546
+        },
+        {
+          "word": "que",
+          "start": 4.362,
+          "end": 4.462,
+          "score": 0.222
+        },
+        {
+          "word": "resolver.",
+          "start": 4.482,
+          "end": 6.146,
+          "score": 0.452
+        }
+      ],
+      "avg_logprob": -0.18417689837515355
+    },
+    {
+      "start": 6.186,
+      "end": 6.366,
+      "text": "E que...",
+      "words": [
+        {
+          "word": "E",
+          "start": 6.186,
+          "end": 6.206,
+          "score": 0.0
+        },
+        {
+          "word": "que...",
+          "start": 6.226,
+          "end": 6.366,
+          "score": 0.083
+        }
+      ],
+      "avg_logprob": -0.18417689837515355
+    },
+    {
+      "start": 6.406,
+      "end": 9.052,
+      "text": "Pronto, coisas de trabalho mesmo.",
+      "words": [
+        {
+          "word": "Pronto,",
+          "start": 6.406,
+          "end": 6.607,
+          "score": 0.167
+        },
+        {
+          "word": "coisas",
+          "start": 6.627,
+          "end": 6.807,
+          "score": 0.194
+        },
+        {
+          "word": "de",
+          "start": 6.827,
+          "end": 6.867,
+          "score": 0.0
+        },
+        {
+          "word": "trabalho",
+          "start": 8.29,
+          "end": 8.771,
+          "score": 0.242
+        },
+        {
+          "word": "mesmo.",
+          "start": 8.791,
+          "end": 9.052,
+          "score": 0.146
+        }
+      ],
+      "avg_logprob": -0.18417689837515355
+    },
+    {
+      "start": 9.072,
+      "end": 9.533,
+      "text": "Não.",
+      "words": [
+        {
+          "word": "Não.",
+          "start": 9.072,
+          "end": 9.533,
+          "score": 0.629
+        }
+      ],
+      "avg_logprob": -0.18417689837515355
+    },
+    {
+      "start": 10.455,
+      "end": 13.421,
+      "text": "Não.",
+      "words": [
+        {
+          "word": "Não.",
+          "start": 10.455,
+          "end": 13.421,
+          "score": 0.706
+        }
+      ],
+      "avg_logprob": -0.18417689837515355
+    },
+    {
+      "start": 14.523,
+      "end": 14.864,
+      "text": "Tudo ótimo.",
+      "words": [
+        {
+          "word": "Tudo",
+          "start": 14.523,
+          "end": 14.644,
+          "score": 0.25
+        },
+        {
+          "word": "ótimo.",
+          "start": 14.664,
+          "end": 14.864,
+          "score": 0.3
+        }
+      ],
+      "avg_logprob": -0.18417689837515355
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "Muito",
+      "start": 0.233,
+      "end": 0.433,
+      "score": 0.283
+    },
+    {
+      "word": "tranquila.",
+      "start": 0.453,
+      "end": 0.674,
+      "score": 0.05
+    },
+    {
+      "word": "Estive",
+      "start": 0.694,
+      "end": 0.914,
+      "score": 0.306
+    },
+    {
+      "word": "a",
+      "start": 0.934,
+      "end": 0.975,
+      "score": 0.5
+    },
+    {
+      "word": "pensar",
+      "start": 0.995,
+      "end": 1.215,
+      "score": 0.306
+    },
+    {
+      "word": "em",
+      "start": 2.277,
+      "end": 2.398,
+      "score": 0.625
+    },
+    {
+      "word": "coisas",
+      "start": 2.418,
+      "end": 2.598,
+      "score": 0.125
+    },
+    {
+      "word": "de",
+      "start": 2.658,
+      "end": 2.698,
+      "score": 0.0
+    },
+    {
+      "word": "trabalho.",
+      "start": 2.718,
+      "end": 3.139,
+      "score": 0.367
+    },
+    {
+      "word": "Coisas",
+      "start": 3.199,
+      "end": 3.34,
+      "score": 0.083
+    },
+    {
+      "word": "que",
+      "start": 3.36,
+      "end": 3.42,
+      "score": 0.0
+    },
+    {
+      "word": "tenho",
+      "start": 3.44,
+      "end": 4.201,
+      "score": 0.546
+    },
+    {
+      "word": "que",
+      "start": 4.362,
+      "end": 4.462,
+      "score": 0.222
+    },
+    {
+      "word": "resolver.",
+      "start": 4.482,
+      "end": 6.146,
+      "score": 0.452
+    },
+    {
+      "word": "E",
+      "start": 6.186,
+      "end": 6.206,
+      "score": 0.0
+    },
+    {
+      "word": "que...",
+      "start": 6.226,
+      "end": 6.366,
+      "score": 0.083
+    },
+    {
+      "word": "Pronto,",
+      "start": 6.406,
+      "end": 6.607,
+      "score": 0.167
+    },
+    {
+      "word": "coisas",
+      "start": 6.627,
+      "end": 6.807,
+      "score": 0.194
+    },
+    {
+      "word": "de",
+      "start": 6.827,
+      "end": 6.867,
+      "score": 0.0
+    },
+    {
+      "word": "trabalho",
+      "start": 8.29,
+      "end": 8.771,
+      "score": 0.242
+    },
+    {
+      "word": "mesmo.",
+      "start": 8.791,
+      "end": 9.052,
+      "score": 0.146
+    },
+    {
+      "word": "Não.",
+      "start": 9.072,
+      "end": 9.533,
+      "score": 0.629
+    },
+    {
+      "word": "Não.",
+      "start": 10.455,
+      "end": 13.421,
+      "score": 0.706
+    },
+    {
+      "word": "Tudo",
+      "start": 14.523,
+      "end": 14.644,
+      "score": 0.25
+    },
+    {
+      "word": "ótimo.",
+      "start": 14.664,
+      "end": 14.864,
+      "score": 0.3
+    }
+  ]
+}

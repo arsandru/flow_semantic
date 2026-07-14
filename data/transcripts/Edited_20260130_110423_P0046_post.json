@@ -1,0 +1,1422 @@
+{
+  "segments": [
+    {
+      "start": 0.851,
+      "end": 1.952,
+      "text": " Sinto-me bem.",
+      "words": [
+        {
+          "word": "Sinto-me",
+          "start": 0.851,
+          "end": 1.292,
+          "score": 0.484
+        },
+        {
+          "word": "bem.",
+          "start": 1.832,
+          "end": 1.952,
+          "score": 0.246
+        }
+      ],
+      "avg_logprob": -0.09572319042535475
+    },
+    {
+      "start": 2.052,
+      "end": 4.093,
+      "text": "Relaxada?",
+      "words": [
+        {
+          "word": "Relaxada?",
+          "start": 2.052,
+          "end": 4.093,
+          "score": 0.594
+        }
+      ],
+      "avg_logprob": -0.09572319042535475
+    },
+    {
+      "start": 4.113,
+      "end": 4.253,
+      "text": "Bem.",
+      "words": [
+        {
+          "word": "Bem.",
+          "start": 4.113,
+          "end": 4.253,
+          "score": 0.283
+        }
+      ],
+      "avg_logprob": -0.09572319042535475
+    },
+    {
+      "start": 4.273,
+      "end": 5.354,
+      "text": "Não é significativo.",
+      "words": [
+        {
+          "word": "Não",
+          "start": 4.273,
+          "end": 4.413,
+          "score": 0.519
+        },
+        {
+          "word": "é",
+          "start": 4.473,
+          "end": 4.533,
+          "score": 0.827
+        },
+        {
+          "word": "significativo.",
+          "start": 4.634,
+          "end": 5.354,
+          "score": 0.411
+        }
+      ],
+      "avg_logprob": -0.09572319042535475
+    },
+    {
+      "start": 5.454,
+      "end": 13.198,
+      "text": "É claro que se sente um bocadinho, mas não é assim uma diferença, no meu caso, significativa.",
+      "words": [
+        {
+          "word": "É",
+          "start": 5.454,
+          "end": 5.774,
+          "score": 0.846
+        },
+        {
+          "word": "claro",
+          "start": 5.794,
+          "end": 6.194,
+          "score": 0.523
+        },
+        {
+          "word": "que",
+          "start": 6.254,
+          "end": 6.395,
+          "score": 0.428
+        },
+        {
+          "word": "se",
+          "start": 6.415,
+          "end": 6.515,
+          "score": 0.558
+        },
+        {
+          "word": "sente",
+          "start": 6.535,
+          "end": 8.175,
+          "score": 0.651
+        },
+        {
+          "word": "um",
+          "start": 8.216,
+          "end": 8.336,
+          "score": 0.374
+        },
+        {
+          "word": "bocadinho,",
+          "start": 8.436,
+          "end": 9.096,
+          "score": 0.529
+        },
+        {
+          "word": "mas",
+          "start": 9.516,
+          "end": 9.636,
+          "score": 0.4
+        },
+        {
+          "word": "não",
+          "start": 9.656,
+          "end": 9.796,
+          "score": 0.738
+        },
+        {
+          "word": "é",
+          "start": 9.856,
+          "end": 9.976,
+          "score": 0.886
+        },
+        {
+          "word": "assim",
+          "start": 9.996,
+          "end": 10.237,
+          "score": 0.367
+        },
+        {
+          "word": "uma",
+          "start": 10.277,
+          "end": 10.457,
+          "score": 0.632
+        },
+        {
+          "word": "diferença,",
+          "start": 10.517,
+          "end": 11.277,
+          "score": 0.579
+        },
+        {
+          "word": "no",
+          "start": 11.297,
+          "end": 11.337,
+          "score": 0.008
+        },
+        {
+          "word": "meu",
+          "start": 11.397,
+          "end": 11.557,
+          "score": 0.415
+        },
+        {
+          "word": "caso,",
+          "start": 11.597,
+          "end": 11.898,
+          "score": 0.353
+        },
+        {
+          "word": "significativa.",
+          "start": 11.918,
+          "end": 13.198,
+          "score": 0.545
+        }
+      ],
+      "avg_logprob": -0.09572319042535475
+    },
+    {
+      "start": 13.258,
+      "end": 17.481,
+      "text": "Nas imagens a pessoa tenta ir ao local, não é?",
+      "words": [
+        {
+          "word": "Nas",
+          "start": 13.258,
+          "end": 13.378,
+          "score": 0.377
+        },
+        {
+          "word": "imagens",
+          "start": 13.498,
+          "end": 14.039,
+          "score": 0.512
+        },
+        {
+          "word": "a",
+          "start": 14.119,
+          "end": 14.199,
+          "score": 0.713
+        },
+        {
+          "word": "pessoa",
+          "start": 14.259,
+          "end": 14.819,
+          "score": 0.621
+        },
+        {
+          "word": "tenta",
+          "start": 15.379,
+          "end": 16.34,
+          "score": 0.712
+        },
+        {
+          "word": "ir",
+          "start": 16.46,
+          "end": 16.54,
+          "score": 0.332
+        },
+        {
+          "word": "ao",
+          "start": 16.64,
+          "end": 16.68,
+          "score": 0.038
+        },
+        {
+          "word": "local,",
+          "start": 16.7,
+          "end": 17.16,
+          "score": 0.619
+        },
+        {
+          "word": "não",
+          "start": 17.18,
+          "end": 17.321,
+          "score": 0.554
+        },
+        {
+          "word": "é?",
+          "start": 17.381,
+          "end": 17.481,
+          "score": 0.45
+        }
+      ],
+      "avg_logprob": -0.09572319042535475
+    },
+    {
+      "start": 17.581,
+      "end": 21.783,
+      "text": "O barulho dos pássaros, o barulho da água, o verde, o céu, tudo.",
+      "words": [
+        {
+          "word": "O",
+          "start": 17.581,
+          "end": 17.621,
+          "score": 0.544
+        },
+        {
+          "word": "barulho",
+          "start": 17.681,
+          "end": 17.921,
+          "score": 0.303
+        },
+        {
+          "word": "dos",
+          "start": 17.961,
+          "end": 18.061,
+          "score": 0.329
+        },
+        {
+          "word": "pássaros,",
+          "start": 18.141,
+          "end": 18.541,
+          "score": 0.292
+        },
+        {
+          "word": "o",
+          "start": 18.661,
+          "end": 18.761,
+          "score": 0.757
+        },
+        {
+          "word": "barulho",
+          "start": 18.801,
+          "end": 19.362,
+          "score": 0.611
+        },
+        {
+          "word": "da",
+          "start": 19.822,
+          "end": 19.882,
+          "score": 0.237
+        },
+        {
+          "word": "água,",
+          "start": 19.902,
+          "end": 20.062,
+          "score": 0.155
+        },
+        {
+          "word": "o",
+          "start": 20.082,
+          "end": 20.102,
+          "score": 0.001
+        },
+        {
+          "word": "verde,",
+          "start": 20.122,
+          "end": 20.402,
+          "score": 0.365
+        },
+        {
+          "word": "o",
+          "start": 20.422,
+          "end": 20.442,
+          "score": 0.002
+        },
+        {
+          "word": "céu,",
+          "start": 20.502,
+          "end": 20.842,
+          "score": 0.571
+        },
+        {
+          "word": "tudo.",
+          "start": 20.963,
+          "end": 21.783,
+          "score": 0.799
+        }
+      ],
+      "avg_logprob": -0.09572319042535475
+    },
+    {
+      "start": 23.324,
+      "end": 26.867,
+      "text": " Mas pronto, a pessoa sabe que vai ser operada, não é?",
+      "words": [
+        {
+          "word": "Mas",
+          "start": 23.324,
+          "end": 23.645,
+          "score": 0.532
+        },
+        {
+          "word": "pronto,",
+          "start": 23.845,
+          "end": 24.085,
+          "score": 0.274
+        },
+        {
+          "word": "a",
+          "start": 24.145,
+          "end": 24.225,
+          "score": 0.519
+        },
+        {
+          "word": "pessoa",
+          "start": 24.285,
+          "end": 25.106,
+          "score": 0.669
+        },
+        {
+          "word": "sabe",
+          "start": 25.206,
+          "end": 25.526,
+          "score": 0.664
+        },
+        {
+          "word": "que",
+          "start": 25.586,
+          "end": 25.726,
+          "score": 0.381
+        },
+        {
+          "word": "vai",
+          "start": 25.746,
+          "end": 25.826,
+          "score": 0.423
+        },
+        {
+          "word": "ser",
+          "start": 25.866,
+          "end": 26.027,
+          "score": 0.463
+        },
+        {
+          "word": "operada,",
+          "start": 26.067,
+          "end": 26.487,
+          "score": 0.505
+        },
+        {
+          "word": "não",
+          "start": 26.687,
+          "end": 26.807,
+          "score": 0.572
+        },
+        {
+          "word": "é?",
+          "start": 26.827,
+          "end": 26.867,
+          "score": 0.108
+        }
+      ],
+      "avg_logprob": -0.08907753363885779
+    },
+    {
+      "start": 26.887,
+      "end": 30.09,
+      "text": "Portanto, o pensamento não sai daí.",
+      "words": [
+        {
+          "word": "Portanto,",
+          "start": 26.887,
+          "end": 27.448,
+          "score": 0.518
+        },
+        {
+          "word": "o",
+          "start": 27.548,
+          "end": 27.568,
+          "score": 0.023
+        },
+        {
+          "word": "pensamento",
+          "start": 27.608,
+          "end": 29.369,
+          "score": 0.76
+        },
+        {
+          "word": "não",
+          "start": 29.449,
+          "end": 29.57,
+          "score": 0.468
+        },
+        {
+          "word": "sai",
+          "start": 29.63,
+          "end": 29.77,
+          "score": 0.534
+        },
+        {
+          "word": "daí.",
+          "start": 29.85,
+          "end": 30.09,
+          "score": 0.42
+        }
+      ],
+      "avg_logprob": -0.08907753363885779
+    },
+    {
+      "start": 30.15,
+      "end": 39.678,
+      "text": "No meu caso, porque quero despachar as coisas, quero mesmo despachar, e portanto não é totalmente transportar para aquele lado e não se lembrar do que é que vai.",
+      "words": [
+        {
+          "word": "No",
+          "start": 30.15,
+          "end": 30.25,
+          "score": 0.356
+        },
+        {
+          "word": "meu",
+          "start": 30.33,
+          "end": 30.43,
+          "score": 0.323
+        },
+        {
+          "word": "caso,",
+          "start": 30.47,
+          "end": 30.911,
+          "score": 0.668
+        },
+        {
+          "word": "porque",
+          "start": 30.971,
+          "end": 31.151,
+          "score": 0.222
+        },
+        {
+          "word": "quero",
+          "start": 31.251,
+          "end": 31.411,
+          "score": 0.502
+        },
+        {
+          "word": "despachar",
+          "start": 31.451,
+          "end": 31.912,
+          "score": 0.621
+        },
+        {
+          "word": "as",
+          "start": 31.952,
+          "end": 32.052,
+          "score": 0.707
+        },
+        {
+          "word": "coisas,",
+          "start": 32.112,
+          "end": 32.552,
+          "score": 0.767
+        },
+        {
+          "word": "quero",
+          "start": 32.632,
+          "end": 32.832,
+          "score": 0.617
+        },
+        {
+          "word": "mesmo",
+          "start": 32.872,
+          "end": 33.353,
+          "score": 0.663
+        },
+        {
+          "word": "despachar,",
+          "start": 33.693,
+          "end": 34.253,
+          "score": 0.499
+        },
+        {
+          "word": "e",
+          "start": 34.294,
+          "end": 34.314,
+          "score": 0.036
+        },
+        {
+          "word": "portanto",
+          "start": 34.594,
+          "end": 35.134,
+          "score": 0.459
+        },
+        {
+          "word": "não",
+          "start": 35.174,
+          "end": 35.274,
+          "score": 0.406
+        },
+        {
+          "word": "é",
+          "start": 35.334,
+          "end": 35.434,
+          "score": 0.741
+        },
+        {
+          "word": "totalmente",
+          "start": 35.515,
+          "end": 37.116,
+          "score": 0.752
+        },
+        {
+          "word": "transportar",
+          "start": 37.336,
+          "end": 37.796,
+          "score": 0.486
+        },
+        {
+          "word": "para",
+          "start": 37.857,
+          "end": 37.977,
+          "score": 0.206
+        },
+        {
+          "word": "aquele",
+          "start": 37.997,
+          "end": 38.137,
+          "score": 0.091
+        },
+        {
+          "word": "lado",
+          "start": 38.157,
+          "end": 38.297,
+          "score": 0.338
+        },
+        {
+          "word": "e",
+          "start": 38.337,
+          "end": 38.397,
+          "score": 0.758
+        },
+        {
+          "word": "não",
+          "start": 38.437,
+          "end": 38.557,
+          "score": 0.569
+        },
+        {
+          "word": "se",
+          "start": 38.577,
+          "end": 38.617,
+          "score": 0.066
+        },
+        {
+          "word": "lembrar",
+          "start": 38.697,
+          "end": 38.997,
+          "score": 0.33
+        },
+        {
+          "word": "do",
+          "start": 39.018,
+          "end": 39.058,
+          "score": 0.005
+        },
+        {
+          "word": "que",
+          "start": 39.098,
+          "end": 39.198,
+          "score": 0.443
+        },
+        {
+          "word": "é",
+          "start": 39.218,
+          "end": 39.238,
+          "score": 0.001
+        },
+        {
+          "word": "que",
+          "start": 39.278,
+          "end": 39.398,
+          "score": 0.342
+        },
+        {
+          "word": "vai.",
+          "start": 39.458,
+          "end": 39.678,
+          "score": 0.448
+        }
+      ],
+      "avg_logprob": -0.08907753363885779
+    },
+    {
+      "start": 39.718,
+      "end": 41.44,
+      "text": "Fazer daí a 10 minutos, não.",
+      "words": [
+        {
+          "word": "Fazer",
+          "start": 39.718,
+          "end": 40.018,
+          "score": 0.409
+        },
+        {
+          "word": "daí",
+          "start": 40.058,
+          "end": 40.379,
+          "score": 0.689
+        },
+        {
+          "word": "a",
+          "start": 40.399,
+          "end": 40.419,
+          "score": 0.006
+        },
+        {
+          "word": "10",
+          "start": 40.439,
+          "end": 40.559,
+          "score": 0.767
+        },
+        {
+          "word": "minutos,",
+          "start": 40.619,
+          "end": 40.999,
+          "score": 0.503
+        },
+        {
+          "word": "não.",
+          "start": 41.059,
+          "end": 41.44,
+          "score": 0.627
+        }
+      ],
+      "avg_logprob": -0.08907753363885779
+    },
+    {
+      "start": 41.56,
+      "end": 45.543,
+      "text": "Não, tudo impecável como sempre, já é a sexta vez, portanto...",
+      "words": [
+        {
+          "word": "Não,",
+          "start": 41.56,
+          "end": 41.68,
+          "score": 0.279
+        },
+        {
+          "word": "tudo",
+          "start": 41.74,
+          "end": 42.04,
+          "score": 0.547
+        },
+        {
+          "word": "impecável",
+          "start": 42.1,
+          "end": 42.56,
+          "score": 0.401
+        },
+        {
+          "word": "como",
+          "start": 42.621,
+          "end": 42.721,
+          "score": 0.144
+        },
+        {
+          "word": "sempre,",
+          "start": 42.741,
+          "end": 43.121,
+          "score": 0.399
+        },
+        {
+          "word": "já",
+          "start": 43.141,
+          "end": 43.241,
+          "score": 0.536
+        },
+        {
+          "word": "é",
+          "start": 43.261,
+          "end": 43.281,
+          "score": 0.001
+        },
+        {
+          "word": "a",
+          "start": 43.381,
+          "end": 43.441,
+          "score": 0.531
+        },
+        {
+          "word": "sexta",
+          "start": 43.461,
+          "end": 43.681,
+          "score": 0.452
+        },
+        {
+          "word": "vez,",
+          "start": 43.822,
+          "end": 44.022,
+          "score": 0.485
+        },
+        {
+          "word": "portanto...",
+          "start": 44.042,
+          "end": 45.543,
+          "score": 0.612
+        }
+      ],
+      "avg_logprob": -0.08907753363885779
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "Sinto-me",
+      "start": 0.851,
+      "end": 1.292,
+      "score": 0.484
+    },
+    {
+      "word": "bem.",
+      "start": 1.832,
+      "end": 1.952,
+      "score": 0.246
+    },
+    {
+      "word": "Relaxada?",
+      "start": 2.052,
+      "end": 4.093,
+      "score": 0.594
+    },
+    {
+      "word": "Bem.",
+      "start": 4.113,
+      "end": 4.253,
+      "score": 0.283
+    },
+    {
+      "word": "Não",
+      "start": 4.273,
+      "end": 4.413,
+      "score": 0.519
+    },
+    {
+      "word": "é",
+      "start": 4.473,
+      "end": 4.533,
+      "score": 0.827
+    },
+    {
+      "word": "significativo.",
+      "start": 4.634,
+      "end": 5.354,
+      "score": 0.411
+    },
+    {
+      "word": "É",
+      "start": 5.454,
+      "end": 5.774,
+      "score": 0.846
+    },
+    {
+      "word": "claro",
+      "start": 5.794,
+      "end": 6.194,
+      "score": 0.523
+    },
+    {
+      "word": "que",
+      "start": 6.254,
+      "end": 6.395,
+      "score": 0.428
+    },
+    {
+      "word": "se",
+      "start": 6.415,
+      "end": 6.515,
+      "score": 0.558
+    },
+    {
+      "word": "sente",
+      "start": 6.535,
+      "end": 8.175,
+      "score": 0.651
+    },
+    {
+      "word": "um",
+      "start": 8.216,
+      "end": 8.336,
+      "score": 0.374
+    },
+    {
+      "word": "bocadinho,",
+      "start": 8.436,
+      "end": 9.096,
+      "score": 0.529
+    },
+    {
+      "word": "mas",
+      "start": 9.516,
+      "end": 9.636,
+      "score": 0.4
+    },
+    {
+      "word": "não",
+      "start": 9.656,
+      "end": 9.796,
+      "score": 0.738
+    },
+    {
+      "word": "é",
+      "start": 9.856,
+      "end": 9.976,
+      "score": 0.886
+    },
+    {
+      "word": "assim",
+      "start": 9.996,
+      "end": 10.237,
+      "score": 0.367
+    },
+    {
+      "word": "uma",
+      "start": 10.277,
+      "end": 10.457,
+      "score": 0.632
+    },
+    {
+      "word": "diferença,",
+      "start": 10.517,
+      "end": 11.277,
+      "score": 0.579
+    },
+    {
+      "word": "no",
+      "start": 11.297,
+      "end": 11.337,
+      "score": 0.008
+    },
+    {
+      "word": "meu",
+      "start": 11.397,
+      "end": 11.557,
+      "score": 0.415
+    },
+    {
+      "word": "caso,",
+      "start": 11.597,
+      "end": 11.898,
+      "score": 0.353
+    },
+    {
+      "word": "significativa.",
+      "start": 11.918,
+      "end": 13.198,
+      "score": 0.545
+    },
+    {
+      "word": "Nas",
+      "start": 13.258,
+      "end": 13.378,
+      "score": 0.377
+    },
+    {
+      "word": "imagens",
+      "start": 13.498,
+      "end": 14.039,
+      "score": 0.512
+    },
+    {
+      "word": "a",
+      "start": 14.119,
+      "end": 14.199,
+      "score": 0.713
+    },
+    {
+      "word": "pessoa",
+      "start": 14.259,
+      "end": 14.819,
+      "score": 0.621
+    },
+    {
+      "word": "tenta",
+      "start": 15.379,
+      "end": 16.34,
+      "score": 0.712
+    },
+    {
+      "word": "ir",
+      "start": 16.46,
+      "end": 16.54,
+      "score": 0.332
+    },
+    {
+      "word": "ao",
+      "start": 16.64,
+      "end": 16.68,
+      "score": 0.038
+    },
+    {
+      "word": "local,",
+      "start": 16.7,
+      "end": 17.16,
+      "score": 0.619
+    },
+    {
+      "word": "não",
+      "start": 17.18,
+      "end": 17.321,
+      "score": 0.554
+    },
+    {
+      "word": "é?",
+      "start": 17.381,
+      "end": 17.481,
+      "score": 0.45
+    },
+    {
+      "word": "O",
+      "start": 17.581,
+      "end": 17.621,
+      "score": 0.544
+    },
+    {
+      "word": "barulho",
+      "start": 17.681,
+      "end": 17.921,
+      "score": 0.303
+    },
+    {
+      "word": "dos",
+      "start": 17.961,
+      "end": 18.061,
+      "score": 0.329
+    },
+    {
+      "word": "pássaros,",
+      "start": 18.141,
+      "end": 18.541,
+      "score": 0.292
+    },
+    {
+      "word": "o",
+      "start": 18.661,
+      "end": 18.761,
+      "score": 0.757
+    },
+    {
+      "word": "barulho",
+      "start": 18.801,
+      "end": 19.362,
+      "score": 0.611
+    },
+    {
+      "word": "da",
+      "start": 19.822,
+      "end": 19.882,
+      "score": 0.237
+    },
+    {
+      "word": "água,",
+      "start": 19.902,
+      "end": 20.062,
+      "score": 0.155
+    },
+    {
+      "word": "o",
+      "start": 20.082,
+      "end": 20.102,
+      "score": 0.001
+    },
+    {
+      "word": "verde,",
+      "start": 20.122,
+      "end": 20.402,
+      "score": 0.365
+    },
+    {
+      "word": "o",
+      "start": 20.422,
+      "end": 20.442,
+      "score": 0.002
+    },
+    {
+      "word": "céu,",
+      "start": 20.502,
+      "end": 20.842,
+      "score": 0.571
+    },
+    {
+      "word": "tudo.",
+      "start": 20.963,
+      "end": 21.783,
+      "score": 0.799
+    },
+    {
+      "word": "Mas",
+      "start": 23.324,
+      "end": 23.645,
+      "score": 0.532
+    },
+    {
+      "word": "pronto,",
+      "start": 23.845,
+      "end": 24.085,
+      "score": 0.274
+    },
+    {
+      "word": "a",
+      "start": 24.145,
+      "end": 24.225,
+      "score": 0.519
+    },
+    {
+      "word": "pessoa",
+      "start": 24.285,
+      "end": 25.106,
+      "score": 0.669
+    },
+    {
+      "word": "sabe",
+      "start": 25.206,
+      "end": 25.526,
+      "score": 0.664
+    },
+    {
+      "word": "que",
+      "start": 25.586,
+      "end": 25.726,
+      "score": 0.381
+    },
+    {
+      "word": "vai",
+      "start": 25.746,
+      "end": 25.826,
+      "score": 0.423
+    },
+    {
+      "word": "ser",
+      "start": 25.866,
+      "end": 26.027,
+      "score": 0.463
+    },
+    {
+      "word": "operada,",
+      "start": 26.067,
+      "end": 26.487,
+      "score": 0.505
+    },
+    {
+      "word": "não",
+      "start": 26.687,
+      "end": 26.807,
+      "score": 0.572
+    },
+    {
+      "word": "é?",
+      "start": 26.827,
+      "end": 26.867,
+      "score": 0.108
+    },
+    {
+      "word": "Portanto,",
+      "start": 26.887,
+      "end": 27.448,
+      "score": 0.518
+    },
+    {
+      "word": "o",
+      "start": 27.548,
+      "end": 27.568,
+      "score": 0.023
+    },
+    {
+      "word": "pensamento",
+      "start": 27.608,
+      "end": 29.369,
+      "score": 0.76
+    },
+    {
+      "word": "não",
+      "start": 29.449,
+      "end": 29.57,
+      "score": 0.468
+    },
+    {
+      "word": "sai",
+      "start": 29.63,
+      "end": 29.77,
+      "score": 0.534
+    },
+    {
+      "word": "daí.",
+      "start": 29.85,
+      "end": 30.09,
+      "score": 0.42
+    },
+    {
+      "word": "No",
+      "start": 30.15,
+      "end": 30.25,
+      "score": 0.356
+    },
+    {
+      "word": "meu",
+      "start": 30.33,
+      "end": 30.43,
+      "score": 0.323
+    },
+    {
+      "word": "caso,",
+      "start": 30.47,
+      "end": 30.911,
+      "score": 0.668
+    },
+    {
+      "word": "porque",
+      "start": 30.971,
+      "end": 31.151,
+      "score": 0.222
+    },
+    {
+      "word": "quero",
+      "start": 31.251,
+      "end": 31.411,
+      "score": 0.502
+    },
+    {
+      "word": "despachar",
+      "start": 31.451,
+      "end": 31.912,
+      "score": 0.621
+    },
+    {
+      "word": "as",
+      "start": 31.952,
+      "end": 32.052,
+      "score": 0.707
+    },
+    {
+      "word": "coisas,",
+      "start": 32.112,
+      "end": 32.552,
+      "score": 0.767
+    },
+    {
+      "word": "quero",
+      "start": 32.632,
+      "end": 32.832,
+      "score": 0.617
+    },
+    {
+      "word": "mesmo",
+      "start": 32.872,
+      "end": 33.353,
+      "score": 0.663
+    },
+    {
+      "word": "despachar,",
+      "start": 33.693,
+      "end": 34.253,
+      "score": 0.499
+    },
+    {
+      "word": "e",
+      "start": 34.294,
+      "end": 34.314,
+      "score": 0.036
+    },
+    {
+      "word": "portanto",
+      "start": 34.594,
+      "end": 35.134,
+      "score": 0.459
+    },
+    {
+      "word": "não",
+      "start": 35.174,
+      "end": 35.274,
+      "score": 0.406
+    },
+    {
+      "word": "é",
+      "start": 35.334,
+      "end": 35.434,
+      "score": 0.741
+    },
+    {
+      "word": "totalmente",
+      "start": 35.515,
+      "end": 37.116,
+      "score": 0.752
+    },
+    {
+      "word": "transportar",
+      "start": 37.336,
+      "end": 37.796,
+      "score": 0.486
+    },
+    {
+      "word": "para",
+      "start": 37.857,
+      "end": 37.977,
+      "score": 0.206
+    },
+    {
+      "word": "aquele",
+      "start": 37.997,
+      "end": 38.137,
+      "score": 0.091
+    },
+    {
+      "word": "lado",
+      "start": 38.157,
+      "end": 38.297,
+      "score": 0.338
+    },
+    {
+      "word": "e",
+      "start": 38.337,
+      "end": 38.397,
+      "score": 0.758
+    },
+    {
+      "word": "não",
+      "start": 38.437,
+      "end": 38.557,
+      "score": 0.569
+    },
+    {
+      "word": "se",
+      "start": 38.577,
+      "end": 38.617,
+      "score": 0.066
+    },
+    {
+      "word": "lembrar",
+      "start": 38.697,
+      "end": 38.997,
+      "score": 0.33
+    },
+    {
+      "word": "do",
+      "start": 39.018,
+      "end": 39.058,
+      "score": 0.005
+    },
+    {
+      "word": "que",
+      "start": 39.098,
+      "end": 39.198,
+      "score": 0.443
+    },
+    {
+      "word": "é",
+      "start": 39.218,
+      "end": 39.238,
+      "score": 0.001
+    },
+    {
+      "word": "que",
+      "start": 39.278,
+      "end": 39.398,
+      "score": 0.342
+    },
+    {
+      "word": "vai.",
+      "start": 39.458,
+      "end": 39.678,
+      "score": 0.448
+    },
+    {
+      "word": "Fazer",
+      "start": 39.718,
+      "end": 40.018,
+      "score": 0.409
+    },
+    {
+      "word": "daí",
+      "start": 40.058,
+      "end": 40.379,
+      "score": 0.689
+    },
+    {
+      "word": "a",
+      "start": 40.399,
+      "end": 40.419,
+      "score": 0.006
+    },
+    {
+      "word": "10",
+      "start": 40.439,
+      "end": 40.559,
+      "score": 0.767
+    },
+    {
+      "word": "minutos,",
+      "start": 40.619,
+      "end": 40.999,
+      "score": 0.503
+    },
+    {
+      "word": "não.",
+      "start": 41.059,
+      "end": 41.44,
+      "score": 0.627
+    },
+    {
+      "word": "Não,",
+      "start": 41.56,
+      "end": 41.68,
+      "score": 0.279
+    },
+    {
+      "word": "tudo",
+      "start": 41.74,
+      "end": 42.04,
+      "score": 0.547
+    },
+    {
+      "word": "impecável",
+      "start": 42.1,
+      "end": 42.56,
+      "score": 0.401
+    },
+    {
+      "word": "como",
+      "start": 42.621,
+      "end": 42.721,
+      "score": 0.144
+    },
+    {
+      "word": "sempre,",
+      "start": 42.741,
+      "end": 43.121,
+      "score": 0.399
+    },
+    {
+      "word": "já",
+      "start": 43.141,
+      "end": 43.241,
+      "score": 0.536
+    },
+    {
+      "word": "é",
+      "start": 43.261,
+      "end": 43.281,
+      "score": 0.001
+    },
+    {
+      "word": "a",
+      "start": 43.381,
+      "end": 43.441,
+      "score": 0.531
+    },
+    {
+      "word": "sexta",
+      "start": 43.461,
+      "end": 43.681,
+      "score": 0.452
+    },
+    {
+      "word": "vez,",
+      "start": 43.822,
+      "end": 44.022,
+      "score": 0.485
+    },
+    {
+      "word": "portanto...",
+      "start": 44.042,
+      "end": 45.543,
+      "score": 0.612
+    }
+  ]
+}

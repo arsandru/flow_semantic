@@ -1,0 +1,702 @@
+{
+  "segments": [
+    {
+      "start": 0.031,
+      "end": 2.272,
+      "text": " Sinto-me tranquila, estou em paz, nada, com medo de nada, sinto-me bem.",
+      "words": [
+        {
+          "word": "Sinto-me",
+          "start": 0.031,
+          "end": 0.191,
+          "score": 0.0
+        },
+        {
+          "word": "tranquila,",
+          "start": 0.211,
+          "end": 0.431,
+          "score": 0.055
+        },
+        {
+          "word": "estou",
+          "start": 0.451,
+          "end": 0.551,
+          "score": 0.007
+        },
+        {
+          "word": "em",
+          "start": 0.571,
+          "end": 0.631,
+          "score": 0.25
+        },
+        {
+          "word": "paz,",
+          "start": 0.651,
+          "end": 0.731,
+          "score": 0.012
+        },
+        {
+          "word": "nada,",
+          "start": 0.751,
+          "end": 0.851,
+          "score": 0.011
+        },
+        {
+          "word": "com",
+          "start": 0.871,
+          "end": 0.931,
+          "score": 0.0
+        },
+        {
+          "word": "medo",
+          "start": 0.951,
+          "end": 1.051,
+          "score": 0.125
+        },
+        {
+          "word": "de",
+          "start": 1.071,
+          "end": 1.151,
+          "score": 0.334
+        },
+        {
+          "word": "nada,",
+          "start": 1.171,
+          "end": 1.372,
+          "score": 0.167
+        },
+        {
+          "word": "sinto-me",
+          "start": 1.592,
+          "end": 2.092,
+          "score": 0.493
+        },
+        {
+          "word": "bem.",
+          "start": 2.192,
+          "end": 2.272,
+          "score": 0.0
+        }
+      ],
+      "avg_logprob": -0.0917595276707097
+    },
+    {
+      "start": 2.292,
+      "end": 19.819,
+      "text": "Acho que tranquiliza um pouco mais, sim, ajuda bastante, porque lá está, o que eu disse há pouco, desfoca-nos um bocadinho da preocupação e a música, as imagens, acaba por trazer, transmitir a paz, tranquilidade, sim.",
+      "words": [
+        {
+          "word": "Acho",
+          "start": 2.292,
+          "end": 2.372,
+          "score": 0.0
+        },
+        {
+          "word": "que",
+          "start": 2.432,
+          "end": 3.032,
+          "score": 0.786
+        },
+        {
+          "word": "tranquiliza",
+          "start": 3.052,
+          "end": 5.033,
+          "score": 0.246
+        },
+        {
+          "word": "um",
+          "start": 5.053,
+          "end": 5.093,
+          "score": 0.0
+        },
+        {
+          "word": "pouco",
+          "start": 5.113,
+          "end": 5.213,
+          "score": 0.0
+        },
+        {
+          "word": "mais,",
+          "start": 5.633,
+          "end": 7.194,
+          "score": 0.377
+        },
+        {
+          "word": "sim,",
+          "start": 7.214,
+          "end": 7.434,
+          "score": 0.219
+        },
+        {
+          "word": "ajuda",
+          "start": 7.574,
+          "end": 7.674,
+          "score": 0.0
+        },
+        {
+          "word": "bastante,",
+          "start": 7.814,
+          "end": 7.994,
+          "score": 0.0
+        },
+        {
+          "word": "porque",
+          "start": 8.014,
+          "end": 8.174,
+          "score": 0.111
+        },
+        {
+          "word": "lá",
+          "start": 8.194,
+          "end": 8.414,
+          "score": 0.694
+        },
+        {
+          "word": "está,",
+          "start": 8.534,
+          "end": 8.775,
+          "score": 0.4
+        },
+        {
+          "word": "o",
+          "start": 8.795,
+          "end": 8.815,
+          "score": 0.0
+        },
+        {
+          "word": "que",
+          "start": 8.975,
+          "end": 9.035,
+          "score": 0.0
+        },
+        {
+          "word": "eu",
+          "start": 9.475,
+          "end": 9.555,
+          "score": 0.334
+        },
+        {
+          "word": "disse",
+          "start": 9.615,
+          "end": 9.875,
+          "score": 0.178
+        },
+        {
+          "word": "há",
+          "start": 9.975,
+          "end": 10.015,
+          "score": 0.0
+        },
+        {
+          "word": "pouco,",
+          "start": 10.835,
+          "end": 11.156,
+          "score": 0.233
+        },
+        {
+          "word": "desfoca-nos",
+          "start": 11.576,
+          "end": 13.136,
+          "score": 0.401
+        },
+        {
+          "word": "um",
+          "start": 13.236,
+          "end": 13.276,
+          "score": 0.0
+        },
+        {
+          "word": "bocadinho",
+          "start": 13.617,
+          "end": 13.977,
+          "score": 0.154
+        },
+        {
+          "word": "da",
+          "start": 14.017,
+          "end": 14.057,
+          "score": 0.0
+        },
+        {
+          "word": "preocupação",
+          "start": 14.077,
+          "end": 14.437,
+          "score": 0.08
+        },
+        {
+          "word": "e",
+          "start": 14.617,
+          "end": 14.657,
+          "score": 0.5
+        },
+        {
+          "word": "a",
+          "start": 14.837,
+          "end": 14.857,
+          "score": 0.0
+        },
+        {
+          "word": "música,",
+          "start": 14.917,
+          "end": 15.257,
+          "score": 0.324
+        },
+        {
+          "word": "as",
+          "start": 15.277,
+          "end": 15.317,
+          "score": 0.0
+        },
+        {
+          "word": "imagens,",
+          "start": 15.357,
+          "end": 16.278,
+          "score": 0.122
+        },
+        {
+          "word": "acaba",
+          "start": 16.538,
+          "end": 16.758,
+          "score": 0.36
+        },
+        {
+          "word": "por",
+          "start": 16.778,
+          "end": 16.838,
+          "score": 0.0
+        },
+        {
+          "word": "trazer,",
+          "start": 16.898,
+          "end": 17.238,
+          "score": 0.2
+        },
+        {
+          "word": "transmitir",
+          "start": 17.738,
+          "end": 18.358,
+          "score": 0.248
+        },
+        {
+          "word": "a",
+          "start": 18.759,
+          "end": 18.779,
+          "score": 0.0
+        },
+        {
+          "word": "paz,",
+          "start": 18.919,
+          "end": 18.999,
+          "score": 0.0
+        },
+        {
+          "word": "tranquilidade,",
+          "start": 19.019,
+          "end": 19.719,
+          "score": 0.266
+        },
+        {
+          "word": "sim.",
+          "start": 19.739,
+          "end": 19.819,
+          "score": 0.0
+        }
+      ],
+      "avg_logprob": -0.0917595276707097
+    },
+    {
+      "start": 19.839,
+      "end": 27.082,
+      "text": "Não, está tudo muito bem, tudo muito bom.",
+      "words": [
+        {
+          "word": "Não,",
+          "start": 19.839,
+          "end": 20.139,
+          "score": 0.41
+        },
+        {
+          "word": "está",
+          "start": 20.219,
+          "end": 20.759,
+          "score": 0.24
+        },
+        {
+          "word": "tudo",
+          "start": 21.36,
+          "end": 21.62,
+          "score": 0.386
+        },
+        {
+          "word": "muito",
+          "start": 21.64,
+          "end": 24.081,
+          "score": 0.298
+        },
+        {
+          "word": "bem,",
+          "start": 24.101,
+          "end": 24.401,
+          "score": 0.229
+        },
+        {
+          "word": "tudo",
+          "start": 24.461,
+          "end": 24.641,
+          "score": 0.354
+        },
+        {
+          "word": "muito",
+          "start": 25.301,
+          "end": 25.641,
+          "score": 0.315
+        },
+        {
+          "word": "bom.",
+          "start": 25.681,
+          "end": 27.082,
+          "score": 0.963
+        }
+      ],
+      "avg_logprob": -0.0917595276707097
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "Sinto-me",
+      "start": 0.031,
+      "end": 0.191,
+      "score": 0.0
+    },
+    {
+      "word": "tranquila,",
+      "start": 0.211,
+      "end": 0.431,
+      "score": 0.055
+    },
+    {
+      "word": "estou",
+      "start": 0.451,
+      "end": 0.551,
+      "score": 0.007
+    },
+    {
+      "word": "em",
+      "start": 0.571,
+      "end": 0.631,
+      "score": 0.25
+    },
+    {
+      "word": "paz,",
+      "start": 0.651,
+      "end": 0.731,
+      "score": 0.012
+    },
+    {
+      "word": "nada,",
+      "start": 0.751,
+      "end": 0.851,
+      "score": 0.011
+    },
+    {
+      "word": "com",
+      "start": 0.871,
+      "end": 0.931,
+      "score": 0.0
+    },
+    {
+      "word": "medo",
+      "start": 0.951,
+      "end": 1.051,
+      "score": 0.125
+    },
+    {
+      "word": "de",
+      "start": 1.071,
+      "end": 1.151,
+      "score": 0.334
+    },
+    {
+      "word": "nada,",
+      "start": 1.171,
+      "end": 1.372,
+      "score": 0.167
+    },
+    {
+      "word": "sinto-me",
+      "start": 1.592,
+      "end": 2.092,
+      "score": 0.493
+    },
+    {
+      "word": "bem.",
+      "start": 2.192,
+      "end": 2.272,
+      "score": 0.0
+    },
+    {
+      "word": "Acho",
+      "start": 2.292,
+      "end": 2.372,
+      "score": 0.0
+    },
+    {
+      "word": "que",
+      "start": 2.432,
+      "end": 3.032,
+      "score": 0.786
+    },
+    {
+      "word": "tranquiliza",
+      "start": 3.052,
+      "end": 5.033,
+      "score": 0.246
+    },
+    {
+      "word": "um",
+      "start": 5.053,
+      "end": 5.093,
+      "score": 0.0
+    },
+    {
+      "word": "pouco",
+      "start": 5.113,
+      "end": 5.213,
+      "score": 0.0
+    },
+    {
+      "word": "mais,",
+      "start": 5.633,
+      "end": 7.194,
+      "score": 0.377
+    },
+    {
+      "word": "sim,",
+      "start": 7.214,
+      "end": 7.434,
+      "score": 0.219
+    },
+    {
+      "word": "ajuda",
+      "start": 7.574,
+      "end": 7.674,
+      "score": 0.0
+    },
+    {
+      "word": "bastante,",
+      "start": 7.814,
+      "end": 7.994,
+      "score": 0.0
+    },
+    {
+      "word": "porque",
+      "start": 8.014,
+      "end": 8.174,
+      "score": 0.111
+    },
+    {
+      "word": "lá",
+      "start": 8.194,
+      "end": 8.414,
+      "score": 0.694
+    },
+    {
+      "word": "está,",
+      "start": 8.534,
+      "end": 8.775,
+      "score": 0.4
+    },
+    {
+      "word": "o",
+      "start": 8.795,
+      "end": 8.815,
+      "score": 0.0
+    },
+    {
+      "word": "que",
+      "start": 8.975,
+      "end": 9.035,
+      "score": 0.0
+    },
+    {
+      "word": "eu",
+      "start": 9.475,
+      "end": 9.555,
+      "score": 0.334
+    },
+    {
+      "word": "disse",
+      "start": 9.615,
+      "end": 9.875,
+      "score": 0.178
+    },
+    {
+      "word": "há",
+      "start": 9.975,
+      "end": 10.015,
+      "score": 0.0
+    },
+    {
+      "word": "pouco,",
+      "start": 10.835,
+      "end": 11.156,
+      "score": 0.233
+    },
+    {
+      "word": "desfoca-nos",
+      "start": 11.576,
+      "end": 13.136,
+      "score": 0.401
+    },
+    {
+      "word": "um",
+      "start": 13.236,
+      "end": 13.276,
+      "score": 0.0
+    },
+    {
+      "word": "bocadinho",
+      "start": 13.617,
+      "end": 13.977,
+      "score": 0.154
+    },
+    {
+      "word": "da",
+      "start": 14.017,
+      "end": 14.057,
+      "score": 0.0
+    },
+    {
+      "word": "preocupação",
+      "start": 14.077,
+      "end": 14.437,
+      "score": 0.08
+    },
+    {
+      "word": "e",
+      "start": 14.617,
+      "end": 14.657,
+      "score": 0.5
+    },
+    {
+      "word": "a",
+      "start": 14.837,
+      "end": 14.857,
+      "score": 0.0
+    },
+    {
+      "word": "música,",
+      "start": 14.917,
+      "end": 15.257,
+      "score": 0.324
+    },
+    {
+      "word": "as",
+      "start": 15.277,
+      "end": 15.317,
+      "score": 0.0
+    },
+    {
+      "word": "imagens,",
+      "start": 15.357,
+      "end": 16.278,
+      "score": 0.122
+    },
+    {
+      "word": "acaba",
+      "start": 16.538,
+      "end": 16.758,
+      "score": 0.36
+    },
+    {
+      "word": "por",
+      "start": 16.778,
+      "end": 16.838,
+      "score": 0.0
+    },
+    {
+      "word": "trazer,",
+      "start": 16.898,
+      "end": 17.238,
+      "score": 0.2
+    },
+    {
+      "word": "transmitir",
+      "start": 17.738,
+      "end": 18.358,
+      "score": 0.248
+    },
+    {
+      "word": "a",
+      "start": 18.759,
+      "end": 18.779,
+      "score": 0.0
+    },
+    {
+      "word": "paz,",
+      "start": 18.919,
+      "end": 18.999,
+      "score": 0.0
+    },
+    {
+      "word": "tranquilidade,",
+      "start": 19.019,
+      "end": 19.719,
+      "score": 0.266
+    },
+    {
+      "word": "sim.",
+      "start": 19.739,
+      "end": 19.819,
+      "score": 0.0
+    },
+    {
+      "word": "Não,",
+      "start": 19.839,
+      "end": 20.139,
+      "score": 0.41
+    },
+    {
+      "word": "está",
+      "start": 20.219,
+      "end": 20.759,
+      "score": 0.24
+    },
+    {
+      "word": "tudo",
+      "start": 21.36,
+      "end": 21.62,
+      "score": 0.386
+    },
+    {
+      "word": "muito",
+      "start": 21.64,
+      "end": 24.081,
+      "score": 0.298
+    },
+    {
+      "word": "bem,",
+      "start": 24.101,
+      "end": 24.401,
+      "score": 0.229
+    },
+    {
+      "word": "tudo",
+      "start": 24.461,
+      "end": 24.641,
+      "score": 0.354
+    },
+    {
+      "word": "muito",
+      "start": 25.301,
+      "end": 25.641,
+      "score": 0.315
+    },
+    {
+      "word": "bom.",
+      "start": 25.681,
+      "end": 27.082,
+      "score": 0.963
+    }
+  ]
+}

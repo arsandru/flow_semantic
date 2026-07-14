@@ -1,0 +1,110 @@
+{
+  "segments": [
+    {
+      "start": 0.065,
+      "end": 2.545,
+      "text": " Estou tranquila e feliz que me vou operar.",
+      "words": [
+        {
+          "word": "Estou",
+          "start": 0.065,
+          "end": 0.327,
+          "score": 0.275
+        },
+        {
+          "word": "tranquila",
+          "start": 0.347,
+          "end": 0.872,
+          "score": 0.331
+        },
+        {
+          "word": "e",
+          "start": 1.033,
+          "end": 1.154,
+          "score": 0.833
+        },
+        {
+          "word": "feliz",
+          "start": 1.174,
+          "end": 1.577,
+          "score": 0.692
+        },
+        {
+          "word": "que",
+          "start": 1.738,
+          "end": 1.819,
+          "score": 0.167
+        },
+        {
+          "word": "me",
+          "start": 1.859,
+          "end": 1.98,
+          "score": 0.4
+        },
+        {
+          "word": "vou",
+          "start": 2.081,
+          "end": 2.202,
+          "score": 0.389
+        },
+        {
+          "word": "operar.",
+          "start": 2.243,
+          "end": 2.545,
+          "score": 0.448
+        }
+      ],
+      "avg_logprob": -0.1894512176513672
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "Estou",
+      "start": 0.065,
+      "end": 0.327,
+      "score": 0.275
+    },
+    {
+      "word": "tranquila",
+      "start": 0.347,
+      "end": 0.872,
+      "score": 0.331
+    },
+    {
+      "word": "e",
+      "start": 1.033,
+      "end": 1.154,
+      "score": 0.833
+    },
+    {
+      "word": "feliz",
+      "start": 1.174,
+      "end": 1.577,
+      "score": 0.692
+    },
+    {
+      "word": "que",
+      "start": 1.738,
+      "end": 1.819,
+      "score": 0.167
+    },
+    {
+      "word": "me",
+      "start": 1.859,
+      "end": 1.98,
+      "score": 0.4
+    },
+    {
+      "word": "vou",
+      "start": 2.081,
+      "end": 2.202,
+      "score": 0.389
+    },
+    {
+      "word": "operar.",
+      "start": 2.243,
+      "end": 2.545,
+      "score": 0.448
+    }
+  ]
+}

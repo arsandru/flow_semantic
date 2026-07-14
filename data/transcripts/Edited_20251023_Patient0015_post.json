@@ -1,0 +1,550 @@
+{
+  "segments": [
+    {
+      "start": 0.151,
+      "end": 2.113,
+      "text": " Eu estou bem, fiquei bem.",
+      "words": [
+        {
+          "word": "Eu",
+          "start": 0.151,
+          "end": 0.211,
+          "score": 0.44
+        },
+        {
+          "word": "estou",
+          "start": 0.231,
+          "end": 0.431,
+          "score": 0.414
+        },
+        {
+          "word": "bem,",
+          "start": 0.511,
+          "end": 1.112,
+          "score": 0.886
+        },
+        {
+          "word": "fiquei",
+          "start": 1.152,
+          "end": 1.853,
+          "score": 0.522
+        },
+        {
+          "word": "bem.",
+          "start": 1.973,
+          "end": 2.113,
+          "score": 0.331
+        }
+      ],
+      "avg_logprob": -0.10735963618284777
+    },
+    {
+      "start": 2.153,
+      "end": 11.081,
+      "text": "Estou um bocadinho mais calma, fiquei mais relaxada e soube-me bem este bocadinho.",
+      "words": [
+        {
+          "word": "Estou",
+          "start": 2.153,
+          "end": 3.834,
+          "score": 0.668
+        },
+        {
+          "word": "um",
+          "start": 3.954,
+          "end": 3.995,
+          "score": 0.014
+        },
+        {
+          "word": "bocadinho",
+          "start": 4.035,
+          "end": 4.715,
+          "score": 0.443
+        },
+        {
+          "word": "mais",
+          "start": 4.735,
+          "end": 5.316,
+          "score": 0.948
+        },
+        {
+          "word": "calma,",
+          "start": 5.376,
+          "end": 6.457,
+          "score": 0.785
+        },
+        {
+          "word": "fiquei",
+          "start": 6.517,
+          "end": 7.137,
+          "score": 0.548
+        },
+        {
+          "word": "mais",
+          "start": 7.177,
+          "end": 7.378,
+          "score": 0.557
+        },
+        {
+          "word": "relaxada",
+          "start": 7.398,
+          "end": 8.278,
+          "score": 0.662
+        },
+        {
+          "word": "e",
+          "start": 8.699,
+          "end": 8.759,
+          "score": 0.614
+        },
+        {
+          "word": "soube-me",
+          "start": 8.819,
+          "end": 9.499,
+          "score": 0.609
+        },
+        {
+          "word": "bem",
+          "start": 9.68,
+          "end": 9.82,
+          "score": 0.464
+        },
+        {
+          "word": "este",
+          "start": 9.88,
+          "end": 10.54,
+          "score": 0.747
+        },
+        {
+          "word": "bocadinho.",
+          "start": 10.58,
+          "end": 11.081,
+          "score": 0.33
+        }
+      ],
+      "avg_logprob": -0.10735963618284777
+    },
+    {
+      "start": 11.101,
+      "end": 14.604,
+      "text": "Ajudou a descontrair um bocadinho.",
+      "words": [
+        {
+          "word": "Ajudou",
+          "start": 11.101,
+          "end": 11.401,
+          "score": 0.46
+        },
+        {
+          "word": "a",
+          "start": 11.421,
+          "end": 11.441,
+          "score": 0.004
+        },
+        {
+          "word": "descontrair",
+          "start": 11.461,
+          "end": 12.102,
+          "score": 0.477
+        },
+        {
+          "word": "um",
+          "start": 12.162,
+          "end": 12.702,
+          "score": 0.889
+        },
+        {
+          "word": "bocadinho.",
+          "start": 12.802,
+          "end": 14.604,
+          "score": 0.603
+        }
+      ],
+      "avg_logprob": -0.10735963618284777
+    },
+    {
+      "start": 14.804,
+      "end": 18.548,
+      "text": "Todos me trataram bem, todos responderam às perguntas que eu tinha para fazer.",
+      "words": [
+        {
+          "word": "Todos",
+          "start": 14.804,
+          "end": 14.964,
+          "score": 0.687
+        },
+        {
+          "word": "me",
+          "start": 15.004,
+          "end": 15.104,
+          "score": 0.841
+        },
+        {
+          "word": "trataram",
+          "start": 15.124,
+          "end": 15.605,
+          "score": 0.693
+        },
+        {
+          "word": "bem,",
+          "start": 15.685,
+          "end": 16.125,
+          "score": 0.886
+        },
+        {
+          "word": "todos",
+          "start": 16.265,
+          "end": 16.466,
+          "score": 0.523
+        },
+        {
+          "word": "responderam",
+          "start": 16.506,
+          "end": 17.046,
+          "score": 0.739
+        },
+        {
+          "word": "às",
+          "start": 17.066,
+          "end": 17.126,
+          "score": 0.52
+        },
+        {
+          "word": "perguntas",
+          "start": 17.206,
+          "end": 17.667,
+          "score": 0.582
+        },
+        {
+          "word": "que",
+          "start": 17.727,
+          "end": 17.787,
+          "score": 0.247
+        },
+        {
+          "word": "eu",
+          "start": 17.807,
+          "end": 17.847,
+          "score": 0.007
+        },
+        {
+          "word": "tinha",
+          "start": 17.887,
+          "end": 18.087,
+          "score": 0.377
+        },
+        {
+          "word": "para",
+          "start": 18.147,
+          "end": 18.267,
+          "score": 0.373
+        },
+        {
+          "word": "fazer.",
+          "start": 18.347,
+          "end": 18.548,
+          "score": 0.278
+        }
+      ],
+      "avg_logprob": -0.10735963618284777
+    },
+    {
+      "start": 18.568,
+      "end": 23.572,
+      "text": "Acho que não houve nenhuma falha.",
+      "words": [
+        {
+          "word": "Acho",
+          "start": 18.568,
+          "end": 18.828,
+          "score": 0.33
+        },
+        {
+          "word": "que",
+          "start": 18.848,
+          "end": 18.948,
+          "score": 0.216
+        },
+        {
+          "word": "não",
+          "start": 19.028,
+          "end": 19.208,
+          "score": 0.277
+        },
+        {
+          "word": "houve",
+          "start": 19.268,
+          "end": 20.069,
+          "score": 0.634
+        },
+        {
+          "word": "nenhuma",
+          "start": 20.149,
+          "end": 20.81,
+          "score": 0.601
+        },
+        {
+          "word": "falha.",
+          "start": 20.85,
+          "end": 23.572,
+          "score": 0.725
+        }
+      ],
+      "avg_logprob": -0.10735963618284777
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "Eu",
+      "start": 0.151,
+      "end": 0.211,
+      "score": 0.44
+    },
+    {
+      "word": "estou",
+      "start": 0.231,
+      "end": 0.431,
+      "score": 0.414
+    },
+    {
+      "word": "bem,",
+      "start": 0.511,
+      "end": 1.112,
+      "score": 0.886
+    },
+    {
+      "word": "fiquei",
+      "start": 1.152,
+      "end": 1.853,
+      "score": 0.522
+    },
+    {
+      "word": "bem.",
+      "start": 1.973,
+      "end": 2.113,
+      "score": 0.331
+    },
+    {
+      "word": "Estou",
+      "start": 2.153,
+      "end": 3.834,
+      "score": 0.668
+    },
+    {
+      "word": "um",
+      "start": 3.954,
+      "end": 3.995,
+      "score": 0.014
+    },
+    {
+      "word": "bocadinho",
+      "start": 4.035,
+      "end": 4.715,
+      "score": 0.443
+    },
+    {
+      "word": "mais",
+      "start": 4.735,
+      "end": 5.316,
+      "score": 0.948
+    },
+    {
+      "word": "calma,",
+      "start": 5.376,
+      "end": 6.457,
+      "score": 0.785
+    },
+    {
+      "word": "fiquei",
+      "start": 6.517,
+      "end": 7.137,
+      "score": 0.548
+    },
+    {
+      "word": "mais",
+      "start": 7.177,
+      "end": 7.378,
+      "score": 0.557
+    },
+    {
+      "word": "relaxada",
+      "start": 7.398,
+      "end": 8.278,
+      "score": 0.662
+    },
+    {
+      "word": "e",
+      "start": 8.699,
+      "end": 8.759,
+      "score": 0.614
+    },
+    {
+      "word": "soube-me",
+      "start": 8.819,
+      "end": 9.499,
+      "score": 0.609
+    },
+    {
+      "word": "bem",
+      "start": 9.68,
+      "end": 9.82,
+      "score": 0.464
+    },
+    {
+      "word": "este",
+      "start": 9.88,
+      "end": 10.54,
+      "score": 0.747
+    },
+    {
+      "word": "bocadinho.",
+      "start": 10.58,
+      "end": 11.081,
+      "score": 0.33
+    },
+    {
+      "word": "Ajudou",
+      "start": 11.101,
+      "end": 11.401,
+      "score": 0.46
+    },
+    {
+      "word": "a",
+      "start": 11.421,
+      "end": 11.441,
+      "score": 0.004
+    },
+    {
+      "word": "descontrair",
+      "start": 11.461,
+      "end": 12.102,
+      "score": 0.477
+    },
+    {
+      "word": "um",
+      "start": 12.162,
+      "end": 12.702,
+      "score": 0.889
+    },
+    {
+      "word": "bocadinho.",
+      "start": 12.802,
+      "end": 14.604,
+      "score": 0.603
+    },
+    {
+      "word": "Todos",
+      "start": 14.804,
+      "end": 14.964,
+      "score": 0.687
+    },
+    {
+      "word": "me",
+      "start": 15.004,
+      "end": 15.104,
+      "score": 0.841
+    },
+    {
+      "word": "trataram",
+      "start": 15.124,
+      "end": 15.605,
+      "score": 0.693
+    },
+    {
+      "word": "bem,",
+      "start": 15.685,
+      "end": 16.125,
+      "score": 0.886
+    },
+    {
+      "word": "todos",
+      "start": 16.265,
+      "end": 16.466,
+      "score": 0.523
+    },
+    {
+      "word": "responderam",
+      "start": 16.506,
+      "end": 17.046,
+      "score": 0.739
+    },
+    {
+      "word": "às",
+      "start": 17.066,
+      "end": 17.126,
+      "score": 0.52
+    },
+    {
+      "word": "perguntas",
+      "start": 17.206,
+      "end": 17.667,
+      "score": 0.582
+    },
+    {
+      "word": "que",
+      "start": 17.727,
+      "end": 17.787,
+      "score": 0.247
+    },
+    {
+      "word": "eu",
+      "start": 17.807,
+      "end": 17.847,
+      "score": 0.007
+    },
+    {
+      "word": "tinha",
+      "start": 17.887,
+      "end": 18.087,
+      "score": 0.377
+    },
+    {
+      "word": "para",
+      "start": 18.147,
+      "end": 18.267,
+      "score": 0.373
+    },
+    {
+      "word": "fazer.",
+      "start": 18.347,
+      "end": 18.548,
+      "score": 0.278
+    },
+    {
+      "word": "Acho",
+      "start": 18.568,
+      "end": 18.828,
+      "score": 0.33
+    },
+    {
+      "word": "que",
+      "start": 18.848,
+      "end": 18.948,
+      "score": 0.216
+    },
+    {
+      "word": "não",
+      "start": 19.028,
+      "end": 19.208,
+      "score": 0.277
+    },
+    {
+      "word": "houve",
+      "start": 19.268,
+      "end": 20.069,
+      "score": 0.634
+    },
+    {
+      "word": "nenhuma",
+      "start": 20.149,
+      "end": 20.81,
+      "score": 0.601
+    },
+    {
+      "word": "falha.",
+      "start": 20.85,
+      "end": 23.572,
+      "score": 0.725
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "segments": [
+    {
+      "start": 0.031,
+      "end": 6.957,
+      "text": " estou apreensiva, acho que vai correr tudo bem, mas fica sempre aquele medo de não se acordar.",
+      "words": [
+        {
+          "word": "estou",
+          "start": 0.031,
+          "end": 0.131,
+          "score": 0.0
+        },
+        {
+          "word": "apreensiva,",
+          "start": 0.151,
+          "end": 0.371,
+          "score": 0.0
+        },
+        {
+          "word": "acho",
+          "start": 0.391,
+          "end": 0.571,
+          "score": 0.438
+        },
+        {
+          "word": "que",
+          "start": 0.612,
+          "end": 1.252,
+          "score": 0.899
+        },
+        {
+          "word": "vai",
+          "start": 1.292,
+          "end": 1.893,
+          "score": 0.833
+        },
+        {
+          "word": "correr",
+          "start": 2.653,
+          "end": 2.974,
+          "score": 0.375
+        },
+        {
+          "word": "tudo",
+          "start": 3.114,
+          "end": 3.274,
+          "score": 0.312
+        },
+        {
+          "word": "bem,",
+          "start": 3.294,
+          "end": 3.414,
+          "score": 0.167
+        },
+        {
+          "word": "mas",
+          "start": 3.434,
+          "end": 4.475,
+          "score": 0.549
+        },
+        {
+          "word": "fica",
+          "start": 4.515,
+          "end": 4.595,
+          "score": 0.0
+        },
+        {
+          "word": "sempre",
+          "start": 4.775,
+          "end": 5.016,
+          "score": 0.222
+        },
+        {
+          "word": "aquele",
+          "start": 5.156,
+          "end": 5.556,
+          "score": 0.285
+        },
+        {
+          "word": "medo",
+          "start": 5.636,
+          "end": 5.976,
+          "score": 0.356
+        },
+        {
+          "word": "de",
+          "start": 6.036,
+          "end": 6.117,
+          "score": 0.334
+        },
+        {
+          "word": "não",
+          "start": 6.177,
+          "end": 6.337,
+          "score": 0.278
+        },
+        {
+          "word": "se",
+          "start": 6.417,
+          "end": 6.457,
+          "score": 0.0
+        },
+        {
+          "word": "acordar.",
+          "start": 6.477,
+          "end": 6.957,
+          "score": 0.262
+        }
+      ],
+      "avg_logprob": -0.14995161350816488
+    },
+    {
+      "start": 7.238,
+      "end": 9.92,
+      "text": "Tenho filhos pequeninos.",
+      "words": [
+        {
+          "word": "Tenho",
+          "start": 7.238,
+          "end": 7.478,
+          "score": 0.4
+        },
+        {
+          "word": "filhos",
+          "start": 7.538,
+          "end": 7.798,
+          "score": 0.25
+        },
+        {
+          "word": "pequeninos.",
+          "start": 7.898,
+          "end": 9.92,
+          "score": 0.423
+        }
+      ],
+      "avg_logprob": -0.14995161350816488
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "estou",
+      "start": 0.031,
+      "end": 0.131,
+      "score": 0.0
+    },
+    {
+      "word": "apreensiva,",
+      "start": 0.151,
+      "end": 0.371,
+      "score": 0.0
+    },
+    {
+      "word": "acho",
+      "start": 0.391,
+      "end": 0.571,
+      "score": 0.438
+    },
+    {
+      "word": "que",
+      "start": 0.612,
+      "end": 1.252,
+      "score": 0.899
+    },
+    {
+      "word": "vai",
+      "start": 1.292,
+      "end": 1.893,
+      "score": 0.833
+    },
+    {
+      "word": "correr",
+      "start": 2.653,
+      "end": 2.974,
+      "score": 0.375
+    },
+    {
+      "word": "tudo",
+      "start": 3.114,
+      "end": 3.274,
+      "score": 0.312
+    },
+    {
+      "word": "bem,",
+      "start": 3.294,
+      "end": 3.414,
+      "score": 0.167
+    },
+    {
+      "word": "mas",
+      "start": 3.434,
+      "end": 4.475,
+      "score": 0.549
+    },
+    {
+      "word": "fica",
+      "start": 4.515,
+      "end": 4.595,
+      "score": 0.0
+    },
+    {
+      "word": "sempre",
+      "start": 4.775,
+      "end": 5.016,
+      "score": 0.222
+    },
+    {
+      "word": "aquele",
+      "start": 5.156,
+      "end": 5.556,
+      "score": 0.285
+    },
+    {
+      "word": "medo",
+      "start": 5.636,
+      "end": 5.976,
+      "score": 0.356
+    },
+    {
+      "word": "de",
+      "start": 6.036,
+      "end": 6.117,
+      "score": 0.334
+    },
+    {
+      "word": "não",
+      "start": 6.177,
+      "end": 6.337,
+      "score": 0.278
+    },
+    {
+      "word": "se",
+      "start": 6.417,
+      "end": 6.457,
+      "score": 0.0
+    },
+    {
+      "word": "acordar.",
+      "start": 6.477,
+      "end": 6.957,
+      "score": 0.262
+    },
+    {
+      "word": "Tenho",
+      "start": 7.238,
+      "end": 7.478,
+      "score": 0.4
+    },
+    {
+      "word": "filhos",
+      "start": 7.538,
+      "end": 7.798,
+      "score": 0.25
+    },
+    {
+      "word": "pequeninos.",
+      "start": 7.898,
+      "end": 9.92,
+      "score": 0.423
+    }
+  ]
+}

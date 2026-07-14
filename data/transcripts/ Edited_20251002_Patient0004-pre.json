@@ -1,0 +1,1014 @@
+{
+  "segments": [
+    {
+      "start": 0.751,
+      "end": 1.852,
+      "text": " Estou-me a sentir ótima.",
+      "words": [
+        {
+          "word": "Estou-me",
+          "start": 0.751,
+          "end": 1.152,
+          "score": 0.454
+        },
+        {
+          "word": "a",
+          "start": 1.172,
+          "end": 1.192,
+          "score": 0.012
+        },
+        {
+          "word": "sentir",
+          "start": 1.232,
+          "end": 1.432,
+          "score": 0.329
+        },
+        {
+          "word": "ótima.",
+          "start": 1.452,
+          "end": 1.852,
+          "score": 0.767
+        }
+      ],
+      "avg_logprob": -0.13672517583920404
+    },
+    {
+      "start": 2.232,
+      "end": 3.593,
+      "text": "Acordei super bem disposta.",
+      "words": [
+        {
+          "word": "Acordei",
+          "start": 2.232,
+          "end": 2.613,
+          "score": 0.418
+        },
+        {
+          "word": "super",
+          "start": 2.673,
+          "end": 2.973,
+          "score": 0.572
+        },
+        {
+          "word": "bem",
+          "start": 3.013,
+          "end": 3.113,
+          "score": 0.213
+        },
+        {
+          "word": "disposta.",
+          "start": 3.133,
+          "end": 3.593,
+          "score": 0.868
+        }
+      ],
+      "avg_logprob": -0.13672517583920404
+    },
+    {
+      "start": 3.633,
+      "end": 6.035,
+      "text": "Tenho andado super bem disposta.",
+      "words": [
+        {
+          "word": "Tenho",
+          "start": 3.633,
+          "end": 3.793,
+          "score": 0.151
+        },
+        {
+          "word": "andado",
+          "start": 3.813,
+          "end": 3.933,
+          "score": 0.151
+        },
+        {
+          "word": "super",
+          "start": 4.033,
+          "end": 4.274,
+          "score": 0.541
+        },
+        {
+          "word": "bem",
+          "start": 4.314,
+          "end": 4.414,
+          "score": 0.197
+        },
+        {
+          "word": "disposta.",
+          "start": 4.434,
+          "end": 6.035,
+          "score": 0.846
+        }
+      ],
+      "avg_logprob": -0.13672517583920404
+    },
+    {
+      "start": 6.095,
+      "end": 7.796,
+      "text": "Venho completamente tranquila.",
+      "words": [
+        {
+          "word": "Venho",
+          "start": 6.095,
+          "end": 6.475,
+          "score": 0.434
+        },
+        {
+          "word": "completamente",
+          "start": 6.515,
+          "end": 6.975,
+          "score": 0.297
+        },
+        {
+          "word": "tranquila.",
+          "start": 7.035,
+          "end": 7.796,
+          "score": 0.522
+        }
+      ],
+      "avg_logprob": -0.13672517583920404
+    },
+    {
+      "start": 8.496,
+      "end": 9.717,
+      "text": "Sei que vai correr bem.",
+      "words": [
+        {
+          "word": "Sei",
+          "start": 8.496,
+          "end": 8.576,
+          "score": 0.331
+        },
+        {
+          "word": "que",
+          "start": 8.656,
+          "end": 8.736,
+          "score": 0.186
+        },
+        {
+          "word": "vai",
+          "start": 8.776,
+          "end": 8.856,
+          "score": 0.348
+        },
+        {
+          "word": "correr",
+          "start": 8.896,
+          "end": 9.037,
+          "score": 0.128
+        },
+        {
+          "word": "bem.",
+          "start": 9.057,
+          "end": 9.717,
+          "score": 0.865
+        }
+      ],
+      "avg_logprob": -0.13672517583920404
+    },
+    {
+      "start": 10.518,
+      "end": 16.484,
+      "text": " Estou muito habituada a fazer operações, portanto, isto para mim não é uma novidade, não é a primeira vez.",
+      "words": [
+        {
+          "word": "Estou",
+          "start": 10.518,
+          "end": 10.718,
+          "score": 0.462
+        },
+        {
+          "word": "muito",
+          "start": 10.738,
+          "end": 10.878,
+          "score": 0.411
+        },
+        {
+          "word": "habituada",
+          "start": 10.899,
+          "end": 11.359,
+          "score": 0.45
+        },
+        {
+          "word": "a",
+          "start": 11.419,
+          "end": 11.519,
+          "score": 0.844
+        },
+        {
+          "word": "fazer",
+          "start": 11.719,
+          "end": 11.919,
+          "score": 0.452
+        },
+        {
+          "word": "operações,",
+          "start": 11.98,
+          "end": 12.66,
+          "score": 0.451
+        },
+        {
+          "word": "portanto,",
+          "start": 12.72,
+          "end": 13.221,
+          "score": 0.55
+        },
+        {
+          "word": "isto",
+          "start": 13.341,
+          "end": 13.461,
+          "score": 0.306
+        },
+        {
+          "word": "para",
+          "start": 13.501,
+          "end": 13.621,
+          "score": 0.191
+        },
+        {
+          "word": "mim",
+          "start": 13.641,
+          "end": 13.741,
+          "score": 0.368
+        },
+        {
+          "word": "não",
+          "start": 13.761,
+          "end": 13.841,
+          "score": 0.162
+        },
+        {
+          "word": "é",
+          "start": 13.961,
+          "end": 14.081,
+          "score": 0.695
+        },
+        {
+          "word": "uma",
+          "start": 14.142,
+          "end": 14.242,
+          "score": 0.458
+        },
+        {
+          "word": "novidade,",
+          "start": 14.262,
+          "end": 14.982,
+          "score": 0.594
+        },
+        {
+          "word": "não",
+          "start": 15.323,
+          "end": 15.543,
+          "score": 0.293
+        },
+        {
+          "word": "é",
+          "start": 15.563,
+          "end": 15.623,
+          "score": 0.591
+        },
+        {
+          "word": "a",
+          "start": 15.643,
+          "end": 15.703,
+          "score": 0.849
+        },
+        {
+          "word": "primeira",
+          "start": 15.763,
+          "end": 16.324,
+          "score": 0.436
+        },
+        {
+          "word": "vez.",
+          "start": 16.344,
+          "end": 16.484,
+          "score": 0.326
+        }
+      ],
+      "avg_logprob": -0.0964112366023271
+    },
+    {
+      "start": 16.524,
+      "end": 20.708,
+      "text": "Já devo ter feito 10 operações na vida, perdi a conta.",
+      "words": [
+        {
+          "word": "Já",
+          "start": 16.524,
+          "end": 17.445,
+          "score": 0.837
+        },
+        {
+          "word": "devo",
+          "start": 17.585,
+          "end": 17.825,
+          "score": 0.362
+        },
+        {
+          "word": "ter",
+          "start": 17.885,
+          "end": 17.985,
+          "score": 0.385
+        },
+        {
+          "word": "feito",
+          "start": 18.085,
+          "end": 18.305,
+          "score": 0.378
+        },
+        {
+          "word": "10",
+          "start": 18.325,
+          "end": 18.386,
+          "score": 0.518
+        },
+        {
+          "word": "operações",
+          "start": 18.406,
+          "end": 19.026,
+          "score": 0.255
+        },
+        {
+          "word": "na",
+          "start": 19.046,
+          "end": 19.146,
+          "score": 0.55
+        },
+        {
+          "word": "vida,",
+          "start": 19.226,
+          "end": 19.567,
+          "score": 0.627
+        },
+        {
+          "word": "perdi",
+          "start": 19.607,
+          "end": 20.207,
+          "score": 0.737
+        },
+        {
+          "word": "a",
+          "start": 20.227,
+          "end": 20.247,
+          "score": 0.083
+        },
+        {
+          "word": "conta.",
+          "start": 20.287,
+          "end": 20.708,
+          "score": 0.594
+        }
+      ],
+      "avg_logprob": -0.0964112366023271
+    },
+    {
+      "start": 20.828,
+      "end": 22.97,
+      "text": "E, portanto, é um processo normal.",
+      "words": [
+        {
+          "word": "E,",
+          "start": 20.828,
+          "end": 21.028,
+          "score": 0.706
+        },
+        {
+          "word": "portanto,",
+          "start": 21.368,
+          "end": 21.769,
+          "score": 0.453
+        },
+        {
+          "word": "é",
+          "start": 21.809,
+          "end": 21.849,
+          "score": 0.381
+        },
+        {
+          "word": "um",
+          "start": 21.909,
+          "end": 21.969,
+          "score": 0.256
+        },
+        {
+          "word": "processo",
+          "start": 21.989,
+          "end": 22.409,
+          "score": 0.412
+        },
+        {
+          "word": "normal.",
+          "start": 22.449,
+          "end": 22.97,
+          "score": 0.681
+        }
+      ],
+      "avg_logprob": -0.0964112366023271
+    },
+    {
+      "start": 23.03,
+      "end": 31.638,
+      "text": "Hoje me acordei como se viesse a operar a hernia inguinal que fui operada em fevereiro e, portanto, estou super tranquila.",
+      "words": [
+        {
+          "word": "Hoje",
+          "start": 23.03,
+          "end": 23.811,
+          "score": 0.585
+        },
+        {
+          "word": "me",
+          "start": 23.871,
+          "end": 23.971,
+          "score": 0.567
+        },
+        {
+          "word": "acordei",
+          "start": 23.991,
+          "end": 24.471,
+          "score": 0.548
+        },
+        {
+          "word": "como",
+          "start": 24.551,
+          "end": 24.812,
+          "score": 0.575
+        },
+        {
+          "word": "se",
+          "start": 24.832,
+          "end": 25.052,
+          "score": 0.771
+        },
+        {
+          "word": "viesse",
+          "start": 25.112,
+          "end": 26.053,
+          "score": 0.503
+        },
+        {
+          "word": "a",
+          "start": 26.093,
+          "end": 26.113,
+          "score": 0.95
+        },
+        {
+          "word": "operar",
+          "start": 26.213,
+          "end": 26.533,
+          "score": 0.713
+        },
+        {
+          "word": "a",
+          "start": 26.553,
+          "end": 26.593,
+          "score": 0.776
+        },
+        {
+          "word": "hernia",
+          "start": 26.613,
+          "end": 26.793,
+          "score": 0.292
+        },
+        {
+          "word": "inguinal",
+          "start": 26.914,
+          "end": 27.354,
+          "score": 0.674
+        },
+        {
+          "word": "que",
+          "start": 27.414,
+          "end": 27.494,
+          "score": 0.183
+        },
+        {
+          "word": "fui",
+          "start": 27.514,
+          "end": 27.614,
+          "score": 0.203
+        },
+        {
+          "word": "operada",
+          "start": 27.674,
+          "end": 28.195,
+          "score": 0.598
+        },
+        {
+          "word": "em",
+          "start": 28.275,
+          "end": 28.355,
+          "score": 0.39
+        },
+        {
+          "word": "fevereiro",
+          "start": 28.375,
+          "end": 28.955,
+          "score": 0.51
+        },
+        {
+          "word": "e,",
+          "start": 28.975,
+          "end": 29.016,
+          "score": 0.099
+        },
+        {
+          "word": "portanto,",
+          "start": 29.096,
+          "end": 29.376,
+          "score": 0.238
+        },
+        {
+          "word": "estou",
+          "start": 29.396,
+          "end": 29.536,
+          "score": 0.235
+        },
+        {
+          "word": "super",
+          "start": 29.976,
+          "end": 30.157,
+          "score": 0.362
+        },
+        {
+          "word": "tranquila.",
+          "start": 30.217,
+          "end": 31.638,
+          "score": 0.382
+        }
+      ],
+      "avg_logprob": -0.0964112366023271
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "Estou-me",
+      "start": 0.751,
+      "end": 1.152,
+      "score": 0.454
+    },
+    {
+      "word": "a",
+      "start": 1.172,
+      "end": 1.192,
+      "score": 0.012
+    },
+    {
+      "word": "sentir",
+      "start": 1.232,
+      "end": 1.432,
+      "score": 0.329
+    },
+    {
+      "word": "ótima.",
+      "start": 1.452,
+      "end": 1.852,
+      "score": 0.767
+    },
+    {
+      "word": "Acordei",
+      "start": 2.232,
+      "end": 2.613,
+      "score": 0.418
+    },
+    {
+      "word": "super",
+      "start": 2.673,
+      "end": 2.973,
+      "score": 0.572
+    },
+    {
+      "word": "bem",
+      "start": 3.013,
+      "end": 3.113,
+      "score": 0.213
+    },
+    {
+      "word": "disposta.",
+      "start": 3.133,
+      "end": 3.593,
+      "score": 0.868
+    },
+    {
+      "word": "Tenho",
+      "start": 3.633,
+      "end": 3.793,
+      "score": 0.151
+    },
+    {
+      "word": "andado",
+      "start": 3.813,
+      "end": 3.933,
+      "score": 0.151
+    },
+    {
+      "word": "super",
+      "start": 4.033,
+      "end": 4.274,
+      "score": 0.541
+    },
+    {
+      "word": "bem",
+      "start": 4.314,
+      "end": 4.414,
+      "score": 0.197
+    },
+    {
+      "word": "disposta.",
+      "start": 4.434,
+      "end": 6.035,
+      "score": 0.846
+    },
+    {
+      "word": "Venho",
+      "start": 6.095,
+      "end": 6.475,
+      "score": 0.434
+    },
+    {
+      "word": "completamente",
+      "start": 6.515,
+      "end": 6.975,
+      "score": 0.297
+    },
+    {
+      "word": "tranquila.",
+      "start": 7.035,
+      "end": 7.796,
+      "score": 0.522
+    },
+    {
+      "word": "Sei",
+      "start": 8.496,
+      "end": 8.576,
+      "score": 0.331
+    },
+    {
+      "word": "que",
+      "start": 8.656,
+      "end": 8.736,
+      "score": 0.186
+    },
+    {
+      "word": "vai",
+      "start": 8.776,
+      "end": 8.856,
+      "score": 0.348
+    },
+    {
+      "word": "correr",
+      "start": 8.896,
+      "end": 9.037,
+      "score": 0.128
+    },
+    {
+      "word": "bem.",
+      "start": 9.057,
+      "end": 9.717,
+      "score": 0.865
+    },
+    {
+      "word": "Estou",
+      "start": 10.518,
+      "end": 10.718,
+      "score": 0.462
+    },
+    {
+      "word": "muito",
+      "start": 10.738,
+      "end": 10.878,
+      "score": 0.411
+    },
+    {
+      "word": "habituada",
+      "start": 10.899,
+      "end": 11.359,
+      "score": 0.45
+    },
+    {
+      "word": "a",
+      "start": 11.419,
+      "end": 11.519,
+      "score": 0.844
+    },
+    {
+      "word": "fazer",
+      "start": 11.719,
+      "end": 11.919,
+      "score": 0.452
+    },
+    {
+      "word": "operações,",
+      "start": 11.98,
+      "end": 12.66,
+      "score": 0.451
+    },
+    {
+      "word": "portanto,",
+      "start": 12.72,
+      "end": 13.221,
+      "score": 0.55
+    },
+    {
+      "word": "isto",
+      "start": 13.341,
+      "end": 13.461,
+      "score": 0.306
+    },
+    {
+      "word": "para",
+      "start": 13.501,
+      "end": 13.621,
+      "score": 0.191
+    },
+    {
+      "word": "mim",
+      "start": 13.641,
+      "end": 13.741,
+      "score": 0.368
+    },
+    {
+      "word": "não",
+      "start": 13.761,
+      "end": 13.841,
+      "score": 0.162
+    },
+    {
+      "word": "é",
+      "start": 13.961,
+      "end": 14.081,
+      "score": 0.695
+    },
+    {
+      "word": "uma",
+      "start": 14.142,
+      "end": 14.242,
+      "score": 0.458
+    },
+    {
+      "word": "novidade,",
+      "start": 14.262,
+      "end": 14.982,
+      "score": 0.594
+    },
+    {
+      "word": "não",
+      "start": 15.323,
+      "end": 15.543,
+      "score": 0.293
+    },
+    {
+      "word": "é",
+      "start": 15.563,
+      "end": 15.623,
+      "score": 0.591
+    },
+    {
+      "word": "a",
+      "start": 15.643,
+      "end": 15.703,
+      "score": 0.849
+    },
+    {
+      "word": "primeira",
+      "start": 15.763,
+      "end": 16.324,
+      "score": 0.436
+    },
+    {
+      "word": "vez.",
+      "start": 16.344,
+      "end": 16.484,
+      "score": 0.326
+    },
+    {
+      "word": "Já",
+      "start": 16.524,
+      "end": 17.445,
+      "score": 0.837
+    },
+    {
+      "word": "devo",
+      "start": 17.585,
+      "end": 17.825,
+      "score": 0.362
+    },
+    {
+      "word": "ter",
+      "start": 17.885,
+      "end": 17.985,
+      "score": 0.385
+    },
+    {
+      "word": "feito",
+      "start": 18.085,
+      "end": 18.305,
+      "score": 0.378
+    },
+    {
+      "word": "10",
+      "start": 18.325,
+      "end": 18.386,
+      "score": 0.518
+    },
+    {
+      "word": "operações",
+      "start": 18.406,
+      "end": 19.026,
+      "score": 0.255
+    },
+    {
+      "word": "na",
+      "start": 19.046,
+      "end": 19.146,
+      "score": 0.55
+    },
+    {
+      "word": "vida,",
+      "start": 19.226,
+      "end": 19.567,
+      "score": 0.627
+    },
+    {
+      "word": "perdi",
+      "start": 19.607,
+      "end": 20.207,
+      "score": 0.737
+    },
+    {
+      "word": "a",
+      "start": 20.227,
+      "end": 20.247,
+      "score": 0.083
+    },
+    {
+      "word": "conta.",
+      "start": 20.287,
+      "end": 20.708,
+      "score": 0.594
+    },
+    {
+      "word": "E,",
+      "start": 20.828,
+      "end": 21.028,
+      "score": 0.706
+    },
+    {
+      "word": "portanto,",
+      "start": 21.368,
+      "end": 21.769,
+      "score": 0.453
+    },
+    {
+      "word": "é",
+      "start": 21.809,
+      "end": 21.849,
+      "score": 0.381
+    },
+    {
+      "word": "um",
+      "start": 21.909,
+      "end": 21.969,
+      "score": 0.256
+    },
+    {
+      "word": "processo",
+      "start": 21.989,
+      "end": 22.409,
+      "score": 0.412
+    },
+    {
+      "word": "normal.",
+      "start": 22.449,
+      "end": 22.97,
+      "score": 0.681
+    },
+    {
+      "word": "Hoje",
+      "start": 23.03,
+      "end": 23.811,
+      "score": 0.585
+    },
+    {
+      "word": "me",
+      "start": 23.871,
+      "end": 23.971,
+      "score": 0.567
+    },
+    {
+      "word": "acordei",
+      "start": 23.991,
+      "end": 24.471,
+      "score": 0.548
+    },
+    {
+      "word": "como",
+      "start": 24.551,
+      "end": 24.812,
+      "score": 0.575
+    },
+    {
+      "word": "se",
+      "start": 24.832,
+      "end": 25.052,
+      "score": 0.771
+    },
+    {
+      "word": "viesse",
+      "start": 25.112,
+      "end": 26.053,
+      "score": 0.503
+    },
+    {
+      "word": "a",
+      "start": 26.093,
+      "end": 26.113,
+      "score": 0.95
+    },
+    {
+      "word": "operar",
+      "start": 26.213,
+      "end": 26.533,
+      "score": 0.713
+    },
+    {
+      "word": "a",
+      "start": 26.553,
+      "end": 26.593,
+      "score": 0.776
+    },
+    {
+      "word": "hernia",
+      "start": 26.613,
+      "end": 26.793,
+      "score": 0.292
+    },
+    {
+      "word": "inguinal",
+      "start": 26.914,
+      "end": 27.354,
+      "score": 0.674
+    },
+    {
+      "word": "que",
+      "start": 27.414,
+      "end": 27.494,
+      "score": 0.183
+    },
+    {
+      "word": "fui",
+      "start": 27.514,
+      "end": 27.614,
+      "score": 0.203
+    },
+    {
+      "word": "operada",
+      "start": 27.674,
+      "end": 28.195,
+      "score": 0.598
+    },
+    {
+      "word": "em",
+      "start": 28.275,
+      "end": 28.355,
+      "score": 0.39
+    },
+    {
+      "word": "fevereiro",
+      "start": 28.375,
+      "end": 28.955,
+      "score": 0.51
+    },
+    {
+      "word": "e,",
+      "start": 28.975,
+      "end": 29.016,
+      "score": 0.099
+    },
+    {
+      "word": "portanto,",
+      "start": 29.096,
+      "end": 29.376,
+      "score": 0.238
+    },
+    {
+      "word": "estou",
+      "start": 29.396,
+      "end": 29.536,
+      "score": 0.235
+    },
+    {
+      "word": "super",
+      "start": 29.976,
+      "end": 30.157,
+      "score": 0.362
+    },
+    {
+      "word": "tranquila.",
+      "start": 30.217,
+      "end": 31.638,
+      "score": 0.382
+    }
+  ]
+}

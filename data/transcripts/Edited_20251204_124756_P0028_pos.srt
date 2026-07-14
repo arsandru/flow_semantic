@@ -1,0 +1,12 @@
+1
+00:00:00,031 --> 00:00:02,199
+Mas continua assim, tenta desistir de casa.
+
+2
+00:00:02,239 --> 00:00:04,667
+Sim, vai entrar em casa.
+
+3
+00:00:04,768 --> 00:00:06,815
+Tem que andar em casa.
+

@@ -1,0 +1,474 @@
+{
+  "segments": [
+    {
+      "start": 0.631,
+      "end": 13.021,
+      "text": " Um bocadinho menos ansiosa, muito mais relaxada, mais descontraída e talvez com um bocadinho mais de esperança.",
+      "words": [
+        {
+          "word": "Um",
+          "start": 0.631,
+          "end": 0.731,
+          "score": 0.728
+        },
+        {
+          "word": "bocadinho",
+          "start": 0.771,
+          "end": 1.412,
+          "score": 0.617
+        },
+        {
+          "word": "menos",
+          "start": 1.432,
+          "end": 1.592,
+          "score": 0.245
+        },
+        {
+          "word": "ansiosa,",
+          "start": 1.632,
+          "end": 2.352,
+          "score": 0.723
+        },
+        {
+          "word": "muito",
+          "start": 2.473,
+          "end": 3.093,
+          "score": 0.35
+        },
+        {
+          "word": "mais",
+          "start": 3.313,
+          "end": 3.594,
+          "score": 0.674
+        },
+        {
+          "word": "relaxada,",
+          "start": 3.694,
+          "end": 5.295,
+          "score": 0.618
+        },
+        {
+          "word": "mais",
+          "start": 5.355,
+          "end": 5.675,
+          "score": 0.744
+        },
+        {
+          "word": "descontraída",
+          "start": 5.755,
+          "end": 7.036,
+          "score": 0.7
+        },
+        {
+          "word": "e",
+          "start": 8.337,
+          "end": 8.397,
+          "score": 0.764
+        },
+        {
+          "word": "talvez",
+          "start": 9.939,
+          "end": 10.219,
+          "score": 0.489
+        },
+        {
+          "word": "com",
+          "start": 10.299,
+          "end": 10.399,
+          "score": 0.373
+        },
+        {
+          "word": "um",
+          "start": 10.479,
+          "end": 10.539,
+          "score": 0.251
+        },
+        {
+          "word": "bocadinho",
+          "start": 10.579,
+          "end": 10.94,
+          "score": 0.38
+        },
+        {
+          "word": "mais",
+          "start": 11.08,
+          "end": 12.121,
+          "score": 0.81
+        },
+        {
+          "word": "de",
+          "start": 12.201,
+          "end": 12.361,
+          "score": 0.693
+        },
+        {
+          "word": "esperança.",
+          "start": 12.381,
+          "end": 13.021,
+          "score": 0.524
+        }
+      ],
+      "avg_logprob": -0.04700498994101177
+    },
+    {
+      "start": 13.161,
+      "end": 20.808,
+      "text": "Com muita atenção, muita disponibilidade, com algum carinho ou muito carinho, muita preocupação.",
+      "words": [
+        {
+          "word": "Com",
+          "start": 13.161,
+          "end": 13.342,
+          "score": 0.495
+        },
+        {
+          "word": "muita",
+          "start": 13.422,
+          "end": 13.782,
+          "score": 0.761
+        },
+        {
+          "word": "atenção,",
+          "start": 13.802,
+          "end": 14.422,
+          "score": 0.614
+        },
+        {
+          "word": "muita",
+          "start": 14.483,
+          "end": 14.803,
+          "score": 0.681
+        },
+        {
+          "word": "disponibilidade,",
+          "start": 14.843,
+          "end": 16.024,
+          "score": 0.567
+        },
+        {
+          "word": "com",
+          "start": 16.144,
+          "end": 16.584,
+          "score": 0.8
+        },
+        {
+          "word": "algum",
+          "start": 16.744,
+          "end": 17.025,
+          "score": 0.543
+        },
+        {
+          "word": "carinho",
+          "start": 17.085,
+          "end": 17.625,
+          "score": 0.579
+        },
+        {
+          "word": "ou",
+          "start": 17.685,
+          "end": 17.785,
+          "score": 0.366
+        },
+        {
+          "word": "muito",
+          "start": 17.865,
+          "end": 18.186,
+          "score": 0.755
+        },
+        {
+          "word": "carinho,",
+          "start": 18.266,
+          "end": 19.327,
+          "score": 0.673
+        },
+        {
+          "word": "muita",
+          "start": 19.367,
+          "end": 19.667,
+          "score": 0.718
+        },
+        {
+          "word": "preocupação.",
+          "start": 19.767,
+          "end": 20.808,
+          "score": 0.549
+        }
+      ],
+      "avg_logprob": -0.04700498994101177
+    },
+    {
+      "start": 21.348,
+      "end": 23.47,
+      "text": "Não, acho que aqui são cinco estrelas.",
+      "words": [
+        {
+          "word": "Não,",
+          "start": 21.348,
+          "end": 21.468,
+          "score": 0.372
+        },
+        {
+          "word": "acho",
+          "start": 21.528,
+          "end": 21.729,
+          "score": 0.222
+        },
+        {
+          "word": "que",
+          "start": 21.769,
+          "end": 21.849,
+          "score": 0.333
+        },
+        {
+          "word": "aqui",
+          "start": 21.869,
+          "end": 22.069,
+          "score": 0.348
+        },
+        {
+          "word": "são",
+          "start": 22.229,
+          "end": 22.349,
+          "score": 0.463
+        },
+        {
+          "word": "cinco",
+          "start": 22.409,
+          "end": 22.749,
+          "score": 0.647
+        },
+        {
+          "word": "estrelas.",
+          "start": 22.809,
+          "end": 23.47,
+          "score": 0.834
+        }
+      ],
+      "avg_logprob": -0.04700498994101177
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "Um",
+      "start": 0.631,
+      "end": 0.731,
+      "score": 0.728
+    },
+    {
+      "word": "bocadinho",
+      "start": 0.771,
+      "end": 1.412,
+      "score": 0.617
+    },
+    {
+      "word": "menos",
+      "start": 1.432,
+      "end": 1.592,
+      "score": 0.245
+    },
+    {
+      "word": "ansiosa,",
+      "start": 1.632,
+      "end": 2.352,
+      "score": 0.723
+    },
+    {
+      "word": "muito",
+      "start": 2.473,
+      "end": 3.093,
+      "score": 0.35
+    },
+    {
+      "word": "mais",
+      "start": 3.313,
+      "end": 3.594,
+      "score": 0.674
+    },
+    {
+      "word": "relaxada,",
+      "start": 3.694,
+      "end": 5.295,
+      "score": 0.618
+    },
+    {
+      "word": "mais",
+      "start": 5.355,
+      "end": 5.675,
+      "score": 0.744
+    },
+    {
+      "word": "descontraída",
+      "start": 5.755,
+      "end": 7.036,
+      "score": 0.7
+    },
+    {
+      "word": "e",
+      "start": 8.337,
+      "end": 8.397,
+      "score": 0.764
+    },
+    {
+      "word": "talvez",
+      "start": 9.939,
+      "end": 10.219,
+      "score": 0.489
+    },
+    {
+      "word": "com",
+      "start": 10.299,
+      "end": 10.399,
+      "score": 0.373
+    },
+    {
+      "word": "um",
+      "start": 10.479,
+      "end": 10.539,
+      "score": 0.251
+    },
+    {
+      "word": "bocadinho",
+      "start": 10.579,
+      "end": 10.94,
+      "score": 0.38
+    },
+    {
+      "word": "mais",
+      "start": 11.08,
+      "end": 12.121,
+      "score": 0.81
+    },
+    {
+      "word": "de",
+      "start": 12.201,
+      "end": 12.361,
+      "score": 0.693
+    },
+    {
+      "word": "esperança.",
+      "start": 12.381,
+      "end": 13.021,
+      "score": 0.524
+    },
+    {
+      "word": "Com",
+      "start": 13.161,
+      "end": 13.342,
+      "score": 0.495
+    },
+    {
+      "word": "muita",
+      "start": 13.422,
+      "end": 13.782,
+      "score": 0.761
+    },
+    {
+      "word": "atenção,",
+      "start": 13.802,
+      "end": 14.422,
+      "score": 0.614
+    },
+    {
+      "word": "muita",
+      "start": 14.483,
+      "end": 14.803,
+      "score": 0.681
+    },
+    {
+      "word": "disponibilidade,",
+      "start": 14.843,
+      "end": 16.024,
+      "score": 0.567
+    },
+    {
+      "word": "com",
+      "start": 16.144,
+      "end": 16.584,
+      "score": 0.8
+    },
+    {
+      "word": "algum",
+      "start": 16.744,
+      "end": 17.025,
+      "score": 0.543
+    },
+    {
+      "word": "carinho",
+      "start": 17.085,
+      "end": 17.625,
+      "score": 0.579
+    },
+    {
+      "word": "ou",
+      "start": 17.685,
+      "end": 17.785,
+      "score": 0.366
+    },
+    {
+      "word": "muito",
+      "start": 17.865,
+      "end": 18.186,
+      "score": 0.755
+    },
+    {
+      "word": "carinho,",
+      "start": 18.266,
+      "end": 19.327,
+      "score": 0.673
+    },
+    {
+      "word": "muita",
+      "start": 19.367,
+      "end": 19.667,
+      "score": 0.718
+    },
+    {
+      "word": "preocupação.",
+      "start": 19.767,
+      "end": 20.808,
+      "score": 0.549
+    },
+    {
+      "word": "Não,",
+      "start": 21.348,
+      "end": 21.468,
+      "score": 0.372
+    },
+    {
+      "word": "acho",
+      "start": 21.528,
+      "end": 21.729,
+      "score": 0.222
+    },
+    {
+      "word": "que",
+      "start": 21.769,
+      "end": 21.849,
+      "score": 0.333
+    },
+    {
+      "word": "aqui",
+      "start": 21.869,
+      "end": 22.069,
+      "score": 0.348
+    },
+    {
+      "word": "são",
+      "start": 22.229,
+      "end": 22.349,
+      "score": 0.463
+    },
+    {
+      "word": "cinco",
+      "start": 22.409,
+      "end": 22.749,
+      "score": 0.647
+    },
+    {
+      "word": "estrelas.",
+      "start": 22.809,
+      "end": 23.47,
+      "score": 0.834
+    }
+  ]
+}
