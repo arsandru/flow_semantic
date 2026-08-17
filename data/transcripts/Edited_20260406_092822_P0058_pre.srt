@@ -1,8 +1,0 @@
-1
-00:00:00,703 --> 00:00:10,196
-Espectando com alguma ansiedade e algum medo que algo corra mal.
-
-2
-00:00:10,216 --> 00:00:17,986
-Perdemos o controle durante o momento da anestesia e isso traz alguma ansiedade.
-
