@@ -1,7 +1,7 @@
 Distress-extreme Fisher report: jina
 Generated: 2026-04-28 18:43:00
 
-Input file: /Users/razvan/Documents/flow_scripts/semantic_projection/explore/semantic_projection_jina.csv
+Input file: semantic_projection/robustness/semantic_projection_jina.csv
 Zero-centered thresholding rule:
 MAD0 = 0.195478
 Multiplier = 1.00

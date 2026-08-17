@@ -1,78 +1,81 @@
-# Flow Scripts Reproducibility Guide
+# Semantic Projection
 
-This repository contains scripts for semantic projection analysis using:
-- `siebert/sentiment-roberta-large-english`
-- `sentence-transformers` mean pooling wrapper
+This directory contains the primary semantic projection workflow used for the current publication-support analysis.
 
-## 1) Exact environment (match for reproducibility)
+## Primary Model
 
-Use Python `3.12.12` and these exact package versions:
+The main embedding pipeline uses:
+- `Qwen/Qwen3-Embedding-0.6B`
+- an instruction prompt intended to capture the emotional meaning of each word or short phrase
 
-- Python: `3.12.12`
-- sentence-transformers: `5.2.2`
-- transformers: `5.0.0`
-- torch: `2.9.0`
-- scikit-learn: `1.6.1`
-- numpy: `2.0.2`
-- pandas: `2.2.2`
-- matplotlib: `3.10.0`
-- adjustText: `1.3.0`
+The primary Python script is:
+- `semantic_projection/semantic_projection.py`
 
-## 2) Create environment
+It reads:
+- `data/emotion_words_checked.csv`
+- `data/Flow_current.csv`
+
+It writes directly into `semantic_projection/`.
+
+## Main Scripts
+
+- `semantic_projection.py`: builds the word-level and participant-level projection datasets and the primary projection figures
+- `word_level.R`: mixed-effects word-level model with CR2-robust inference and pairwise contrasts
+- `mean_level.R`: participant-level mean sensitivity model
+- `distress_outlier_fisher.R`: MAD0-based extreme-word follow-up and Fisher tests
+- `assemble_publication_figure.py`: assembles publication-facing figure outputs
+
+## Core Outputs
+
+- `semantic_projection_primary.csv`
+- `semantic_projection_primary_mean.csv`
+- `semantic_projection_primary.pdf`
+- `semantic_projection_primary_faceted.pdf`
+- `semantic_projection_primary_final.pdf`
+- `semantic_projection_primary_mean.pdf`
+- `semantic_projection_publication_figure.svg`
+- `analysis_report_primary.txt`
+- `analysis_report_primary_mean.txt`
+- `diagnostics_report_primary.txt`
+- `diagnostics_report_primary_mean.txt`
+- `effect_sizes_primary.csv`
+- `distress_outlier_fisher_report_primary.txt`
+
+## Environment
+
+Install Python dependencies with:
 
 ```bash
-cd "$(git rev-parse --show-toplevel)"
-python3.12 -m venv .venv
 source .venv/bin/activate
-python -m pip install --upgrade pip
-python -m pip install \
-  sentence-transformers==5.2.2 \
-  transformers==5.0.0 \
-  torch==2.9.0 \
-  scikit-learn==1.6.1 \
-  numpy==2.0.2 \
-  pandas==2.2.2 \
-  matplotlib==3.10.0 \
-  adjustText==1.3.0
+python -m pip install -r semantic_projection/requirements.txt
 ```
 
-## 3) Verify versions
+Required R packages:
+- `lme4`
+- `lmerTest`
+- `clubSandwich`
+- `emmeans`
+- `performance`
+- `ggplot2`
+- `dplyr`
+- `tidyr`
+- `jsonlite`
+
+## Run Order
 
 ```bash
-python -V
-python -m pip show sentence-transformers transformers torch scikit-learn numpy pandas matplotlib adjustText
-```
-
-## 4) Run analysis
-
-Place these files in the working directory:
-- `emotion_words_checked.csv`
-- `Flow_current.csv`
-
-Then run:
-
-```bash
-cd "$(git rev-parse --show-toplevel)"
 source .venv/bin/activate
 python semantic_projection/semantic_projection.py
+Rscript semantic_projection/word_level.R
+Rscript semantic_projection/mean_level.R
+Rscript semantic_projection/distress_outlier_fisher.R
+python semantic_projection/assemble_publication_figure.py
 ```
 
-## 5) Expected outputs
+## Sensitivity Scripts
 
-Generated in the working directory:
-- `semantic_projection_roberta.csv`
-- `semantic_projection_roberta_mean.csv`
-- `semantic_projection_roberta.pdf`
+Alternative embedding models and comparison scripts are kept in:
+- `semantic_projection/robustness/`
 
-## 6) VS Code interpreter
-
-In VS Code, select this interpreter for reproducibility:
-
-`.venv/bin/python`
-
-## 7) Important reproducibility notes
-
-- Keep the script identical across environments.
-- Ensure only one active `encode_word` logic per execution path.
-- Use the same input CSVs with identical contents.
-- Differences in Python/package versions can change embeddings and PCA outputs.
+Archived exploratory material is kept in:
+- `semantic_projection/robustness/archive/`

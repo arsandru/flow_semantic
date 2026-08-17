@@ -112,12 +112,12 @@ analyze_file <- function(input_path) {
   distress_words_df <- data %>%
     filter(is_distress_outlier) %>%
     select(condition, Participant, word, projection_fear_vs_calm) %>%
-    arrange(condition, desc(projection_fear_vs_calm), Participant, word)
+    arrange(condition, projection_fear_vs_calm, Participant, word)
 
   relief_words_df <- data %>%
     filter(is_relief_outlier) %>%
     select(condition, Participant, word, projection_fear_vs_calm) %>%
-    arrange(condition, projection_fear_vs_calm, Participant, word)
+    arrange(condition, desc(projection_fear_vs_calm), Participant, word)
 
   counts_out <- file.path(semantic_dir, sprintf("distress_outlier_counts_%s.csv", suffix))
   pairwise_distress_out <- file.path(semantic_dir, sprintf("distress_outlier_pairwise_fisher_%s.csv", suffix))
@@ -132,35 +132,43 @@ analyze_file <- function(input_path) {
   write.csv(distress_words_df, distress_words_out, row.names = FALSE)
   write.csv(relief_words_df, relief_words_out, row.names = FALSE)
 
+  max_distress <- count_df %>% arrange(desc(distress_pct), condition) %>% slice(1)
+  max_relief <- count_df %>% arrange(desc(relief_pct), condition) %>% slice(1)
+  vr_only_row <- count_df %>% filter(condition == "2")
+
   summary_lines <- c(
     sprintf(
-      "Control has the highest rate of distress-extreme words (%d/%d, %.1f%%).",
-      count_df$distress_extremes[count_df$condition == "3"],
-      count_df$n_words[count_df$condition == "3"],
-      count_df$distress_pct[count_df$condition == "3"]
+      "%s has the highest rate of distress-extreme words (%d/%d, %.1f%%).",
+      c("Control", "VR Only", "Flow")[match(max_distress$condition, c("3", "2", "1"))],
+      max_distress$distress_extremes,
+      max_distress$n_words,
+      max_distress$distress_pct
     ),
     sprintf(
-      "Flow has the highest rate of relief-extreme words (%d/%d, %.1f%%).",
-      count_df$relief_extremes[count_df$condition == "1"],
-      count_df$n_words[count_df$condition == "1"],
-      count_df$relief_pct[count_df$condition == "1"]
+      "%s has the highest rate of relief-extreme words (%d/%d, %.1f%%).",
+      c("Control", "VR Only", "Flow")[match(max_relief$condition, c("3", "2", "1"))],
+      max_relief$relief_extremes,
+      max_relief$n_words,
+      max_relief$relief_pct
     ),
     sprintf(
-      "VR Only falls in between on both tails (distress: %d/%d, %.1f%%; relief: %d/%d, %.1f%%).",
-      count_df$distress_extremes[count_df$condition == "2"],
-      count_df$n_words[count_df$condition == "2"],
-      count_df$distress_pct[count_df$condition == "2"],
-      count_df$relief_extremes[count_df$condition == "2"],
-      count_df$n_words[count_df$condition == "2"],
-      count_df$relief_pct[count_df$condition == "2"]
+      "VR Only shows %d/%d distress-extreme words (%.1f%%) and %d/%d relief-extreme words (%.1f%%).",
+      vr_only_row$distress_extremes,
+      vr_only_row$n_words,
+      vr_only_row$distress_pct,
+      vr_only_row$relief_extremes,
+      vr_only_row$n_words,
+      vr_only_row$relief_pct
     )
   )
+
+  display_input_path <- file.path("semantic_projection", basename(input_path))
 
   report_lines <- c(
     sprintf("Distress-extreme Fisher report: %s", suffix),
     sprintf("Generated: %s", format(Sys.time(), "%Y-%m-%d %H:%M:%S")),
     "",
-    sprintf("Input file: %s", input_path),
+    sprintf("Input file: %s", display_input_path),
     "Zero-centered thresholding rule:",
     sprintf("MAD0 = %.6f", mad0),
     sprintf("Multiplier = %.2f", multiplier),
@@ -171,25 +179,25 @@ analyze_file <- function(input_path) {
     summary_lines,
     "",
     "Condition-level extreme counts:",
-    capture.output(print(count_df, row.names = FALSE)),
+    capture.output(print(as.data.frame(count_df), row.names = FALSE)),
     "",
     "Overall Fisher test on distress-extreme 3x2 table (simulated p-value):",
     sprintf("p = %.6f", overall_distress_test$p.value),
     "",
     "Pairwise Fisher tests for distress-extreme words:",
-    capture.output(print(pairwise_distress_df, row.names = FALSE)),
+    capture.output(print(as.data.frame(pairwise_distress_df), row.names = FALSE)),
     "",
     "Overall Fisher test on relief-extreme 3x2 table (simulated p-value):",
     sprintf("p = %.6f", overall_relief_test$p.value),
     "",
     "Pairwise Fisher tests for relief-extreme words:",
-    capture.output(print(pairwise_relief_df, row.names = FALSE)),
+    capture.output(print(as.data.frame(pairwise_relief_df), row.names = FALSE)),
     "",
     "Distress-extreme words:",
-    if (nrow(distress_words_df) == 0) "None" else capture.output(print(distress_words_df, row.names = FALSE)),
+    if (nrow(distress_words_df) == 0) "None" else capture.output(print(as.data.frame(distress_words_df), row.names = FALSE)),
     "",
     "Relief-extreme words:",
-    if (nrow(relief_words_df) == 0) "None" else capture.output(print(relief_words_df, row.names = FALSE))
+    if (nrow(relief_words_df) == 0) "None" else capture.output(print(as.data.frame(relief_words_df), row.names = FALSE))
   )
 
   writeLines(report_lines, report_out)

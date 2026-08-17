@@ -1,35 +1,58 @@
 # Flow Scripts
 
-End-to-end analysis workspace for:
-- semantic projection (RoBERTa-based embedding axis + word/participant modeling)
-- VADER sentiment modeling (label-level and compound-level)
+Analysis workspace for the publication support pipeline in this repository.
 
-## Directory Structure
+Current primary workflow:
+- semantic projection using `Qwen/Qwen3-Embedding-0.6B`
+- word-level mixed-effects modeling with CR2-robust inference
+- participant-level mean models as a sensitivity check
+- VADER sentiment analyses as a parallel text-analysis pipeline
+- WhisperX transcription/diarization utilities for audio processing
+
+## Repository Layout
 
 ```text
 flow_scripts/
   data/
     emotion_words_checked.csv
     Flow_current.csv
+    audio/                # local recordings, not tracked
 
   semantic_projection/
     semantic_projection.py
     word_level.R
     mean_level.R
+    distress_outlier_fisher.R
+    assemble_publication_figure.py
     requirements.txt
-    ... generated CSV/PDF/report outputs
+    ... primary CSV/PDF/SVG/report outputs
+    robustness/           # sensitivity and comparison scripts
 
   sentiment/
     sentiment.py
     sentiment.R
-    ... generated CSV/PDF/report outputs
+    ... sentiment outputs
 
-  .venv/   (Python 3.12 local environment)
+  transcribe/
+    transcribe_whisperx.py
+    README.md
+
+  docs/
+    internal_notes/
+      COMPREHENSIVE_AUDIT_REPORT.md
+      GEMINI_AUDIT.md
 ```
 
-## Environment
+## Inputs
 
-## Python
+Core analysis inputs:
+- `data/emotion_words_checked.csv`
+- `data/Flow_current.csv`
+
+Audio workflow inputs:
+- `data/audio/`
+
+## Environment
 
 Use the project virtual environment:
 
@@ -38,35 +61,23 @@ cd "$(git rev-parse --show-toplevel)"
 source .venv/bin/activate
 ```
 
-Pinned core packages (matching current setup):
-- sentence-transformers==5.2.2
-- transformers==5.0.0
-- torch==2.9.0
-- scikit-learn==1.6.1
-- numpy==2.0.2
-- pandas==2.2.2
-- matplotlib==3.10.0
-- vaderSentiment==3.3.2
-
-Install/reinstall from semantic projection requirements + VADER:
+Install Python dependencies:
 
 ```bash
 python -m pip install -r semantic_projection/requirements.txt
-python -m pip install vaderSentiment
+python -m pip install vaderSentiment whisperx
 ```
 
-## R
-
 Required R packages:
-- lme4
-- lmerTest
-- clubSandwich
-- emmeans
-- performance
-- ggplot2
-- dplyr
-- tidyr
-- jsonlite
+- `lme4`
+- `lmerTest`
+- `clubSandwich`
+- `emmeans`
+- `performance`
+- `ggplot2`
+- `dplyr`
+- `tidyr`
+- `jsonlite`
 
 Install once in R:
 
@@ -77,83 +88,75 @@ install.packages(c(
 ))
 ```
 
-## Run Order
+## Main Analysis Run Order
 
-Run from project root:
+Run from the repository root:
 
 ```bash
 cd "$(git rev-parse --show-toplevel)"
 ```
 
-1) Build semantic projection datasets and embedding plot
+1. Build the primary semantic projection datasets and plots
 
 ```bash
 source .venv/bin/activate
 python semantic_projection/semantic_projection.py
 ```
 
-2) Run word-level semantic projection model
+2. Run the word-level model
 
 ```bash
 Rscript semantic_projection/word_level.R
 ```
 
-3) Run mean-level semantic projection model
+3. Run the participant-level mean model
 
 ```bash
 Rscript semantic_projection/mean_level.R
 ```
 
-4) Build VADER sentiment CSV
+4. Run the extreme-word follow-up
+
+```bash
+Rscript semantic_projection/distress_outlier_fisher.R
+```
+
+5. Rebuild the assembled publication figure if needed
+
+```bash
+source .venv/bin/activate
+python semantic_projection/assemble_publication_figure.py
+```
+
+6. Run the VADER sentiment pipeline if needed
 
 ```bash
 source .venv/bin/activate
 python sentiment/sentiment.py
-```
-
-5) Run sentiment models + plots (CR2-corrected)
-
-```bash
 Rscript sentiment/sentiment.R
 ```
 
-## Path Behavior
+## Current Primary Semantic Projection Outputs
 
-- `semantic_projection/semantic_projection.py`
-  - reads inputs from `data/`
-  - writes outputs to `semantic_projection/semantic_projection/` (nested output directory by current script config)
+Primary outputs are written directly into `semantic_projection/`.
 
-- `semantic_projection/word_level.R` and `semantic_projection/mean_level.R`
-  - read and write in `semantic_projection/`
-
-- `sentiment/sentiment.py` and `sentiment/sentiment.R`
-  - read/write in `sentiment/`
-
-## Key Outputs
-
-## Semantic projection
-- `semantic_projection/semantic_projection_roberta.csv`
-- `semantic_projection/semantic_projection_roberta_mean.csv`
-- `semantic_projection/semantic_projection_final.pdf`
-- `semantic_projection/semantic_projection_final_mean.pdf`
-- `semantic_projection/analysis_report.txt`
-- `semantic_projection/analysis_report_mean.txt`
-- `semantic_projection/diagnostics_report.txt`
-- `semantic_projection/diagnostics_report_mean.txt`
-
-## Sentiment
-- `sentiment/vader_sentiment_emotional_only.csv`
-- `sentiment/sentiment_condition_label_plot.pdf`
-- `sentiment/sentiment_compound_condition_plot.pdf`
-- `sentiment/diagnostics_report_sentiment.txt`
-- `sentiment/coefficients_sentiment_cr2.csv`
-- `sentiment/coefficients_compound_cr2.csv`
-- `sentiment/pairwise_sentiment_cr2.csv`
-- `sentiment/pairwise_compound_cr2.csv`
+Key files:
+- `semantic_projection/semantic_projection_primary.csv`
+- `semantic_projection/semantic_projection_primary_mean.csv`
+- `semantic_projection/semantic_projection_primary.pdf`
+- `semantic_projection/semantic_projection_primary_final.pdf`
+- `semantic_projection/semantic_projection_publication_figure.svg`
+- `semantic_projection/analysis_report_primary.txt`
+- `semantic_projection/analysis_report_primary_mean.txt`
+- `semantic_projection/diagnostics_report_primary.txt`
+- `semantic_projection/diagnostics_report_primary_mean.txt`
+- `semantic_projection/effect_sizes_primary.csv`
+- `semantic_projection/distress_outlier_fisher_report_primary.txt`
 
 ## Notes
 
-- CR2 robust corrections are applied in R where heteroscedasticity/non-normality was detected.
-- If plots differ across machines, verify exact Python package versions and interpreter path.
-- In VS Code, use interpreter:
-  `.venv/bin/python`
+- The primary inferential embedding model is `Qwen/Qwen3-Embedding-0.6B` with an instruction intended to capture emotional meaning.
+- Sensitivity and comparison scripts are kept under `semantic_projection/robustness/`.
+- `data/audio/` is intentionally untracked so raw recordings can stay local.
+- Transcription outputs are generated on demand and are not required to be present in the repository.
+- Publication-facing interpretation is summarized in `final_report.md`.
