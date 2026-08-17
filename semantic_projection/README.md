@@ -76,6 +76,3 @@ python semantic_projection/assemble_publication_figure.py
 
 Alternative embedding models and comparison scripts are kept in:
 - `semantic_projection/robustness/`
-
-Archived exploratory material is kept in:
-- `semantic_projection/robustness/archive/`
