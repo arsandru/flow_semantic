@@ -6,7 +6,6 @@ Current primary workflow:
 - semantic projection using `Qwen/Qwen3-Embedding-0.6B`
 - word-level mixed-effects modeling with CR2-robust inference
 - participant-level mean models as a sensitivity check
-- VADER sentiment analyses as a parallel text-analysis pipeline
 - WhisperX transcription/diarization utilities for audio processing
 
 ## Repository Layout
@@ -28,19 +27,10 @@ flow_scripts/
     ... primary CSV/PDF/SVG/report outputs
     robustness/           # sensitivity and comparison scripts
 
-  sentiment/
-    sentiment.py
-    sentiment.R
-    ... sentiment outputs
-
   transcribe/
     transcribe_whisperx.py
     README.md
 
-  docs/
-    internal_notes/
-      COMPREHENSIVE_AUDIT_REPORT.md
-      GEMINI_AUDIT.md
 ```
 
 ## Inputs
@@ -126,14 +116,6 @@ Rscript semantic_projection/distress_outlier_fisher.R
 ```bash
 source .venv/bin/activate
 python semantic_projection/assemble_publication_figure.py
-```
-
-6. Run the VADER sentiment pipeline if needed
-
-```bash
-source .venv/bin/activate
-python sentiment/sentiment.py
-Rscript sentiment/sentiment.R
 ```
 
 ## Current Primary Semantic Projection Outputs
